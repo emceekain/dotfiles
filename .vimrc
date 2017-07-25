@@ -8,11 +8,27 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 " Vundle plugins go here."
 Plugin 'gertjanreynaert/cobalt2-vim-theme'
+Plugin 'nlknguyen/papercolor-theme'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'suan/vim-instant-markdown'
 Plugin 'xuhdev/vim-latex-live-preview'
+Plugin 'rakr/vim-one'
 Plugin 'lervag/vimtex'
 Plugin 'valloric/youcompleteme'
+
+" Plugins provided by the Arch repos.
+" Plugin 'bling/vim-airline'
+" Plugin 'vim-airline/vim-airline-themes'
+" Plugin 'tpope/vim-fugitive'
+" Plugin 'davidhalter/jedi-vim'
+" Plugin 'nanotech/jellybeans.vim'
+" Plugin 'vim-latex/vim-latex'
+" Plugin 'tomasr/molokai'
+" Plugin 'scrooloose/nerdtree'
+" Plugin 'ervandew/supertab'
+" Plugin 'tpope/vim-surround'
+" Plugin 'scrooloose/syntastic'
+
 
 call vundle#end()           " Required for Vundle
 filetype plugin indent on   " required for Vundle
