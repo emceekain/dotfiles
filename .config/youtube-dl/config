@@ -1,0 +1,8 @@
+# Always extract audio.
+-x
+
+# Always save as mp3.
+--audio-format mp3
+
+# Always saves files in the appropriate folder.
+-o ~/Downloads/New\ Music/%(uploader)s/%(playlist)s/%(playlist_index)s\ %(title)s.%(ext)s

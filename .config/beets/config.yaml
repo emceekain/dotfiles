@@ -1,0 +1,18 @@
+directory: ~/Music/FLAC
+library: ~/musiclibrary.blb
+
+per_disc_numbering: yes
+
+import:
+    move: yes
+    timid: yes
+
+plugins: fetchart embedart discogs
+
+paths:
+    default: $albumartist/[$year] $album/$track $title
+
+art_filename: $album
+ 
+fetchart:
+    sources: itunes *
