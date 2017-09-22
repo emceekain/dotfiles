@@ -113,13 +113,13 @@ set $ws5 "5 Development II "
 set $ws6 "6 Utilities"
 set $ws10 "10 Music "
 
-workspace $ws1 output DVI-D-0
-workspace $ws2 output DVI-D-0
-workspace $ws3 output DVI-D-0
-workspace $ws4 output HDMI-0
-workspace $ws5 output HDMI-0
-workspace $ws6 output HDMI-0
-workspace $ws10 output DVI-D-0
+# workspace $ws1 output DVI-D-0
+# workspace $ws2 output DVI-D-0
+# workspace $ws3 output DVI-D-0
+# workspace $ws4 output HDMI-0
+# workspace $ws5 output HDMI-0
+# workspace $ws6 output HDMI-0
+# workspace $ws10 output DVI-D-0
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -285,5 +285,11 @@ exec --no-startup-id thunderbird
 exec_always --no-startup-id compton -f
 exec --no-startup-id octopi-notifier
 exec --no-startup-id synapse
-exec --no-startup-id xrandr --output DVI-D-0 --primary --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI-1 --off --output HDMI-0 --mode 1920x1080 --pos 0x0 --rotate normal --output DP-3 --off --output DP-2 --off --output DP-1 --off --output DP-0 --off
+# exec --no-startup-id xrandr --output DVI-D-0 --primary --mode 1920x1080 --pos 1920x0 --rotate normal --output HDMI-1 --off --output HDMI-0 --mode 1920x1080 --pos 0x0 --rotate normal --output DP-3 --off --output DP-2 --off --output DP-1 --off --output DP-0 --off
 exec --no-startup-id conky -c .config/conky/Manjaro.config
+
+############################
+# Euclid-specific Settings #
+############################
+
+exec --no-startup-id lxqt-powermanagement 
