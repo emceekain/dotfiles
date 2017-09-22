@@ -116,15 +116,15 @@ set $ws8 "  Documents"
 set $ws9 "  Misc"
 set $ws10 "  Music"
 
-workspace $ws1 output HDMI-0 
-workspace $ws2 output HDMI-0 
-workspace $ws3 output HDMI-0 
-workspace $ws4 output DVI-D-0
-workspace $ws5 output DVI-D-0
-workspace $ws6 output DVI-D-0
-workspace $ws7 output DVI-D-0
-workspace $ws8 output DVI-D-0
-workspace $ws10 output HDMI-0
+#workspace $ws1 output HDMI-0 
+#workspace $ws2 output HDMI-0 
+#workspace $ws3 output HDMI-0 
+#workspace $ws4 output DVI-D-0
+#workspace $ws5 output DVI-D-0
+#workspace $ws6 output DVI-D-0
+#workspace $ws7 output DVI-D-0
+#workspace $ws8 output DVI-D-0
+#workspace $ws10 output HDMI-0
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -329,3 +329,11 @@ gaps outer 0
 #smart_borders on
 
 for_window [class="^.*"] border pixel 2
+
+############################
+# Euclid-specific Settings #
+############################
+
+exec --no-startup-id conky -c .config/conky/Manjaro.config
+exec --no-startup-id lxqt-powermanagement 
+exec_always --no-startup-id compton -f --config .config/Manjaro-config.conf
