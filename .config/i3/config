@@ -9,7 +9,13 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
+# First, we set some variables for commonly used keys/commands that are subject to change.
+# This overrides the default direction keys in favor of vi(m) direction keys.
 set $mod Mod4
+set $left h
+set $down j
+set $up k
+set $right l
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -43,10 +49,10 @@ bindsym $mod+Shift+q kill
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
+bindsym $mod+$left focus left
+bindsym $mod+$down focus down
+bindsym $mod+$up focus up
+bindsym $mod+$right focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -55,10 +61,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-# bindsym $mod+Shift+j move left
-# bindsym $mod+Shift+k move down
-# bindsym $mod+Shift+l move up
-# bindsym $mod+Shift+semicolon move right
+bindsym $mod+Shift+$left move left
+bindsym $mod+Shift+$down move down
+bindsym $mod+Shift+$up move up
+bindsym $mod+Shift+$right move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -67,10 +73,10 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+h split h
+# bindsym $mod+h split h
 
 # split in vertical orientation
-bindsym $mod+v split v
+bindsym $mod+v split toggle
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
@@ -92,10 +98,17 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
+# move the currently focused window to the scratchpad
+bindsym $mod+Shift+minus move scratchpad
+
+# Show the next scratchpad window or hide the focused scratchpad window.
+# If there are multiple scratchpad windows, this command cycles through them.
+bindsym $mod+minus scratchpad show
+
 set $ws1 "1 Web "
 set $ws2 "2 E-Mail "
 set $ws3 "3 Chat "
-set $ws4 "4 Development I "
+set $ws4 "4 Development I "
 set $ws5 "5 Development II "
 set $ws6 "6 Utilities"
 set $ws10 "10 Music "
@@ -106,7 +119,7 @@ workspace $ws3 output DVI-D-0
 workspace $ws4 output HDMI-0
 workspace $ws5 output HDMI-0
 workspace $ws6 output HDMI-0
-workspace $ws10 output HDMI-0
+workspace $ws10 output DVI-D-0
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -175,6 +188,25 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
+# Shutdown, reboot, and lock screen.
+set $Locker i3lock-fancy && sleep 1
+# set $Locker light-locker-command -l 
+
+
+bindsym $mod+Pause mode "$mode_system"
+
+set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
+mode "$mode_system" { 
+    bindsym l exec --no-startup-id $Locker, mode "default"
+    bindsym e exec --no-startup-id i3-msg exit,  mode "default"
+    bindsym s exec --no-startup-id $Locker && systemctl suspend, mode "default"
+    bindsym h exec --no-startup-id $Locker && systemctl hybernate, mode "default"
+    bindsym r exec --no-startup-id systemctl reboot,  mode "default"
+    bindsym Shift+s exec --no-startup-id systemctl poweroff -i, mode "default"
+
+    bindsym Escape mode "default"
+}
+
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
@@ -183,10 +215,10 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
+        bindsym $left resize shrink width 10 px or 10 ppt
+        bindsym $down resize grow height 10 px or 10 ppt
+        bindsym $up resize shrink height 10 px or 10 ppt
+        bindsym $right resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
@@ -240,14 +272,12 @@ bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
-# Lock the screen.  Replease with someplace nicer.
-bindsym $mod+Shift+l exec light-locker-command -l 
-
 # Applications  to autostart with i3
 exec_always --no-startup-id feh --bg-scale $WALLPAPER 
 exec --no-startup-id nm-applet
 exec --no-startup-id dropbox start
-exec_always --no-startup-id light-locker
+# exec_always --no-startup-id light-locker
+exec --no-startup-id xautolock -time 10 -locker i3lock-fancy
 exec --no-startup-id telegram-desktop
 exec --no-startup-id redshift-gtk
 exec --no-startup-id thunderbird
