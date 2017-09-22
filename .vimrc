@@ -191,7 +191,7 @@ augroup resCur
 augroup END
 
 " Open/close procedures.
-autocmd VimEnter * source ~/Session.vim         " Open the prior session.
+"autocmd VimEnter * source ~/Session.vim         " Open the prior session.
 autocmd VimEnter * NERDTree                     " Start the NERDTree.
 autocmd VimLeavePre * NERDTreeClose             " Close the NerdTree.
-autocmd VimLeave * mksession! ~/Session.vim     " Save the session.
+"autocmd VimLeave * mksession! ~/Session.vim     " Save the session.

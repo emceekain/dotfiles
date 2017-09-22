@@ -105,36 +105,48 @@ bindsym $mod+Shift+minus move scratchpad
 # If there are multiple scratchpad windows, this command cycles through them.
 bindsym $mod+minus scratchpad show
 
-#Web
-set $ws01 ""
-#E-Mail
-set $ws02 ""
-#Chat
-set $ws03 ""
-#Development
-set $ws04 ""
-#Console
-set $ws05 ""
-#Utilities
-set $ws06 ""
-#Files
-set $ws07 ""
-#Documents
-set $ws08 ""
-#Misc
-set $ws09 ""
-#Music
-set $ws10 ""
+<<<<<<< HEAD
+<<<<<<< HEAD
+set $ws1 "  Web"
+set $ws2 "  E-Mail"
+set $ws3 "  Chat"
+set $ws4 "  Dev I"
+set $ws5 "  Dev II"
+set $ws6 "  Utilities"
+set $ws7 "  Files"
+set $ws8 "  Documents"
+set $ws9 "  Misc"
+set $ws10 "  Music"
 
-workspace $ws01 output HDMI-0 
-workspace $ws02 output HDMI-0 
-workspace $ws03 output HDMI-0 
-workspace $ws04 output DVI-D-0
-workspace $ws05 output DVI-D-0
-workspace $ws06 output DVI-D-0
-workspace $ws07 output DVI-D-0
-workspace $ws08 output DVI-D-0
-workspace $ws10 output HDMI-0
+#workspace $ws1 output HDMI-0 
+#workspace $ws2 output HDMI-0 
+#workspace $ws3 output HDMI-0 
+#workspace $ws4 output DVI-D-0
+#workspace $ws5 output DVI-D-0
+#workspace $ws6 output DVI-D-0
+#workspace $ws7 output DVI-D-0
+#workspace $ws8 output DVI-D-0
+#workspace $ws10 output HDMI-0
+=======
+set $ws1 "1 Web "
+set $ws2 "2 E-Mail "
+set $ws3 "3 Chat "
+set $ws4 "4 Development I "
+set $ws5 "5 Development II "
+set $ws6 "6 Utilities"
+set $ws10 "10 Music "
+
+# workspace $ws1 output DVI-D-0
+# workspace $ws2 output DVI-D-0
+# workspace $ws3 output DVI-D-0
+# workspace $ws4 output HDMI-0
+# workspace $ws5 output HDMI-0
+# workspace $ws6 output HDMI-0
+# workspace $ws10 output DVI-D-0
+<<<<<<< HEAD
+>>>>>>> 1bc95d2... Re-added Euclid-specific changes (again).
+=======
+>>>>>>> 149ba23... Re-added Euclid-specific changes to i3 config.
 
 # switch to workspace
 bindsym $mod+1 workspace $ws01
@@ -343,3 +355,11 @@ gaps outer 0
 #smart_borders on
 
 for_window [class="^.*"] border pixel 2
+
+############################
+# Euclid-specific Settings #
+############################
+
+exec --no-startup-id conky -c .config/conky/Manjaro.config
+exec --no-startup-id lxqt-powermanagement 
+exec_always --no-startup-id compton -f --config .config/Manjaro-config.conf

@@ -38,7 +38,7 @@ FollowDirLinks=false
 FollowFileLinks=false
 Font=Hack,12,-1,5,50,0,0,0,0,0
 FullAnalysis=false
-Geometry=1892,1008
+Geometry=1892,982
 HistoryEntryStartRegExp=\\\\s*\\\\\\\\main\\\\\\\\(\\\\S+)\\\\s+([0-9]+) (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) ([0-9][0-9][0-9][0-9]) ([0-9][0-9]:[0-9][0-9]:[0-9][0-9])\\\\s+(.*)
 HistoryEntryStartSortKeyOrder=4\\,3\\,2\\,5\\,1\\,6
 HistoryMergeSorting=false
@@ -57,7 +57,7 @@ MidAgeFileColor=192,192,0
 MissingFileColor=0,0,0
 NewestFileColor=0,208,0
 OldestFileColor=240,0,0
-Position=1932,56
+Position=1932,84
 PreProcessorCmd=\\0
 RecentAFiles=/home/brent/.vimrc,/home/brent/Development/Scripts/rym_database_constructor_by_genre.py,/home/brent/.screenlayout/Default.sh
 RecentBFiles=/home/brent/Downloads/_vimrc,/home/brent/Downlaods/_vimrc,/home/brent/Development/Scripts/rym_database_constructor_by_genre.sync-conflict-20181226-235126-PQCICXR.py,/home/brent/.screenlayout/Default2.sh
@@ -95,7 +95,7 @@ WordWrap=false
 
 [MainWindow]
 Height 1080=1047
-State=AAAA/wAAAAD9AAAAAAAAB2QAAAOJAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAB2QAAANuAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1920=1920
 Window-Maximized 1080x1920=true
