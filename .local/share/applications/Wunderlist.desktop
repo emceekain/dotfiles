@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Wunderlist
+Exec=chromium --profile-directory=Default --app-id=oigmhadmggomfkhijpdfggkbakaihijo
+Icon=/home/brent/Dropbox/Webapps/Icons/Wunderlist 2.png
+StartupWMClass=crx_oigmhadmggomfkhijpdfggkbakaihijo
