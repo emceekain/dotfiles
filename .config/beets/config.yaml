@@ -13,6 +13,7 @@ paths:
     default: $albumartist/[$year] $album/$track $title
 
 art_filename: $album
- 
-fetchart:
-    sources: itunes *
+
+
+# fetchart:
+#    sources: *

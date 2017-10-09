@@ -5,5 +5,5 @@ Terminal=false
 Type=Application
 Name=Facebook Messenger
 Exec=chromium --profile-directory=Default --app-id=npeflpgimhgfgeibajbcjmeecpbklbii
-Icon=chrome-npeflpgimhgfgeibajbcjmeecpbklbii-Default
+Icon=/home/brent/Dropbox/Webapps/Icons/Facebook Messenger.png
 StartupWMClass=crx_npeflpgimhgfgeibajbcjmeecpbklbii
