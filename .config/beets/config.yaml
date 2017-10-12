@@ -15,5 +15,5 @@ paths:
 art_filename: $album
 
 
-# fetchart:
-#    sources: *
+#fetchart:
+#    sources: itunes *
