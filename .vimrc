@@ -1,5 +1,6 @@
 set nocompatible            " Required for advanced Vim features to work.
 filetype off                " Required for Vundle
+"set encoding=utf-8          " Might be required?
 
 " Set the runtime path to include Vundle and initialize.
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -14,7 +15,7 @@ Plugin 'suan/vim-instant-markdown'
 Plugin 'xuhdev/vim-latex-live-preview'
 Plugin 'rakr/vim-one'
 Plugin 'lervag/vimtex'
-Plugin 'valloric/youcompleteme'
+" Plugin 'valloric/youcompleteme'
 
 " Plugins provided by the Arch repos.
 " Plugin 'bling/vim-airline'

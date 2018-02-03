@@ -8,7 +8,15 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
+# My Custom Aliases 
 alias ll='ls -alt --color=auto'
 alias b='cd ..'
 
+# powerline
+powerline-daemon -q
+POWERLINE_BASH_CONTINUATION=1
+POWERLINE_BASH_SELECT=1
+. /usr/lib/python3.6/site-packages/powerline/bindings/bash/powerline.sh
+
+# thef*ck 
 eval $(thefuck --alias)
