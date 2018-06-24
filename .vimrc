@@ -84,13 +84,13 @@ set softtabstop=4           " Number of spaces in tab when editing.
 
 "   Status Line
     let g:airline_powerline_fonts = 1
-    set laststatus=2            " Ensure airline is always shown.
+    set laststatus=1           " Ensure airline is always shown.
 
 "   Syntax Highlighting
     syntax enable               " Enable syntax highlighting.
 
 "   GUI Settings 
-    set gfn=Hack\ 14,Source\ Code\ Pro\ 14
+    set gfn=Hack\ 13,Source\ Code\ Pro\ 13
 
 " To save cursor position.
 augroup resCur
