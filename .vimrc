@@ -13,19 +13,25 @@ Plugin 'nlknguyen/papercolor-theme'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'suan/vim-instant-markdown'
 Plugin 'xuhdev/vim-latex-live-preview'
+Plugin 'severin-lemaignan/vim-minimap'
 Plugin 'rakr/vim-one'
 Plugin 'lervag/vimtex'
+Plugin 'vimwiki/vimwiki'
 " Plugin 'valloric/youcompleteme'
 
 " Plugins provided by the Arch repos.
 " Plugin 'bling/vim-airline'
 " Plugin 'vim-airline/vim-airline-themes'
+" Plugin 'ctrlpvim/ctrlp.vim'
 " Plugin 'tpope/vim-fugitive'
 " Plugin 'davidhalter/jedi-vim'
 " Plugin 'nanotech/jellybeans.vim'
 " Plugin 'vim-latex/vim-latex'
+" Plugin 'fholgado/minibufexpl.vim'
 " Plugin 'tomasr/molokai'
+" Plugin 'scrooloose/nerdcommenter'
 " Plugin 'scrooloose/nerdtree'
+" Plugin 'shemerey/vim-project'
 " Plugin 'ervandew/supertab'
 " Plugin 'tpope/vim-surround'
 " Plugin 'scrooloose/syntastic'
@@ -51,7 +57,9 @@ set softtabstop=4           " Number of spaces in tab when editing.
     set cursorline              " Draws a horizontal line/highlight on your current line.
     set showmatch               " Highlights matching [{()}].
     set wildmenu                " Visual autocomplete for command menu.
-    colorscheme solarized 
+    "colorscheme molokai
+    colorscheme solarized
+    set background=dark         " Required for solarized (dark).
 
 "   Auto-Completion
     if !exists('g:ycm_semantic_triggers')
