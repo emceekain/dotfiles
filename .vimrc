@@ -10,6 +10,7 @@ Plugin 'VundleVim/Vundle.vim'
 " Vundle plugins go here."
 Plugin 'gertjanreynaert/cobalt2-vim-theme'
 Plugin 'nlknguyen/papercolor-theme'
+"Plugin 'tbabej/taskwiki'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'suan/vim-instant-markdown'
 Plugin 'xuhdev/vim-latex-live-preview'
@@ -41,12 +42,13 @@ call vundle#end()           " Required for Vundle
 filetype plugin indent on   " required for Vundle
 
 " Formatting
-set autoindent              " Copy indent from current line when starting a new line.
-set expandtab               " Tabs are spaces
-set smarttab                " Uses <Tab>/spaces depending on the situation.  
-set shiftwidth=4            " Indents are 4 spaces
-set tabstop=4               " Number of spaces for <TAB>.
-set softtabstop=4           " Number of spaces in tab when editing.
+set autoindent                  " Copy indent from current line when starting a new line.
+set expandtab                   " Tabs are spaces
+set smarttab                    " Uses <Tab>/spaces depending on the situation.  
+set shiftwidth=4                " Indents are 4 spaces
+set tabstop=4                   " Number of spaces for <TAB>.
+set softtabstop=4               " Number of spaces in tab when editing.
+set backspace=indent,eol,start  " Allow backspacing over autoindent, line breaks, and start of insert
 
 " Interface
 "   Misc.
@@ -57,8 +59,8 @@ set softtabstop=4           " Number of spaces in tab when editing.
     set cursorline              " Draws a horizontal line/highlight on your current line.
     set showmatch               " Highlights matching [{()}].
     set wildmenu                " Visual autocomplete for command menu.
-    "colorscheme molokai
-    colorscheme solarized
+    colorscheme molokai
+    "colorscheme solarized
     set background=dark         " Required for solarized (dark).
 
 "   Auto-Completion
