@@ -1,0 +1,36 @@
+! Molokai 
+*background:    [90]#121212 /* Gray7 = 233 */
+*foreground:    #d0d0d0 /* Gray82 = 252 */
+*cursorColor:   #d0d0d0 /* Gray82 = 252 */
+
+*color0:    #121212 /* Gray7 = 233 */
+*color1:    #ffffaf /* Wheat1 = 229 */
+*color2:    #d7005f /* DeepPink3 = 161 */
+*color3:    #af5fff /* MediumPurple2 = 135 */
+*color4:    #bb88dd /* lighter purple?*/
+*color5:    #5fd7ff /* SteelBlue1 = 81 */
+*color6:    #afaf87 /* NavajoWhite3 = 144 */
+*color7:    #808080 /* Grey50 = 244 */
+*color8:    #5f5f5f /* Grey37 = 59  */
+*color9:    #ffffaf /* Wheat1 = 229 */
+*color10:   #d7005f /* DeepPink3 = 161 */
+*color11:   #af5fff /* MediumPurple2 = 135 */
+*color12:   #87ff00 /* Chartreuse1 = 118 */
+*color13:   #5fd7ff /* SteelBlue = 67 */
+*color14:   #ff8700 /* DarkOrange = 208 */
+*color15:   #d0d0d0 /* Gray82 = 252 */
+
+/* Gray11 = 234 */
+/* Colors 1,9 = archives */
+/* Colors 2,10 = executables */
+/* Colors 3,11 = pictures */
+/* Colors 4 - unused */
+/* Color 12 - Directories */
+/* Color 5,13 Music */
+/* Color 6 - Statii? */
+/* Color 14 - Symlinks */
+
+
+
+
+

@@ -7,81 +7,95 @@ rofi.color-normal: #222222, #c1c1c1, #333333, #1793d1, #ffffff
 rofi.color-active: #222222, #80cbc4, #333333, #1793d1, #80cbc4
 rofi.color-urgent: #222222, #ff1844, #333333, #1793d1, #ff1844
 
-
-
-
-
-
-! Solarized color scheme for the X Window System
 !
-! http://ethanschoonover.com/solarized
-
-
+! Purple Triadic Solarized Dark
+!
 ! Common
-
-#define S_yellow        #b58900
-#define S_orange        #cb4b16
-#define S_red           #dc322f
-#define S_magenta       #d33682
-#define S_violet        #6c71c4
-#define S_blue          #268bd2
-#define S_cyan          #2aa198
-#define S_green         #859900
-
+!#define S_yellow       #00B589 
+!#define S_orange       #16CB4B 
+!#define S_red          #2FDC32 
+!#define S_magenta      #82D336 
+!#define S_violet       #C46C71 
+!#define S_blue         #D2268B 
+!#define S_cyan         #982AA1 
+!#define S_green        #008599 
 
 ! Dark
+!#define S_base03        [90]#36002B
+!#define S_base02        #420736642
+!#define S_base01        #75586Ee75
+!#define S_base00        #83657Bb83
+!#define S_base0         #968394496
+!#define S_base1         #A193A11a1
+!#define S_base2         #D5EEE88d5
+!#define S_base3         #E3FDF66e3
 
-#define S_base03        [90]#002b36
-#define S_base02        #073642
-#define S_base01        #586e75
-#define S_base00        #657b83
-#define S_base0         #839496
-#define S_base1         #93a1a1
-#define S_base2         #eee8d5
-#define S_base3         #fdf6e3
+! 
+! Monokai
+! 
+!#define x_black         #101010         
+!#define x_darkGrey      #303030
+!#define x_darkRed       #960050    
+!#define x_red           #ff0090
+!#define x_darkGreen     #66aa11
+!#define x_green         #80ff00
+!#define x_darkYellow    #c47f2c
+!#define x_yellow        #ffba68
+!#define x_darkBlue      #30309b
+!#define x_blue          #5f5fee
+!#define x_darkMagenta   #7e40a5
+!#define x_magenta       #bb88dd
+!#define x_darkCyan      #3579a8
+!#define x_cyan          #4eb4fa
+!#define x_lightGray     #9999aa
+!#define x_white         #d0d0d0
 
-
-! Light
-
-! #define S_base03        #fdf6e3
-! #define S_base02        #eee8d5
-! #define S_base01        #93a1a1
-! #define S_base00        #839496
-! #define S_base0         #657b83
-! #define S_base1         #586e75
-! #define S_base2         #073642
-! #define S_base3         #002b36
-
-
-! To only apply colors to your terminal, for example, prefix
-! the color assignment statement with its name. Example:
 !
-! URxvt*background:            S_base03
+! Base16 Custom Eggplant
+!
+!#define base00 #150525
+!#define base01 #2f1549
+!#define base02 #4b2c6a
+!#define base03 #694988
+!#define base04 #a68ebe
+!#define base05 #c4b2d5
+!#define base06 #ded3e8
+!#define base07 #f3eff7
+!#define base08 #80ff00
+!#define base09 #00ff00
+!#define base0A #00ff80
+!#define base0B #0080ff
+!#define base0C #8000ff
+!#define base0D #ff0080
+!#define base0E #ff8000
+!#define base0F #ffff00
 
-*background:              S_base03
-*foreground:              S_base0
-*fading:                  40
-*fadeColor:               S_base03
-*cursorColor:             S_base1
-*pointerColorBackground:  S_base01
-*pointerColorForeground:  S_base1
+!
+! Base16 Custom Ubuntu
+!
+!#define base00 #250525
+!#define base01 #491549
+!#define base02 #6a2c6a
+!#define base03 #884988
+!#define base04 #be8ebe
+!#define base05 #d5b2d5
+!#define base06 #e8d3e8
+!#define base07 #f7eff7
+!#define base08 #00ff00
+!#define base09 #00ff80
+!#define base0A #00ffff
+!#define base0B #0000ff
+!#define base0C #ff00ff
+!#define base0D #ff0000
+!#define base0E #ffff00
+!#define base0F #80ff00
 
-*color0:                  S_base02
-*color1:                  S_red
-*color2:                  S_green
-*color3:                  S_yellow
-*color4:                  S_blue
-*color5:                  S_magenta
-*color6:                  S_cyan
-*color7:                  S_base2
-*color9:                  S_orange
-*color8:                  S_base03
-*color10:                 S_base01
-*color11:                 S_base00
-*color12:                 S_base0
-*color13:                 S_violet
-*color14:                 S_base1
-*color15:                 S_base3
+!Dont worry about getting terminal vim to look good; solarized looks like shit.
+!#include ".Xresources.d/base16-monokai"
+!#include ".Xresources.d/base16-solarized-dark"
+!#include ".Xresources.d/solarized-dark"
+#include ".Xresources.d/molokai"
+!#include ".Xresources.d/monokai"
 
 URxvt.font:                 xft:hack:size=12
 URxvt.scrollBar:            False
