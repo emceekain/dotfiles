@@ -105,72 +105,85 @@ bindsym $mod+Shift+minus move scratchpad
 # If there are multiple scratchpad windows, this command cycles through them.
 bindsym $mod+minus scratchpad show
 
-set $ws1 "  Web"
-set $ws2 "  E-Mail"
-set $ws3 "  Chat"
-set $ws4 "  Dev I"
-set $ws5 "  Dev II"
-set $ws6 "  Utilities"
-set $ws7 "  Files"
-set $ws8 "  Documents"
-set $ws9 "  Misc"
-set $ws10 "  Music"
+#Web
+set $ws01 ""
+#E-Mail
+set $ws02 ""
+#Chat
+set $ws03 ""
+#Development
+set $ws04 ""
+#Console
+set $ws05 ""
+#Utilities
+set $ws06 ""
+#Files
+set $ws07 ""
+#Documents
+set $ws08 ""
+#Misc
+set $ws09 ""
+#Music
+set $ws10 ""
 
-workspace $ws1 output HDMI-0 
-workspace $ws2 output HDMI-0 
-workspace $ws3 output HDMI-0 
-workspace $ws4 output DVI-D-0
-workspace $ws5 output DVI-D-0
-workspace $ws6 output DVI-D-0
-workspace $ws7 output DVI-D-0
-workspace $ws8 output DVI-D-0
+workspace $ws01 output HDMI-0 
+workspace $ws02 output HDMI-0 
+workspace $ws03 output HDMI-0 
+workspace $ws04 output DVI-D-0
+workspace $ws05 output DVI-D-0
+workspace $ws06 output DVI-D-0
+workspace $ws07 output DVI-D-0
+workspace $ws08 output DVI-D-0
 workspace $ws10 output HDMI-0
 
 # switch to workspace
-bindsym $mod+1 workspace $ws1
-bindsym $mod+2 workspace $ws2
-bindsym $mod+3 workspace $ws3
-bindsym $mod+4 workspace $ws4
-bindsym $mod+5 workspace $ws5
-bindsym $mod+6 workspace $ws6
-bindsym $mod+7 workspace $ws7
-bindsym $mod+8 workspace $ws8
-bindsym $mod+9 workspace $ws9
+bindsym $mod+1 workspace $ws01
+bindsym $mod+2 workspace $ws02
+bindsym $mod+3 workspace $ws03
+bindsym $mod+4 workspace $ws04
+bindsym $mod+5 workspace $ws05
+bindsym $mod+6 workspace $ws06
+bindsym $mod+7 workspace $ws07
+bindsym $mod+8 workspace $ws08
+bindsym $mod+9 workspace $ws09
 bindsym $mod+0 workspace $ws10
 bindsym $mod+Tab workspace back_and_forth
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace $ws1
-bindsym $mod+Shift+2 move container to workspace $ws2
-bindsym $mod+Shift+3 move container to workspace $ws3
-bindsym $mod+Shift+4 move container to workspace $ws4
-bindsym $mod+Shift+5 move container to workspace $ws5
-bindsym $mod+Shift+6 move container to workspace $ws6
-bindsym $mod+Shift+7 move container to workspace $ws7
-bindsym $mod+Shift+8 move container to workspace $ws8
-bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+1 move container to workspace $ws01
+bindsym $mod+Shift+2 move container to workspace $ws02
+bindsym $mod+Shift+3 move container to workspace $ws03
+bindsym $mod+Shift+4 move container to workspace $ws04
+bindsym $mod+Shift+5 move container to workspace $ws05
+bindsym $mod+Shift+6 move container to workspace $ws06
+bindsym $mod+Shift+7 move container to workspace $ws07
+bindsym $mod+Shift+8 move container to workspace $ws08
+bindsym $mod+Shift+9 move container to workspace $ws09
 bindsym $mod+Shift+0 move container to workspace $ws10
 
 #auto-assignments for certain applications
-assign [class="Firefox"] $ws1
-assign [class="Chromium"] $ws1
-assign [class="QupZilla"] $ws1
-assign [class="Epiphany"] $ws1
-assign [class="Thunderbird"] $ws2
-assign [class="Geary"] $ws2
-assign [class="TelegramDesktop"] $ws3 
-assign [class="Signal"] $ws3 
-assign [Class="Pidgin"] $ws3
-assign [class="Slack"] $ws5
-assign [class="gitg"] $ws5
-assign [class="keepassxc"] $ws6
-assign [class="ksysguard"] $ws6
-assign [class="filelight"] $ws6
-assign [class="krusader"] $ws7
-assign [class="dolphin"] $ws7
-assign [class="doublecmd|Double Commander"] $ws7
-assign [class="pcmanfm"] $ws7
-assign [class="libreoffice|Soffice"] $ws8
+assign [class="Firefox"] $ws01
+assign [class="Chromium"] $ws01
+assign [class="QupZilla"] $ws01
+assign [class="Epiphany"] $ws01
+assign [class="Thunderbird"] $ws02
+assign [class="Geary"] $ws02
+assign [class="TelegramDesktop"] $ws03 
+assign [class="Signal"] $ws03 
+assign [Class="Pidgin"] $ws03
+assign [Class="Gvim"] $ws04
+assign [Class="URxvt"] $ws05
+assign [Class="konsole"] $ws05
+assign [class="Slack"] $ws05
+assign [class="gitg"] $ws05
+assign [class="keepassxc"] $ws06
+assign [class="ksysguard"] $ws06
+assign [class="filelight"] $ws06
+assign [class="krusader"] $ws07
+assign [class="dolphin"] $ws07
+assign [class="doublecmd|Double Commander"] $ws07
+assign [class="pcmanfm"] $ws07
+assign [class="libreoffice|Soffice"] $ws08
 assign [class="Gmusicbrowser"] $ws10
 assign [class="Puddletag"] $ws10
 assign [class="Spotify"] $ws10
@@ -317,6 +330,7 @@ exec --no-startup-id thunderbird
 #exec --no-startup-id synapse
 exec --no-startup-id albert
 exec --no-startup-id kde-connect
+exec_always --no-startup-id dunst -conf $HOME/.config/dunst/dunstrc
 
 ####################
 # i3-gaps Settings # 
