@@ -337,3 +337,7 @@ for_window [class="^.*"] border pixel 2
 exec --no-startup-id conky -c .config/conky/Manjaro.config
 exec --no-startup-id lxqt-powermanagement 
 exec_always --no-startup-id compton -f --config .config/Manjaro-config.conf
+# Euclid-specific Settings #
+############################
+
+exec --no-startup-id lxqt-powermanagement 
