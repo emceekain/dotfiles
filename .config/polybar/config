@@ -22,20 +22,20 @@ secondary = #e60053
 alert = #bd2c40
 
 [bar/top]
-monitor = ${env:MONITOR:DVI-D-0}
+;monitor = ${env:MONITOR:eDP1}
 include-file = $HOME/.config/polybar/config.d/top.ini
 
 [bar/bottom]
-monitor = ${env:MONITOR:DVI-D-0}
+;monitor = ${env:MONITOR:eDP1}
 include-file = $HOME/.config/polybar/config.d/bottom.ini
 
-[bar/top2]
-monitor = ${env:MONITOR:HDMI-0}
-include-file = $HOME/.config/polybar/config.d/top.ini
+;[bar/top2]
+;monitor = ${env:MONITOR:HDMI-0}
+;include-file = $HOME/.config/polybar/config.d/top.ini
 
-[bar/bottom2]
-monitor = ${env:MONITOR:HDMI-0}
-include-file = $HOME/.config/polybar/config.d/bottom.ini
+;[bar/bottom2]
+;monitor = ${env:MONITOR:HDMI-0}
+;include-file = $HOME/.config/polybar/config.d/bottom.ini
 
 [module/xwindow]
 include-file = $HOME/.config/polybar/config.d/xwindow.ini
