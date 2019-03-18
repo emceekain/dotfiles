@@ -105,51 +105,26 @@ bindsym $mod+Shift+minus move scratchpad
 # If there are multiple scratchpad windows, this command cycles through them.
 bindsym $mod+minus scratchpad show
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-set $ws1 "  Web"
-set $ws2 "  E-Mail"
-set $ws3 "  Chat"
-set $ws4 "  Dev I"
-set $ws5 "  Dev II"
-set $ws6 "  Utilities"
-set $ws7 "  Files"
-set $ws8 "  Documents"
-set $ws9 "  Misc"
+set $ws01 "  Web"
+set $ws02 "  Mail"
+set $ws03 "  Chat"
+set $ws04 "  Dev I"
+set $ws05 "  Dev II"
+set $ws06 "- Utilities"
+set $ws07 "  Files"
+set $ws08 "  Documents"
+set $ws09 "  Misc"
 set $ws10 "  Music"
 
-#workspace $ws1 output HDMI-0 
-#workspace $ws2 output HDMI-0 
-#workspace $ws3 output HDMI-0 
-#workspace $ws4 output DVI-D-0
-#workspace $ws5 output DVI-D-0
-#workspace $ws6 output DVI-D-0
-#workspace $ws7 output DVI-D-0
-#workspace $ws8 output DVI-D-0
+#workspace $ws01 output HDMI-0 
+#workspace $ws02 output HDMI-0 
+#workspace $ws03 output HDMI-0 
+#workspace $ws04 output DVI-D-0
+#workspace $ws05 output DVI-D-0
+#workspace $ws06 output DVI-D-0
+#workspace $ws07 output DVI-D-0
+#workspace $ws08 output DVI-D-0
 #workspace $ws10 output HDMI-0
-<<<<<<< HEAD
-=======
-set $ws1 "1 Web "
-set $ws2 "2 E-Mail "
-set $ws3 "3 Chat "
-set $ws4 "4 Development I "
-set $ws5 "5 Development II "
-set $ws6 "6 Utilities"
-set $ws10 "10 Music "
-
-# workspace $ws1 output DVI-D-0
-# workspace $ws2 output DVI-D-0
-# workspace $ws3 output DVI-D-0
-# workspace $ws4 output HDMI-0
-# workspace $ws5 output HDMI-0
-# workspace $ws6 output HDMI-0
-# workspace $ws10 output DVI-D-0
-<<<<<<< HEAD
->>>>>>> 1bc95d2... Re-added Euclid-specific changes (again).
-=======
->>>>>>> 149ba23... Re-added Euclid-specific changes to i3 config.
-=======
->>>>>>> 5d6d6a9e068f2309fb3da29141ae506063a2e041
 
 # switch to workspace
 bindsym $mod+1 workspace $ws01
