@@ -127,6 +127,7 @@ set $ws10 "  Music"
 #workspace $ws7 output DVI-D-0
 #workspace $ws8 output DVI-D-0
 #workspace $ws10 output HDMI-0
+<<<<<<< HEAD
 =======
 set $ws1 "1 Web "
 set $ws2 "2 E-Mail "
@@ -147,6 +148,8 @@ set $ws10 "10 Music "
 >>>>>>> 1bc95d2... Re-added Euclid-specific changes (again).
 =======
 >>>>>>> 149ba23... Re-added Euclid-specific changes to i3 config.
+=======
+>>>>>>> 5d6d6a9e068f2309fb3da29141ae506063a2e041
 
 # switch to workspace
 bindsym $mod+1 workspace $ws01
