@@ -148,6 +148,9 @@ set nocompatible            " Required for advanced Vim features to work.
         let g:airline_powerline_fonts = 1
         set laststatus=2            " Ensure airline is always shown.
     " }
+    " CTRL-P {
+        let g:ctrlp_follow_symlinks = 1 
+    " }
     " NERDTree {
         map <leader>nt :NERDTreeToggle<CR>   " Toggle the NERDTree with Ctrl+t.
         map <leader>nf :NERDTreeFind<CR> " Locate the current file in NERDTree.
@@ -191,7 +194,7 @@ augroup resCur
 augroup END
 
 " Open/close procedures.
-autocmd VimEnter * source ~/Session.vim         " Open the prior session.
+"autocmd VimEnter * source ~/Session.vim         " Open the prior session.
 autocmd VimEnter * NERDTree                     " Start the NERDTree.
 autocmd VimLeavePre * NERDTreeClose             " Close the NerdTree.
-autocmd VimLeave * mksession! ~/Session.vim     " Save the session.
+"autocmd VimLeave * mksession! ~/Session.vim     " Save the session.
