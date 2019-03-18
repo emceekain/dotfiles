@@ -106,35 +106,35 @@ bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
 
 #Web
-set $ws01 ""
-#E-Mail
-set $ws02 ""
+set $ws01 "  Web"
+#Mail
+set $ws02 "  Mail"
 #Chat
-set $ws03 ""
+set $ws03 "  Chat"
 #Development
-set $ws04 ""
-#Console
-set $ws05 ""
+set $ws04 "  Dev I"
+#Terminal 
+set $ws05 "  Dev II"
 #Utilities
-set $ws06 ""
+set $ws06 "  Utilities"
 #Files
-set $ws07 ""
+set $ws07 "  Files"
 #Documents
-set $ws08 ""
+set $ws08 "  Documents"
 #Misc
-set $ws09 ""
+set $ws09 "  Misc."
 #Music
-set $ws10 ""
+set $ws10 "  Music"
 
-workspace $ws01 output HDMI-0 
+workspace $ws01 output DVI-D-0
 workspace $ws02 output HDMI-0 
 workspace $ws03 output HDMI-0 
 workspace $ws04 output DVI-D-0
 workspace $ws05 output DVI-D-0
-workspace $ws06 output DVI-D-0
-workspace $ws07 output DVI-D-0
+workspace $ws06 output HDMI-0 
+workspace $ws07 output HDMI-0
 workspace $ws08 output DVI-D-0
-workspace $ws10 output HDMI-0
+workspace $ws10 output DVI-D-0
 
 # switch to workspace
 bindsym $mod+1 workspace $ws01
@@ -161,6 +161,10 @@ bindsym $mod+Shift+8 move container to workspace $ws08
 bindsym $mod+Shift+9 move container to workspace $ws09
 bindsym $mod+Shift+0 move container to workspace $ws10
 
+# move workspace to different output
+bindsym $mod+Shift+comma move workspace to output left
+bindsym $mod+Shift+period move workspace to output right
+
 #auto-assignments for certain applications
 assign [class="Firefox"] $ws01
 assign [class="Chromium"] $ws01
@@ -170,10 +174,10 @@ assign [class="Thunderbird"] $ws02
 assign [class="Geary"] $ws02
 assign [class="TelegramDesktop"] $ws03 
 assign [class="Signal"] $ws03 
-assign [Class="Pidgin"] $ws03
-assign [Class="Gvim"] $ws04
-assign [Class="URxvt"] $ws05
-assign [Class="konsole"] $ws05
+assign [class="Pidgin"] $ws03
+assign [class="Gvim"] $ws04
+#assign [class="URxvt"] $ws05
+#assign [class="konsole"] $ws05
 assign [class="Slack"] $ws05
 assign [class="gitg"] $ws05
 assign [class="keepassxc"] $ws06
