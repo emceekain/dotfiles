@@ -1,6 +1,6 @@
 " vim: set foldmarker={,} foldmethod=marker:
 set nocompatible            " Required for advanced Vim features to work.
-"set encoding=utf-8          " Might be required for YouCompleteMe/Windows.
+set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
 
 " Platform Identification {
     silent function! LINUX()
@@ -54,9 +54,9 @@ set nocompatible            " Required for advanced Vim features to work.
     " }
     " Plugins provided by the Arch repos. {
         if WINDOWS()
-            "Plugin 'bling/vim-airline'
-            "Plugin 'Align'
+            "Plugin 'vim-airline/vim-airline'
             "Plugin 'vim-airline/vim-airline-themes'
+            "Plugin 'Align'
             "Plugin 'ctrlpvim/ctrlp.vim'
             "Plugin 'tpope/vim-fugitive'
             "Plugin 'davidhalter/jedi-vim'
