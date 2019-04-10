@@ -39,7 +39,8 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         Plugin 'severin-lemaignan/vim-minimap'      " Sublime-like minimap.
         "Plugin 'xolox/vim-misc'                    " Required for vim-easytags
         "Plugin 'MS-SQL-Server-Syntax'              " T-SQL Syntax highlighting.
-        "Plugin 'tpope/vim-obsession'               " Continuously updated session files.
+        Plugin 'tpope/vim-obsession'                " Continuously updated session files.
+        Plugin 'kshenoy/vim-signature'              " Toggle, display, and navigate marks.
         "Plugin 'vbnet.vim'                         " Syntax-highlighting for VB.NET. Not that great?
         Plugin 'rakr/vim-one'
         Plugin 'nlknguyen/papercolor-theme'
@@ -134,6 +135,10 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         if has("autocmd")
           autocmd bufwritepost .vimrc source $MYVIMRC
         endif
+    " }
+    " Session Management {
+        let g:sessions_dir = '$HOME/vim-sessions'
+        exec 'nnoremap <Leader>so :source ' . g:sessions_dir . '/*.vim<C-D><BS><BS><BS><BS><BS>'
     " }
     " Code Folding {
         set foldenable              " Enable code folding.
@@ -240,5 +245,5 @@ augroup END
 " Open/close procedures.
 "autocmd VimEnter * source ~/Session.vim         " Open the prior session.
 "autocmd VimEnter * NERDTree                     " Start the NERDTree.
-autocmd VimLeavePre * NERDTreeClose             " Close the NerdTree.
+"autocmd VimLeavePre * NERDTreeClose             " Close the NerdTree.
 "autocmd VimLeave * mksession! ~/Session.vim     " Save the session.
