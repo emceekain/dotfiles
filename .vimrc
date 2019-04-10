@@ -128,6 +128,13 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         set hidden              " Allow buffer switching withoutsaving.
         map <leader>q :bp<bar>sp<bar>bn<bar>bd<CR>
     " }
+    " Files {
+        nmap <leader>v :edit $MYVIMRC<CR>
+        " Source the vimrc file after saving it
+        if has("autocmd")
+          autocmd bufwritepost .vimrc source $MYVIMRC
+        endif
+    " }
     " Code Folding {
         set foldenable              " Enable code folding.
         " set foldlevelstart=10     " Open most folds by default.
