@@ -19,7 +19,7 @@ set $right l
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango: Roboto, Font Awesome 13
+font pango: DejaVu Sans, Font Awesome 13
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -106,92 +106,95 @@ bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
 
 #Web
-set $ws01 "  Web"
+set $web "  Web"
 #Mail
-set $ws02 "  Mail"
+set $mail "  Mail"
 #Chat
-set $ws03 "  Chat"
+set $chat "  Chat"
 #Development
-set $ws04 "  Dev I"
+set $dev1 "  Dev I"
 #Terminal 
-set $ws05 "  Dev II"
+set $dev2 "  Dev II"
 #Utilities
-set $ws06 "  Utilities"
+set $util "  Utilities"
 #Files
-set $ws07 "  Files"
+set $files "  Files"
 #Documents
-set $ws08 "  Documents"
+set $docs "  Documents"
 #Misc
-set $ws09 "  Misc."
+set $misc "  Misc."
 #Music
-set $ws10 "  Music"
+set $music "  Music"
 
-#workspace $ws01 output DVI-D-0
-#workspace $ws02 output HDMI-0 
-#workspace $ws03 output HDMI-0 
-#workspace $ws04 output DVI-D-0
-#workspace $ws05 output DVI-D-0
-#workspace $ws06 output HDMI-0 
-#workspace $ws07 output HDMI-0
-#workspace $ws08 output DVI-D-0
-#workspace $ws10 output DVI-D-0
+#workspace $web output DVI-D-0
+#workspace $mail output HDMI-0 
+#workspace $chat output HDMI-0 
+#workspace $dev1 output DVI-D-0
+#workspace $dev2 output DVI-D-0
+#workspace $util output HDMI-0 
+#workspace $files output HDMI-0
+#workspace $docs output DVI-D-0
+#workspace $music output DVI-D-0
 
 # switch to workspace
-bindsym $mod+1 workspace $ws01
-bindsym $mod+2 workspace $ws02
-bindsym $mod+3 workspace $ws03
-bindsym $mod+4 workspace $ws04
-bindsym $mod+5 workspace $ws05
-bindsym $mod+6 workspace $ws06
-bindsym $mod+7 workspace $ws07
-bindsym $mod+8 workspace $ws08
-bindsym $mod+9 workspace $ws09
-bindsym $mod+0 workspace $ws10
+bindsym $mod+1 workspace $web
+bindsym $mod+2 workspace $mail
+bindsym $mod+3 workspace $chat
+bindsym $mod+4 workspace $dev1
+bindsym $mod+5 workspace $dev2
+bindsym $mod+6 workspace $util
+bindsym $mod+7 workspace $files
+bindsym $mod+8 workspace $docs
+bindsym $mod+9 workspace $misc
+bindsym $mod+0 workspace $music
 bindsym $mod+Tab workspace back_and_forth
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace $ws01
-bindsym $mod+Shift+2 move container to workspace $ws02
-bindsym $mod+Shift+3 move container to workspace $ws03
-bindsym $mod+Shift+4 move container to workspace $ws04
-bindsym $mod+Shift+5 move container to workspace $ws05
-bindsym $mod+Shift+6 move container to workspace $ws06
-bindsym $mod+Shift+7 move container to workspace $ws07
-bindsym $mod+Shift+8 move container to workspace $ws08
-bindsym $mod+Shift+9 move container to workspace $ws09
-bindsym $mod+Shift+0 move container to workspace $ws10
+bindsym $mod+Shift+1 move container to workspace $web
+bindsym $mod+Shift+2 move container to workspace $mail
+bindsym $mod+Shift+3 move container to workspace $chat
+bindsym $mod+Shift+4 move container to workspace $dev1
+bindsym $mod+Shift+5 move container to workspace $dev2
+bindsym $mod+Shift+6 move container to workspace $util
+bindsym $mod+Shift+7 move container to workspace $files
+bindsym $mod+Shift+8 move container to workspace $docs
+bindsym $mod+Shift+9 move container to workspace $misc
+bindsym $mod+Shift+0 move container to workspace $music
 
 # move workspace to different output
 bindsym $mod+Shift+comma move workspace to output left
 bindsym $mod+Shift+period move workspace to output right
 
 #auto-assignments for certain applications
-assign [class="Firefox"] $ws01
-assign [class="Chromium"] $ws01
-assign [class="QupZilla"] $ws01
-assign [class="Epiphany"] $ws01
-assign [class="Thunderbird"] $ws02
-assign [class="Geary"] $ws02
-assign [class="TelegramDesktop"] $ws03 
-assign [class="Signal"] $ws03 
-assign [class="Pidgin"] $ws03
-assign [class="Gvim"] $ws04
-#assign [class="URxvt"] $ws05
-#assign [class="konsole"] $ws05
-assign [class="Slack"] $ws05
-assign [class="gitg"] $ws05
-assign [class="keepassxc"] $ws06
-assign [class="ksysguard"] $ws06
-assign [class="filelight"] $ws06
-assign [class="krusader"] $ws07
-assign [class="dolphin"] $ws07
-assign [class="doublecmd|Double Commander"] $ws07
-assign [class="pcmanfm"] $ws07
-assign [class="libreoffice|Soffice"] $ws08
-assign [class="Gmusicbrowser"] $ws10
-assign [class="Puddletag"] $ws10
-assign [class="Spotify"] $ws10
-assign [class="Quodlibet"] $ws10
+assign [class="Firefox"] $web
+assign [class="Chromium"] $web
+assign [class="QupZilla"] $web #TODO
+assign [class="Epiphany"] $web
+assign [class="Thunderbird"] $mail
+assign [class="Geary"] $mail
+assign [class="TelegramDesktop"] $chat 
+assign [class="Signal"] $chat 
+assign [class="Pidgin"] $chat
+assign [class="Gvim"] $dev1
+#assign [class="URxvt"] $dev2
+#assign [class="konsole"] $dev2
+assign [class="Slack"] $dev2
+assign [class="gitg"] $dev2
+assign [class="keepassxc"] $util
+assign [class="ksysguard"] $util
+assign [class="filelight"] $util
+assign [class="krusader"] $files
+assign [class="dolphin"] $files
+assign [class="doublecmd|Double Commander"] $files
+assign [class="pcmanfm"] $files
+assign [class="libreoffice|Soffice"] $docs
+assign [class="Zathura"] $docs
+assign [class="okular"] $docs
+assign [class="Homebank"] $docs
+assign [class="Gmusicbrowser"] $music
+assign [class="Puddletag"] $music
+assign [class="Spotify"] $music
+assign [class="Quodlibet"] $music
 
 # Default layout of new containers.
 #workspace_layout tabbed
@@ -295,7 +298,7 @@ bindsym $mod+r mode "resize"
 # Custom Rofi Launcher
 # bindsym $mod+d exec rofi -show run -lines 3 -eh 2 -width 100 -padding 800 -opacity "85" -bw 0 -font "System Roboto Regular Display 18"
 # bindsym $mod+d exec i3-dmenu-desktop --dmenu='rofi -dmenu -font "Roboto Regular 18"'
-bindsym $mod+d exec rofi -modi drun -show drun -font "Roboto Regular 18"
+bindsym $mod+d exec rofi -show combi 
 
 
 
@@ -343,10 +346,10 @@ exec_always --no-startup-id dunst -conf $HOME/.config/dunst/dunstrc
 gaps inner 12
 gaps outer 0
 
-#smart_gaps on
-#smart_borders on
+smart_gaps on
+smart_borders on
 
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 0 
 
 ############################
 # Euclid-specific Settings #
