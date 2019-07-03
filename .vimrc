@@ -29,6 +29,7 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         Plugin 'mileszs/ack.vim'                    " Ack usage from inside vim.
         "Plugin 'ap/vim-buftabline'                 " Uses the tabline to create (non-clickable) tabs representing buffers.
         "Plugin 'gertjanreynaert/cobalt2-vim-theme'
+        Plugin 'raimondi/delimitmate'               " Insert mode auto-completion of delimiters.
         "Plugin 'SQLUtilities'                       " SQL Formatter and query generator.
         "Plugin 'tbabej/taskwiki'                   " Task management combining TaskWarrier and vimwiki.
         Plugin 'altercation/vim-colors-solarized'
