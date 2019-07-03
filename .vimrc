@@ -32,6 +32,7 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         "Plugin 'SQLUtilities'                       " SQL Formatter and query generator.
         "Plugin 'tbabej/taskwiki'                   " Task management combining TaskWarrier and vimwiki.
         Plugin 'altercation/vim-colors-solarized'
+        Plugin 'tpope/vim-dadbod'                   " A modern take on dbext.
         "Plugin 'xolox/vim-easytags'                " Tag Generator
         Plugin 'airblade/vim-gitgutter'             " Shows git diff in the gutter.
         Plugin 'suan/vim-instant-markdown'          " HTML-preview of Markdown files.
@@ -45,6 +46,7 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         Plugin 'rakr/vim-one'
         Plugin 'nlknguyen/papercolor-theme'
         "Plugin 'powerline/powerline'               " Statusline plugin.  See also: Airline.
+        Plugin 'tpope/vim-unimpaired'
         Plugin 'pprovost/vim-ps1'                   " Syntax-highlighting for PowerShell.
         Plugin 'honza/vim-snippets'                 " Standard snippet library.
         Plugin 'lervag/vimtex'                      " A modern LaTeX implementation. See also: vim-latex(suite)
@@ -63,6 +65,7 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
             Plugin 'w0rp/ale'                       " Asynchronous lint/syntax engine. See also: syntastics.
             Plugin 'Align'                          " Aligns text, equations, tables, etc.
             Plugin 'ctrlpvim/ctrlp.vim'             " Fuzzy file, buffer, mru, & tag finder.
+            Plugin 'easymotion/vim-easymotion'
             Plugin 'tpope/vim-fugitive'             " Git wrapper.
             "Plugin 'davidhalter/jedi-vim'          " Python autocompletion library.
             "Plugin 'nanotech/jellybeans.vim'
@@ -74,7 +77,7 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
             Plugin 'tpope/vim-surround'             " Easily change existing 'surrounding' of text.  Not that useful?
             Plugin 'scrooloose/syntastic'           " Syntax/lint engine. See also: ale.
             Plugin 'majutsushi/tagbar'              " On-the-fly tag creater and viewer.
-            Plugin 'SirVer/ultisnips'               " Python-based snippet engine. See also: vim-snipmate. 
+            Plugin 'SirVer/ultisnips'               " Python-based snippet engine. See also: vim-snipmate.
             Plugin 'vcscommand.vim'                 " CVS/SVN/git/hg/bzr integration.
         endif
     " }
@@ -103,9 +106,11 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         set number                  " Include line numbers by default.
         set scrolloff=1             " Minimal number of screen lines to keep above/below the cursor.
         set cursorline              " Draws a horizontal line/highlight on your current line.
+        set nowrap                  " Disables line-wrapping.
         set showmatch               " Highlights matching [{()}].
         set wildmenu                " Visual autocomplete for command menu.
         colorscheme molokai
+        "colorscheme PaperColor
         if LINUX() && has('gui_running')
             set guifont=Hack\ 13            " Required for gvim.
         elseif WINDOWS() && has('gui_running')
@@ -115,12 +120,13 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         let g:rehash245 = 1
         "colorscheme solarized
         "set background=dark         " Required for solarized (dark).
+        "set background=light       " Required for the light PaperColor theme.
 
         "let mapleader=','               " Change from the default '\' to ','.
 
         " Overwrite write-protected files.
         cmap w!! w !sudo tee % >/dev/null
-        
+
         " Faster saving.
         nmap <leader>w :w!<cr>
 
@@ -128,6 +134,10 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
     " Buffer Management {
         set hidden              " Allow buffer switching withoutsaving.
         map <leader>q :bp<bar>sp<bar>bn<bar>bd<CR>
+        "nmap <tab> :bn<CR>
+        "nmap <S-tab> :bp<CR>
+        "nmap <C-n> :bn<CR>
+        "nmap <C-p> :bp<CR>
     " }
     " Files {
         nmap <leader>v :edit $MYVIMRC<CR>
@@ -147,7 +157,7 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         let g:vimtex_fold_enabled=1
     " }
     " Diffs {
-        nnoremap <leader>dt :diffthis<cr> 
+        nnoremap <leader>dt :diffthis<cr>
         nnoremap <leader>do :diffoff<cr>
     " }
     " Movement {
@@ -156,6 +166,8 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         nnoremap <silent> k gk
 
         "Easier window switching.
+        map <tab> <C-W>w
+        "map <tab><tab> <C-W><C-W>
         map <C-j> <C-W>j
         map <C-k> <C-W>k
         map <C-h> <C-W>h
@@ -182,8 +194,8 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         " Make the tabline display sensible.
         let g:airline#extensions#tabline#formatter = 'unique_tail'
         " Use vertical tab separators instead of the default angled ones.
-        "let g:airline#extensions#tabline#left_sep = ' '
-        "let g:airline#extensions#tabline#left_alt_sep = '|'
+        let g:airline#extensions#tabline#left_sep = ' '
+        let g:airline#extensions#tabline#left_alt_sep = '|'
         "let g:airline#extensions#branch#use_vcscommand = 1
         set laststatus=2            " Ensure airline is always shown.
     " }
@@ -192,7 +204,21 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         let g:ctrlp_by_filename = 1         " Don't search full path; only filename.
         let g:ctrlp_regexp = 1
         let g:ctrlp_show_hidden = 1
+        "let g:ctrlp_map = '<leader>cp'
         let g:ctrlp_types = ['buf', 'mru', 'fil']
+    " }
+    " Fugitive {
+        nnoremap <silent> <leader>gs :Gstatus<CR>
+        nnoremap <silent> <leader>gd :Gdiff<CR>
+        nnoremap <silent> <leader>gc :Gcommit<CR>
+        nnoremap <silent> <leader>gb :Gblame<CR>
+        nnoremap <silent> <leader>gl :Glog<CR>
+        nnoremap <silent> <leader>gp :Git push<CR>
+        nnoremap <silent> <leader>gr :Gread<CR>
+        nnoremap <silent> <leader>gw :Gwrite<CR>
+        nnoremap <silent> <leader>ge :Gedit<CR>
+        " Mnemonic _i_nteractive
+        nnoremap <silent> <leader>gi :Git add -p %<CR>
     " }
     " NERDTree {
         map <leader>nt :NERDTreeToggle<CR>   " Toggle the NERDTree with Ctrl+t.
@@ -206,8 +232,11 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         let g:NERDTreeSortOrder = ['[[-timestamp]]']
     " }
     " SQL Utilities {
-        "let g:sqlutil_align_comma=1
-        "let g:sqlutil_align_keyword_right=0
+        let g:sqlutil_align_comma=1
+        let g:sqlutil_align_keyword_right=0
+    " }
+    " SuperTab {
+        let g:SuperTabCRMapping = 1
     " }
     " Tagbar {
         autocmd VimEnter * unmap <Leader>tt
@@ -241,6 +270,10 @@ augroup resCur
     autocmd!
     autocmd BufReadPost * call setpos(".",getpos("'\""))
 augroup END
+
+" Automatically trim white space at the end of lines for certain file types
+" (NOT md).
+autocmd FileType sql,vb,cs autocmd BufWritePre <buffer> %s/\s\+$//e
 
 " Open/close procedures.
 "autocmd VimEnter * source ~/Session.vim         " Open the prior session.
