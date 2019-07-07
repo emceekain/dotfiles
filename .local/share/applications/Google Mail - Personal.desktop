@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Gmail - Personal
+Exec=chromium --app=https://mail.google.com/mail/u/0
+Icon=/home/brent/Dropbox/Webapps/Icons/Google Mail 2.png
