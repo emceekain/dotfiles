@@ -1,0 +1,33 @@
+{
+  "Cell": {
+    "cm_config": {
+      "lineNumbers": true
+    }
+  },
+  "keys": {
+    "command": {
+      "unbind": [
+        "c",
+        "i,i",
+        "enter",
+        "y",
+        "shift-v",
+        "v",
+        "a",
+        "b"
+      ],
+      "bind": {
+        "ctrl-c": "jupyter-notebook:interrupt-kernel",
+        "i": "jupyter-notebook:enter-edit-mode",
+        "/": "jupyter-notebook:find-and-replace",
+        "y": "jupyter-notebook:copy-cell",
+        "shift-p": "jupyter-notebook:paste-cell-above",
+        "c": "jupyter-notebook:change-cell-to-code",
+        "p": "jupyter-notebook:paste-cell-below",
+        "x": "jupyter-notebook:cut-cell",
+        "shift-o": "jupyter-notebook:insert-cell-above",
+        "o": "jupyter-notebook:insert-cell-below"
+      }
+    }
+  }
+}
