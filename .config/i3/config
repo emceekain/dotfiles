@@ -166,7 +166,19 @@ bindsym $mod+Shift+comma move workspace to output left
 bindsym $mod+Shift+period move workspace to output right
 
 #auto-assignments for certain applications
-assign [class="Firefox"] $web
+assign [class="firefox"] $web
+assign [class="Chromium" instance="wunderlist"] $mail
+assign [class="Chromium" instance="mail.google.com"] $mail
+assign [class="Chromium" instance="calendar.google.com"] $mail
+assign [class="Chromium" instance="outlook.office365.com"] $mail
+assign [class="Chromium" instance="webmail.nationalindemnity.com"] $mail
+assign [class="Chromium" instance="messages.google.com"] $chat
+assign [class="Chromium" instance="messenger.com"] $chat
+assign [class="Chromium" instance="docs.google.com"] $docs
+assign [class="Chromium" instance="sheets.google.com"] $docs
+assign [class="Chromium" instance="slides.google.com"] $docs
+assign [class="Chromium" instance="forms.google.com"] $docs
+assign [class="Chromium" instance="trello.com"] $dev2
 assign [class="Chromium"] $web
 assign [class="QupZilla"] $web #TODO
 assign [class="Epiphany"] $web
@@ -233,7 +245,8 @@ bindsym $mod+Shift+r restart
 # bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
 # Shutdown, reboot, and lock screen.
-set $Locker i3lock-fancy && sleep 1
+#set $Locker i3lock-fancy && sleep 1
+set $Locker i3lock -m --line-uses-inside -B=30 && sleep 1
 # set $Locker light-locker-command -l 
 
 
@@ -321,6 +334,7 @@ bindsym XF86AudioPrev exec playerctl previous
 
 # Applications  to autostart with i3
 exec_always --no-startup-id feh --bg-scale $WALLPAPER 
+exec_always --no-startup-id xmodmap ~/.Xmodmap
 exec --no-startup-id $HOME/.screenlayout/Primary_Right.sh
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id compton -f
@@ -338,6 +352,10 @@ exec --no-startup-id thunderbird
 exec --no-startup-id albert
 exec --no-startup-id kde-connect
 exec_always --no-startup-id dunst -conf $HOME/.config/dunst/dunstrc
+#exec_always --no-startup-id lxqt-policykit-agent
+exec_always --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+exec --no-startup-id pamac-tray
+exec --no-startup-id blueman-tray
 
 ####################
 # i3-gaps Settings # 
