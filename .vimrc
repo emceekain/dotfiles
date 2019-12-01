@@ -29,15 +29,19 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         Plugin 'mileszs/ack.vim'                    " Ack usage from inside vim.
         "Plugin 'ap/vim-buftabline'                 " Uses the tabline to create (non-clickable) tabs representing buffers.
         "Plugin 'gertjanreynaert/cobalt2-vim-theme'
+        Plugin 'neoclide/coc.nvim'                  " Intellisense engine for Vim/Neovim.  See also:  deoplete, neocomplete, supertab
         Plugin 'raimondi/delimitmate'               " Insert mode auto-completion of delimiters.
+        "Plugin 'shougo/deoplete.nvim'               " Asynchronous completion framework.  See also: coc, neocomplete, suptertab, youcompleteme.
         "Plugin 'SQLUtilities'                       " SQL Formatter and query generator.
         "Plugin 'tbabej/taskwiki'                   " Task management combining TaskWarrier and vimwiki.
         Plugin 'altercation/vim-colors-solarized'
         Plugin 'tpope/vim-dadbod'                   " A modern take on dbext.
+        Plugin 'ryanoasis/vim-devicons'             " 
         "Plugin 'xolox/vim-easytags'                " Tag Generator
         Plugin 'airblade/vim-gitgutter'             " Shows git diff in the gutter.
         Plugin 'suan/vim-instant-markdown'          " HTML-preview of Markdown files.
         Plugin 'xuhdev/vim-latex-live-preview'      " Automatic PDF generation on save.
+        "Plugin 'itchyny/lightline.vim'
         Plugin 'severin-lemaignan/vim-minimap'      " Sublime-like minimap.
         "Plugin 'xolox/vim-misc'                    " Required for vim-easytags
         "Plugin 'MS-SQL-Server-Syntax'              " T-SQL Syntax highlighting.
@@ -53,7 +57,7 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         Plugin 'lervag/vimtex'                      " A modern LaTeX implementation. See also: vim-latex(suite)
         Plugin 'vimwiki/vimwiki'                    " Personal Wiki.
         "Plugin 'thaerkh/vim-workspace'             " Automated session management.
-        "Plugin 'valloric/youcompleteme'            " Code-completion engine for C(++), Python, C#, Java, JavaScript and more.
+        "Plugin 'valloric/youcompleteme'            " Code-completion engine for C(++), Python, C#, Java, JavaScript and more.  See also: deoplete, neocomplete, supertab
     " }
     " Arch Repo Orphans {
         Plugin 'tomasr/molokai'
@@ -63,7 +67,7 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         if WINDOWS()
             Plugin 'bling/vim-airline'              " Lightweight statusline & tabline.
             Plugin 'vim-airline/vim-airline-themes'
-            Plugin 'w0rp/ale'                       " Asynchronous lint/syntax engine. See also: syntastics.
+            Plugin 'w0rp/ale'                       " Asynchronous lint/syntax engine. See also: syntastic.
             Plugin 'Align'                          " Aligns text, equations, tables, etc.
             Plugin 'ctrlpvim/ctrlp.vim'             " Fuzzy file, buffer, mru, & tag finder.
             Plugin 'easymotion/vim-easymotion'
@@ -76,7 +80,7 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
             "Plugin 'shemerey/vim-project'          " Organize/navigate projects of files.
             "Plugin 'ervandew/supertab'             " Insert-mode completion with <Tab>.  Annoying for spacing issues.
             Plugin 'tpope/vim-surround'             " Easily change existing 'surrounding' of text.  Not that useful?
-            Plugin 'scrooloose/syntastic'           " Syntax/lint engine. See also: ale.
+            "Plugin 'scrooloose/syntastic'           " Syntax/lint engine. See also: ale.
             Plugin 'majutsushi/tagbar'              " On-the-fly tag creater and viewer.
             Plugin 'SirVer/ultisnips'               " Python-based snippet engine. See also: vim-snipmate.
             Plugin 'vcscommand.vim'                 " CVS/SVN/git/hg/bzr integration.
@@ -113,7 +117,7 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         colorscheme molokai
         "colorscheme PaperColor
         if LINUX() && has('gui_running')
-            set guifont=Hack\ 13            " Required for gvim.
+            set guifont=Hack\ 10            " Required for gvim.
         elseif WINDOWS() && has('gui_running')
             set guifont=Hack:h12
         endif
@@ -189,6 +193,7 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
 " }
 " Plugin-Specific Settings {
     " Airline {
+        let g:airline_theme = 'tomorrow'
         let g:airline_powerline_fonts = 1
         " Use Airline's built-in buffer line (like buftabline.)
         let g:airline#extensions#tabline#enabled = 1
@@ -197,6 +202,8 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         " Use vertical tab separators instead of the default angled ones.
         let g:airline#extensions#tabline#left_sep = ' '
         let g:airline#extensions#tabline#left_alt_sep = '|'
+        let g:airline_left_sep=' '
+        let g:airline_right_sep=' '
         "let g:airline#extensions#branch#use_vcscommand = 1
         set laststatus=2            " Ensure airline is always shown.
     " }
@@ -208,6 +215,9 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         "let g:ctrlp_map = '<leader>cp'
         let g:ctrlp_types = ['buf', 'mru', 'fil']
     " }
+    " Deoplete {
+        let g:deoplete#enable_at_startup = 1
+    " }
     " Fugitive {
         nnoremap <silent> <leader>gs :Gstatus<CR>
         nnoremap <silent> <leader>gd :Gdiff<CR>
@@ -215,7 +225,6 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         nnoremap <silent> <leader>gb :Gblame<CR>
         nnoremap <silent> <leader>gl :Glog<CR>
         nnoremap <silent> <leader>gp :Git push<CR>
-        nnoremap <silent> <leader>gr :Gread<CR>
         nnoremap <silent> <leader>gw :Gwrite<CR>
         nnoremap <silent> <leader>ge :Gedit<CR>
         " Mnemonic _i_nteractive
@@ -250,6 +259,7 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
     " }
     " Vimwiki {
         "let g:vimwiki_list_ignore_newline=0
+        let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'markdown', 'ext': '.md'}]
     " }
     " YouCompleteMe {
         "if !exists('g:ycm_semantic_triggers')
