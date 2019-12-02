@@ -88,7 +88,7 @@
 #include ".Xresources.d/molokai"
 !#include ".Xresources.d/monokai"
 
-URxvt.font:                 xft:Hack Nerd Font Mono:size=10
+URxvt.font:                 xft:Hack Nerd Font Mono:size=11
 URxvt.scrollBar:            False
 URxvt.perl-ext-common:      resize-font,selection-to-clipboard
 !URxvt.perl-ext-common:      resize-font,tabbed,selection-to-clipboard
