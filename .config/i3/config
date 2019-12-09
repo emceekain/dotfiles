@@ -172,7 +172,7 @@ assign [class="Chromium" instance="docs.google.com"] $docs
 assign [class="Chromium" instance="sheets.google.com"] $docs
 assign [class="Chromium" instance="slides.google.com"] $docs
 assign [class="Chromium" instance="forms.google.com"] $docs
-assign [class="Chromium" instance="trello.com"] $dev2
+assign [class="Chromium" instance="trello.com"] $mail
 assign [class="Chromium"] $web
 assign [class="Falkon"] $web
 assign [class="Epiphany"] $web
