@@ -85,10 +85,10 @@
 !#include ".Xresources.d/base16-monokai"
 !#include ".Xresources.d/base16-solarized-dark"
 !#include ".Xresources.d/solarized-dark"
-#include ".Xresources.d/molokai"
+#include ".Xresources.d/molokai_bright"
 !#include ".Xresources.d/monokai"
 
-URxvt.font:                 xft:Hack Nerd Font Mono:size=11
+URxvt.font:                 xft:DejaVuSansMono Nerd Font Mono:size=11
 URxvt.scrollBar:            False
 URxvt.perl-ext-common:      resize-font,selection-to-clipboard
 !URxvt.perl-ext-common:      resize-font,tabbed,selection-to-clipboard
