@@ -242,7 +242,7 @@ bindsym $mod+Shift+r restart
 
 # Shutdown, reboot, and lock screen.
 #set $Locker i3lock-fancy && sleep 1
-set $Locker i3lock -m --line-uses-inside -B=30 && sleep 1
+set $Locker i3lock --pass-media-keys --line-uses-inside -B=30 && sleep 1
 # set $Locker light-locker-command -l 
 
 
