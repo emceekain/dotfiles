@@ -9,6 +9,7 @@ export ZSH=/usr/share/oh-my-zsh
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="robbyrussell"
+#ZSH_THEME="random"
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -95,6 +96,8 @@ alias nowdate='date +"%Y-%m-%d"'
 alias ping='ping -c 3'
 
 alias mkdir='mkdir -pv'
+
+bindkey -v
 
 # powerline
 powerline-daemon -q
