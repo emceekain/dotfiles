@@ -120,15 +120,15 @@ set $misc "  Misc."
 #Music
 set $music "  Music"
 
-workspace $web output DVI-D-0
+workspace $web output HDMI-1
 workspace $mail output HDMI-0 
 workspace $chat output HDMI-0 
-workspace $dev1 output DVI-D-0
-workspace $dev2 output DVI-D-0
+workspace $dev1 output HDMI-1
+workspace $dev2 output HDMI-1
 workspace $util output HDMI-0 
 workspace $files output HDMI-0
-workspace $docs output DVI-D-0
-workspace $music output DVI-D-0
+workspace $docs output HDMI-1
+workspace $music output HDMI-1
 
 # switch to workspace
 bindsym $mod+1 workspace $web
