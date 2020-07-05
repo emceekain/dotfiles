@@ -23,68 +23,103 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         set rtp+=~/.vim/bundle/Vundle.vim
         call vundle#begin()
     endif
-    " Plugins not provided by the Arch Repos {
-        Plugin 'VundleVim/Vundle.vim'
-        " Vundle plugins go here."
-        Plugin 'mileszs/ack.vim'                    " Ack usage from inside vim.
-        "Plugin 'ap/vim-buftabline'                 " Uses the tabline to create (non-clickable) tabs representing buffers.
+
+    Plugin 'VundleVim/Vundle.vim'
+    " Vundle plugins go here."
+    " File Explorers {
+        "Plugin 'justinmk/vim-dirvish'
+        "Plugin 'preservim/nerdtree'
+        Plugin 'tpope/vim-vinegar'
+    " }
+    " File Finders {
+        Plugin 'ctrlpvim/ctrlp.vim'             " Fuzzy file, buffer, mru, & tag finder.
+    " }
+    " Statusline & Tabline {
+        Plugin 'vim-airline/vim-airline'        " Lightweight statusline & tabline.
+        Plugin 'vim-airline/vim-airline-themes'
+        "Plugin 'jlanzarotta/bufexplorer'
+        "Plugin 'ap/vim-buftabline'             " Uses the tabline to create (non-clickable) tabs representing buffers.
+        "Plugin 'itchyny/lightline.vim'
+        "Plugin 'fholgado/minibufexpl.vim'      " Clickable buffer explorer.
+        "Plugin 'powerline/powerline'           " Statusline plugin.  See also: Airline.
+    " }
+    " Windows-Only {
+        if WINDOWS()
+            Plugin 'vim-scripts/MS-SQL-Server-Syntax'   " T-SQL Syntax highlighting.
+            Plugin 'pprovost/vim-ps1'                   " Syntax-highlighting for PowerShell.
+            Plugin 'vim-scripts/vbnet.vim'              " Syntax-highlighting for VB.NET. Not that great?
+            Plugin 'vim-scripts/vcscommand.vim'         " CVS/SVN/git/hg/bzr integration.
+        endif
+    " }
+    " Session/Project Management {
+        Plugin 'tpope/vim-obsession'                " Continuously updated session files.
+        Plugin 'vim-scripts/project.tar.gz'
+        "Plugin 'thaerkh/vim-workspace'             " Automated session management.
+    " }
+    " Themes {
         "Plugin 'gertjanreynaert/cobalt2-vim-theme'
+        "Plugin 'nanotech/jellybeans.vim'
+        Plugin 'tomasr/molokai'
+        Plugin 'nlknguyen/papercolor-theme'
+        Plugin 'rakr/vim-one'
+        Plugin 'altercation/vim-colors-solarized'
+    " }
+    " Tags {
+        "Plugin 'xolox/vim-easytags'                " Tag Generator
+        "Plugin 'xolox/vim-misc'                    " Required for vim-easytags
+        Plugin 'majutsushi/tagbar'                  " On-the-fly tag creater and viewer.
+    " }
+    " Snippets {
+        Plugin 'honza/vim-snippets'             " Standard snippet library.
+        Plugin 'SirVer/ultisnips'               " Python-based snippet engine. See also: vim-snipmate.
+    " }
+    " Syntax/Linting {
+        Plugin 'dense-analysis/ale'             " Asynchronous lint/syntax engine. See also: syntastic.
+        "Plugin 'scrooloose/syntastic'          " Syntax/lint engine. See also: ale.
+    " }
+    " Auto-Completion {
         Plugin 'neoclide/coc.nvim'                  " Intellisense engine for Vim/Neovim.  See also:  deoplete, neocomplete, supertab
         Plugin 'raimondi/delimitmate'               " Insert mode auto-completion of delimiters.
-        "Plugin 'shougo/deoplete.nvim'               " Asynchronous completion framework.  See also: coc, neocomplete, suptertab, youcompleteme.
-        "Plugin 'SQLUtilities'                       " SQL Formatter and query generator.
-        "Plugin 'tbabej/taskwiki'                   " Task management combining TaskWarrier and vimwiki.
-        Plugin 'altercation/vim-colors-solarized'
-        Plugin 'tpope/vim-dadbod'                   " A modern take on dbext.
-        Plugin 'ryanoasis/vim-devicons'             " 
-        "Plugin 'xolox/vim-easytags'                " Tag Generator
-        Plugin 'airblade/vim-gitgutter'             " Shows git diff in the gutter.
-        Plugin 'suan/vim-instant-markdown'          " HTML-preview of Markdown files.
-        Plugin 'xuhdev/vim-latex-live-preview'      " Automatic PDF generation on save.
-        "Plugin 'itchyny/lightline.vim'
-        Plugin 'severin-lemaignan/vim-minimap'      " Sublime-like minimap.
-        "Plugin 'xolox/vim-misc'                    " Required for vim-easytags
-        "Plugin 'MS-SQL-Server-Syntax'              " T-SQL Syntax highlighting.
-        Plugin 'tpope/vim-obsession'                " Continuously updated session files.
-        Plugin 'kshenoy/vim-signature'              " Toggle, display, and navigate marks.
-        "Plugin 'vbnet.vim'                         " Syntax-highlighting for VB.NET. Not that great?
-        Plugin 'rakr/vim-one'
-        Plugin 'nlknguyen/papercolor-theme'
-        "Plugin 'powerline/powerline'               " Statusline plugin.  See also: Airline.
-        Plugin 'tpope/vim-unimpaired'
-        Plugin 'pprovost/vim-ps1'                   " Syntax-highlighting for PowerShell.
-        Plugin 'honza/vim-snippets'                 " Standard snippet library.
-        Plugin 'lervag/vimtex'                      " A modern LaTeX implementation. See also: vim-latex(suite)
-        Plugin 'vimwiki/vimwiki'                    " Personal Wiki.
-        "Plugin 'thaerkh/vim-workspace'             " Automated session management.
+        "Plugin 'shougo/deoplete.nvim'              " Asynchronous completion framework.  See also: coc, neocomplete, suptertab, youcompleteme.
+        Plugin 'davidhalter/jedi-vim'           " Python autocompletion library.
+        "Plugin 'ervandew/supertab'                 " Insert-mode completion with <Tab>.  Annoying for spacing issues.
         "Plugin 'valloric/youcompleteme'            " Code-completion engine for C(++), Python, C#, Java, JavaScript and more.  See also: deoplete, neocomplete, supertab
     " }
-    " Arch Repo Orphans {
-        Plugin 'tomasr/molokai'
-        Plugin 'scrooloose/nerdtree'                " File explorer.
+    " SQL {
+        Plugin 'tpope/vim-dadbod'                   " A modern take on dbext.
+        "Plugin 'vim-scripts/SQLUtilities'          " SQL Formatter and query generator.
     " }
-    " Plugins provided by the Arch repos. {
-        if WINDOWS()
-            Plugin 'bling/vim-airline'              " Lightweight statusline & tabline.
-            Plugin 'vim-airline/vim-airline-themes'
-            Plugin 'w0rp/ale'                       " Asynchronous lint/syntax engine. See also: syntastic.
-            Plugin 'Align'                          " Aligns text, equations, tables, etc.
-            Plugin 'ctrlpvim/ctrlp.vim'             " Fuzzy file, buffer, mru, & tag finder.
-            Plugin 'easymotion/vim-easymotion'
-            Plugin 'tpope/vim-fugitive'             " Git wrapper.
-            "Plugin 'davidhalter/jedi-vim'          " Python autocompletion library.
-            "Plugin 'nanotech/jellybeans.vim'
-            "Plugin 'vim-latex/vim-latex'           " LaTeX support. See also: vimtex.
-            "Plugin 'fholgado/minibufexpl.vim'      " Clickable buffer explorer.
-            Plugin 'scrooloose/nerdcommenter'       " Commenting functions.
-            "Plugin 'shemerey/vim-project'          " Organize/navigate projects of files.
-            "Plugin 'ervandew/supertab'             " Insert-mode completion with <Tab>.  Annoying for spacing issues.
-            Plugin 'tpope/vim-surround'             " Easily change existing 'surrounding' of text.  Not that useful?
-            "Plugin 'scrooloose/syntastic'           " Syntax/lint engine. See also: ale.
-            Plugin 'majutsushi/tagbar'              " On-the-fly tag creater and viewer.
-            Plugin 'SirVer/ultisnips'               " Python-based snippet engine. See also: vim-snipmate.
-            Plugin 'vcscommand.vim'                 " CVS/SVN/git/hg/bzr integration.
-        endif
+    " Git {
+        Plugin 'tpope/vim-fugitive'             " Git wrapper.
+        Plugin 'airblade/vim-gitgutter'         " Shows git diff in the gutter.
+    " }
+    " Searching {
+        Plugin 'mileszs/ack.vim'                    " Ack usage from inside vim.
+    " }
+    " LaTeX {
+        "Plugin 'vim-latex/vim-latex'           " LaTeX support. See also: vimtex.
+        Plugin 'xuhdev/vim-latex-live-preview'      " Automatic PDF generation on save.
+        Plugin 'lervag/vimtex'                      " A modern LaTeX implementation. See also: vim-latex(suite)
+    " }
+    " Misc Interface Plugins {
+        Plugin 'ryanoasis/vim-devicons'
+        Plugin 'severin-lemaignan/vim-minimap'      " Sublime-like minimap.
+        Plugin 'preservim/nerdcommenter'            " Commenting functions.
+        Plugin 'kshenoy/vim-signature'              " Toggle, display, and navigate marks.
+    " }
+    " Misc Command Plugins {
+        Plugin 'vim-scripts/Align'              " Aligns text, equations, tables, etc.
+        Plugin 'easymotion/vim-easymotion'
+        Plugin 'tpope/vim-surround'             " Easily change existing 'surrounding' of text.  Not that useful?
+        Plugin 'tpope/vim-unimpaired'
+        Plugin 'vim-jp/vital.vim'               " Dependency of vim-easymotion
+    " }
+    " Misc Language Plugins {
+        Plugin 'suan/vim-instant-markdown'          " HTML-preview of Markdown files.
+    " }
+    " Misc {
+        "Plugin 'tbabej/taskwiki'                   " Task management combining TaskWarrier and vimwiki.
+        Plugin 'vimwiki/vimwiki'                    " Personal Wiki.
     " }
     call vundle#end()           " Required for Vundle
     filetype plugin indent on   " required for Vundle
@@ -117,7 +152,7 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         colorscheme molokai
         "colorscheme PaperColor
         if LINUX() && has('gui_running')
-            set guifont=Hack\ 10            " Required for gvim.
+            set guifont=DejaVu\ Sans\ Mono\ Book\ 12            " Required for gvim.
         elseif WINDOWS() && has('gui_running')
             set guifont=Hack:h12
         endif
@@ -260,6 +295,10 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
     " Vimwiki {
         "let g:vimwiki_list_ignore_newline=0
         let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'markdown', 'ext': '.md'}]
+    " }
+    " Vinegar (netrw) {
+        let g:netrw_sort_by="time"
+        let g:netrw_sort_direction = "reverse"
     " }
     " YouCompleteMe {
         "if !exists('g:ycm_semantic_triggers')
