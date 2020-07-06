@@ -54,6 +54,7 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
     " Session/Project Management {
         Plugin 'tpope/vim-obsession'                " Continuously updated session files.
         Plugin 'vim-scripts/project.tar.gz'
+        "Plugin 'xolox/vim-session'
         "Plugin 'thaerkh/vim-workspace'             " Automated session management.
     " }
     " Themes {
@@ -61,13 +62,14 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         "Plugin 'nanotech/jellybeans.vim'
         Plugin 'tomasr/molokai'
         Plugin 'nlknguyen/papercolor-theme'
-        Plugin 'rakr/vim-one'
+        "Plugin 'rakr/vim-one'
         Plugin 'altercation/vim-colors-solarized'
     " }
     " Tags {
         "Plugin 'xolox/vim-easytags'                " Tag Generator
-        "Plugin 'xolox/vim-misc'                    " Required for vim-easytags
+        "Plugin 'xolox/vim-misc'                    " Required for vim-easytags, vim-session.
         Plugin 'majutsushi/tagbar'                  " On-the-fly tag creater and viewer.
+        "Plugin 'vim-scripts/taglist.vim'
     " }
     " Snippets {
         Plugin 'honza/vim-snippets'             " Standard snippet library.
@@ -97,20 +99,22 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         Plugin 'mileszs/ack.vim'                    " Ack usage from inside vim.
     " }
     " LaTeX {
-        "Plugin 'vim-latex/vim-latex'           " LaTeX support. See also: vimtex.
+        "Plugin 'vim-latex/vim-latex'               " LaTeX support. See also: vimtex.
         Plugin 'xuhdev/vim-latex-live-preview'      " Automatic PDF generation on save.
         Plugin 'lervag/vimtex'                      " A modern LaTeX implementation. See also: vim-latex(suite)
     " }
     " Misc Interface Plugins {
         Plugin 'ryanoasis/vim-devicons'             " Adds filetype icons to various vim plugins.
         Plugin 'severin-lemaignan/vim-minimap'      " Sublime-like minimap.
-        Plugin 'preservim/nerdcommenter'            " Commenting functions.
         Plugin 'kshenoy/vim-signature'              " Toggle, display, and navigate marks.
     " }
-    " Misc Command Plugins {
+    " Editing {
         Plugin 'vim-scripts/Align'              " Aligns text, equations, tables, etc.
         Plugin 'easymotion/vim-easymotion'
-        Plugin 'tpope/vim-surround'             " Easily change existing 'surrounding' of text.  Not that useful?
+        Plugin 'sjl/gundo.vim'                  " Undo tree visualizer.
+        Plugin 'preservim/nerdcommenter'        " Commenting functions.
+        Plugin 'mhinz/vim-startify'             " The fancy start screen for vim.
+        Plugin 'tpope/vim-surround'             " Easily change existing 'surrounding' of text.
         Plugin 'tpope/vim-unimpaired'
         Plugin 'vim-jp/vital.vim'               " Dependency of vim-easymotion
     " }
@@ -118,8 +122,9 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         Plugin 'suan/vim-instant-markdown'          " HTML-preview of Markdown files.
     " }
     " Misc {
-        "Plugin 'tbabej/taskwiki'                   " Task management combining TaskWarrier and vimwiki.
+        Plugin 'tbabej/taskwiki'                   " Task management combining TaskWarrier and vimwiki.
         Plugin 'vimwiki/vimwiki'                    " Personal Wiki.
+        Plugin 'blindfs/vim-taskwarrior'
     " }
     call vundle#end()           " Required for Vundle
     filetype plugin indent on   " required for Vundle
@@ -252,6 +257,29 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         let g:ctrlp_show_hidden = 1
         "let g:ctrlp_map = '<leader>cp'
         let g:ctrlp_types = ['buf', 'mru', 'fil']
+    " }
+    " COC {
+        " Use tab for trigger completion with characters ahead and navigate.
+        " Use command ':verbose imap <tab>' to make sure tab is not mapped by other plugin.
+        inoremap <silent><expr> <TAB>
+              \ pumvisible() ? "\<C-n>" :
+              \ <SID>check_back_space() ? "\<TAB>" :
+              \ coc#refresh()
+        inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+        
+        function! s:check_back_space() abort
+          let col = col('.') - 1
+          return !col || getline('.')[col - 1]  =~# '\s'
+        endfunction
+        
+        " Use <c-space> to trigger completion.
+        inoremap <silent><expr> <c-space> coc#refresh()
+        
+        " Use <cr> to confirm completion, `<C-g>u` means break undo chain at current position.
+        " Coc only does snippet and additional edit on confirm.
+        inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+        " Or use `complete_info` if your vim support it, like:
+        " inoremap <expr> <cr> complete_info()["selected"] != "-1" ? "\<C-y>" : "\<C-g>u\<CR>"
     " }
     " Deoplete {
         let g:deoplete#enable_at_startup = 1
