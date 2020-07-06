@@ -27,9 +27,9 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
     Plugin 'VundleVim/Vundle.vim'
     " Vundle plugins go here."
     " File Explorers {
-        "Plugin 'justinmk/vim-dirvish'
-        "Plugin 'preservim/nerdtree'
-        Plugin 'tpope/vim-vinegar'
+        "Plugin 'justinmk/vim-dirvish'      " A simple directory viewer.
+        Plugin 'preservim/nerdtree'         " Tree explorer
+        Plugin 'tpope/vim-vinegar'          " A simple directory viewer.
     " }
     " File Finders {
         Plugin 'ctrlpvim/ctrlp.vim'             " Fuzzy file, buffer, mru, & tag finder.
@@ -102,7 +102,7 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         Plugin 'lervag/vimtex'                      " A modern LaTeX implementation. See also: vim-latex(suite)
     " }
     " Misc Interface Plugins {
-        Plugin 'ryanoasis/vim-devicons'
+        Plugin 'ryanoasis/vim-devicons'             " Adds filetype icons to various vim plugins.
         Plugin 'severin-lemaignan/vim-minimap'      " Sublime-like minimap.
         Plugin 'preservim/nerdcommenter'            " Commenting functions.
         Plugin 'kshenoy/vim-signature'              " Toggle, display, and navigate marks.
@@ -146,15 +146,15 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         set number                  " Include line numbers by default.
         set scrolloff=1             " Minimal number of screen lines to keep above/below the cursor.
         set cursorline              " Draws a horizontal line/highlight on your current line.
-        set nowrap                  " Disables line-wrapping.
+        "set nowrap                  " Disables line-wrapping.
         set showmatch               " Highlights matching [{()}].
         set wildmenu                " Visual autocomplete for command menu.
         colorscheme molokai
         "colorscheme PaperColor
         if LINUX() && has('gui_running')
-            set guifont=DejaVu\ Sans\ Mono\ Book\ 12            " Required for gvim.
+            set guifont=Hack\ 11            " Required for gvim.
         elseif WINDOWS() && has('gui_running')
-            set guifont=Hack:h12
+            set guifont=Hack:h11
         endif
         let g:molokai_original = 0  " Original Theme looks more like Monokai, i.e., ugly.
         let g:rehash245 = 1
@@ -169,6 +169,9 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
 
         " Faster saving.
         nmap <leader>w :w!<cr>
+
+        " Toggle spellcheck.
+        nmap <leader>sp :set spell!<cr>
 
     " }
     " Buffer Management {
@@ -252,6 +255,18 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
     " }
     " Deoplete {
         let g:deoplete#enable_at_startup = 1
+        " Enable tab-completion.
+        inoremap <silent><expr> <TAB>
+            \ pumvisible() ? "\<C-n>" :
+            \ <SID>check_back_space() ? "\<TAB>" :
+            \ deoplete#manual_complete()
+        inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+
+        function! s:check_back_space() abort 
+            let col = col('.') - 1
+            return !col || getline('.')[col - 1]  =~# '\s'
+        endfunction
+
     " }
     " Fugitive {
         nnoremap <silent> <leader>gs :Gstatus<CR>
@@ -287,14 +302,18 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         autocmd VimEnter * unmap <Leader>tt
         autocmd VimEnter * nnoremap <leader>tt :TagbarToggle<CR>
     " }
+    " TaskWiki {
+        let g:taskwiki_markup_syntax = "markdown"
+    " }
     " UltiSnips {
-        let g:UltiSnipsExpandTrigger="<tab>"
-        let g:UltiSnipsJumpForwardTrigger="<c-b>"
-        let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+        let g:UltiSnipsExpandTrigger="<C-n>"
+        let g:UltiSnipsJumpForwardTrigger="<C-n>"
+        let g:UltiSnipsJumpBackwardTrigger="<C-p>"
     " }
     " Vimwiki {
         "let g:vimwiki_list_ignore_newline=0
         let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'markdown', 'ext': '.md'}]
+        let g:vimwiki_global_ext = 0
     " }
     " Vinegar (netrw) {
         let g:netrw_sort_by="time"
