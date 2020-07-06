@@ -120,15 +120,15 @@ set $misc "  Misc."
 #Music
 set $music "  Music"
 
-workspace $web output HDMI-1
-workspace $mail output HDMI-0 
-workspace $chat output HDMI-0 
-workspace $dev1 output HDMI-1
-workspace $dev2 output HDMI-1
-workspace $util output HDMI-0 
-workspace $files output HDMI-0
-workspace $docs output HDMI-1
-workspace $music output HDMI-1
+#workspace $web output HDMI-1
+#workspace $mail output HDMI-0 
+#workspace $chat output HDMI-0 
+#workspace $dev1 output HDMI-1
+#workspace $dev2 output HDMI-1
+#workspace $util output HDMI-0 
+#workspace $files output HDMI-0
+#workspace $docs output HDMI-1
+#workspace $music output HDMI-1
 
 # switch to workspace
 bindsym $mod+1 workspace $web
@@ -367,3 +367,11 @@ smart_gaps on
 smart_borders on
 
 for_window [class="^.*"] border pixel 0 
+
+############################
+# Euclid-specific Settings #
+############################
+
+exec --no-startup-id conky -c .config/conky/Manjaro.config
+exec --no-startup-id lxqt-powermanagement 
+exec_always --no-startup-id compton -f --config .config/Manjaro-config.conf
