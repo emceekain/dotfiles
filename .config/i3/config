@@ -165,6 +165,7 @@ assign [class="Chromium" instance="wunderlist"] $mail
 assign [class="Chromium" instance="mail.google.com"] $mail
 assign [class="Chromium" instance="calendar.google.com"] $mail
 assign [class="Chromium" instance="outlook.office365.com"] $mail
+assign [class="Chromium" instance="outlook.com"] $mail
 assign [class="Chromium" instance="webmail.nationalindemnity.com"] $mail
 assign [class="Chromium" instance="messages.google.com"] $chat
 assign [class="Chromium" instance="messenger.com"] $chat
@@ -196,8 +197,10 @@ assign [class="doublecmd|Double Commander"] $files
 assign [class="Thunar"] $files
 assign [class="pcmanfm"] $files
 assign [class="libreoffice|Soffice"] $docs
-assign [class="Zathura"] $docs
-assign [class="okular"] $docs
+assign [class="Zathura"] $files
+assign [class="okular"] $files
+assign [class="Xreader"] $files
+assign [class="Evince"] $files
 assign [class="Homebank"] $docs
 assign [class="Gmusicbrowser"] $music
 assign [class="Puddletag"] $music
@@ -334,7 +337,7 @@ exec_always --no-startup-id feh --bg-scale $WALLPAPER
 exec_always --no-startup-id xmodmap ~/.Xmodmap
 exec --no-startup-id $HOME/.screenlayout/Primary_Right.sh
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec_always --no-startup-id compton -f
+exec_always --no-startup-id picom -f -D 7
 exec_always --no-startup-id conky -c .config/conky/Manjaro.config
 exec --no-startup-id nm-applet
 exec --no-startup-id volumeicon
@@ -350,7 +353,7 @@ exec --no-startup-id albert
 exec --no-startup-id kde-connect
 exec_always --no-startup-id dunst -conf $HOME/.config/dunst/dunstrc
 exec_always --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-#exec --no-startup-id pamac-tray
+exec --no-startup-id pamac-tray
 exec --no-startup-id blueman-tray
 
 ####################
