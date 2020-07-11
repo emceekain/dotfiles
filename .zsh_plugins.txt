@@ -1,0 +1,2 @@
+#romkatv/powerlevel10k
+MichaelAquilina/zsh-you-should-use

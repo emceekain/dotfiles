@@ -86,6 +86,8 @@
 !#include ".Xresources.d/base16-solarized-dark"
 !#include ".Xresources.d/solarized-dark"
 #include ".Xresources.d/molokai_bright"
+!#include ".Xresources.d/xterm"
+!#include ".Xresources.d/black-on-white"
 !#include ".Xresources.d/monokai"
 
 URxvt.font:                 xft:DejaVuSansMono Nerd Font Mono:size=11
