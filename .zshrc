@@ -10,7 +10,7 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export OH_MY_ZSH=/usr/share/oh-my-zsh
+export ZSH=/usr/share/oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -72,11 +72,10 @@ plugins=(
   colored-man-pages
 )
 
-source $OH_MY_ZSH/oh-my-zsh.sh
+source $ZSH/oh-my-zsh.sh
 
-export $ZSH=/usr/share/zsh/plugins
-source $ZSH/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source $ZSH/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 # User configuration
