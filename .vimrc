@@ -38,6 +38,7 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         Plugin 'vim-airline/vim-airline'        " Lightweight statusline & tabline.
         Plugin 'vim-airline/vim-airline-themes'
         "Plugin 'jlanzarotta/bufexplorer'
+        Plugin 'jeetsukumaran/vim-buffergator'
         "Plugin 'ap/vim-buftabline'             " Uses the tabline to create (non-clickable) tabs representing buffers.
         "Plugin 'itchyny/lightline.vim'
         "Plugin 'fholgado/minibufexpl.vim'      " Clickable buffer explorer.
@@ -62,7 +63,8 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         "Plugin 'nanotech/jellybeans.vim'
         Plugin 'tomasr/molokai'
         Plugin 'nlknguyen/papercolor-theme'
-        "Plugin 'rakr/vim-one'
+        Plugin 'rakr/vim-one'
+        Plugin 'google/vim-colorscheme-primary'
         Plugin 'altercation/vim-colors-solarized'
     " }
     " Tags {
@@ -156,6 +158,7 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         set wildmenu                " Visual autocomplete for command menu.
         colorscheme molokai
         "colorscheme PaperColor
+        "colorscheme primary
         if LINUX() && has('gui_running')
             set guifont=Hack\ 11            " Required for gvim.
         elseif WINDOWS() && has('gui_running')
@@ -313,7 +316,8 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         map <leader>nf :NERDTreeFind<CR> " Locate the current file in NERDTree.
         let NERDTreeShowBookmarks=1
         let NERDTreeShowHidden=1
-        let NERDTreeIgnore=['\.swp$']
+        let NERDTreeIgnore=['\.swp$', '\.aux$', '\.fls$', '\.out$', '\.gz$',
+                    \ '\.log$', '\.fdb_latexmk$', '\.pdf$', '.snm$', '.nav$', '.toc$']
         let NERDTreeQuitOnOpen = 1
         let g:NERDTreeDirArrowExpandable = '▸'     " Default on linux.
         let g:NERDTreeDirArrowCollapsible = '▾'    " Default on Linux.
@@ -357,8 +361,11 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
 " Langauge-Specific Settings {
     " Python {
         if WINDOWS()
-            set pythonthreedll=python37.dll
+            set pythonthreedll=python38.dll
         endif
+    " }
+    " LaTeX {
+	    let g:tex_flavor = "latex"
     " }
 " }
 
