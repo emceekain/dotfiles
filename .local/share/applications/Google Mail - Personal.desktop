@@ -5,4 +5,4 @@ Terminal=false
 Type=Application
 Name=Gmail - Personal
 Exec=chromium --app=https://mail.google.com/mail/u/0
-Icon=/home/brent/Dropbox/Webapps/Icons/Google Mail 2.png
+Icon=/home/brent/Pictures/Icons/Google Mail 2.png

@@ -5,4 +5,4 @@ Terminal=false
 Type=Application
 Name=Trello
 Exec=chromium --app=https://trello.com
-Icon=/home/brent/Dropbox/Webapps/Icons/Trello.png
+Icon=/home/brent/Pictures/Icons/Trello.png

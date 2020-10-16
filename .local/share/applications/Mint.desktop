@@ -5,4 +5,4 @@ Terminal=false
 Type=Application
 Name=Mint
 Exec=chromium --app=https://www.mint.com/
-Icon=/home/brent/Dropbox/Webapps/Icons/Mint 2.png
+Icon=/home/brent/Pictures/Icons/Mint 2.png

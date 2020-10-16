@@ -5,4 +5,4 @@ Terminal=false
 Type=Application
 Name=Pearson MyLab Math
 Exec=chromium --app=https://portal.mypearson.com/course-home#/tab/active
-Icon=/home/brent/Dropbox/Webapps/Icons/Pearson.png
+Icon=/home/brent/Pictures/Icons/Pearson.png

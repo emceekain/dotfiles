@@ -5,4 +5,4 @@ Terminal=false
 Type=Application
 Name=Proton Mail
 Exec=chromium --app=https://mail.protonmail.com
-Icon=/home/brent/Dropbox/Webapps/Icons/Proton Mail.png
+Icon=/home/brent/Pictures/Icons/Proton Mail.png
