@@ -1,0 +1,113 @@
+# LyX 2.3.5.2 generated this file. If you want to make your own
+# modifications you should do them from inside LyX and save.
+
+Format 24
+
+
+#
+# MISC SECTION ######################################
+#
+
+\user_name "Brent McKain"
+\user_email ""
+
+#
+# SCREEN & FONTS SECTION ############################
+#
+
+\screen_zoom 200
+\screen_font_roman "Times New Roman"
+\screen_font_sans "Roboto"
+\screen_font_sizes 5 7 8 9 10 12 14.4 17.26 20.74 24.88
+\single_instance false
+
+#
+# COLOR SECTION ###################################
+#
+
+\set_color "background" "#1e1e1e"
+\set_color "foreground" "#e0dddd"
+\set_color "selection" "#000000"
+\set_color "selectiontext" "#ffffff"
+\set_color "greyedouttext" "#af00af"
+\set_color "greyedoutbg" "#ff5500"
+\set_color "shaded" "#87ff00"
+\set_color "phantomtext" "#ff5500"
+\set_color "depthbar" "#00ffff"
+\set_color "language" "#c992ff"
+\set_color "math" "#87ff00"
+\set_color "mathbg" "#1e1e1e"
+\set_color "mathcorners" "#000000"
+\set_color "mathline" "#87ff00"
+\set_color "collapsible" "#aaff00"
+\set_color "collapsibleframe" "#af00af"
+\set_color "error" "#00ffff"
+\set_color "eolmarker" "#00ff00"
+\set_color "added_space" "#aaff00"
+\set_color "bottomarea" "#121212"
+\set_color "newpage" "#00ff00"
+\set_color "buttonbg" "#323232"
+\set_color "buttonhoverbg" "#323232"
+
+#
+# PRINTER SECTION ###################################
+#
+
+
+#
+# TEX SECTION #######################################
+#
+
+
+#
+# FILE SECTION ######################################
+#
+
+
+#
+# PLAIN TEXT EXPORT SECTION ##############################
+#
+
+
+#
+# SPELLCHECKER SECTION ##############################
+#
+
+
+#
+# LANGUAGE SUPPORT SECTION ##########################
+#
+
+\spellchecker hunspell
+\spellcheck_continuously true
+
+#
+# 2nd MISC SUPPORT SECTION ##########################
+#
+
+
+#
+# FORMATS SECTION ##########################
+#
+
+\format "excel" "xls" "Excel spreadsheet" "" "" "auto" "document" "application/vnd.ms-excel"
+\format "fen" "fen" "FEN" "" "auto" "auto" "" ""
+\format "fig" "fig" "FIG" "" "auto" "auto" "vector" "application/x-xfig"
+\format "gnumeric" "gnumeric" "Gnumeric spreadsheet" "" "" "auto" "document" "application/x-gnumeric"
+\format "agr" "agr" "Grace" "" "auto" "auto" "vector" ""
+\format "html_table" "html" "HTML Table (for spreadsheets)" "" "" "auto" "document" "text/html"
+\format "excel2" "xlsx" "MS Excel Office Open XML" "" "" "auto" "document" "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+\format "noteedit" "not" "Noteedit" "" "auto" "auto" "vector" ""
+\format "oocalc" "ods" "OpenDocument spreadsheet" "" "" "auto" "document" "application/vnd.oasis.opendocument.spreadsheet"
+\format "pdf2" "pdf" "PDF (pdflatex)" "F" "zathura" "" "document,vector,menu=export" ""
+\format "tgif" "obj, tgo" "Tgif" "" "auto" "auto" "vector" "application/x-tgif"
+
+#
+# CONVERTERS SECTION ##########################
+#
+
+
+#
+# COPIERS SECTION ##########################
+#
+
