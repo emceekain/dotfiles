@@ -321,8 +321,10 @@ bindsym XF86AudioLowerVolume exec --no-startup-id amixer -D pulse set Master 3%-
 bindsym XF86AudioMute exec --no-startup-id amixer -D pulse set Master toggle # mute sound
 
 # Sreen brightness controls
-bindsym XF86MonBrightnessUp exec xbacklight -inc 5 # increase screen brightness
-bindsym XF86MonBrightnessDown exec xbacklight -dec 5 # decrease screen brightness
+#bindsym XF86MonBrightnessUp exec xbacklight -inc 5 # increase screen brightness
+#bindsym XF86MonBrightnessDown exec xbacklight -dec 5 # decrease screen brightness
+bindsym XF86MonBrightnessUp exec sudo light -A 5 # increase screen brightness
+bindsym XF86MonBrightnessDown exec light -U 5 # decrease screen brightness
 
 # Touchpad controls
 bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
@@ -351,7 +353,8 @@ exec --no-startup-id thunderbird
 #exec --no-startup-id synapse
 exec --no-startup-id albert
 exec --no-startup-id kde-connect
-exec_always --no-startup-id dunst -conf $HOME/.config/dunst/dunstrc
+#exec_always --no-startup-id dunst -conf $HOME/.config/dunst/dunstrc
+exec_always --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd
 exec_always --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id pamac-tray
 exec --no-startup-id blueman-tray
