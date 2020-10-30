@@ -1,0 +1,32 @@
+set selection-clipboard clipboard
+#map \<space> :nohlsearch<CR>
+
+set show-scrollbars
+set page-padding 10
+#set window-title-basename
+set window-title-home-tilde
+
+set font "Hack 14"
+
+set statusbar-fg "#B0B0B0" 
+set statusbar-bg "#202020"
+
+set inputbar-bg "#00007f" #Blue
+set inputbar-fg "#ffffff" #White
+
+set completion-highlight-bg "#0000ff" #Bright Blue
+set completion-highlight-fg "#ffffff" #White
+
+set highlight-active-color "#00FF00" #Bright Green 
+set highlight-color "#00007F" #Blue 
+
+set index-active-bg "#0000FF" #Bright blue
+set index-active-fg "#ffffff" #White
+set index-fg "#888888" #Gray
+
+# Dark Mode (on by default)
+set recolor "true"
+set recolor-lightcolor "#202020" 
+set recolor-darkcolor "#E0E0E0"
+set recolor-reverse-video "true"
+set recolor-keephue "true"
