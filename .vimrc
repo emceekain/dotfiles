@@ -160,7 +160,7 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         "colorscheme PaperColor
         "colorscheme primary
         if LINUX() && has('gui_running')
-            set guifont=Hack\ 11            " Required for gvim.
+            set guifont=Hack\ Nerd\ Font\ 13            " Required for gvim.
         elseif WINDOWS() && has('gui_running')
             set guifont=Hack:h11
         endif
