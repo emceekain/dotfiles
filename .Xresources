@@ -82,18 +82,19 @@
 !#define base0F #80ff00
 
 !Dont worry about getting terminal vim to look good; solarized looks like shit.
-!#include ".Xresources.d/base16-monokai"
-!#include ".Xresources.d/base16-solarized-dark"
-!#include ".Xresources.d/solarized-dark"
-!#include ".Xresources.d/solarized-light"
-#include ".Xresources.d/molokai_bright"
-!#include ".Xresources.d/tango-dark"
-!#include ".Xresources.d/tango-light"
-!#include ".Xresources.d/xterm"
-!#include ".Xresources.d/black-on-white"
-!#include ".Xresources.d/monokai"
+!#include "/home/brent/.Xresources.d/base16-monokai"
+!#include "/home/brent/.Xresources.d/base16-solarized-dark"
+!#include "/home/brent/.Xresources.d/solarized-dark"
+!#include "/home/brent/.Xresources.d/solarized-light"
+#include "/home/brent/.Xresources.d/molokai_bright"
+!#include "/home/brent/.Xresources.d/tango-dark"
+!#include "/home/brent/.Xresources.d/tango-light"
+!#include "/home/brent/.Xresources.d/xterm"
+!#include "/home/brent/.Xresources.d/black-on-white"
+!#include "/home/brent/.Xresources.d/monokai"
 
 URxvt.font:                 xft:DejaVuSansMono Nerd Font Mono:size=13
+!URxvt.font:                 xft:Hack Nerd Font Mono:size=13
 URxvt.scrollBar:            False
 URxvt.perl-ext-common:      resize-font,selection-to-clipboard
 !URxvt.perl-ext-common:      resize-font,tabbed,selection-to-clipboard
@@ -104,3 +105,4 @@ URxvt.perl-ext-common:      resize-font,selection-to-clipboard
 URxvt.resize-font.smaller:  C-Down
 URxvt.resize-font.bigger:   C-Up
 URxvt.depth:                32
+URxvt.intensityStyles:      false

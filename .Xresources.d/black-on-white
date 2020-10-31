@@ -1,6 +1,7 @@
 ! Black on White (default)
 *foreground:    #000000
-*background:    [90]#ffffff
+!*background:    [90]#ffffff
+*background:    #ffffff
 *cursorColor:   #000000
 
 *color0:    #000000
