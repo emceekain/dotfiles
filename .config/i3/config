@@ -183,6 +183,7 @@ assign [class="TelegramDesktop"] $chat
 assign [class="Signal"] $chat 
 assign [class="Pidgin"] $chat
 assign [class="Gvim"] $dev1
+assign [class="lyx"] $dev1
 #assign [class="URxvt"] $dev2
 #assign [class="konsole"] $dev2
 assign [class="Slack"] $dev2
@@ -193,7 +194,7 @@ assign [class="filelight"] $util
 assign [class="Baobab"] $util
 assign [class="krusader"] $files
 assign [class="dolphin"] $files
-assign [class="doublecmd|Double Commander"] $files
+assign [class="doublecmd|Doublecmd"] $files
 assign [class="Thunar"] $files
 assign [class="pcmanfm"] $files
 assign [class="libreoffice|Soffice"] $docs
@@ -339,7 +340,7 @@ exec_always --no-startup-id feh --bg-scale $WALLPAPER
 exec_always --no-startup-id xmodmap ~/.Xmodmap
 exec --no-startup-id $HOME/.screenlayout/Primary_Right.sh
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec_always --no-startup-id picom -f -D 7
+exec_always --no-startup-id picom
 exec_always --no-startup-id conky -c .config/conky/Manjaro.config
 exec --no-startup-id nm-applet
 exec --no-startup-id volumeicon
@@ -350,8 +351,8 @@ exec --no-startup-id telegram-desktop
 exec --no-startup-id signal-desktop
 exec --no-startup-id redshift-gtk
 exec --no-startup-id thunderbird
-#exec --no-startup-id synapse
-exec --no-startup-id albert
+exec --no-startup-id synapse
+#exec --no-startup-id albert
 exec --no-startup-id kde-connect
 #exec_always --no-startup-id dunst -conf $HOME/.config/dunst/dunstrc
 exec_always --no-startup-id /usr/lib/xfce4/notifyd/xfce4-notifyd
