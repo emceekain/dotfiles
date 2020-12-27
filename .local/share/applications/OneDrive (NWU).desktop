@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=OneDrive (NWU)
+Exec=chromium --app=https://nebrwesleyan-my.sharepoint.com
+Icon=/home/brent/Dropbox/Webapps/Icons/OneDrive2.png
