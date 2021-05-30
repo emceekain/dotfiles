@@ -3,7 +3,8 @@ export EDITOR="nvim"
 export PATH="$PATH:/home/brent/Development/Scripts:/home/brent/Development/rym-to-gmbrc/rym-to-sql"
 #export WALLPAPER=/usr/share/backgrounds/blue_fractal_wallpaper.png
 #export WALLPAPER=/home/brent/Pictures/Wallpapers/HouseStark.jpg
-export WALLPAPER=/home/brent/Pictures/Wallpapers/dark_purple.jpg
+#export WALLPAPER=/home/brent/Pictures/Wallpapers/dark_purple.jpg
+export WALLPAPER=/usr/share/backgrounds/archlinux/wave.png
 
 # Some combination of the following lines ensure that QT/GTK applications look nice no matter the DE I chooose.
 export QT_QPA_PLATFORMTHEME=qt5ct
