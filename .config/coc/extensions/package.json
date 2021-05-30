@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "coc-python": ">=1.2.12",
-    "coc-snippets": ">=2.2.1",
+    "coc-python": ">=1.2.13",
+    "coc-snippets": ">=2.4.2",
     "coc-vimtex": ">=1.0.4"
   }
 }

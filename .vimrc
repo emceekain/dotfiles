@@ -300,12 +300,15 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
 
     " }
     " Fugitive {
-        nnoremap <silent> <leader>gs :Gstatus<CR>
-        nnoremap <silent> <leader>gd :Gdiff<CR>
-        nnoremap <silent> <leader>gc :Gcommit<CR>
-        nnoremap <silent> <leader>gb :Gblame<CR>
-        nnoremap <silent> <leader>gl :Glog<CR>
+        nnoremap <silent> <leader>gs :Git<CR>
+        nnoremap <silent> <leader>gd :Gdiffsplit<CR>
+        nnoremap <silent> <leader>gm :Git merge<CR>
+        nnoremap <silent> <leader>gc :Git commit<CR>
+        nnoremap <silent> <leader>gb :Git_blame<CR>
+        nnoremap <silent> <leader>glg :Gclog<CR>
+        nnoremap <silent> <leader>gf :Git fetch<CR>
         nnoremap <silent> <leader>gp :Git push<CR>
+        nnoremap <silent> <leader>gl :Git pull<CR>
         nnoremap <silent> <leader>gw :Gwrite<CR>
         nnoremap <silent> <leader>ge :Gedit<CR>
         " Mnemonic _i_nteractive
