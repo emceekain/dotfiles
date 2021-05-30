@@ -1,4 +1,4 @@
-# LyX 2.3.5.2 generated this file. If you want to make your own
+# LyX 2.3.6.1 generated this file. If you want to make your own
 # modifications you should do them from inside LyX and save.
 
 Format 24
@@ -16,8 +16,8 @@ Format 24
 #
 
 \screen_zoom 200
-\screen_font_roman "Times New Roman"
-\screen_font_sans "Roboto"
+\screen_font_roman "Noto Serif"
+\screen_font_sans "Noto Sans"
 \screen_font_sizes 5 7 8 9 10 12 14.4 17.26 20.74 24.88
 \single_instance false
 
@@ -76,17 +76,7 @@ Format 24
 # FORMATS SECTION ##########################
 #
 
-\format "excel" "xls" "Excel spreadsheet" "" "" "auto" "document" "application/vnd.ms-excel"
-\format "fen" "fen" "FEN" "" "auto" "auto" "" ""
-\format "fig" "fig" "FIG" "" "auto" "auto" "vector" "application/x-xfig"
-\format "gnumeric" "gnumeric" "Gnumeric spreadsheet" "" "" "auto" "document" "application/x-gnumeric"
-\format "agr" "agr" "Grace" "" "auto" "auto" "vector" ""
-\format "html_table" "html" "HTML Table (for spreadsheets)" "" "" "auto" "document" "text/html"
-\format "excel2" "xlsx" "MS Excel Office Open XML" "" "" "auto" "document" "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-\format "noteedit" "not" "Noteedit" "" "auto" "auto" "vector" ""
-\format "oocalc" "ods" "OpenDocument spreadsheet" "" "" "auto" "document" "application/vnd.oasis.opendocument.spreadsheet"
 \format "pdf2" "pdf" "PDF (pdflatex)" "F" "zathura" "" "document,vector,menu=export" ""
-\format "tgif" "obj, tgo" "Tgif" "" "auto" "auto" "vector" "application/x-tgif"
 
 #
 # CONVERTERS SECTION ##########################
