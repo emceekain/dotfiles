@@ -4,5 +4,6 @@ Version=1.0
 Terminal=false
 Type=Application
 Name=Todoist
-Exec=chromium --app=https://todoist.com/app
+#Exec=chromium --app=https://todoist.com/app
+Exec=firefox -p work --kiosk --new-window https://todoist.com/app
 Icon=/home/brent/Pictures/Icons/Todoist.png

@@ -4,5 +4,6 @@ Version=1.0
 Terminal=false
 Type=Application
 Name=Outlook (NWU)
-Exec=chromium --app=https://outlook.com/nebrwesleyan.edu
+#Exec=chromium --app=https://outlook.com/nebrwesleyan.edu
+Exec=firefox -p work --kiosk --new-window https://outlook.com/nebrwesleyan.edu
 Icon=/home/brent/Pictures/Icons/Outlook 2.png

@@ -4,5 +4,6 @@ Version=1.0
 Terminal=false
 Type=Application
 Name=OneDrive (NWU)
-Exec=chromium --app=https://nebrwesleyan-my.sharepoint.com
+#Exec=chromium --app=https://nebrwesleyan-my.sharepoint.com
+Exec=firefox -p work --kiosk --new-window https://nebrwesleyan-my.sharepoint.com
 Icon=/home/brent/Pictures/Icons/OneDrive2.png

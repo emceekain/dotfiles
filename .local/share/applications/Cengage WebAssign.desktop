@@ -4,5 +4,6 @@ Version=1.0
 Terminal=false
 Type=Application
 Name=Cengage WebAssign
-Exec=chromium --app=https://www.webassign.net/v4cgi/faculty.pl
+#Exec=chromium --app=https://www.webassign.net/v4cgi/faculty.pl
+Exec=firefox -p work --kiosk --new-window https://www.webassign.net/v4cgi/faculty.pl
 Icon=/home/brent/Pictures/Icons/Cengage.png

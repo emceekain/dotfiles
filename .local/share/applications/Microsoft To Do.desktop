@@ -4,5 +4,6 @@ Version=1.0
 Terminal=false
 Type=Application
 Name=Microsoft To Do
-Exec=chromium --app=https://to-do.live.com/tasks/planned
+#Exec=chromium --app=https://to-do.live.com/tasks/planned
+Exec=firefox -p work --kiosk --new-window https://to-do.live.com/tasks/planned
 Icon=/home/brent/Pictures/Icons/Microsoft To Do.png

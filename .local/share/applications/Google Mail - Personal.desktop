@@ -4,5 +4,6 @@ Version=1.0
 Terminal=false
 Type=Application
 Name=Gmail - Personal
-Exec=chromium --app=https://mail.google.com/mail/u/0
+#Exec=chromium --app=https://mail.google.com/mail/u/0
+Exec=firefox -p work --kiosk --new-window https://mail.google.com/mail/u/0
 Icon=/home/brent/Pictures/Icons/Google Mail 2.png
