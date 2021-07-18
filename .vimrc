@@ -156,8 +156,8 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         "set nowrap                  " Disables line-wrapping.
         set showmatch               " Highlights matching [{()}].
         set wildmenu                " Visual autocomplete for command menu.
-        colorscheme molokai
-        "colorscheme PaperColor
+        "colorscheme molokai
+        colorscheme PaperColor
         "colorscheme primary
         if LINUX() && has('gui_running')
             set guifont=Hack\ Nerd\ Font\ 13            " Required for gvim.
@@ -167,13 +167,13 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         let g:molokai_original = 0  " Original Theme looks more like Monokai, i.e., ugly.
         let g:rehash245 = 1
         "colorscheme solarized
-        "set background=dark         " Required for solarized (dark).
+        "set background=dark        " Required for solarized (dark).
         "set background=light       " Required for the light PaperColor theme.
 
         "let mapleader=','               " Change from the default '\' to ','.
 
         " Overwrite write-protected files.
-        cmap w!! w !sudo tee % >/dev/null
+        cmap w!! w !sudo tee > /dev/null %
 
         " Faster saving.
         nmap <leader>w :w!<cr>
