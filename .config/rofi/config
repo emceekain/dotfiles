@@ -3,7 +3,7 @@ rofi.combi-modi:                    window,drun
 rofi.combi-hide-mode-prefix:        true
 
 rofi.matching:                      regex 
-rofi.font:                          DejaVu Sans Light 18
+rofi.font:                          Noto Sans Light 18
 rofi.show-icons:                    true
 /*rofi.icon-theme:                    Breeze */
 
