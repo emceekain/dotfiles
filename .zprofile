@@ -2,6 +2,7 @@
 
 export VISUAL="nvim"
 export EDITOR="nvim"
+export TERMINAL="alacritty"
 export PATH="$PATH:/home/brent/Development/Scripts:/home/brent/Development/rym-to-gmbrc/rym-to-sql"
 #export WALLPAPER=/usr/share/backgrounds/blue_fractal_wallpaper.png
 #export WALLPAPER=/home/brent/Pictures/Wallpapers/HouseStark.jpg
