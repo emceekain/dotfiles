@@ -88,6 +88,9 @@ include-file = $HOME/.config/polybar/config.d/temperature.ini
 [module/powermenu]
 include-file = $HOME/.config/polybar/config.d/powermenu.ini
 
+[module/pkg]
+include-file = $HOME/.config/polybar/config.d/pkg.ini
+
 [settings]
 screenchange-reload = true
 ;compositing-background = xor
