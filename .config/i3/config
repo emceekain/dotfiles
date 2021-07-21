@@ -100,25 +100,25 @@ bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
 
 #Web
-set $web "  Web"
+set $web " "
 #Mail
-set $mail "  Mail"
+set $mail " "
 #Chat
-set $chat "  Chat"
+set $chat " "
 #Development
-set $dev1 "  Dev I"
+set $dev1 " "
 #Terminal 
-set $dev2 "  Dev II"
+set $dev2 " "
 #Utilities
-set $util "  Utilities"
+set $util " "
 #Files
-set $files "  Files"
+set $files " "
 #Documents
-set $docs "  Documents"
+set $docs " "
 #Misc
-set $misc "  Misc."
+set $misc " "
 #Music
-set $music "  Music"
+set $music " "
 
 workspace $web output HDMI-1
 workspace $mail output HDMI-0 
