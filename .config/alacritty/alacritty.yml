@@ -13,6 +13,7 @@ import:
   #- ~/.config/alacritty/themes/Builtin Light.yml
   #- ~/.config/alacritty/themes/Builtin Solarized Dark.yml
   #- ~/.config/alacritty/themes/Builtin Solarized Light.yml
+  #- ~/.config/alacritty/themes/Dark+.yml
   - ~/.config/alacritty/themes/Molokai.yml
   #- ~/.config/alacritty/themes/Ubuntu.yml
 
