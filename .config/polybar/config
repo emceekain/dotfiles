@@ -8,18 +8,7 @@
 ;=====================================================
 
 [colors]
-;background = ${xrdb:color0:#222}
-;background = #222
-background = #000
-;background-alt = #444
-background-alt = #222
-;foreground = ${xrdb:color7:#222}
-foreground = #dfdfdf
-foreground-alt = #555
-;primary = #ffb52a
-primary = #0000ff
-secondary = #e60053
-alert = #bd2c40
+include-file = $HOME/.config/polybar/colors.ini
 
 [bar/top]
 monitor = ${env:MONITOR:}
@@ -79,6 +68,9 @@ include-file = $HOME/.config/polybar/config.d/date.ini
 [module/volume]
 include-file = $HOME/.config/polybar/config.d/volume.ini
 
+[module/pulseaudio]
+include-file = $HOME/.config/polybar/config.d/pulseaudio.ini
+
 [module/battery]
 include-file = $HOME/.config/polybar/config.d/battery.ini
 
@@ -90,6 +82,15 @@ include-file = $HOME/.config/polybar/config.d/powermenu.ini
 
 [module/pkg]
 include-file = $HOME/.config/polybar/config.d/pkg.ini
+
+[module/launcher]
+include-file = $HOME/.config/polybar/config.d/launcher.ini
+
+[module/sysmenu]
+include-file = $HOME/.config/polybar/config.d/sysmenu.ini
+
+[module/color-switch]
+include-file = $HOME/.config/polybar/config.d/color-switch.ini
 
 [settings]
 screenchange-reload = true
