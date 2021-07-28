@@ -1,0 +1,12 @@
+configuration {
+	modi: "combi,drun,window";
+	font: "Noto Sans Light 18";
+	show-icons: true;
+	combi-modi: "window,drun";
+	matching: "regex";
+	color-normal: "#222222, #c1c1c1, #333333, #1793d1, #ffffff";
+	color-urgent: "#222222, #ff1844, #333333, #1793d1, #ff1844";
+	color-active: "#222222, #80cbc4, #333333, #1793d1, #80cbc4";
+	color-window: "#222222, #222222, #333333";
+	combi-hide-mode-prefix: true;
+}

@@ -10,6 +10,8 @@ export PATH="$PATH:$GEM_HOME/bin"
 #export WALLPAPER=/home/brent/Pictures/Wallpapers/HouseStark.jpg
 #export WALLPAPER=/home/brent/Pictures/Wallpapers/dark_purple.jpg
 export WALLPAPER=/usr/share/backgrounds/archlinux/wave.png
+export WIRELESS_ADAPTER="$(ip -o link | grep ether | awk -F': ' '{print $2}')"
+export TEMP_SENSOR="$(find /sys/devices/platform -name temp1_input)"
 
 # Some combination of the following lines ensure that QT/GTK applications look nice no matter the DE I chooose.
 export QT_QPA_PLATFORMTHEME=qt5ct

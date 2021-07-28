@@ -8,7 +8,7 @@
  */
 
 configuration {
-	font:							"Noto Sans 13";
+	font:							"Font Awesome 5 Free Solid 13";
     show-icons:                     true;
 	icon-theme: 					"Papirus";
     drun-display-format:            "{name}";
@@ -42,11 +42,11 @@ prompt {
 
 textbox-prompt-colon {
 	padding: 						-2px 5px 5px -10px;
-	font:							"Material\-Design\-Iconic\-Font 12";
+	font:							"Font Awesome 5 Free Solid 12";
 	background-color: 				@al;
 	text-color: 					@bar;
 	expand: false;
-	str: "";
+	str: "";
 }
 
 entry {
