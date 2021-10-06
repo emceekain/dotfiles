@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Desmos
+#Exec=chromium --app=https://desmos.com/calculator
+Exec=firefox -p work --kiosk --new-window https://desmos.com/calculator
+Icon=/home/brent/Pictures/Icons/Desmos.png
