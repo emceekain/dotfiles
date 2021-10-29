@@ -30,6 +30,7 @@ Format 24
 \set_color "foreground" "#e0dddd"
 \set_color "selection" "#000000"
 \set_color "selectiontext" "#ffffff"
+\set_color "commentbg" "#3f3f3f"
 \set_color "greyedouttext" "#af00af"
 \set_color "greyedoutbg" "#ff5500"
 \set_color "shaded" "#87ff00"
