@@ -10,6 +10,7 @@ change_color() {
 	sed -i -e 's/background = #.*/background = #FFFFFF/g' $PFILE
 	sed -i -e 's/foreground = #.*/foreground = #2E2E2E/g' $PFILE
 	sed -i -e 's/foreground-alt = #.*/foreground-alt = #656565/g' $PFILE
+	sed -i -e 's/background-alt = #.*/background-alt = #e6e6e6/g' $PFILE
 	sed -i -e "s/module-fg = #.*/module-fg = $MF/g" $PFILE
 	sed -i -e "s/primary = #.*/primary = $AC/g" $PFILE
 	sed -i -e 's/secondary = #.*/secondary = #E53935/g' $PFILE
