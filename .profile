@@ -10,6 +10,7 @@ export PATH="$PATH:$GEM_HOME/bin"
 export WALLPAPER=/usr/share/backgrounds/archlinux/wave.png
 export WIRELESS_ADAPTER="$(ip -o link | grep ether | awk -F': ' '{print $2}')"
 export TEMP_SENSOR="$(find /sys/devices/platform -name temp1_input)"
+export WINIT_X11_SCALE_FACTOR=1.00
 
 # Some combination of the following lines ensure that QT/GTK applications look nice no matter the DE I chooose.
 export QT_QPA_PLATFORMTHEME=qt5ct
