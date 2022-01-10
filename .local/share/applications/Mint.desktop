@@ -4,5 +4,6 @@ Version=1.0
 Terminal=false
 Type=Application
 Name=Mint
-Exec=chromium --app=https://www.mint.com/
+#Exec=chromium --app=https://www.mint.com/
+Exec=firefox -p work --kiosk --new-window https://www.mint.com/
 Icon=/home/brent/Pictures/Icons/Mint 2.png

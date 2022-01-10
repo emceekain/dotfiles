@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Proton Calendar
+#Exec=chromium --app=https://calendar.protonmail.com
+Exec=firefox -p work --kiosk --new-window https://calendar.protonmail.com
+Icon=/home/brent/Pictures/Icons/Proton Mail.png

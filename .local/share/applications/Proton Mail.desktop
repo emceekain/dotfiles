@@ -4,5 +4,6 @@ Version=1.0
 Terminal=false
 Type=Application
 Name=Proton Mail
-Exec=chromium --app=https://mail.protonmail.com
+#Exec=chromium --app=https://mail.protonmail.com
+Exec=firefox -p work --kiosk --new-window https://mail.protonmail.com
 Icon=/home/brent/Pictures/Icons/Proton Mail.png

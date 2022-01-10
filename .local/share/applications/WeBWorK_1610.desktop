@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=WeBWorK (MATH 1610)
+#Exec=chromium --app=https://webwork.runestone.academy/webwork2/nebrwesleyan-mckain-math-1610-spr-2022/
+Exec=firefox -p work --kiosk --new-window https://webwork.runestone.academy/webwork2/nebrwesleyan-mckain-math-1610-spr-2022/
+Icon=/home/brent/Pictures/Icons/WeBWorK.svg
