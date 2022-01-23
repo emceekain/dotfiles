@@ -184,11 +184,13 @@ assign [class="Signal"] $chat
 assign [class="Pidgin"] $chat
 assign [class="zoom"] $chat
 assign [class="Microsoft Teams - Preview"] $chat
+assign [class="Slack"] $chat
 assign [class="Gvim"] $dev1
 assign [class="lyx"] $dev1
+assign [class="TeXstudio"] $dev1
+assign [class="Code"] $dev1
 #assign [class="URxvt"] $dev2
 #assign [class="konsole"] $dev2
-assign [class="Slack"] $dev2
 assign [class="Gitg"] $dev2
 assign [class="KeePassXC"] $util
 assign [class="ksysguard"] $util
@@ -314,7 +316,7 @@ bindsym $mod+r mode "resize"
 # Custom Rofi Launcher
 # bindsym $mod+d exec rofi -show run -lines 3 -eh 2 -width 100 -padding 800 -opacity "85" -bw 0 -font "System Roboto Regular Display 18"
 # bindsym $mod+d exec i3-dmenu-desktop --dmenu='rofi -dmenu -font "Roboto Regular 18"'
-bindsym $mod+f exec rofi -show window -theme .config/rofi/config.rasi
+bindsym $mod+f exec rofi -show window -theme .config/polybar/scripts/rofi/launcher.rasi
 bindsym $mod+d exec rofi -show drun -theme .config/polybar/scripts/rofi/launcher.rasi
 
 # Pulse Audio controls
