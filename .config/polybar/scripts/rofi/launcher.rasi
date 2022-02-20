@@ -39,7 +39,7 @@ prompt {
 	padding: 						0px 5px 0px -10px;
 	background-color: 				@al;
 	text-color: 					@bar;
-	font:							"Font Awesome 5 Free Solid 20";
+	font:							"Font Awesome 6 Free Solid 20";
 }
 
 entry {

@@ -42,7 +42,7 @@ prompt {
 
 textbox-prompt-colon {
 	padding: 						-2px 5px 5px -10px;
-	font:							"Font Awesome 5 Free Solid 12";
+	font:							"Font Awesome 6 Free Solid 12";
 	background-color: 				@al;
 	text-color: 					@bar;
 	expand: false;

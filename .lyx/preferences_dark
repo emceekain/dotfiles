@@ -46,6 +46,7 @@ Format 24
 \set_color "error" "#00ffff"
 \set_color "eolmarker" "#00ff00"
 \set_color "added_space" "#aaff00"
+\set_color "tabularline" "#ffffff"
 \set_color "bottomarea" "#121212"
 \set_color "newpage" "#00ff00"
 \set_color "buttonbg" "#323232"
