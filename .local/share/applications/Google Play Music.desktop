@@ -1,8 +1,0 @@
-#!/usr/bin/env xdg-open
-[Desktop Entry]
-Version=1.0
-Terminal=false
-Type=Application
-Name=Google Play Music
-Exec=chromium --app=https://play.google.com/music/
-Icon=/home/brent/Pictures/Icons/Google Play Music 2.png

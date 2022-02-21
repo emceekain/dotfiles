@@ -4,5 +4,6 @@ Version=1.0
 Terminal=false
 Type=Application
 Name=Google Forms
-Exec=chromium --app=https://forms.google.com
-Icon=/home/brent/Pictures/Icons/Google Forms.png
+#Exec=chromium --app=https://forms.google.com/
+Exec=firefox -p work --kiosk --new-window https://forms.google.com/
+Icon=/home/brent/Pictures/Icons/Google Forms 2.png

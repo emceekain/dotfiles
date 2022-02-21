@@ -6,4 +6,4 @@ Type=Application
 Name=Google Calendar
 #Exec=chromium --app=https://calendar.google.com/
 Exec=firefox -p work --kiosk --new-window https://calendar.google.com/
-Icon=/home/brent/Pictures/Icons/Google Calendar 2.png
+Icon=/home/brent/Pictures/Icons/Google Calendar 3.png

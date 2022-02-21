@@ -4,5 +4,6 @@ Version=1.0
 Terminal=false
 Type=Application
 Name=Google Sheets
-Exec=chromium --app=https://sheets.google.com
-Icon=/home/brent/Pictures/Icons/Google Sheets.png
+#Exec=chromium --app=https://sheets.google.com/
+Exec=firefox -p work --kiosk --new-window https://sheets.google.com/
+Icon=/home/brent/Pictures/Icons/Google Sheets 2.png

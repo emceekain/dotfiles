@@ -4,5 +4,6 @@ Version=1.0
 Terminal=false
 Type=Application
 Name=Google Docs
-Exec=chromium --app=https://docs.google.com/
-Icon=/home/brent/Pictures/Icons/Google Docs.png
+#Exec=chromium --app=https://docs.google.com/
+Exec=firefox -p work --kiosk --new-window https://docs.google.com/
+Icon=/home/brent/Pictures/Icons/Google Docs 2.png
