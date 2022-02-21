@@ -4,5 +4,6 @@ Version=1.0
 Terminal=false
 Type=Application
 Name=Wolfram Alpha
-Exec=chromium --app=https://www.wolframalpha.com/
+#Exec=chromium --app=https://www.wolframalpha.com/
+Exec=firefox -p work --kiosk --new-window https://www.wolframalpha.com/
 Icon=/home/brent/Pictures/Icons/Wolfram Alpha 2.png
