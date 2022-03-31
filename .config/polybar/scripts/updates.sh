@@ -1,6 +1,7 @@
 #BAR_ICON=""
 UPDATES_ICON=" "
-UP_TO_DATE_ICON=" "
+UP_TO_DATE_ICON=" "
+# 
 
 NOTIFY_ICON=/usr/share/icons/Papirus/32x32/apps/system-software-update.svg
 
@@ -11,10 +12,10 @@ while true; do
 
     # notify user of updates
     if hash notify-send &>/dev/null; then
-        if (( UPDATES > 50 )); then
+        if (( UPDATES > 100 )); then
             notify-send -u critical -i $NOTIFY_ICON \
                 "You really need to update!!" "$UPDATES New packages"
-        elif (( UPDATES > 25 )); then
+        elif (( UPDATES > 50 )); then
             notify-send -u normal -i $NOTIFY_ICON \
                 "You should update soon" "$UPDATES New packages"
         elif (( UPDATES > 2 )); then
