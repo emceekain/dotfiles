@@ -136,9 +136,9 @@ set $chat " "
 set $dev1 " "
 #Terminal 
 set $dev2 " "
-#Utilities
-set $util " "
-#Files
+#Utilities 
+set $util " "
+#Files 
 set $files " "
 #Documents
 set $docs " "
