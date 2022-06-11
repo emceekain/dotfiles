@@ -42,7 +42,7 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         "Plugin 'ap/vim-buftabline'             " Uses the tabline to create (non-clickable) tabs representing buffers.
         "Plugin 'itchyny/lightline.vim'
         "Plugin 'fholgado/minibufexpl.vim'      " Clickable buffer explorer.
-        "Plugin 'powerline/powerline'           " Statusline plugin.  See also: Airline.
+        "Plugin 'powerline/powerline'           " Statusline plugin.
     " }
     " Windows-Only {
         if WINDOWS()
@@ -78,16 +78,16 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         Plugin 'SirVer/ultisnips'               " Python-based snippet engine. See also: vim-snipmate.
     " }
     " Syntax/Linting {
-        Plugin 'dense-analysis/ale'             " Asynchronous lint/syntax engine. See also: syntastic.
-        "Plugin 'scrooloose/syntastic'          " Syntax/lint engine. See also: ale.
+        Plugin 'dense-analysis/ale'             " Asynchronous lint/syntax engine.
+        "Plugin 'scrooloose/syntastic'          " Syntax/lint engine.
     " }
     " Auto-Completion {
-        Plugin 'neoclide/coc.nvim'                  " Intellisense engine for Vim/Neovim.  See also:  deoplete, neocomplete, supertab
+        Plugin 'neoclide/coc.nvim'                  " Intellisense engine for Vim/Neovim. 
         Plugin 'raimondi/delimitmate'               " Insert mode auto-completion of delimiters.
-        "Plugin 'shougo/deoplete.nvim'              " Asynchronous completion framework.  See also: coc, neocomplete, suptertab, youcompleteme.
-        Plugin 'davidhalter/jedi-vim'           " Python autocompletion library.
+        "Plugin 'shougo/deoplete.nvim'              " Asynchronous completion framework.
+        Plugin 'davidhalter/jedi-vim'               " Python autocompletion library.
         "Plugin 'ervandew/supertab'                 " Insert-mode completion with <Tab>.  Annoying for spacing issues.
-        "Plugin 'valloric/youcompleteme'            " Code-completion engine for C(++), Python, C#, Java, JavaScript and more.  See also: deoplete, neocomplete, supertab
+        "Plugin 'valloric/youcompleteme'            " Code-completion engine for C(++), Python, C#, Java, JavaScript and more.
     " }
     " SQL {
         Plugin 'tpope/vim-dadbod'                   " A modern take on dbext.
@@ -101,9 +101,9 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         Plugin 'mileszs/ack.vim'                    " Ack usage from inside vim.
     " }
     " LaTeX {
-        "Plugin 'vim-latex/vim-latex'               " LaTeX support. See also: vimtex.
+        "Plugin 'vim-latex/vim-latex'               " LaTeX support.
         Plugin 'xuhdev/vim-latex-live-preview'      " Automatic PDF generation on save.
-        Plugin 'lervag/vimtex'                      " A modern LaTeX implementation. See also: vim-latex(suite)
+        Plugin 'lervag/vimtex'                      " A modern LaTeX implementation.
     " }
     " Misc Interface Plugins {
         Plugin 'ryanoasis/vim-devicons'             " Adds filetype icons to various vim plugins.
@@ -127,6 +127,7 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         Plugin 'tbabej/taskwiki'                   " Task management combining TaskWarrier and vimwiki.
         Plugin 'vimwiki/vimwiki'                    " Personal Wiki.
         Plugin 'blindfs/vim-taskwarrior'
+        Plugin 'itchyny/calendar.vim'              " Calendar
     " }
     call vundle#end()           " Required for Vundle
     filetype plugin indent on   " required for Vundle
@@ -160,7 +161,7 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         colorscheme PaperColor
         "colorscheme primary
         if LINUX() && has('gui_running')
-            set guifont=Hack\ Nerd\ Font\ 13            " Required for gvim.
+            set guifont=Hack\ Nerd\ Font\ Mono\ 14      " Required for gvim.
         elseif WINDOWS() && has('gui_running')
             set guifont=Hack:h11
         endif
