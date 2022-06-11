@@ -54,7 +54,7 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
     " }
     " Session/Project Management {
         Plugin 'tpope/vim-obsession'                " Continuously updated session files.
-        Plugin 'vim-scripts/project.tar.gz'
+        "Plugin 'vim-scripts/project.tar.gz'
         "Plugin 'xolox/vim-session'
         "Plugin 'thaerkh/vim-workspace'             " Automated session management.
     " }
@@ -111,7 +111,7 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         Plugin 'kshenoy/vim-signature'              " Toggle, display, and navigate marks.
     " }
     " Editing {
-        Plugin 'vim-scripts/Align'              " Aligns text, equations, tables, etc.
+        "Plugin 'vim-scripts/Align'              " Aligns text, equations, tables, etc.
         Plugin 'easymotion/vim-easymotion'
         Plugin 'sjl/gundo.vim'                  " Undo tree visualizer.
         Plugin 'preservim/nerdcommenter'        " Commenting functions.
@@ -124,9 +124,9 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         Plugin 'suan/vim-instant-markdown'          " HTML-preview of Markdown files.
     " }
     " Misc {
-        Plugin 'tbabej/taskwiki'                   " Task management combining TaskWarrier and vimwiki.
+        Plugin 'tbabej/taskwiki'                    " Task management combining TaskWarrior and vimwiki.
         Plugin 'vimwiki/vimwiki'                    " Personal Wiki.
-        Plugin 'blindfs/vim-taskwarrior'
+        "Plugin 'blindfs/vim-taskwarrior'
     " }
     call vundle#end()           " Required for Vundle
     filetype plugin indent on   " required for Vundle
