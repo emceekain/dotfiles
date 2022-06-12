@@ -40,6 +40,7 @@ if  [[ $1 = "--amber" ]]; then
 elif  [[ $1 = "--blue" ]]; then
 	MF="#FFFFFF"
 	AC="#1e88e5"
+    WALLPAPER=/usr/share/backgrounds/archlinux/geowaves.png
 	change_color
 elif  [[ $1 = "--blue-gray" ]]; then
 	MF="#FFFFFF"
@@ -108,6 +109,7 @@ elif  [[ $1 = "--teal" ]]; then
 elif  [[ $1 = "--yellow" ]]; then
 	MF="#1F1F1F"
 	AC="#fdd835"
+    WALLPAPER=$HOME/Pictures/Wallpaper/wp3800530-dark-souls-3-wallpapers.jpg
 	change_color
 else
 	cat <<- _EOF_
@@ -119,3 +121,5 @@ else
 	--red	--teal		--yellow
 	_EOF_
 fi
+
+feh --bg-scale $WALLPAPER
