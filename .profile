@@ -8,7 +8,10 @@ export PATH="$PATH:$GEM_HOME/bin"
 #export WALLPAPER=/home/brent/Pictures/Wallpapers/HouseStark.jpg
 #export WALLPAPER=/home/brent/Pictures/Wallpapers/dark_purple.jpg
 export WALLPAPER=/usr/share/backgrounds/archlinux/wave.png
-export WIRELESS_ADAPTER="$(ip -o link | grep ether | awk -F': ' '{print $2}')"
+#export WALLPAPER=/usr/share/backgrounds/archlinux/geowaves.png
+#export WALLPAPER=/usr/share/wallpapers/MilkyWay/contents/images/5120x2880.png
+#export WALLPAPER=/usr/share/wallpapers/IceCold/contents/images/5120x2880.png
+export WIRELESS_ADAPTER="$(ip -o link | grep ether | awk -F': ' '{print $2}' | grep w)"
 export TEMP_SENSOR="$(find /sys/devices/platform -name temp1_input)"
 export WINIT_X11_SCALE_FACTOR=1.00
 
