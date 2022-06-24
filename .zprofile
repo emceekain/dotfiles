@@ -21,6 +21,7 @@ export WINIT_X11_SCALE_FACTOR=1.00
 export QT_QPA_PLATFORMTHEME=qt5ct
 # [ "$XDG_CURRENT_DESKTOP" = "KDE" ] || [ "$XDG_CURRENT_DESKTOP" = "GNOME" ] || export QT_QPA_PLATFORMTHEME="qt5ct"
 export GTK_RC_FILE=/home/brent/.gtkrc-2.0
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
 # Per DE application associations.
 if [ "$XDG_DESKTOP_SESSION" = 'i3' ]
