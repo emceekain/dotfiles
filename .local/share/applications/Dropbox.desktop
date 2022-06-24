@@ -4,5 +4,6 @@ Version=1.0
 Terminal=false
 Type=Application
 Name=Dropbox
-Exec=chromium --app=https://www.dropbox.com/
+#Exec=chromium --app=https://www.dropbox.com/
+Exec=firefox -p work --kiosk --new-window https://www.dropbox.com/
 Icon=/home/brent/Pictures/Icons/Dropbox.png

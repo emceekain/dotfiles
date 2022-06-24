@@ -4,5 +4,6 @@ Version=1.0
 Terminal=false
 Type=Application
 Name=Reddit
-Exec=chromium --app=https://www.reddit.com/
+#Exec=chromium --app=https://www.reddit.com/
+Exec=firefox -p work --kiosk --new-window https://www.reddit.com/
 Icon=/home/brent/Pictures/Icons/Reddit.png

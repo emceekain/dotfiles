@@ -4,5 +4,6 @@ Version=1.0
 Terminal=false
 Type=Application
 Name=Android Messages
-Exec=chromium --app=https://messages.google.com/
+#Exec=chromium --app=https://messages.google.com/web
+Exec=firefox -p work --kiosk --new-window https://messages.google.com/web
 Icon=/home/brent/Pictures/Icons/Android Messages.png

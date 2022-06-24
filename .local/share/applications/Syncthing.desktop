@@ -4,5 +4,6 @@ Version=1.0
 Terminal=false
 Type=Application
 Name=Syncthing
-Exec=chromium --app=http://localhost:8384
+#Exec=chromium --app=http://localhost:8384
+Exec=firefox -p work --kiosk --new-window http://localhost:8384
 Icon=/home/brent/Pictures/Icons/Syncthing.png
