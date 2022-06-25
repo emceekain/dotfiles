@@ -1,0 +1,27 @@
+{
+    "debug.console.fontFamily": "Hack Nerd Font",
+    "editor.fontFamily": "'Hack Nerd Font','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.suggestSelection": "first",
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.wordWrap": "on",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "python.jediEnabled": false,
+    "python.languageServer": "Default",
+    "security.workspace.trust.untrustedFiles": "open",
+    "telemetry.telemetryLevel": "off",
+    "todo-tree.general.debug": true,
+    "todo-tree.general.enableFileWatcher": true,
+    "todo-tree.general.statusBar": "total",
+    "todo-tree.regex.regex": "((//|#|<!--|;|/\\*|^|%|\\\\)\\s*($TAGS)\\{*|^\\s*- \\[ \\])",
+    "todo-tree.ripgrep.ripgrep": "/bin/rg",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.autoDetectColorScheme": true,
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Default Light+"
+}
