@@ -2,8 +2,9 @@
     "editor.fontFamily": "'Hack Nerd Font','Droid Sans Mono', 'monospace', monospace",
     "explorer.sortOrder": "modified",
     "git.autofetch": true,
+    "git.confirmSync": false,
+    "redhat.telemetry.enabled": false,
     "todo-tree.ripgrep.ripgrep": "/bin/rg",
     "window.autoDetectColorScheme": true,
-    "window.zoomLevel": 1,
-    "workbench.colorTheme": "Default Light+"
+    "window.zoomLevel": 1
 }
