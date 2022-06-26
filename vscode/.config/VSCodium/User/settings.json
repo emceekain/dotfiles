@@ -1,6 +1,7 @@
 {
     "editor.fontFamily": "'Hack Nerd Font','Droid Sans Mono', 'monospace', monospace",
     "explorer.sortOrder": "modified",
+    "git.autofetch": true,
     "todo-tree.ripgrep.ripgrep": "/bin/rg",
     "window.autoDetectColorScheme": true,
     "window.zoomLevel": 1,
