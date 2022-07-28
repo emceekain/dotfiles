@@ -27,9 +27,10 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
     Plugin 'VundleVim/Vundle.vim'
     " Vundle plugins go here."
     " File Explorers {
-        "Plugin 'justinmk/vim-dirvish'      " A simple directory viewer.
-        Plugin 'preservim/nerdtree'         " Tree explorer
-        Plugin 'tpope/vim-vinegar'          " A simple directory viewer.
+        "Plugin 'justinmk/vim-dirvish'          " A simple directory viewer.
+        Plugin 'preservim/nerdtree'             " Tree explorer
+        Plugin 'xuyuanp/nerdtree-git-plugin'    " git support for NerdTree
+        Plugin 'tpope/vim-vinegar'              " A simple directory viewer.
     " }
     " File Finders {
         Plugin 'ctrlpvim/ctrlp.vim'             " Fuzzy file, buffer, mru, & tag finder.
