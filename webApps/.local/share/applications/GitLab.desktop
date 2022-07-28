@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=GitLab
+#Exec=chromium --app=https://gitlab.com/
+Exec=firefox -p work --kiosk --new-window https://gitlab.com/
+Icon=/home/brent/Pictures/Icons/GitLab.png

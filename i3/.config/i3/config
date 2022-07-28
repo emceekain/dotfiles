@@ -187,20 +187,19 @@ bindsym $mod+Shift+comma move workspace to output left
 bindsym $mod+Shift+period move workspace to output right
 
 #auto-assignments for certain applications
-assign [class="firefox"] $web
-assign [class="Chromium" instance="wunderlist"] $mail
-assign [class="Chromium" instance="mail.google.com"] $mail
-assign [class="Chromium" instance="calendar.google.com"] $mail
-assign [class="Chromium" instance="outlook.office365.com"] $mail
-assign [class="Chromium" instance="outlook.com"] $mail
+for_window [class="firefox" title="(@gmail.com - Gmail|Mail - Brent McKain - Outlook|^Google Calendar -)"] fullscreen disable, move container to workspace $mail
 assign [class="Chromium" instance="webmail.nationalindemnity.com"] $mail
 assign [class="Chromium" instance="messages.google.com"] $chat
 assign [class="Chromium" instance="messenger.com"] $chat
+#for_window [class="firefox" title="(Dashboard|Pearson|Cengage)"] fullscreen disable, move container to workspace $web
+for_window [class="firefox" title="Jupyter"] fullscreen disable, move container to workspace $dev1
+for_window [class="firefox" title="(Todoist|\| Trello |GitLab —|\| Zenkit Base —|To Do)"] fullscreen disable, move container to workspace $dev2
+for_window [class="firefox" title="OneDrive"] fullscreen disable, move container to workspace $files
 assign [class="Chromium" instance="docs.google.com"] $docs
 assign [class="Chromium" instance="sheets.google.com"] $docs
 assign [class="Chromium" instance="slides.google.com"] $docs
 assign [class="Chromium" instance="forms.google.com"] $docs
-assign [class="Chromium" instance="trello.com"] $mail
+assign [class="firefox"] $web
 assign [class="Chromium"] $web
 assign [class="Falkon"] $web
 assign [class="Epiphany"] $web
@@ -212,10 +211,13 @@ assign [class="Pidgin"] $chat
 assign [class="zoom"] $chat
 assign [class="Microsoft Teams - Preview"] $chat
 assign [class="Slack"] $chat
+assign [class="discord"] $chat
 assign [class="Gvim"] $dev1
 assign [class="lyx"] $dev1
 assign [class="TeXstudio"] $dev1
 assign [class="Code"] $dev1
+assign [class="VSCodium"] $dev1
+assign [class="DB Browser for SQLite"] $dev1
 #assign [class="URxvt"] $dev2
 #assign [class="konsole"] $dev2
 assign [class="Gitg"] $dev2

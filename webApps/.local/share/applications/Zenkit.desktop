@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Zenkit
+#Exec=chromium --app=https://base.zenkit.com
+Exec=firefox -p work --kiosk --new-window https://base.zenkit.com
+Icon=/home/brent/Pictures/Icons/Zenkit.png
