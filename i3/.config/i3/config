@@ -204,6 +204,7 @@ assign [class="Chromium"] $web
 assign [class="Falkon"] $web
 assign [class="Epiphany"] $web
 assign [class="Thunderbird"] $mail
+assign [class="Evolution"] $mail
 assign [class="Geary"] $mail
 assign [class="TelegramDesktop"] $chat 
 assign [class="Signal"] $chat 
@@ -356,7 +357,7 @@ bindsym XF86AudioMute exec --no-startup-id amixer -D pulse set Master toggle # m
 # Sreen brightness controls
 #bindsym XF86MonBrightnessUp exec xbacklight -inc 5 # increase screen brightness
 #bindsym XF86MonBrightnessDown exec xbacklight -dec 5 # decrease screen brightness
-bindsym XF86MonBrightnessUp exec sudo light -A 5 # increase screen brightness
+bindsym XF86MonBrightnessUp exec light -A 5 # increase screen brightness
 bindsym XF86MonBrightnessDown exec light -U 5 # decrease screen brightness
 
 # Touchpad controls
