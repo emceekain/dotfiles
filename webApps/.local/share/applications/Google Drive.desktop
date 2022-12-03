@@ -3,7 +3,7 @@
 Version=1.0
 Terminal=false
 Type=Application
-Name=Google Drive
+Name=Google Drive (Kiosk)
 #Exec=chromium --app=https://drive.google.com/
 Exec=firefox -p work --kiosk --new-window https://drive.google.com/
 Icon=/home/brent/Pictures/Icons/Google Drive 3.png

@@ -3,7 +3,7 @@
 Version=1.0
 Terminal=false
 Type=Application
-Name=Jupyter
+Name=Jupyter (Kiosk)
 #Exec=chromium --app=http://localhost:8888/
 Exec=firefox -p work --kiosk --new-window http://localhost:8888/
 Icon=/home/brent/Pictures/Icons/Jupyter.png

@@ -3,7 +3,7 @@
 Version=1.0
 Terminal=false
 Type=Application
-Name=Google Contacts
+Name=Google Contacts (Kiosk)
 #Exec=chromium --app=https://contacts.google.com/
 Exec=firefox -p work --kiosk --new-window https://contacts.google.com/
 Icon=/home/brent/Pictures/Icons/Google Contacts 2.png

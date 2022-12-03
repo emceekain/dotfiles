@@ -3,7 +3,7 @@
 Version=1.0
 Terminal=false
 Type=Application
-Name=Desmos
+Name=Desmos (Kiosk)
 #Exec=chromium --app=https://desmos.com/calculator
 Exec=firefox -p work --kiosk --new-window https://desmos.com/calculator
 Icon=/home/brent/Pictures/Icons/Desmos.png

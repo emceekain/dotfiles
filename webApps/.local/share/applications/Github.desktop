@@ -3,7 +3,7 @@
 Version=1.0
 Terminal=false
 Type=Application
-Name=GitHub
+Name=GitHub (Kiosk)
 #Exec=chromium --app=https://github.com/
 Exec=firefox -p work --kiosk --new-window https://github.com/
 Icon=/home/brent/Pictures/Icons/Github.png

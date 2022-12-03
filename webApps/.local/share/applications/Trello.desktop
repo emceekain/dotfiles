@@ -3,7 +3,7 @@
 Version=1.0
 Terminal=false
 Type=Application
-Name=Trello
+Name=Trello (Kiosk)
 #Exec=chromium --app=https://trello.com
 Exec=firefox -p work --kiosk --new-window https://trello.com
 Icon=/home/brent/Pictures/Icons/Trello.png

@@ -3,7 +3,7 @@
 Version=1.0
 Terminal=false
 Type=Application
-Name=Gmail - Professional
+Name=Gmail - Professional (Kiosk)
 #Exec=chromium --app=https://mail.google.com/mail/u/1
 Exec=firefox -p work --kiosk --new-window https://mail.google.com/mail/u/1
 Icon=/home/brent/Pictures/Icons/Google Mail 3.png

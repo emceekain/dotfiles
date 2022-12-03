@@ -3,7 +3,7 @@
 Version=1.0
 Terminal=false
 Type=Application
-Name=Canvas (NWU)
+Name=Canvas (Kiosk)
 #Exec=chromium --app=https://nebrwesleyan.instructure.com/
 Exec=firefox -p work --kiosk --new-window https://nebrwesleyan.instructure.com/
 Icon=/home/brent/Pictures/Icons/Canvas.png

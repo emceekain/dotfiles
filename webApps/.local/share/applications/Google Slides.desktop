@@ -3,7 +3,7 @@
 Version=1.0
 Terminal=false
 Type=Application
-Name=Google Slides
+Name=Google Slides (Kiosk)
 #Exec=chromium --app=https://slides.google.com/
 Exec=firefox -p work --kiosk --new-window https://slides.google.com/
 Icon=/home/brent/Pictures/Icons/Google Slides 2.png
