@@ -111,6 +111,10 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         Plugin 'severin-lemaignan/vim-minimap'      " Sublime-like minimap.
         Plugin 'kshenoy/vim-signature'              " Toggle, display, and navigate marks.
     " }
+    " Indentation {
+        "Plugin 'nathanaelkane/vim-indent-guides'   " Display indentation levels
+        Plugin 'yggdroot/indentline'                " Display indentation levels
+    " }
     " Editing {
         "Plugin 'vim-scripts/Align'              " Aligns text, equations, tables, etc.
         Plugin 'easymotion/vim-easymotion'
