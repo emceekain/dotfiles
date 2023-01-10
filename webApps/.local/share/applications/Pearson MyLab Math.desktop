@@ -3,7 +3,7 @@
 Version=1.0
 Terminal=false
 Type=Application
-Name=Pearson MyLab Math
+Name=Pearson MyLab Math (Kiosk)
 #Exec=chromium --app=https://portal.mypearson.com/course-home#/tab/active
 Exec=firefox -p work --kiosk --new-window https://portal.mypearson.com/course-home#/tab/active
 Icon=/home/brent/Pictures/Icons/Pearson.png

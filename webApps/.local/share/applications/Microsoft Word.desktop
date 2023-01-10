@@ -3,7 +3,7 @@
 Version=1.0
 Terminal=false
 Type=Application
-Name=Microsoft Word
+Name=Microsoft Word (Kiosk)
 #Exec=chromium --app=https://www.office.com/?auth=2
 Exec=firefox -p work --kiosk --new-window https://www.office.com/launch/word?auth=2
 Icon=/home/brent/Pictures/Icons/Microsoft Word.png

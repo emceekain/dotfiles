@@ -3,7 +3,7 @@
 Version=1.0
 Terminal=false
 Type=Application
-Name=Microsoft PowerPoint
+Name=Microsoft PowerPoint (Kiosk)
 #Exec=chromium --app=https://www.office.com/?auth=2
 Exec=firefox -p work --kiosk --new-window https://www.office.com/launch/powerpoint?auth=2
 Icon=/home/brent/Pictures/Icons/Microsoft Powerpoint.png

@@ -3,7 +3,7 @@
 Version=1.0
 Terminal=false
 Type=Application
-Name=Office 365
+Name=Office 365 (Kiosk)
 #Exec=chromium --app=https://www.office.com/?auth=2
 Exec=firefox -p work --kiosk --new-window https://www.office.com/?auth=2
 Icon=/home/brent/Pictures/Icons/Office 365.png
