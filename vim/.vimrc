@@ -13,129 +13,131 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
 " }
 
 " Plugins {
-    filetype off                " Required for Vundle
+    "filetype off               " Required for Vundle
 
     " Set the runtime path to include Vundle and initialize.
     if WINDOWS()
         set rtp+=$HOME/vimfiles/bundle/Vundle.vim/
         call vundle#begin('$HOME/vimfiles/bundle/')
     elseif LINUX()
-        set rtp+=~/.vim/bundle/Vundle.vim
-        call vundle#begin()
+        "set rtp+=~/.vim/bundle/Vundle.vim
+        "call vundle#begin()
+        call plug#begin('~/.vim/plugged')
     endif
 
-    Plugin 'VundleVim/Vundle.vim'
-    " Vundle plugins go here."
+    "Plugin 'VundleVim/Vundle.vim'
+    " Plugins go here."
     " File Explorers {
-        "Plugin 'justinmk/vim-dirvish'          " A simple directory viewer.
-        Plugin 'preservim/nerdtree'             " Tree explorer
-        Plugin 'xuyuanp/nerdtree-git-plugin'    " git support for NerdTree
-        Plugin 'tpope/vim-vinegar'              " A simple directory viewer.
+        "Plug 'justinmk/vim-dirvish'        " A simple directory viewer.
+        Plug 'preservim/nerdtree'           " Tree explorer
+        Plug 'xuyuanp/nerdtree-git-plugin'  " git support for NerdTree
+        Plug 'tpope/vim-vinegar'            " A simple directory viewer.
     " }
     " File Finders {
-        Plugin 'ctrlpvim/ctrlp.vim'             " Fuzzy file, buffer, mru, & tag finder.
+        Plug 'ctrlpvim/ctrlp.vim'           " Fuzzy file, buffer, mru, & tag finder.
     " }
     " Statusline & Tabline {
-        Plugin 'vim-airline/vim-airline'        " Lightweight statusline & tabline.
-        Plugin 'vim-airline/vim-airline-themes'
-        "Plugin 'jlanzarotta/bufexplorer'
-        Plugin 'jeetsukumaran/vim-buffergator'
-        "Plugin 'ap/vim-buftabline'             " Uses the tabline to create (non-clickable) tabs representing buffers.
-        "Plugin 'itchyny/lightline.vim'
-        "Plugin 'fholgado/minibufexpl.vim'      " Clickable buffer explorer.
-        "Plugin 'powerline/powerline'           " Statusline plugin.
+        Plug 'vim-airline/vim-airline'          " Lightweight statusline & tabline.
+        Plug 'vim-airline/vim-airline-themes'
+        "Plug 'jlanzarotta/bufexplorer'
+        Plug 'jeetsukumaran/vim-buffergator'
+        "Plug 'ap/vim-buftabline'               " Uses the tabline to create (non-clickable) tabs representing buffers.
+        "Plug 'itchyny/lightline.vim'
+        "Plug 'fholgado/minibufexpl.vim'        " Clickable buffer explorer.
+        "Plug 'powerline/powerline'             " Statusline plugin.
     " }
     " Windows-Only {
         if WINDOWS()
-            Plugin 'vim-scripts/MS-SQL-Server-Syntax'   " T-SQL Syntax highlighting.
-            Plugin 'pprovost/vim-ps1'                   " Syntax-highlighting for PowerShell.
-            Plugin 'vim-scripts/vbnet.vim'              " Syntax-highlighting for VB.NET. Not that great?
-            Plugin 'vim-scripts/vcscommand.vim'         " CVS/SVN/git/hg/bzr integration.
+            Plug 'vim-scripts/MS-SQL-Server-Syntax' " T-SQL Syntax highlighting.
+            Plug 'pprovost/vim-ps1'                 " Syntax-highlighting for PowerShell.
+            Plug 'vim-scripts/vbnet.vim'            " Syntax-highlighting for VB.NET. Not that great?
+            Plug 'vim-scripts/vcscommand.vim'       " CVS/SVN/git/hg/bzr integration.
         endif
     " }
     " Session/Project Management {
-        Plugin 'tpope/vim-obsession'                " Continuously updated session files.
-        "Plugin 'vim-scripts/project.tar.gz'
-        "Plugin 'xolox/vim-session'
-        "Plugin 'thaerkh/vim-workspace'             " Automated session management.
+        Plug 'tpope/vim-obsession'              " Continuously updated session files.
+        "Plug 'vim-scripts/project.tar.gz'
+        "Plug 'xolox/vim-session'
+        "Plug 'thaerkh/vim-workspace'           " Automated session management.
     " }
     " Themes {
-        "Plugin 'gertjanreynaert/cobalt2-vim-theme'
-        "Plugin 'nanotech/jellybeans.vim'
-        Plugin 'tomasr/molokai'
-        Plugin 'nlknguyen/papercolor-theme'
-        Plugin 'rakr/vim-one'
-        Plugin 'google/vim-colorscheme-primary'
-        Plugin 'altercation/vim-colors-solarized'
+        "Plug 'gertjanreynaert/cobalt2-vim-theme'
+        "Plug 'nanotech/jellybeans.vim'
+        Plug 'tomasr/molokai'
+        Plug 'nlknguyen/papercolor-theme'
+        Plug 'rakr/vim-one'
+        Plug 'google/vim-colorscheme-primary'
+        Plug 'altercation/vim-colors-solarized'
     " }
     " Tags {
-        "Plugin 'xolox/vim-easytags'                " Tag Generator
-        "Plugin 'xolox/vim-misc'                    " Required for vim-easytags, vim-session.
-        Plugin 'majutsushi/tagbar'                  " On-the-fly tag creater and viewer.
-        "Plugin 'vim-scripts/taglist.vim'
+        "Plug 'xolox/vim-easytags'              " Tag Generator
+        "Plug 'xolox/vim-misc'                  " Required for vim-easytags, vim-session.
+        Plug 'majutsushi/tagbar'                " On-the-fly tag creater and viewer.
+        "Plug 'vim-scripts/taglist.vim'
     " }
     " Snippets {
-        Plugin 'honza/vim-snippets'             " Standard snippet library.
-        Plugin 'SirVer/ultisnips'               " Python-based snippet engine. See also: vim-snipmate.
+        Plug 'honza/vim-snippets'           " Standard snippet library.
+        Plug 'SirVer/ultisnips'             " Python-based snippet engine. See also: vim-snipmate.
     " }
     " Syntax/Linting {
-        Plugin 'dense-analysis/ale'             " Asynchronous lint/syntax engine.
-        "Plugin 'scrooloose/syntastic'          " Syntax/lint engine.
+        Plug 'dense-analysis/ale'           " Asynchronous lint/syntax engine.
+        "Plug 'scrooloose/syntastic'        " Syntax/lint engine.
     " }
     " Auto-Completion {
-        Plugin 'neoclide/coc.nvim'                  " Intellisense engine for Vim/Neovim. 
-        Plugin 'raimondi/delimitmate'               " Insert mode auto-completion of delimiters.
-        "Plugin 'shougo/deoplete.nvim'              " Asynchronous completion framework.
-        Plugin 'davidhalter/jedi-vim'               " Python autocompletion library.
-        "Plugin 'ervandew/supertab'                 " Insert-mode completion with <Tab>.  Annoying for spacing issues.
-        "Plugin 'valloric/youcompleteme'            " Code-completion engine for C(++), Python, C#, Java, JavaScript and more.
+        Plug 'neoclide/coc.nvim'                " Intellisense engine for Vim/Neovim. 
+        Plug 'raimondi/delimitmate'             " Insert mode auto-completion of delimiters.
+        "Plug 'shougo/deoplete.nvim'            " Asynchronous completion framework.
+        Plug 'davidhalter/jedi-vim'             " Python autocompletion library.
+        "Plug 'ervandew/supertab'               " Insert-mode completion with <Tab>.  Annoying for spacing issues.
+        "Plug 'valloric/youcompleteme'          " Code-completion engine for C(++), Python, C#, Java, JavaScript and more.
     " }
     " SQL {
-        Plugin 'tpope/vim-dadbod'                   " A modern take on dbext.
-        "Plugin 'vim-scripts/SQLUtilities'          " SQL Formatter and query generator.
+        Plug 'tpope/vim-dadbod'                 " A modern take on dbext.
+        "Plug 'vim-scripts/SQLUtilities'        " SQL Formatter and query generator.
     " }
     " Git {
-        Plugin 'tpope/vim-fugitive'             " Git wrapper.
-        Plugin 'airblade/vim-gitgutter'         " Shows git diff in the gutter.
+        Plug 'tpope/vim-fugitive'           " Git wrapper.
+        Plug 'airblade/vim-gitgutter'       " Shows git diff in the gutter.
     " }
     " Searching {
-        Plugin 'mileszs/ack.vim'                    " Ack usage from inside vim.
+        Plug 'mileszs/ack.vim'          " Ack usage from inside vim.
     " }
     " LaTeX {
-        "Plugin 'vim-latex/vim-latex'               " LaTeX support.
-        Plugin 'xuhdev/vim-latex-live-preview'      " Automatic PDF generation on save.
-        Plugin 'lervag/vimtex'                      " A modern LaTeX implementation.
+        "Plug 'vim-latex/vim-latex'             " LaTeX support.
+        Plug 'xuhdev/vim-latex-live-preview'    " Automatic PDF generation on save.
+        Plug 'lervag/vimtex'                    " A modern LaTeX implementation.
     " }
     " Misc Interface Plugins {
-        Plugin 'ryanoasis/vim-devicons'             " Adds filetype icons to various vim plugins.
-        Plugin 'severin-lemaignan/vim-minimap'      " Sublime-like minimap.
-        Plugin 'kshenoy/vim-signature'              " Toggle, display, and navigate marks.
+        Plug 'ryanoasis/vim-devicons'           " Adds filetype icons to various vim plugins.
+        Plug 'severin-lemaignan/vim-minimap'    " Sublime-like minimap.
+        Plug 'kshenoy/vim-signature'            " Toggle, display, and navigate marks.
     " }
     " Indentation {
-        "Plugin 'nathanaelkane/vim-indent-guides'   " Display indentation levels
-        Plugin 'yggdroot/indentline'                " Display indentation levels
+        "Plug 'nathanaelkane/vim-indent-guides' " Display indentation levels
+        Plug 'yggdroot/indentline'              " Display indentation levels
     " }
     " Editing {
-        "Plugin 'vim-scripts/Align'              " Aligns text, equations, tables, etc.
-        Plugin 'easymotion/vim-easymotion'
-        Plugin 'sjl/gundo.vim'                  " Undo tree visualizer.
-        Plugin 'preservim/nerdcommenter'        " Commenting functions.
-        Plugin 'mhinz/vim-startify'             " The fancy start screen for vim.
-        Plugin 'tpope/vim-surround'             " Easily change existing 'surrounding' of text.
-        Plugin 'tpope/vim-unimpaired'
-        Plugin 'vim-jp/vital.vim'               " Dependency of vim-easymotion
+        "Plug 'vim-scripts/Align'           " Aligns text, equations, tables, etc.
+        Plug 'easymotion/vim-easymotion'
+        Plug 'sjl/gundo.vim'                " Undo tree visualizer.
+        Plug 'preservim/nerdcommenter'      " Commenting functions.
+        Plug 'mhinz/vim-startify'           " The fancy start screen for vim.
+        Plug 'tpope/vim-surround'           " Easily change existing 'surrounding' of text.
+        Plug 'tpope/vim-unimpaired'
+        Plug 'vim-jp/vital.vim'             " Dependency of vim-easymotion
     " }
     " Misc Language Plugins {
-        Plugin 'suan/vim-instant-markdown'          " HTML-preview of Markdown files.
+        Plug 'suan/vim-instant-markdown'    " HTML-preview of Markdown files.
     " }
     " Misc {
-        Plugin 'tbabej/taskwiki'                    " Task management combining TaskWarrior and vimwiki.
-        Plugin 'vimwiki/vimwiki'                    " Personal Wiki.
-        "Plugin 'blindfs/vim-taskwarrior'
-        Plugin 'itchyny/calendar.vim'              " Calendar
+        Plug 'tbabej/taskwiki'              " Task management combining TaskWarrior and vimwiki.
+        Plug 'vimwiki/vimwiki'              " Personal Wiki.
+        "Plug 'blindfs/vim-taskwarrior'
+        Plug 'itchyny/calendar.vim'         " Calendar
     " }
-    call vundle#end()           " Required for Vundle
-    filetype plugin indent on   " required for Vundle
+    call plug#end()             " Required for vim-plug
+    "call vundle#end()          " Required for Vundle
+    "filetype plugin indent on  " required for Vundle
 " }
 " Formatting {
     set autoindent                  " Copy indent from current line when starting a new line.
