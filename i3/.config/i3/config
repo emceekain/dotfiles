@@ -187,14 +187,14 @@ bindsym $mod+Shift+comma move workspace to output left
 bindsym $mod+Shift+period move workspace to output right
 
 #auto-assignments for certain applications
-for_window [class="firefox" title="(@gmail.com - Gmail|Mail - Brent McKain - Outlook|^Google Calendar -)"] fullscreen disable, move container to workspace $mail
+for_window [class="(^FFPWA.*|firefox)" title="(@gmail.com - Gmail|Mail - Brent McKain - Outlook|^Google Calendar -)"] fullscreen disable, move container to workspace $mail
 assign [class="Chromium" instance="webmail.nationalindemnity.com"] $mail
 assign [class="Chromium" instance="messages.google.com"] $chat
 assign [class="Chromium" instance="messenger.com"] $chat
 #for_window [class="firefox" title="(Dashboard|Pearson|Cengage)"] fullscreen disable, move container to workspace $web
-for_window [class="firefox" title="Jupyter"] fullscreen disable, move container to workspace $dev1
-for_window [class="firefox" title="(Todoist|\| Trello |GitLab —|\| Zenkit Base —|To Do)"] fullscreen disable, move container to workspace $dev2
-for_window [class="firefox" title="OneDrive"] fullscreen disable, move container to workspace $files
+for_window [class="(^FFPWA.*|firefox)" title="Jupyter"] fullscreen disable, move container to workspace $dev1
+for_window [class="(^FFPWA.*|firefox)" title="(Todoist|\| Trello |GitLab —|\| Zenkit Base —|To Do)"] fullscreen disable, move container to workspace $dev2
+for_window [class="(^FFPWA.*|firefox)" title="OneDrive"] fullscreen disable, move container to workspace $files
 assign [class="Chromium" instance="docs.google.com"] $docs
 assign [class="Chromium" instance="sheets.google.com"] $docs
 assign [class="Chromium" instance="slides.google.com"] $docs
@@ -403,7 +403,7 @@ exec --no-startup-id blueman-tray
 gaps inner 12
 gaps outer 0
 
-#smart_gaps on
+smart_gaps on
 smart_borders on
 
 for_window [class="^.*"] border pixel 0 
