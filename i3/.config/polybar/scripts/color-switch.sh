@@ -2,6 +2,10 @@
 
 SDIR="$HOME/.config/polybar/scripts"
 
+MODE="$(rofi -no-config -no-lazy-grab -sep "|" -dmenu -i -p '' \
+-theme $SDIR/rofi/styles.rasi \
+<<< "light|dark|mixed|")"
+
 # Launch Rofi
 MENU="$(rofi -no-config -no-lazy-grab -sep "|" -dmenu -i -p '' \
 -theme $SDIR/rofi/styles.rasi \
@@ -33,23 +37,23 @@ MENU="$(rofi -no-config -no-lazy-grab -sep "|" -dmenu -i -p '' \
 				*teal) "$SDIR"/colors-light.sh --teal ;;
 				*yellow) "$SDIR"/colors-light.sh --yellow ;;
 				## Dark Colors
-				*amber-dark) "$SDIR"/colors-dark.sh --amber ;;
-				*blue-dark) "$SDIR"/colors-dark.sh --blue ;;
-				*blue-gray-dark) "$SDIR"/colors-dark.sh --blue-gray ;;
-				*brown-dark) "$SDIR"/colors-dark.sh --brown ;;
-				*cyan-dark) "$SDIR"/colors-dark.sh --cyan ;;
-				*deep-orange-dark) "$SDIR"/colors-dark.sh --deep-orange ;;
-				*deep-purple-dark) "$SDIR"/colors-dark.sh --deep-purple ;;
-				*green-dark) "$SDIR"/colors-dark.sh --green ;;
-				*gray-dark) "$SDIR"/colors-dark.sh --gray ;;
-				*indigo-dark) "$SDIR"/colors-dark.sh --indigo ;;
-				*blue-light-dark) "$SDIR"/colors-dark.sh --light-blue ;;
-				*green-light-dark) "$SDIR"/colors-dark.sh --light-green ;;
-				*lime-dark) "$SDIR"/colors-dark.sh --lime ;;
-				*orange-dark) "$SDIR"/colors-dark.sh --orange ;;
-				*pink-dark) "$SDIR"/colors-dark.sh --pink ;;
-				*purple-dark) "$SDIR"/colors-dark.sh --purple ;;
-				*red-dark) "$SDIR"/colors-dark.sh --red ;;
-				*teal-dark) "$SDIR"/colors-dark.sh --teal ;;
-				*yellow-dark) "$SDIR"/colors-dark.sh --yellow				
+				*amber-dark) "$SDIR"/colors-dark.sh --amber --"$MODE" ;;
+				*blue-dark) "$SDIR"/colors-dark.sh --blue --"$MODE" ;;
+				*blue-gray-dark) "$SDIR"/colors-dark.sh --blue-gray --"$MODE" ;;
+				*brown-dark) "$SDIR"/colors-dark.sh --brown --"$MODE" ;;
+				*cyan-dark) "$SDIR"/colors-dark.sh --cyan --"$MODE" ;;
+				*deep-orange-dark) "$SDIR"/colors-dark.sh --deep-orange --"$MODE" ;;
+				*deep-purple-dark) "$SDIR"/colors-dark.sh --deep-purple --"$MODE" ;;
+				*green-dark) "$SDIR"/colors-dark.sh --green --"$MODE" ;;
+				*gray-dark) "$SDIR"/colors-dark.sh --gray --"$MODE" ;;
+				*indigo-dark) "$SDIR"/colors-dark.sh --indigo --"$MODE" ;;
+				*blue-light-dark) "$SDIR"/colors-dark.sh --light-blue --"$MODE" ;;
+				*green-light-dark) "$SDIR"/colors-dark.sh --light-green --"$MODE" ;;
+				*lime-dark) "$SDIR"/colors-dark.sh --lime --"$MODE" ;;
+				*orange-dark) "$SDIR"/colors-dark.sh --orange --"$MODE" ;;
+				*pink-dark) "$SDIR"/colors-dark.sh --pink --"$MODE" ;;
+				*purple-dark) "$SDIR"/colors-dark.sh --purple --"$MODE" ;;
+				*red-dark) "$SDIR"/colors-dark.sh --red --"$MODE" ;;
+				*teal-dark) "$SDIR"/colors-dark.sh --teal --"$MODE" ;;
+				*yellow-dark) "$SDIR"/colors-dark.sh --yellow --"$MODE"
             esac

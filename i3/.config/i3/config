@@ -372,7 +372,7 @@ bindsym XF86AudioPrev exec playerctl previous
 bindsym $mod+x debuglog toggle
 
 # Applications  to autostart with i3
-exec_always --no-startup-id feh --bg-scale $WALLPAPER 
+#exec_always --no-startup-id feh --bg-scale $WALLPAPER 
 exec_always --no-startup-id xmodmap ~/.Xmodmap
 exec --no-startup-id $HOME/.screenlayout/Primary_Right.sh
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
