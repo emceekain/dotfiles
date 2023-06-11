@@ -1,0 +1,2015 @@
+{
+    "profiles": {
+        "00000000000000000000000000": {
+            "ulid": "00000000000000000000000000",
+            "name": "Default",
+            "description": "Default profile for all web apps",
+            "sites": []
+        },
+        "01GK2RS98XRSPXSPZAED5WJMNA": {
+            "ulid": "01GK2RS98XRSPXSPZAED5WJMNA",
+            "name": "Canvas",
+            "description": null,
+            "sites": [
+                "01GK2RS9PFZ21DYXKCYJB265ZB"
+            ]
+        },
+        "01GK5PWMJETB2M9NRHN3DV5KK4": {
+            "ulid": "01GK5PWMJETB2M9NRHN3DV5KK4",
+            "name": "Jupyter",
+            "description": null,
+            "sites": [
+                "01GK5PWMKF8VY4TE8731XN9EFV"
+            ]
+        },
+        "01GK7X33S9V0HK9TN6FW7QBA2A": {
+            "ulid": "01GK7X33S9V0HK9TN6FW7QBA2A",
+            "name": "Proton Mail",
+            "description": null,
+            "sites": []
+        },
+        "01GK7X6NYCXAZK8H5DV6E6NN2Y": {
+            "ulid": "01GK7X6NYCXAZK8H5DV6E6NN2Y",
+            "name": "Proton Calendar",
+            "description": null,
+            "sites": []
+        },
+        "01GK7XGWA98X2376ZWBGM6P2DQ": {
+            "ulid": "01GK7XGWA98X2376ZWBGM6P2DQ",
+            "name": "Wolfram Alpha",
+            "description": null,
+            "sites": [
+                "01GK7XGWBGX3X094A8E5A0K6TA"
+            ]
+        },
+        "01GK7XRSMN8HJZ7GNTG1DCPPSX": {
+            "ulid": "01GK7XRSMN8HJZ7GNTG1DCPPSX",
+            "name": "GitLab",
+            "description": null,
+            "sites": [
+                "01GK7XRSYAXSS2D1KPR683Z8AN"
+            ]
+        },
+        "01GK7Y5BRGNH4XR8PJQMBX2QJ9": {
+            "ulid": "01GK7Y5BRGNH4XR8PJQMBX2QJ9",
+            "name": "Google Drive",
+            "description": null,
+            "sites": [
+                "01GK7Y5BY3FC6A1KA1Q5T1BEK5"
+            ]
+        },
+        "01GK7YEX32AKJGS41N0VKM9YS2": {
+            "ulid": "01GK7YEX32AKJGS41N0VKM9YS2",
+            "name": "Google Docs",
+            "description": null,
+            "sites": [
+                "01GK7YEX47E9M3AV4XR7H77WXP"
+            ]
+        },
+        "01GK7YFCSV7BBX5MEY32QRB1J7": {
+            "ulid": "01GK7YFCSV7BBX5MEY32QRB1J7",
+            "name": "Google Sheets",
+            "description": null,
+            "sites": [
+                "01GK7YFCV1Y1ZWGT8GT7PV0XNP"
+            ]
+        },
+        "01GK7YFS98NMTXPS34Z1F53AMA": {
+            "ulid": "01GK7YFS98NMTXPS34Z1F53AMA",
+            "name": "Google Slides",
+            "description": null,
+            "sites": [
+                "01GK7YFSAHH65W64N4EP4YN70A"
+            ]
+        },
+        "01GK7YGG71258X5377VTV545GS": {
+            "ulid": "01GK7YGG71258X5377VTV545GS",
+            "name": "Google Forms",
+            "description": null,
+            "sites": [
+                "01GK7YGG8AQ92KDM37K3YK9S5C"
+            ]
+        },
+        "01GK7YSWXM0QX7TNTBPPX43X9T": {
+            "ulid": "01GK7YSWXM0QX7TNTBPPX43X9T",
+            "name": "Syncthing",
+            "description": null,
+            "sites": [
+                "01GK7YSWYXC2Z1N8FYP7PFCSP5"
+            ]
+        },
+        "01GK7Z22WRMSEG1P4GCEDYS3D2": {
+            "ulid": "01GK7Z22WRMSEG1P4GCEDYS3D2",
+            "name": "Google Contacts",
+            "description": null,
+            "sites": [
+                "01GK7Z231RPMTNE2SHFR40HTDN"
+            ]
+        },
+        "01GKCTPZRF95RTW9AMP37J1A2K": {
+            "ulid": "01GKCTPZRF95RTW9AMP37J1A2K",
+            "name": "Trello",
+            "description": null,
+            "sites": [
+                "01GKCTPZS9EYMWA3C94RREFXX1"
+            ]
+        },
+        "01GKCTTN705EC2FGZT7M5H8YKV": {
+            "ulid": "01GKCTTN705EC2FGZT7M5H8YKV",
+            "name": "Todoist",
+            "description": null,
+            "sites": [
+                "01GKCTTND19EA1PECT8419JH5Z"
+            ]
+        },
+        "01GKCV4YVT6PCDWVQFS6CADB3Z": {
+            "ulid": "01GKCV4YVT6PCDWVQFS6CADB3Z",
+            "name": "Zenkit Base",
+            "description": null,
+            "sites": [
+                "01GKCV4YX06H8HKPXRSDNCWRTZ"
+            ]
+        },
+        "01GKCYKEEX1T051M4GH1HMWDST": {
+            "ulid": "01GKCYKEEX1T051M4GH1HMWDST",
+            "name": "Microsoft To Do",
+            "description": null,
+            "sites": [
+                "01GKCYKEG0TH6M1ZFB5D2J2APM"
+            ]
+        },
+        "01GKCZ56JDWT3ZR1AEM63GJ1MK": {
+            "ulid": "01GKCZ56JDWT3ZR1AEM63GJ1MK",
+            "name": "Gmail - Personal",
+            "description": null,
+            "sites": [
+                "01GKCZ56SK2M75E7R5WYZNMHKD"
+            ]
+        },
+        "01GKT8SAZZBP8Z6F6XF0AP285E": {
+            "ulid": "01GKT8SAZZBP8Z6F6XF0AP285E",
+            "name": "Microsoft Forms",
+            "description": null,
+            "sites": [
+                "01GKT8SB1F73S6XWCBFXSDJBET"
+            ]
+        },
+        "01GNCT1NAGTT3N2GYV62EGFW7H": {
+            "ulid": "01GNCT1NAGTT3N2GYV62EGFW7H",
+            "name": "GitHub",
+            "description": null,
+            "sites": [
+                "01GNCT1NMT6V09E455WW3F0E0A"
+            ]
+        },
+        "01GP2EMY1SSE6SM4X792YQHQ4E": {
+            "ulid": "01GP2EMY1SSE6SM4X792YQHQ4E",
+            "name": "Pearson Courses",
+            "description": null,
+            "sites": [
+                "01GP2EMY38RBFDH3G3BPX5YTMA"
+            ]
+        },
+        "01GPD2FC8Z3CZGWSBWD8CBDHW6": {
+            "ulid": "01GPD2FC8Z3CZGWSBWD8CBDHW6",
+            "name": "Microsoft Word",
+            "description": null,
+            "sites": []
+        },
+        "01GPD2JHEMDWWCN9Y4EVQE074W": {
+            "ulid": "01GPD2JHEMDWWCN9Y4EVQE074W",
+            "name": "Microsoft 365",
+            "description": null,
+            "sites": [
+                "01GPD2JHGAA3HCNJK882QJSE7V"
+            ]
+        },
+        "01GPD2PXYJRPXD5HHA6KHG39KC": {
+            "ulid": "01GPD2PXYJRPXD5HHA6KHG39KC",
+            "name": "Geogebra (Webapp)",
+            "description": null,
+            "sites": [
+                "01GPD2PY4CNRBKWCWZ19Y1EKWJ"
+            ]
+        },
+        "01GPD35XARJC8KPQWE1R127SMV": {
+            "ulid": "01GPD35XARJC8KPQWE1R127SMV",
+            "name": "Desmos",
+            "description": null,
+            "sites": [
+                "01GPD35XHF74C1CQXT39XQYJB5"
+            ]
+        },
+        "01GPEMATXJZ0T9QEX850AVBRHN": {
+            "ulid": "01GPEMATXJZ0T9QEX850AVBRHN",
+            "name": "Microsoft OneDrive",
+            "description": null,
+            "sites": [
+                "01GPEMATZ5VGQEMVD99V2G5XTJ"
+            ]
+        },
+        "01GQTESDCA5JKQARCWKGAE3CNE": {
+            "ulid": "01GQTESDCA5JKQARCWKGAE3CNE",
+            "name": "YouTube Music",
+            "description": null,
+            "sites": [
+                "01GQTESF331CZ3ZAENB3WWD68S"
+            ]
+        },
+        "01GWF5DNNFB1FRNX7QHVQ6DZDE": {
+            "ulid": "01GWF5DNNFB1FRNX7QHVQ6DZDE",
+            "name": "Gmail - Professional",
+            "description": null,
+            "sites": [
+                "01GWF5DP0FM8FC6QXTN2FGA83R"
+            ]
+        },
+        "01GY0A1D0XPPMR2G9MEF0J51CS": {
+            "ulid": "01GY0A1D0XPPMR2G9MEF0J51CS",
+            "name": "Google Calendar",
+            "description": null,
+            "sites": [
+                "01GY0A1DC1SWP0S1497SV88KHR"
+            ]
+        },
+        "01H2NKQ78C1CRT5ZCWGQ3KYQNS": {
+            "ulid": "01H2NKQ78C1CRT5ZCWGQ3KYQNS",
+            "name": "CoCalc",
+            "description": null,
+            "sites": [
+                "01H2NKQ79V6K5EV50NETFQ735C"
+            ]
+        },
+        "01H2NRGY3G8WFNBKSKYEN6X0C2": {
+            "ulid": "01H2NRGY3G8WFNBKSKYEN6X0C2",
+            "name": "Azure Portal",
+            "description": null,
+            "sites": [
+                "01H2NRGY9WTKP0ZFYB4AD0JT13"
+            ]
+        },
+        "01H2NRKXAP6G226XNV3PV9GN81": {
+            "ulid": "01H2NRKXAP6G226XNV3PV9GN81",
+            "name": "Azure DevOps",
+            "description": null,
+            "sites": [
+                "01H2NRKXC3M7YYNC1699CYDTR0"
+            ]
+        },
+        "01H2P62SDWAYTVG9V03DW8NTH7": {
+            "ulid": "01H2P62SDWAYTVG9V03DW8NTH7",
+            "name": "Outlook",
+            "description": null,
+            "sites": []
+        },
+        "01H2P63BKGAR3XX4J5T75ZBV1N": {
+            "ulid": "01H2P63BKGAR3XX4J5T75ZBV1N",
+            "name": "Outlook",
+            "description": null,
+            "sites": []
+        },
+        "01H2P647YX6WX9MAW79TYYAHFJ": {
+            "ulid": "01H2P647YX6WX9MAW79TYYAHFJ",
+            "name": "Outlook",
+            "description": null,
+            "sites": [
+                "01H2P6487DTXC8T4X06GTWKFGV"
+            ]
+        }
+    },
+    "sites": {
+        "01GK2RS9PFZ21DYXKCYJB265ZB": {
+            "ulid": "01GK2RS9PFZ21DYXKCYJB265ZB",
+            "profile": "01GK2RS98XRSPXSPZAED5WJMNA",
+            "config": {
+                "name": "Canvas",
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://nebrwesleyan.instructure.com/",
+                "manifest_url": "https://nebrwesleyan.instructure.com/web-app-manifest/manifest.json",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [
+                    "https://nebrwesleyan.instructure.com/"
+                ],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://nebrwesleyan.instructure.com/",
+                "scope": "https://nebrwesleyan.instructure.com/",
+                "name": "Canvas",
+                "short_name": "Canvas",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "minimal-ui",
+                "orientation": "any",
+                "prefer_related_applications": true,
+                "related_applications": [
+                    {
+                        "platform": "play",
+                        "url": "https://play.google.com/store/apps/details?id=com.instructure.candroid",
+                        "id": "com.instructure.candroid",
+                        "fingerprints": []
+                    },
+                    {
+                        "platform": "itunes",
+                        "url": "https://itunes.apple.com/app/canvas-by-instructure/id480883488",
+                        "fingerprints": []
+                    }
+                ],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://du11hjcvx0uqb.cloudfront.net/dist/images/apple-touch-icon-585e5d997d.png",
+                        "type": "image/png",
+                        "sizes": "144x144",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://du11hjcvx0uqb.cloudfront.net/dist/images/apple-touch-icon-585e5d997d.png",
+                        "type": "image/png",
+                        "sizes": "192x192",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01GK5PWMKF8VY4TE8731XN9EFV": {
+            "ulid": "01GK5PWMKF8VY4TE8731XN9EFV",
+            "profile": "01GK5PWMJETB2M9NRHN3DV5KK4",
+            "config": {
+                "name": "Jupyter",
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "http://localhost:8888/tree?",
+                "manifest_url": "data:application/manifest+json;base64,eyJzdGFydF91cmwiOiJodHRwOi8vbG9jYWxob3N0Ojg4ODgvdHJlZT8iLCJuYW1lIjoiSG9tZSBQYWdlIC0gU2VsZWN0IG9yIGNyZWF0ZSBhIG5vdGVib29rIiwiaWNvbnMiOlt7InNyYyI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODg4OC9zdGF0aWMvYmFzZS9pbWFnZXMvZmF2aWNvbi5pY28/dj01MGFmYTcyNWI1ZGU4YjAwMDMwMTM5ZDA5YjM4NjIwMjI0ZDRlN2RiYTQ3YzA3ZWYwZTg2ZDQ2NDNmMzBjOWJmZTZiYjdlMWE0YTFjNTYxYWEzMjgzNDQ4MDkwOWE0YjZmZTdjZDFlMTdmNzE1OTMzMGI2YjU5MTRiZjQ1YTg4MCIsInR5cGUiOiJpbWFnZS94LWljb24iLCJwdXJwb3NlIjoiYW55Iiwic2l6ZXMiOiIifV19",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "http://localhost:8888/tree?",
+                "scope": "http://localhost:8888/",
+                "name": "Home Page - Select or create a notebook",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "browser",
+                "orientation": "any",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "http://localhost:8888/static/base/images/favicon.ico?v=50afa725b5de8b00030139d09b38620224d4e7dba47c07ef0e86d4643f30c9bfe6bb7e1a4a1c561aa32834480909a4b6fe7cd1e17f7159330b6b5914bf45a880",
+                        "type": "image/x-icon",
+                        "sizes": "",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01GK7XGWBGX3X094A8E5A0K6TA": {
+            "ulid": "01GK7XGWBGX3X094A8E5A0K6TA",
+            "profile": "01GK7XGWA98X2376ZWBGM6P2DQ",
+            "config": {
+                "name": "Wolfram Alpha",
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://www.wolframalpha.com/",
+                "manifest_url": "data:application/manifest+json;base64,eyJzdGFydF91cmwiOiJodHRwczovL3d3dy53b2xmcmFtYWxwaGEuY29tLyIsIm5hbWUiOiJXb2xmcmFtfEFscGhhOiBDb21wdXRhdGlvbmFsIEludGVsbGlnZW5jZSIsImRlc2NyaXB0aW9uIjoiQ29tcHV0ZSBhbnN3ZXJzIHVzaW5nIFdvbGZyYW0ncyBicmVha3Rocm91Z2ggdGVjaG5vbG9neSAmIGtub3dsZWRnZWJhc2UsIHJlbGllZCBvbiBieSBtaWxsaW9ucyBvZiBzdHVkZW50cyAmIHByb2Zlc3Npb25hbHMuIEZvciBtYXRoLCBzY2llbmNlLCBudXRyaXRpb24sIGhpc3RvcnksIGdlb2dyYXBoeSwgZW5naW5lZXJpbmcsIG1hdGhlbWF0aWNzLCBsaW5ndWlzdGljcywgc3BvcnRzLCBmaW5hbmNlLCBtdXNpY+KApiIsImljb25zIjpbeyJzcmMiOiJodHRwczovL3d3dy53b2xmcmFtYWxwaGEuY29tL19uZXh0L3N0YXRpYy9pbWFnZXMvZmF2aWNvbl8xemJFOWhqay5pY28iLCJ0eXBlIjpudWxsLCJwdXJwb3NlIjoiYW55Iiwic2l6ZXMiOiIifV19",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://www.wolframalpha.com/",
+                "scope": "https://www.wolframalpha.com/",
+                "name": "Wolfram|Alpha: Computational Intelligence",
+                "description": "Compute answers using Wolfram's breakthrough technology & knowledgebase, relied on by millions of students & professionals. For math, science, nutrition, history, geography, engineering, mathematics, linguistics, sports, finance, music…",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "browser",
+                "orientation": "any",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://www.wolframalpha.com/_next/static/images/favicon_1zbE9hjk.ico",
+                        "sizes": "",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01GK7XRSYAXSS2D1KPR683Z8AN": {
+            "ulid": "01GK7XRSYAXSS2D1KPR683Z8AN",
+            "profile": "01GK7XRSMN8HJZ7GNTG1DCPPSX",
+            "config": {
+                "name": null,
+                "description": null,
+                "start_url": "https://gitlab.com/dashboard/",
+                "icon_url": null,
+                "document_url": "https://gitlab.com/",
+                "manifest_url": "https://gitlab.com/-/manifest.json",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://gitlab.com/explore/projects",
+                "scope": "https://gitlab.com/",
+                "name": "GitLab",
+                "short_name": "GitLab",
+                "description": "The complete DevOps platform. One application with endless possibilities. Organizations rely on GitLab’s source code management, CI/CD, security, and more to deliver software rapidly.",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "browser",
+                "orientation": "any",
+                "background_color": "#ffffff",
+                "theme_color": "#292961",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://gitlab.com/-/pwa-icons/logo-192.png",
+                        "type": "image/png",
+                        "sizes": "192x192",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://gitlab.com/-/pwa-icons/logo-512.png",
+                        "type": "image/png",
+                        "sizes": "512x512",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://gitlab.com/-/pwa-icons/maskable-logo.png",
+                        "type": "image/png",
+                        "sizes": "512x512",
+                        "purpose": "maskable"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01GK7Y5BY3FC6A1KA1Q5T1BEK5": {
+            "ulid": "01GK7Y5BY3FC6A1KA1Q5T1BEK5",
+            "profile": "01GK7Y5BRGNH4XR8PJQMBX2QJ9",
+            "config": {
+                "name": null,
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://drive.google.com/drive/u/0/my-drive",
+                "manifest_url": "https://drive.google.com/_/AppsNotifyUi/manifest.json",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://drive.google.com/?lfhs=2",
+                "scope": "https://drive.google.com/",
+                "name": "Google Drive",
+                "short_name": "Drive",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "standalone",
+                "orientation": "any",
+                "theme_color": "#f1f3f4",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_16dp.png",
+                        "type": "image/png",
+                        "sizes": "16x16",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_96dp.png",
+                        "type": "image/png",
+                        "sizes": "96x96",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://ssl.gstatic.com/images/branding/product/2x/drive_2020q4_96dp.png",
+                        "type": "image/png",
+                        "sizes": "192x192",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01GK7YEX47E9M3AV4XR7H77WXP": {
+            "ulid": "01GK7YEX47E9M3AV4XR7H77WXP",
+            "profile": "01GK7YEX32AKJGS41N0VKM9YS2",
+            "config": {
+                "name": null,
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://docs.google.com/document/u/0/",
+                "manifest_url": "data:application/manifest+json;base64,eyJzdGFydF91cmwiOiJodHRwczovL2RvY3MuZ29vZ2xlLmNvbS9kb2N1bWVudC91LzAvIiwibmFtZSI6Ikdvb2dsZSBEb2NzIiwiaWNvbnMiOlt7InNyYyI6Imh0dHBzOi8vc3NsLmdzdGF0aWMuY29tL2RvY3MvZG9jdW1lbnRzL2ltYWdlcy9raXgtZmF2aWNvbjcuaWNvIiwidHlwZSI6bnVsbCwicHVycG9zZSI6ImFueSIsInNpemVzIjoiIn1dfQ==",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://docs.google.com/document/u/0/",
+                "scope": "https://docs.google.com/document/u/0/",
+                "name": "Google Docs",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "browser",
+                "orientation": "any",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico",
+                        "sizes": "",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01GK7YFCV1Y1ZWGT8GT7PV0XNP": {
+            "ulid": "01GK7YFCV1Y1ZWGT8GT7PV0XNP",
+            "profile": "01GK7YFCSV7BBX5MEY32QRB1J7",
+            "config": {
+                "name": null,
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://docs.google.com/spreadsheets/u/0/",
+                "manifest_url": "data:application/manifest+json;base64,eyJzdGFydF91cmwiOiJodHRwczovL2RvY3MuZ29vZ2xlLmNvbS9zcHJlYWRzaGVldHMvdS8wLyIsIm5hbWUiOiJHb29nbGUgU2hlZXRzIiwiaWNvbnMiOlt7InNyYyI6Imh0dHBzOi8vc3NsLmdzdGF0aWMuY29tL2RvY3Mvc3ByZWFkc2hlZXRzL2Zhdmljb24zLmljbyIsInR5cGUiOm51bGwsInB1cnBvc2UiOiJhbnkiLCJzaXplcyI6IiJ9XX0=",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://docs.google.com/spreadsheets/u/0/",
+                "scope": "https://docs.google.com/spreadsheets/u/0/",
+                "name": "Google Sheets",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "browser",
+                "orientation": "any",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://ssl.gstatic.com/docs/spreadsheets/favicon3.ico",
+                        "sizes": "",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01GK7YFSAHH65W64N4EP4YN70A": {
+            "ulid": "01GK7YFSAHH65W64N4EP4YN70A",
+            "profile": "01GK7YFS98NMTXPS34Z1F53AMA",
+            "config": {
+                "name": null,
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://docs.google.com/presentation/u/0/",
+                "manifest_url": "data:application/manifest+json;base64,eyJzdGFydF91cmwiOiJodHRwczovL2RvY3MuZ29vZ2xlLmNvbS9wcmVzZW50YXRpb24vdS8wLyIsIm5hbWUiOiJHb29nbGUgU2xpZGVzIiwiaWNvbnMiOlt7InNyYyI6Imh0dHBzOi8vc3NsLmdzdGF0aWMuY29tL2RvY3MvcHJlc2VudGF0aW9ucy9pbWFnZXMvZmF2aWNvbjUuaWNvIiwidHlwZSI6bnVsbCwicHVycG9zZSI6ImFueSIsInNpemVzIjoiIn1dfQ==",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://docs.google.com/presentation/u/0/",
+                "scope": "https://docs.google.com/presentation/u/0/",
+                "name": "Google Slides",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "browser",
+                "orientation": "any",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://ssl.gstatic.com/docs/presentations/images/favicon5.ico",
+                        "sizes": "",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01GK7YGG8AQ92KDM37K3YK9S5C": {
+            "ulid": "01GK7YGG8AQ92KDM37K3YK9S5C",
+            "profile": "01GK7YGG71258X5377VTV545GS",
+            "config": {
+                "name": null,
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://docs.google.com/forms/u/0/",
+                "manifest_url": "data:application/manifest+json;base64,eyJzdGFydF91cmwiOiJodHRwczovL2RvY3MuZ29vZ2xlLmNvbS9mb3Jtcy91LzAvIiwibmFtZSI6Ikdvb2dsZSBGb3JtcyIsImljb25zIjpbeyJzcmMiOiJodHRwczovL3NzbC5nc3RhdGljLmNvbS9kb2NzL3NwcmVhZHNoZWV0cy9mb3Jtcy9mYXZpY29uX3FwMi5wbmciLCJ0eXBlIjpudWxsLCJwdXJwb3NlIjoiYW55Iiwic2l6ZXMiOiIifV19",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://docs.google.com/forms/u/0/",
+                "scope": "https://docs.google.com/forms/u/0/",
+                "name": "Google Forms",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "browser",
+                "orientation": "any",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://ssl.gstatic.com/docs/spreadsheets/forms/favicon_qp2.png",
+                        "sizes": "",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01GK7YSWYXC2Z1N8FYP7PFCSP5": {
+            "ulid": "01GK7YSWYXC2Z1N8FYP7PFCSP5",
+            "profile": "01GK7YSWXM0QX7TNTBPPX43X9T",
+            "config": {
+                "name": "Syncthing",
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "http://localhost:8384/",
+                "manifest_url": "data:application/manifest+json;base64,eyJzdGFydF91cmwiOiJodHRwOi8vbG9jYWxob3N0OjgzODQvIiwibmFtZSI6IlNwaW5vemEgfCBTeW5jdGhpbmciLCJpY29ucyI6W3sic3JjIjoiaHR0cDovL2xvY2FsaG9zdDo4Mzg0L2Fzc2V0cy9pbWcvZmF2aWNvbi1kZWZhdWx0LnBuZyIsInR5cGUiOm51bGwsInB1cnBvc2UiOiJhbnkiLCJzaXplcyI6IiJ9LHsic3JjIjoiaHR0cDovL2xvY2FsaG9zdDo4Mzg0L2Fzc2V0cy9pbWcvc2FmYXJpLXBpbm5lZC10YWIuc3ZnIiwidHlwZSI6ImltYWdlL3N2Zyt4bWwiLCJwdXJwb3NlIjoibW9ub2Nocm9tZSIsInNpemVzIjoiIn1dfQ==",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "http://localhost:8384/",
+                "scope": "http://localhost:8384/",
+                "name": "Spinoza | Syncthing",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "browser",
+                "orientation": "any",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "http://localhost:8384/assets/img/favicon-default.png",
+                        "sizes": "",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "http://localhost:8384/assets/img/safari-pinned-tab.svg",
+                        "type": "image/svg+xml",
+                        "sizes": "",
+                        "purpose": "monochrome"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01GK7Z231RPMTNE2SHFR40HTDN": {
+            "ulid": "01GK7Z231RPMTNE2SHFR40HTDN",
+            "profile": "01GK7Z22WRMSEG1P4GCEDYS3D2",
+            "config": {
+                "name": null,
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://contacts.google.com/",
+                "manifest_url": "https://contacts.google.com/_/ContactsUi/manifest.json",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://contacts.google.com/?lfhs=2",
+                "scope": "https://contacts.google.com/",
+                "name": "Google Contacts",
+                "short_name": "Google Contacts",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "standalone",
+                "orientation": "any",
+                "prefer_related_applications": false,
+                "related_applications": [
+                    {
+                        "platform": "play",
+                        "url": "https://play.google.com/store/apps/details?id=com.google.android.contacts",
+                        "id": "com.google.android.contacts",
+                        "fingerprints": []
+                    }
+                ],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://ssl.gstatic.com/images/branding/product/2x/contacts_2022_96dp.png",
+                        "type": "image/png",
+                        "sizes": "192x192",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://ssl.gstatic.com/images/branding/product/2x/contacts_2022_64dp.png",
+                        "type": "image/png",
+                        "sizes": "128x128",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://ssl.gstatic.com/images/branding/product/1x/contacts_2022_96dp.png",
+                        "type": "image/png",
+                        "sizes": "96x96",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://ssl.gstatic.com/images/branding/product/1x/contacts_2022_64dp.png",
+                        "type": "image/png",
+                        "sizes": "64x64",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01GKCTPZS9EYMWA3C94RREFXX1": {
+            "ulid": "01GKCTPZS9EYMWA3C94RREFXX1",
+            "profile": "01GKCTPZRF95RTW9AMP37J1A2K",
+            "config": {
+                "name": "Trello",
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://trello.com/",
+                "manifest_url": "data:application/manifest+json;base64,eyJzdGFydF91cmwiOiJodHRwczovL3RyZWxsby5jb20vIiwibmFtZSI6Ik1hbmFnZSBZb3VyIFRlYW3igJlzIFByb2plY3RzIEZyb20gQW55d2hlcmUgfCBUcmVsbG8iLCJkZXNjcmlwdGlvbiI6IlRyZWxsbyBpcyB0aGUgdWx0aW1hdGUgcHJvamVjdCBtYW5hZ2VtZW50IHRvb2wuIFN0YXJ0IHVwIGEgYm9hcmQgaW4gc2Vjb25kcywgYXV0b21hdGUgdGVkaW91cyB0YXNrcywgYW5kIGNvbGxhYm9yYXRlIGFueXdoZXJlLCBldmVuIG9uIG1vYmlsZS4iLCJpY29ucyI6W3sic3JjIjoiaHR0cHM6Ly9ieHAtY29udGVudC1zdGF0aWMucHJvZC5wdWJsaWMuYXRsLXBhYXMubmV0L2ltZy9mYXZpY29uLmljbyIsInR5cGUiOm51bGwsInB1cnBvc2UiOiJhbnkiLCJzaXplcyI6IiJ9XX0=",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://trello.com/",
+                "scope": "https://trello.com/",
+                "name": "Manage Your Team’s Projects From Anywhere | Trello",
+                "description": "Trello is the ultimate project management tool. Start up a board in seconds, automate tedious tasks, and collaborate anywhere, even on mobile.",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "browser",
+                "orientation": "any",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://bxp-content-static.prod.public.atl-paas.net/img/favicon.ico",
+                        "sizes": "",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01GKCTTND19EA1PECT8419JH5Z": {
+            "ulid": "01GKCTTND19EA1PECT8419JH5Z",
+            "profile": "01GKCTTN705EC2FGZT7M5H8YKV",
+            "config": {
+                "name": null,
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://todoist.com/",
+                "manifest_url": "https://todoist.com/static/site.webmanifest",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://todoist.com/",
+                "scope": "https://todoist.com/",
+                "name": "Todoist",
+                "short_name": "Todoist",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "standalone",
+                "orientation": "any",
+                "background_color": "#ffffff",
+                "theme_color": "#e44332",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://todoist.com/static/android-chrome-192x192.png",
+                        "type": "image/png",
+                        "sizes": "192x192",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://todoist.com/static/android-chrome-256x256.png",
+                        "type": "image/png",
+                        "sizes": "256x256",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01GKCV4YX06H8HKPXRSDNCWRTZ": {
+            "ulid": "01GKCV4YX06H8HKPXRSDNCWRTZ",
+            "profile": "01GKCV4YVT6PCDWVQFS6CADB3Z",
+            "config": {
+                "name": "Zenkit Base",
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://base.zenkit.com/",
+                "manifest_url": "data:application/manifest+json;base64,eyJzdGFydF91cmwiOiJodHRwczovL2Jhc2UuemVua2l0LmNvbS8iLCJuYW1lIjoiSG9tZSB8IFplbmtpdCBCYXNlIiwiZGVzY3JpcHRpb24iOiJBIHBsYXRmb3JtIGZvciBjb2xsYWJvcmF0aW9uIGFuZCBwcm9qZWN0IG1hbmFnZW1lbnQuIFplbmtpdCBpcyB0aGUgaG9tZSBmb3IgeW91ciBpZGVhcywgeW91ciBwcm9qZWN0cywgeW91ciBidXNpbmVzcy4gTGV0IHlvdXIgZGF0YSBncm93IHdpdGggeW91LiIsImljb25zIjpbeyJzcmMiOiJodHRwczovL2Jhc2UuemVua2l0LmNvbS9mYXZpY29uLmljbyIsInR5cGUiOm51bGwsInB1cnBvc2UiOiJhbnkiLCJzaXplcyI6IiJ9XX0=",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://base.zenkit.com/",
+                "scope": "https://base.zenkit.com/",
+                "name": "Home | Zenkit Base",
+                "description": "A platform for collaboration and project management. Zenkit is the home for your ideas, your projects, your business. Let your data grow with you.",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "browser",
+                "orientation": "any",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://base.zenkit.com/favicon.ico",
+                        "sizes": "",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01GKCYKEG0TH6M1ZFB5D2J2APM": {
+            "ulid": "01GKCYKEG0TH6M1ZFB5D2J2APM",
+            "profile": "01GKCYKEEX1T051M4GH1HMWDST",
+            "config": {
+                "name": "Microsoft To Do",
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://to-do.live.com/tasks/planned",
+                "manifest_url": "data:application/manifest+json;base64,eyJzdGFydF91cmwiOiJodHRwczovL3RvLWRvLmxpdmUuY29tL3Rhc2tzL3BsYW5uZWQiLCJuYW1lIjoiVG8gRG8iLCJkZXNjcmlwdGlvbiI6Ik1pY3Jvc29mdCBUbyBEbyIsImljb25zIjpbeyJzcmMiOiJodHRwczovL3Jlcy0xLmNkbi5vZmZpY2UubmV0L3RvZG8vNzA3MTY3XzIuODQuMi90b3VjaC1pY29uLTE1MngxNTIucG5nIiwidHlwZSI6bnVsbCwicHVycG9zZSI6ImFueSIsInNpemVzIjoiMTUyeDE1MiJ9LHsic3JjIjoiaHR0cHM6Ly9yZXMtMS5jZG4ub2ZmaWNlLm5ldC90b2RvLzcwNzE2N18yLjg0LjIvdG91Y2gtaWNvbi0xNjd4MTY3LnBuZyIsInR5cGUiOm51bGwsInB1cnBvc2UiOiJhbnkiLCJzaXplcyI6IjE2N3gxNjcifSx7InNyYyI6Imh0dHBzOi8vcmVzLTEuY2RuLm9mZmljZS5uZXQvdG9kby83MDcxNjdfMi44NC4yL3RvdWNoLWljb24tMTgweDE4MC5wbmciLCJ0eXBlIjpudWxsLCJwdXJwb3NlIjoiYW55Iiwic2l6ZXMiOiIxODB4MTgwIn0seyJzcmMiOiJodHRwczovL3Jlcy0xLmNkbi5vZmZpY2UubmV0L3RvZG8vNzA3MTY3XzIuODQuMi9mYXZpY29uLmljbyIsInR5cGUiOiJpbWFnZS94LWljb24iLCJwdXJwb3NlIjoiYW55Iiwic2l6ZXMiOiIifV19",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://to-do.live.com/tasks/planned",
+                "scope": "https://to-do.live.com/tasks/",
+                "name": "To Do",
+                "description": "Microsoft To Do",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "browser",
+                "orientation": "any",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://res-1.cdn.office.net/todo/707167_2.84.2/touch-icon-152x152.png",
+                        "sizes": "152x152",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res-1.cdn.office.net/todo/707167_2.84.2/touch-icon-167x167.png",
+                        "sizes": "167x167",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res-1.cdn.office.net/todo/707167_2.84.2/touch-icon-180x180.png",
+                        "sizes": "180x180",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res-1.cdn.office.net/todo/707167_2.84.2/favicon.ico",
+                        "type": "image/x-icon",
+                        "sizes": "",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01GKCZ56SK2M75E7R5WYZNMHKD": {
+            "ulid": "01GKCZ56SK2M75E7R5WYZNMHKD",
+            "profile": "01GKCZ56JDWT3ZR1AEM63GJ1MK",
+            "config": {
+                "name": "Gmail - Personal",
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://mail.google.com/mail/u/0/#inbox",
+                "manifest_url": "https://mail.google.com/mail/manifest.json",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://mail.google.com/mail/?usp=installed_webapp",
+                "scope": "https://mail.google.com/mail/",
+                "name": "Gmail",
+                "short_name": "Gmail",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "browser",
+                "orientation": "any",
+                "background_color": "#ffffff",
+                "theme_color": "#ffffff",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://ssl.gstatic.com/images/branding/product/2x/hh_gmail_16dp.png",
+                        "type": "image/png",
+                        "sizes": "32x32",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://ssl.gstatic.com/images/branding/product/1x/hh_gmail_96dp.png",
+                        "type": "image/png",
+                        "sizes": "96x96",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://ssl.gstatic.com/images/branding/product/2x/hh_gmail_96dp.png",
+                        "type": "image/png",
+                        "sizes": "192x192",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://ssl.gstatic.com/images/branding/product/1x/hh_gmail_512dp.png",
+                        "type": "image/png",
+                        "sizes": "512x512",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01GKT8SB1F73S6XWCBFXSDJBET": {
+            "ulid": "01GKT8SB1F73S6XWCBFXSDJBET",
+            "profile": "01GKT8SAZZBP8Z6F6XF0AP285E",
+            "config": {
+                "name": null,
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://forms.office.com/Pages/DesignPageV2.aspx",
+                "manifest_url": "data:application/manifest+json;base64,eyJzdGFydF91cmwiOiJodHRwczovL2Zvcm1zLm9mZmljZS5jb20vUGFnZXMvRGVzaWduUGFnZVYyLmFzcHgiLCJuYW1lIjoiTWljcm9zb2Z0IEZvcm1zIiwiZGVzY3JpcHRpb24iOiJFYXNpbHkgY3JlYXRlIHN1cnZleXMsIHF1aXp6ZXMsIGFuZCBwb2xscy4iLCJpY29ucyI6W3sic3JjIjoiaHR0cHM6Ly9jZG4uZm9ybXMub2ZmaWNlLm5ldC9mb3Jtcy9pbWFnZXMvZmF2aWNvbi5pY28iLCJ0eXBlIjpudWxsLCJwdXJwb3NlIjoiYW55Iiwic2l6ZXMiOiIifV19",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://forms.office.com/Pages/DesignPageV2.aspx",
+                "scope": "https://forms.office.com/Pages/",
+                "name": "Microsoft Forms",
+                "description": "Easily create surveys, quizzes, and polls.",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "browser",
+                "orientation": "any",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://cdn.forms.office.net/forms/images/favicon.ico",
+                        "sizes": "",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01GNCT1NMT6V09E455WW3F0E0A": {
+            "ulid": "01GNCT1NMT6V09E455WW3F0E0A",
+            "profile": "01GNCT1NAGTT3N2GYV62EGFW7H",
+            "config": {
+                "name": null,
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://github.com/",
+                "manifest_url": "https://github.com/manifest.json",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://github.com/",
+                "scope": "https://github.com/",
+                "name": "GitHub",
+                "short_name": "GitHub",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "standalone",
+                "orientation": "any",
+                "prefer_related_applications": true,
+                "related_applications": [
+                    {
+                        "platform": "play",
+                        "url": "https://play.google.com/store/apps/details?id=com.github.android",
+                        "id": "com.github.android",
+                        "fingerprints": []
+                    }
+                ],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://github.githubassets.com/apple-touch-icon-114x114.png",
+                        "sizes": "114x114",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://github.githubassets.com/apple-touch-icon-120x120.png",
+                        "sizes": "120x120",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://github.githubassets.com/apple-touch-icon-144x144.png",
+                        "sizes": "144x144",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://github.githubassets.com/apple-touch-icon-152x152.png",
+                        "sizes": "152x152",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://github.githubassets.com/apple-touch-icon-180x180.png",
+                        "sizes": "180x180",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://github.githubassets.com/apple-touch-icon-57x57.png",
+                        "sizes": "57x57",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://github.githubassets.com/apple-touch-icon-60x60.png",
+                        "sizes": "60x60",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://github.githubassets.com/apple-touch-icon-72x72.png",
+                        "sizes": "72x72",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://github.githubassets.com/apple-touch-icon-76x76.png",
+                        "sizes": "76x76",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://github.githubassets.com/app-icon-192.png",
+                        "type": "image/png",
+                        "sizes": "192x192",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://github.githubassets.com/app-icon-512.png",
+                        "type": "image/png",
+                        "sizes": "512x512",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01GP2EMY38RBFDH3G3BPX5YTMA": {
+            "ulid": "01GP2EMY38RBFDH3G3BPX5YTMA",
+            "profile": "01GP2EMY1SSE6SM4X792YQHQ4E",
+            "config": {
+                "name": "Pearson Courses",
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://mycourses.pearson.com/course-home#/tab/active",
+                "manifest_url": "data:application/manifest+json;base64,eyJzdGFydF91cmwiOiJodHRwczovL215Y291cnNlcy5wZWFyc29uLmNvbS9jb3Vyc2UtaG9tZSMvdGFiL2FjdGl2ZSIsIm5hbWUiOiJDb3Vyc2UgSG9tZSIsImljb25zIjpbeyJzcmMiOiJodHRwczovL215Y291cnNlcy5wZWFyc29uLmNvbS9zdGF0aWMvNS4wLjAuMy9pbWFnZXMvZmF2aWNvbi5pY28iLCJ0eXBlIjoiaW1hZ2UvaWNvIiwicHVycG9zZSI6ImFueSIsInNpemVzIjoiIn1dfQ==",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://mycourses.pearson.com/course-home#/tab/active",
+                "scope": "https://mycourses.pearson.com/",
+                "name": "Course Home",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "browser",
+                "orientation": "any",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://mycourses.pearson.com/static/5.0.0.3/images/favicon.ico",
+                        "type": "image/ico",
+                        "sizes": "",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01GPD2JHGAA3HCNJK882QJSE7V": {
+            "ulid": "01GPD2JHGAA3HCNJK882QJSE7V",
+            "profile": "01GPD2JHEMDWWCN9Y4EVQE074W",
+            "config": {
+                "name": "Microsoft 365",
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://www.office.com/apps?auth=2",
+                "manifest_url": "data:application/manifest+json;base64,eyJzdGFydF91cmwiOiJodHRwczovL3d3dy5vZmZpY2UuY29tL2FwcHM/YXV0aD0yIiwibmFtZSI6Ik1pY3Jvc29mdCAzNjUiLCJpY29ucyI6W3sic3JjIjoiaHR0cHM6Ly9yZXMuY2RuLm9mZmljZS5uZXQvb2ZmaWNlaHViL2ltYWdlcy9jb250ZW50L2ltYWdlcy9mYXZpY29uX20zNjUtNjczNTBhMDhlOC5pY28iLCJ0eXBlIjoiaW1hZ2UveC1pY29uIiwicHVycG9zZSI6ImFueSIsInNpemVzIjoiIn1dfQ==",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://www.office.com/apps?auth=2",
+                "scope": "https://www.office.com/",
+                "name": "Microsoft 365",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "browser",
+                "orientation": "any",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://res.cdn.office.net/officehub/images/content/images/favicon_m365-67350a08e8.ico",
+                        "type": "image/x-icon",
+                        "sizes": "",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01GPD2PY4CNRBKWCWZ19Y1EKWJ": {
+            "ulid": "01GPD2PY4CNRBKWCWZ19Y1EKWJ",
+            "profile": "01GPD2PXYJRPXD5HHA6KHG39KC",
+            "config": {
+                "name": "Geogebra (Webapp)",
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://www.geogebra.org/",
+                "manifest_url": "https://www.geogebra.org/assets/manifest.json",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://www.geogebra.org/",
+                "scope": "https://www.geogebra.org/",
+                "name": "GeoGebra Graphing Calculator App on Android",
+                "short_name": "GeoGebra Graphing Calculator",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "standalone",
+                "orientation": "any",
+                "prefer_related_applications": true,
+                "related_applications": [
+                    {
+                        "platform": "play",
+                        "id": "org.geogebra.android",
+                        "fingerprints": []
+                    }
+                ],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [],
+                "screenshots": []
+            }
+        },
+        "01GPD35XHF74C1CQXT39XQYJB5": {
+            "ulid": "01GPD35XHF74C1CQXT39XQYJB5",
+            "profile": "01GPD35XARJC8KPQWE1R127SMV",
+            "config": {
+                "name": "Desmos",
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://www.desmos.com/calculator",
+                "manifest_url": "https://www.desmos.com/assets/pwa/app.webmanifest",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://www.desmos.com/calculator",
+                "scope": "https://www.desmos.com/",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "browser",
+                "orientation": "any",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://www.desmos.com/assets/pwa/icon-192x192.png",
+                        "type": "image/png",
+                        "sizes": "192x192",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://www.desmos.com/assets/pwa/icon-512x512.png",
+                        "type": "image/png",
+                        "sizes": "512x512",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01GPEMATZ5VGQEMVD99V2G5XTJ": {
+            "ulid": "01GPEMATZ5VGQEMVD99V2G5XTJ",
+            "profile": "01GPEMATXJZ0T9QEX850AVBRHN",
+            "config": {
+                "name": null,
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://nebrwesleyan-my.sharepoint.com/personal/bmckain_nebrwesleyan_edu/_layouts/15/onedrive.aspx",
+                "manifest_url": "data:application/manifest+json;base64,eyJzdGFydF91cmwiOiJodHRwczovL25lYnJ3ZXNsZXlhbi1teS5zaGFyZXBvaW50LmNvbS9wZXJzb25hbC9ibWNrYWluX25lYnJ3ZXNsZXlhbl9lZHUvX2xheW91dHMvMTUvb25lZHJpdmUuYXNweCIsIm5hbWUiOiJNaWNyb3NvZnQgT25lRHJpdmUiLCJpY29ucyI6W3sic3JjIjoiaHR0cHM6Ly9uZWJyd2VzbGV5YW4tbXkuc2hhcmVwb2ludC5jb20vX2xheW91dHMvMTUvaW1hZ2VzL29kYmZhdmljb24uaWNvP3Jldj00NyIsInR5cGUiOiJpbWFnZS92bmQubWljcm9zb2Z0Lmljb24iLCJwdXJwb3NlIjoiYW55Iiwic2l6ZXMiOiIifV19",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://nebrwesleyan-my.sharepoint.com/personal/bmckain_nebrwesleyan_edu/_layouts/15/onedrive.aspx",
+                "scope": "https://nebrwesleyan-my.sharepoint.com/personal/bmckain_nebrwesleyan_edu/_layouts/15/",
+                "name": "Microsoft OneDrive",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "browser",
+                "orientation": "any",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://nebrwesleyan-my.sharepoint.com/_layouts/15/images/odbfavicon.ico?rev=47",
+                        "type": "image/vnd.microsoft.icon",
+                        "sizes": "",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01GQTESF331CZ3ZAENB3WWD68S": {
+            "ulid": "01GQTESF331CZ3ZAENB3WWD68S",
+            "profile": "01GQTESDCA5JKQARCWKGAE3CNE",
+            "config": {
+                "name": "YouTube Music",
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://music.youtube.com/",
+                "manifest_url": "https://music.youtube.com/manifest.webmanifest",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://music.youtube.com/?source=pwa",
+                "scope": "https://music.youtube.com/",
+                "name": "YouTube Music",
+                "short_name": "YT Music",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "minimal-ui",
+                "orientation": "any",
+                "background_color": "#000000",
+                "theme_color": "#131313",
+                "prefer_related_applications": true,
+                "related_applications": [
+                    {
+                        "platform": "play",
+                        "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music",
+                        "id": "com.google.android.apps.youtube.music",
+                        "fingerprints": []
+                    },
+                    {
+                        "platform": "itunes",
+                        "url": "https://itunes.apple.com/app/apple-store/id1017492454?mt=8&pt=9008",
+                        "fingerprints": []
+                    },
+                    {
+                        "platform": "chromeos_play",
+                        "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music.pwa",
+                        "id": "com.google.android.apps.youtube.music.pwa",
+                        "fingerprints": []
+                    }
+                ],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://www.gstatic.com/youtube/media/ytm/images/applauncher/music_icon_48x48.png",
+                        "type": "image/png",
+                        "sizes": "48x48",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://www.gstatic.com/youtube/media/ytm/images/applauncher/music_icon_72x72.png",
+                        "type": "image/png",
+                        "sizes": "72x72",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://www.gstatic.com/youtube/media/ytm/images/applauncher/music_icon_96x96.png",
+                        "type": "image/png",
+                        "sizes": "96x96",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://www.gstatic.com/youtube/media/ytm/images/applauncher/music_icon_144x144.png",
+                        "type": "image/png",
+                        "sizes": "144x144",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://www.gstatic.com/youtube/media/ytm/images/applauncher/music_icon_192x192.png",
+                        "type": "image/png",
+                        "sizes": "192x192",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://www.gstatic.com/youtube/media/ytm/images/applauncher/music_icon_512x512.png",
+                        "type": "image/png",
+                        "sizes": "512x512",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://www.gstatic.com/youtube/media/ytm/images/applauncher/music_icon_maskable_512x512.png",
+                        "type": "image/png",
+                        "sizes": "512x512",
+                        "purpose": "maskable"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01GWF5DP0FM8FC6QXTN2FGA83R": {
+            "ulid": "01GWF5DP0FM8FC6QXTN2FGA83R",
+            "profile": "01GWF5DNNFB1FRNX7QHVQ6DZDE",
+            "config": {
+                "name": "Gmail - Professional",
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://mail.google.com/mail/u/1/#inbox",
+                "manifest_url": "https://mail.google.com/mail/manifest.json",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://mail.google.com/mail/?usp=installed_webapp",
+                "scope": "https://mail.google.com/mail/",
+                "name": "Gmail",
+                "short_name": "Gmail",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "browser",
+                "orientation": "any",
+                "background_color": "#ffffff",
+                "theme_color": "#ffffff",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://ssl.gstatic.com/images/branding/product/2x/hh_gmail_16dp.png",
+                        "type": "image/png",
+                        "sizes": "32x32",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://ssl.gstatic.com/images/branding/product/1x/hh_gmail_96dp.png",
+                        "type": "image/png",
+                        "sizes": "96x96",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://ssl.gstatic.com/images/branding/product/2x/hh_gmail_96dp.png",
+                        "type": "image/png",
+                        "sizes": "192x192",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://ssl.gstatic.com/images/branding/product/1x/hh_gmail_512dp.png",
+                        "type": "image/png",
+                        "sizes": "512x512",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01GY0A1DC1SWP0S1497SV88KHR": {
+            "ulid": "01GY0A1DC1SWP0S1497SV88KHR",
+            "profile": "01GY0A1D0XPPMR2G9MEF0J51CS",
+            "config": {
+                "name": null,
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://calendar.google.com/calendar/u/0/r?pli=1",
+                "manifest_url": "https://calendar.google.com/calendar/manifest.json",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://calendar.google.com/calendar/r",
+                "scope": "https://calendar.google.com/calendar/",
+                "name": "Google Calendar",
+                "short_name": "Calendar",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "browser",
+                "orientation": "any",
+                "background_color": "#ffffff",
+                "theme_color": "#f1f3f4",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://www.gstatic.com/calendar/images/manifest/logo_2020q4_192.png",
+                        "type": "image/png",
+                        "sizes": "192x192",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://www.gstatic.com/calendar/images/manifest/logo_2020q4_512.png",
+                        "type": "image/png",
+                        "sizes": "512x512",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://www.gstatic.com/calendar/images/manifest/logo_32.png",
+                        "type": "image/png",
+                        "sizes": "32x32",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01H2NKQ79V6K5EV50NETFQ735C": {
+            "ulid": "01H2NKQ79V6K5EV50NETFQ735C",
+            "profile": "01H2NKQ78C1CRT5ZCWGQ3KYQNS",
+            "config": {
+                "name": "CoCalc",
+                "description": null,
+                "start_url": "https://cocalc.com/projects",
+                "icon_url": null,
+                "document_url": "https://cocalc.com/",
+                "manifest_url": "data:application/manifest+json;base64,eyJzdGFydF91cmwiOiJodHRwczovL2NvY2FsYy5jb20vIiwibmFtZSI6IkNvbGxhYm9yYXRpdmUgQ2FsY3VsYXRpb24gYW5kIERhdGEgU2NpZW5jZSIsImRlc2NyaXB0aW9uIjoiQ29DYWxjIGxhbmRpbmcgcGFnZXMgYW5kIGRvY3VtZW50YXRpb24iLCJpY29ucyI6W3sic3JjIjoiaHR0cHM6Ly9jb2NhbGMuY29tL19uZXh0L3N0YXRpYy9tZWRpYS9pY29uLjlmMWI4ODUxLnN2ZyIsInR5cGUiOm51bGwsInB1cnBvc2UiOiJhbnkiLCJzaXplcyI6IiJ9XX0=",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://cocalc.com/",
+                "scope": "https://cocalc.com/",
+                "name": "Collaborative Calculation and Data Science",
+                "description": "CoCalc landing pages and documentation",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "browser",
+                "orientation": "any",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://cocalc.com/_next/static/media/icon.9f1b8851.svg",
+                        "sizes": "",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01H2NRGY9WTKP0ZFYB4AD0JT13": {
+            "ulid": "01H2NRGY9WTKP0ZFYB4AD0JT13",
+            "profile": "01H2NRGY3G8WFNBKSKYEN6X0C2",
+            "config": {
+                "name": "Azure Portal",
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://portal.azure.com/#home",
+                "manifest_url": "https://portal.azure.com/Content/static/PWA/azure.webmanifest",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://portal.azure.com/?pwa=1",
+                "scope": "https://portal.azure.com/",
+                "name": "Microsoft Azure portal (PWA)",
+                "short_name": "Azure",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "standalone",
+                "orientation": "any",
+                "prefer_related_applications": true,
+                "related_applications": [
+                    {
+                        "platform": "play",
+                        "id": "com.microsoft.azure",
+                        "fingerprints": []
+                    },
+                    {
+                        "platform": "itunes",
+                        "url": "https://apps.apple.com/app/microsoft-azure/id1219013620",
+                        "fingerprints": []
+                    }
+                ],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://portal.azure.com/Content/static/PWA/Azure-512p-maskable.png",
+                        "type": "image/png",
+                        "sizes": "512x512",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01H2NRKXC3M7YYNC1699CYDTR0": {
+            "ulid": "01H2NRKXC3M7YYNC1699CYDTR0",
+            "profile": "01H2NRKXAP6G226XNV3PV9GN81",
+            "config": {
+                "name": "Azure DevOps",
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://dev.azure.com/emceekain/",
+                "manifest_url": "data:application/manifest+json;base64,eyJzdGFydF91cmwiOiJodHRwczovL2Rldi5henVyZS5jb20vZW1jZWVrYWluLyIsIm5hbWUiOiJQcm9qZWN0cyAtIEhvbWUiLCJpY29ucyI6W3sic3JjIjoiaHR0cHM6Ly9jZG4udnNhc3NldHMuaW8vY29udGVudC9pY29ucy9mYXZpY29uLmljbyIsInR5cGUiOm51bGwsInB1cnBvc2UiOiJhbnkiLCJzaXplcyI6IiJ9XX0=",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://dev.azure.com/emceekain/",
+                "scope": "https://dev.azure.com/emceekain/",
+                "name": "Projects - Home",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "browser",
+                "orientation": "any",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://cdn.vsassets.io/content/icons/favicon.ico",
+                        "sizes": "",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01H2P6487DTXC8T4X06GTWKFGV": {
+            "ulid": "01H2P6487DTXC8T4X06GTWKFGV",
+            "profile": "01H2P647YX6WX9MAW79TYYAHFJ",
+            "config": {
+                "name": "Outlook",
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://outlook.office.com/mail/",
+                "manifest_url": "https://outlook.office.com/mail/manifests/pwa.json?culture=en",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://outlook.office.com/mail/",
+                "scope": "https://outlook.office.com/",
+                "name": "Outlook (PWA)",
+                "short_name": "Outlook",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "standalone",
+                "orientation": "any",
+                "background_color": "#ffffff",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [
+                    {
+                        "protocol": "mailto",
+                        "url": "https://outlook.office.com/mail/deeplink/compose/?mailtouri=%s"
+                    }
+                ],
+                "shortcuts": [
+                    {
+                        "name": "New message",
+                        "description": "Compose a new message using Outlook",
+                        "url": "https://outlook.office.com/mail/deeplink/compose",
+                        "icons": [
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.32.png",
+                                "type": "image/png",
+                                "sizes": "32x32",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.48.png",
+                                "type": "image/png",
+                                "sizes": "48x48",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.72.png",
+                                "type": "image/png",
+                                "sizes": "72x72",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.96.png",
+                                "type": "image/png",
+                                "sizes": "96x96",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.144.png",
+                                "type": "image/png",
+                                "sizes": "144x144",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.192.png",
+                                "type": "image/png",
+                                "sizes": "192x192",
+                                "purpose": "any"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "New event",
+                        "description": "Create a new event using Outlook",
+                        "url": "https://outlook.office.com/calendar/deeplink/compose",
+                        "icons": [
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.32.png",
+                                "type": "image/png",
+                                "sizes": "32x32",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.48.png",
+                                "type": "image/png",
+                                "sizes": "48x48",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.72.png",
+                                "type": "image/png",
+                                "sizes": "72x72",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.96.png",
+                                "type": "image/png",
+                                "sizes": "96x96",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.144.png",
+                                "type": "image/png",
+                                "sizes": "144x144",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.192.png",
+                                "type": "image/png",
+                                "sizes": "192x192",
+                                "purpose": "any"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Open calendar",
+                        "description": "Open your calendar in Outlook",
+                        "url": "https://outlook.office.com/calendar",
+                        "icons": [
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.32.png",
+                                "type": "image/png",
+                                "sizes": "32x32",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.48.png",
+                                "type": "image/png",
+                                "sizes": "48x48",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.72.png",
+                                "type": "image/png",
+                                "sizes": "72x72",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.96.png",
+                                "type": "image/png",
+                                "sizes": "96x96",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.144.png",
+                                "type": "image/png",
+                                "sizes": "144x144",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.192.png",
+                                "type": "image/png",
+                                "sizes": "192x192",
+                                "purpose": "any"
+                            }
+                        ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.48x48x32.png",
+                        "type": "image/png",
+                        "sizes": "48x48",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.64x64x32.png",
+                        "type": "image/png",
+                        "sizes": "64x64",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.128x128x32.png",
+                        "type": "image/png",
+                        "sizes": "128x128",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.144x144.png",
+                        "type": "image/png",
+                        "sizes": "144x144",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.192x192.png",
+                        "type": "image/png",
+                        "sizes": "192x192",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.256x256x32.png",
+                        "type": "image/png",
+                        "sizes": "256x256",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.512x512.png",
+                        "type": "image/png",
+                        "sizes": "512x512",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        }
+    },
+    "arguments": [],
+    "variables": {},
+    "config": {
+        "always_patch": false,
+        "runtime_enable_wayland": false,
+        "runtime_use_xinput2": false,
+        "runtime_use_portals": false
+    }
+}
