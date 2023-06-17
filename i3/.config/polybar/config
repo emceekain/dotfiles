@@ -92,6 +92,9 @@ include-file = $HOME/.config/polybar/config.d/sysmenu.ini
 [module/color-switch]
 include-file = $HOME/.config/polybar/config.d/color-switch.ini
 
+[module/weather]
+include-file = $HOME/.config/polybar/config.d/weather.ini
+
 [settings]
 screenchange-reload = true
 ;compositing-background = xor
