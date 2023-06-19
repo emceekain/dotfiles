@@ -52,7 +52,7 @@ get_duration() {
 
 }
 
-KEY="***REMOVED***"
+KEY=""
 CITY=""
 UNITS="imperial"
 SYMBOL="°"
