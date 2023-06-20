@@ -69,7 +69,10 @@ fi
 
 if [ -n "$weather" ]; then
     weather_temp=$(echo "$weather" | jq ".main.temp" | cut -d "." -f 1)
+    feels_like=$(echo "$weather" | jq ".main.feels_like" | cut -d "." -f 1)
+    humidity=$(echo "$weather" | jq ".main.humidity" | cut -d "." -f 1)
+    wind_speed=$(echo "$weather" | jq ".wind.speed" | cut -d "." -f 1)
     weather_icon=$(echo "$weather" | jq -r ".weather[0].icon")
 
-    echo "$(get_icon "$weather_icon")" "$weather_temp$SYMBOL"
+    echo "$(get_icon "$weather_icon")" "$weather_temp$SYMBOL ($feels_like$SYMBOL)"
 fi
