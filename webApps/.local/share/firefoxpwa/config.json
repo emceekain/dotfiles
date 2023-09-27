@@ -275,6 +275,30 @@
             "sites": [
                 "01H2P6487DTXC8T4X06GTWKFGV"
             ]
+        },
+        "01H3SPXKTGP3NH9TMASY0JCDRP": {
+            "ulid": "01H3SPXKTGP3NH9TMASY0JCDRP",
+            "name": "Jira Software",
+            "description": null,
+            "sites": [
+                "01H3SPXKVY5F6QEQ6MXDM1ZN2D"
+            ]
+        },
+        "01H7DHH7F81KCNYFXW5P3VX9WN": {
+            "ulid": "01H7DHH7F81KCNYFXW5P3VX9WN",
+            "name": "Proton Mail",
+            "description": null,
+            "sites": [
+                "01H7DHH8BDJN85ZFYNSQG0W7TJ"
+            ]
+        },
+        "01H7DHRQ9VJYBMH8NTT2C7K8DK": {
+            "ulid": "01H7DHRQ9VJYBMH8NTT2C7K8DK",
+            "name": "Proton Calendar",
+            "description": null,
+            "sites": [
+                "01H7DHRR589QYMKF15MR1TF0D8"
+            ]
         }
     },
     "sites": {
@@ -1995,6 +2019,243 @@
                     },
                     {
                         "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.512x512.png",
+                        "type": "image/png",
+                        "sizes": "512x512",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01H3SPXKVY5F6QEQ6MXDM1ZN2D": {
+            "ulid": "01H3SPXKVY5F6QEQ6MXDM1ZN2D",
+            "profile": "01H3SPXKTGP3NH9TMASY0JCDRP",
+            "config": {
+                "name": "Jira Software",
+                "description": null,
+                "start_url": "https://emceekain.atlassian.net/jira",
+                "icon_url": null,
+                "document_url": "https://emceekain.atlassian.net/jira/projects?selectedProjectType=software",
+                "manifest_url": "data:application/manifest+json;base64,eyJzdGFydF91cmwiOiJodHRwczovL2VtY2Vla2Fpbi5hdGxhc3NpYW4ubmV0L2ppcmEiLCJuYW1lIjoiSklSQSIsImljb25zIjpbeyJzcmMiOiJodHRwczovL2VtY2Vla2Fpbi5hdGxhc3NpYW4ubmV0L3MvLWlhM3FteC9iLzkvYjZiNDhiMjgyOTgyNGI4Njk1ODZhYzIxNmQxMTkzNjMvXy9mYXZpY29uLXNvZnR3YXJlLmljbyIsInR5cGUiOm51bGwsInB1cnBvc2UiOiJhbnkiLCJzaXplcyI6IiJ9LHsic3JjIjoiaHR0cHM6Ly9lbWNlZWthaW4uYXRsYXNzaWFuLm5ldC9pbWFnZXMvamlyYS1zYWZhcmktcGludGFiLWljb24uc3ZnIiwidHlwZSI6ImltYWdlL3N2Zyt4bWwiLCJwdXJwb3NlIjoibW9ub2Nocm9tZSIsInNpemVzIjoiYW55In1dfQ==",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://emceekain.atlassian.net/jira",
+                "scope": "https://emceekain.atlassian.net/",
+                "name": "JIRA",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "browser",
+                "orientation": "any",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://emceekain.atlassian.net/s/-ia3qmx/b/9/b6b48b2829824b869586ac216d119363/_/favicon-software.ico",
+                        "sizes": "",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://emceekain.atlassian.net/images/jira-safari-pintab-icon.svg",
+                        "type": "image/svg+xml",
+                        "sizes": "any",
+                        "purpose": "monochrome"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01H7DHH8BDJN85ZFYNSQG0W7TJ": {
+            "ulid": "01H7DHH8BDJN85ZFYNSQG0W7TJ",
+            "profile": "01H7DHH7F81KCNYFXW5P3VX9WN",
+            "config": {
+                "name": null,
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://mail.proton.me/u/0/inbox",
+                "manifest_url": "https://mail.proton.me/assets/manifest.webmanifest",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://mail.proton.me/",
+                "scope": "https://mail.proton.me/",
+                "name": "Proton Mail",
+                "short_name": "Proton Mail",
+                "description": "Proton Mail is based in Switzerland and uses advanced encryption to keep your data safe. Apps available for Android, iOS, and desktop devices.",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "lang": "en-US",
+                "display": "standalone",
+                "orientation": "any",
+                "background_color": "#ffffff",
+                "theme_color": "#1b1340",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://mail.proton.me/assets/android-chrome-36x36.png",
+                        "type": "image/png",
+                        "sizes": "36x36",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://mail.proton.me/assets/android-chrome-48x48.png",
+                        "type": "image/png",
+                        "sizes": "48x48",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://mail.proton.me/assets/android-chrome-72x72.png",
+                        "type": "image/png",
+                        "sizes": "72x72",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://mail.proton.me/assets/android-chrome-96x96.png",
+                        "type": "image/png",
+                        "sizes": "96x96",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://mail.proton.me/assets/android-chrome-144x144.png",
+                        "type": "image/png",
+                        "sizes": "144x144",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://mail.proton.me/assets/android-chrome-192x192.png",
+                        "type": "image/png",
+                        "sizes": "192x192",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://mail.proton.me/assets/android-chrome-256x256.png",
+                        "type": "image/png",
+                        "sizes": "256x256",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://mail.proton.me/assets/android-chrome-384x384.png",
+                        "type": "image/png",
+                        "sizes": "384x384",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://mail.proton.me/assets/android-chrome-512x512.png",
+                        "type": "image/png",
+                        "sizes": "512x512",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01H7DHRR589QYMKF15MR1TF0D8": {
+            "ulid": "01H7DHRR589QYMKF15MR1TF0D8",
+            "profile": "01H7DHRQ9VJYBMH8NTT2C7K8DK",
+            "config": {
+                "name": null,
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://calendar.proton.me/u/0/",
+                "manifest_url": "https://calendar.proton.me/assets/manifest.webmanifest",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://calendar.proton.me/",
+                "scope": "https://calendar.proton.me/",
+                "name": "Proton Calendar",
+                "short_name": "Proton Calendar",
+                "description": "Proton Calendar helps you stay on top of your schedule while protecting your data. Apps available for Android, iOS, and the web.",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "lang": "en-US",
+                "display": "standalone",
+                "orientation": "any",
+                "background_color": "#ffffff",
+                "theme_color": "#1b1340",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://calendar.proton.me/assets/android-chrome-36x36.png",
+                        "type": "image/png",
+                        "sizes": "36x36",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://calendar.proton.me/assets/android-chrome-48x48.png",
+                        "type": "image/png",
+                        "sizes": "48x48",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://calendar.proton.me/assets/android-chrome-72x72.png",
+                        "type": "image/png",
+                        "sizes": "72x72",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://calendar.proton.me/assets/android-chrome-96x96.png",
+                        "type": "image/png",
+                        "sizes": "96x96",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://calendar.proton.me/assets/android-chrome-144x144.png",
+                        "type": "image/png",
+                        "sizes": "144x144",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://calendar.proton.me/assets/android-chrome-192x192.png",
+                        "type": "image/png",
+                        "sizes": "192x192",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://calendar.proton.me/assets/android-chrome-256x256.png",
+                        "type": "image/png",
+                        "sizes": "256x256",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://calendar.proton.me/assets/android-chrome-384x384.png",
+                        "type": "image/png",
+                        "sizes": "384x384",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://calendar.proton.me/assets/android-chrome-512x512.png",
                         "type": "image/png",
                         "sizes": "512x512",
                         "purpose": "any"
