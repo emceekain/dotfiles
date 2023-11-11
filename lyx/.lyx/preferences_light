@@ -1,4 +1,4 @@
-# LyX 2.3.6.1 generated this file. If you want to make your own
+# LyX 2.3.7 generated this file. If you want to make your own
 # modifications you should do them from inside LyX and save.
 
 Format 24
@@ -16,10 +16,9 @@ Format 24
 #
 
 \screen_zoom 200
-\screen_font_roman "Noto Serif"
-\screen_font_sans "Noto Sans"
 \screen_font_sizes 5 7 8 9 10 12 14.4 17.26 20.74 24.88
 \single_instance false
+\forward_search_pdf "zathura --synctex-forward $$n:1:$$t $$o"
 
 #
 # COLOR SECTION ###################################
