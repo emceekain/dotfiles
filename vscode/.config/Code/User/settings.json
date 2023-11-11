@@ -13,17 +13,15 @@
     "git.autofetch": true,
     "git.confirmSync": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
-    "python.jediEnabled": false,
     "python.languageServer": "Default",
     "redhat.telemetry.enabled": false,
     "security.workspace.trust.untrustedFiles": "open",
     "telemetry.telemetryLevel": "off",
     "todo-tree.general.debug": true,
-    "todo-tree.general.enableFileWatcher": true,
     "todo-tree.general.statusBar": "total",
     "todo-tree.regex.regex": "((//|#|<!--|;|/\\*|^|%|\\\\)\\s*($TAGS)\\{*|^\\s*- \\[ \\])",
     "todo-tree.ripgrep.ripgrep": "/bin/rg",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "window.autoDetectColorScheme": true,
-    "window.zoomLevel": 1
+    "window.zoomLevel": 1.5,
 }
