@@ -299,6 +299,14 @@
             "sites": [
                 "01H7DHRR589QYMKF15MR1TF0D8"
             ]
+        },
+        "01HEDEZYSMF1AWGWXQT6HQP17W": {
+            "ulid": "01HEDEZYSMF1AWGWXQT6HQP17W",
+            "name": "Outlook (UNL)",
+            "description": null,
+            "sites": [
+                "01HEDEZZ3BEF1HHN4PZSENR4X3"
+            ]
         }
     },
     "sites": {
@@ -2256,6 +2264,221 @@
                     },
                     {
                         "src": "https://calendar.proton.me/assets/android-chrome-512x512.png",
+                        "type": "image/png",
+                        "sizes": "512x512",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01HEDEZZ3BEF1HHN4PZSENR4X3": {
+            "ulid": "01HEDEZZ3BEF1HHN4PZSENR4X3",
+            "profile": "01HEDEZYSMF1AWGWXQT6HQP17W",
+            "config": {
+                "name": "Outlook (UNL)",
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://outlook.office.com/mail/",
+                "manifest_url": "https://outlook.office.com/mail/manifests/pwa.json?culture=en",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://outlook.office.com/mail/",
+                "scope": "https://outlook.office.com/",
+                "name": "Outlook (PWA)",
+                "short_name": "Outlook",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "standalone",
+                "orientation": "any",
+                "background_color": "#ffffff",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [
+                    {
+                        "protocol": "mailto",
+                        "url": "https://outlook.office.com/mail/deeplink/compose/?mailtouri=%s"
+                    }
+                ],
+                "shortcuts": [
+                    {
+                        "name": "New message",
+                        "description": "Compose a new message using Outlook",
+                        "url": "https://outlook.office.com/mail/deeplink/compose",
+                        "icons": [
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.32.png",
+                                "type": "image/png",
+                                "sizes": "32x32",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.48.png",
+                                "type": "image/png",
+                                "sizes": "48x48",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.72.png",
+                                "type": "image/png",
+                                "sizes": "72x72",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.96.png",
+                                "type": "image/png",
+                                "sizes": "96x96",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.144.png",
+                                "type": "image/png",
+                                "sizes": "144x144",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.192.png",
+                                "type": "image/png",
+                                "sizes": "192x192",
+                                "purpose": "any"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "New event",
+                        "description": "Create a new event using Outlook",
+                        "url": "https://outlook.office.com/calendar/deeplink/compose",
+                        "icons": [
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.32.png",
+                                "type": "image/png",
+                                "sizes": "32x32",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.48.png",
+                                "type": "image/png",
+                                "sizes": "48x48",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.72.png",
+                                "type": "image/png",
+                                "sizes": "72x72",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.96.png",
+                                "type": "image/png",
+                                "sizes": "96x96",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.144.png",
+                                "type": "image/png",
+                                "sizes": "144x144",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.192.png",
+                                "type": "image/png",
+                                "sizes": "192x192",
+                                "purpose": "any"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Open calendar",
+                        "description": "Open your calendar in Outlook",
+                        "url": "https://outlook.office.com/calendar",
+                        "icons": [
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.32.png",
+                                "type": "image/png",
+                                "sizes": "32x32",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.48.png",
+                                "type": "image/png",
+                                "sizes": "48x48",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.72.png",
+                                "type": "image/png",
+                                "sizes": "72x72",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.96.png",
+                                "type": "image/png",
+                                "sizes": "96x96",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.144.png",
+                                "type": "image/png",
+                                "sizes": "144x144",
+                                "purpose": "any"
+                            },
+                            {
+                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.192.png",
+                                "type": "image/png",
+                                "sizes": "192x192",
+                                "purpose": "any"
+                            }
+                        ]
+                    }
+                ],
+                "icons": [
+                    {
+                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.48x48x32.png",
+                        "type": "image/png",
+                        "sizes": "48x48",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.64x64x32.png",
+                        "type": "image/png",
+                        "sizes": "64x64",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.128x128x32.png",
+                        "type": "image/png",
+                        "sizes": "128x128",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.144x144.png",
+                        "type": "image/png",
+                        "sizes": "144x144",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.192x192.png",
+                        "type": "image/png",
+                        "sizes": "192x192",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.256x256x32.png",
+                        "type": "image/png",
+                        "sizes": "256x256",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.512x512.png",
                         "type": "image/png",
                         "sizes": "512x512",
                         "purpose": "any"
