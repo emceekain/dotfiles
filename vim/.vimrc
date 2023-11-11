@@ -84,7 +84,7 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         "Plug 'scrooloose/syntastic'        " Syntax/lint engine.
     " }
     " Auto-Completion {
-        Plug 'neoclide/coc.nvim'                " Intellisense engine for Vim/Neovim. 
+        Plug 'neoclide/coc.nvim', {'branch': 'release'} " Intellisense engine for Vim/Neovim. 
         Plug 'raimondi/delimitmate'             " Insert mode auto-completion of delimiters.
         "Plug 'shougo/deoplete.nvim'            " Asynchronous completion framework.
         Plug 'davidhalter/jedi-vim'             " Python autocompletion library.
@@ -164,6 +164,7 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         "set nowrap                  " Disables line-wrapping.
         set showmatch               " Highlights matching [{()}].
         set wildmenu                " Visual autocomplete for command menu.
+        set spell                   " Enable SpellCheck by default.
         "colorscheme molokai
         colorscheme PaperColor
         "colorscheme primary
@@ -270,22 +271,30 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         let g:ctrlp_types = ['buf', 'mru', 'fil']
     " }
     " COC {
-        " Use tab for trigger completion with characters ahead and navigate.
-        " Use command ':verbose imap <tab>' to make sure tab is not mapped by other plugin.
+        " Use tab for trigger completion with characters ahead and navigate
+        " NOTE: There's always complete item selected by default, you may want to enable
+        " no select by `"suggest.noselect": true` in your configuration file
+        " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
+        " other plugin before putting this into your config
         inoremap <silent><expr> <TAB>
-              \ pumvisible() ? "\<C-n>" :
-              \ <SID>check_back_space() ? "\<TAB>" :
-              \ coc#refresh()
-        inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+                    \ coc#pum#visible() ? coc#pum#next(1) :
+                    \ CheckBackspace() ? "\<Tab>" :
+                    \ coc#refresh()
+
+        inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\<C-h>"
         
-        function! s:check_back_space() abort
-          let col = col('.') - 1
-          return !col || getline('.')[col - 1]  =~# '\s'
+        function! CheckBackspace() abort
+            let col = col('.') - 1
+            return !col || getline('.')[col - 1]  =~# '\s'
         endfunction
         
-        " Use <c-space> to trigger completion.
-        inoremap <silent><expr> <c-space> coc#refresh()
-        
+        " Use <c-space> to trigger completion
+        if has('nvim')
+            inoremap <silent><expr> <c-space> coc#refresh()
+        else
+            inoremap <silent><expr> <c-@> coc#refresh()
+        endif
+
         " Use <cr> to confirm completion, `<C-g>u` means break undo chain at current position.
         " Coc only does snippet and additional edit on confirm.
         inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
@@ -293,18 +302,18 @@ set encoding=utf-8          " Required for Airline/YouCompleteMe/Windows.
         " inoremap <expr> <cr> complete_info()["selected"] != "-1" ? "\<C-y>" : "\<C-g>u\<CR>"
     " }
     " Deoplete {
-        let g:deoplete#enable_at_startup = 1
+        "let g:deoplete#enable_at_startup = 1
         " Enable tab-completion.
-        inoremap <silent><expr> <TAB>
-            \ pumvisible() ? "\<C-n>" :
-            \ <SID>check_back_space() ? "\<TAB>" :
-            \ deoplete#manual_complete()
-        inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+        "inoremap <silent><expr> <TAB>
+            "\ pumvisible() ? "\<C-n>" :
+            "\ <SID>check_back_space() ? "\<TAB>" :
+            "\ deoplete#manual_complete()
+        "inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 
-        function! s:check_back_space() abort 
-            let col = col('.') - 1
-            return !col || getline('.')[col - 1]  =~# '\s'
-        endfunction
+        "function! s:check_back_space() abort 
+            "let col = col('.') - 1
+            "return !col || getline('.')[col - 1]  =~# '\s'
+        "endfunction
 
     " }
     " Fugitive {
