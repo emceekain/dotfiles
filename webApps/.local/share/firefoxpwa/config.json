@@ -22,18 +22,6 @@
                 "01GK5PWMKF8VY4TE8731XN9EFV"
             ]
         },
-        "01GK7X33S9V0HK9TN6FW7QBA2A": {
-            "ulid": "01GK7X33S9V0HK9TN6FW7QBA2A",
-            "name": "Proton Mail",
-            "description": null,
-            "sites": []
-        },
-        "01GK7X6NYCXAZK8H5DV6E6NN2Y": {
-            "ulid": "01GK7X6NYCXAZK8H5DV6E6NN2Y",
-            "name": "Proton Calendar",
-            "description": null,
-            "sites": []
-        },
         "01GK7XGWA98X2376ZWBGM6P2DQ": {
             "ulid": "01GK7XGWA98X2376ZWBGM6P2DQ",
             "name": "Wolfram Alpha",
@@ -170,12 +158,6 @@
                 "01GP2EMY38RBFDH3G3BPX5YTMA"
             ]
         },
-        "01GPD2FC8Z3CZGWSBWD8CBDHW6": {
-            "ulid": "01GPD2FC8Z3CZGWSBWD8CBDHW6",
-            "name": "Microsoft Word",
-            "description": null,
-            "sites": []
-        },
         "01GPD2JHEMDWWCN9Y4EVQE074W": {
             "ulid": "01GPD2JHEMDWWCN9Y4EVQE074W",
             "name": "Microsoft 365",
@@ -255,18 +237,6 @@
             "sites": [
                 "01H2NRKXC3M7YYNC1699CYDTR0"
             ]
-        },
-        "01H2P62SDWAYTVG9V03DW8NTH7": {
-            "ulid": "01H2P62SDWAYTVG9V03DW8NTH7",
-            "name": "Outlook",
-            "description": null,
-            "sites": []
-        },
-        "01H2P63BKGAR3XX4J5T75ZBV1N": {
-            "ulid": "01H2P63BKGAR3XX4J5T75ZBV1N",
-            "name": "Outlook",
-            "description": null,
-            "sites": []
         },
         "01H2P647YX6WX9MAW79TYYAHFJ": {
             "ulid": "01H2P647YX6WX9MAW79TYYAHFJ",
