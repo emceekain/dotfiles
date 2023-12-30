@@ -9,14 +9,14 @@
 # All imports must either be absolute paths starting with `/`, or paths relative
 # to the user's home directory starting with `~/`.
 import:
-  #- ~/.config/alacritty/themes/Builtin Dark.yml
-  #- ~/.config/alacritty/themes/Builtin Light.yml
-  #- ~/.config/alacritty/themes/Builtin Solarized Dark.yml
-  #- ~/.config/alacritty/themes/Builtin Solarized Light.yml
-  #- ~/.config/alacritty/themes/Dark+.yml
+  # - ~/.config/alacritty/themes/Builtin Dark.yml
+  # - ~/.config/alacritty/themes/Builtin Light.yml
+  # - ~/.config/alacritty/themes/Builtin Solarized Dark.yml
+  # - ~/.config/alacritty/themes/Builtin Solarized Light.yml
+  # - ~/.config/alacritty/themes/Dark+.yml
   - ~/.config/alacritty/themes/Molokai.yml
-  #- ~/.config/alacritty/themes/PencilLight.yml
-  #- ~/.config/alacritty/themes/Ubuntu.yml
+  # - ~/.config/alacritty/themes/PencilLight.yml
+  # - ~/.config/alacritty/themes/Ubuntu.yml
 
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
@@ -124,7 +124,8 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: Hack Nerd Font
+    family: Hack Nerd Font Mono
+    # family: Hack Nerd Font
 
     # The `style` can be specified to pick a specific face.
     #style: Regular
@@ -163,7 +164,7 @@ font:
     #style: Bold Italic
 
   # Point size
-  size: 14.0
+  size: 13.0
 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter

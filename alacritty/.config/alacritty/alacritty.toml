@@ -1,0 +1,18 @@
+# import = ["~/.config/alacritty/themes/Builtin Dark.toml"]
+# import = ["~/.config/alacritty/themes/Builtin Light.toml"]
+# import = ["~/.config/alacritty/themes/Builtin Solarized Dark.toml"]
+# import = ["~/.config/alacritty/themes/Builtin Solarized Light.toml"]
+# import = ["~/.config/alacritty/themes/Dark+.toml"]
+import = ["~/.config/alacritty/themes/Molokai.toml"]
+# import = ["~/.config/alacritty/themes/PencilLight.toml"]
+# import = ["~/.config/alacritty/themes/Ubuntu.toml"]
+
+[font]
+size = 13.0
+
+[font.normal]
+family = "Hack Nerd Font Mono"
+# family = "Hack Nerd Font"
+
+[window]
+opacity = 0.9
