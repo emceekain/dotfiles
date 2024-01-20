@@ -277,6 +277,14 @@
             "sites": [
                 "01HEDEZZ3BEF1HHN4PZSENR4X3"
             ]
+        },
+        "01HKV6QJEGZ457V5SS0SX2YADD": {
+            "ulid": "01HKV6QJEGZ457V5SS0SX2YADD",
+            "name": "Cengage WebAssign",
+            "description": null,
+            "sites": [
+                "01HKV6QJHKV7AV1BEK7M0X6WWP"
+            ]
         }
     },
     "sites": {
@@ -2451,6 +2459,68 @@
                         "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.512x512.png",
                         "type": "image/png",
                         "sizes": "512x512",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01HKV6QJHKV7AV1BEK7M0X6WWP": {
+            "ulid": "01HKV6QJHKV7AV1BEK7M0X6WWP",
+            "profile": "01HKV6QJEGZ457V5SS0SX2YADD",
+            "config": {
+                "name": "Cengage WebAssign",
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://www.webassign.net/",
+                "manifest_url": "data:application/manifest+json;base64,eyJzdGFydF91cmwiOiJodHRwczovL3d3dy53ZWJhc3NpZ24ubmV0LyIsIm5hbWUiOiJXZWJBc3NpZ24iLCJkZXNjcmlwdGlvbiI6IldlYkFzc2lnbiBpcyBhbiBvbmxpbmUgbGVhcm5pbmcgcGxhdGZvcm0gYnVpbHQgYnkgZWR1Y2F0b3JzIHRoYXQgcHJvdmlkZXMgYWZmb3JkYWJsZSB0b29scyB0byBlbXBvd2VyIGNvbu+sgWRlbnQgc3R1ZGVudHMgaW4gYSB2aXJ0dWFsIGxlYXJuaW5nIGVudmlyb25tZW50LiIsImljb25zIjpbeyJzcmMiOiJodHRwczovL3d3dy53ZWJhc3NpZ24ubmV0L3dwLWNvbnRlbnQvdGhlbWVzL3dlYmFzc2lnbi9pbWFnZXMvZmF2aWNvbi5pY28iLCJ0eXBlIjpudWxsLCJwdXJwb3NlIjoiYW55Iiwic2l6ZXMiOiIifSx7InNyYyI6Imh0dHBzOi8vd2ViYXNzaWduLmNvbS90b3VjaC1pY29uLWlwaG9uZS5wbmciLCJ0eXBlIjpudWxsLCJwdXJwb3NlIjoiYW55Iiwic2l6ZXMiOiIifSx7InNyYyI6Imh0dHBzOi8vd2ViYXNzaWduLmNvbS90b3VjaC1pY29uLWlwYWQucG5nIiwidHlwZSI6bnVsbCwicHVycG9zZSI6ImFueSIsInNpemVzIjoiNzZ4NzYifSx7InNyYyI6Imh0dHBzOi8vd2ViYXNzaWduLmNvbS90b3VjaC1pY29uLWlwaG9uZS1yZXRpbmEucG5nIiwidHlwZSI6bnVsbCwicHVycG9zZSI6ImFueSIsInNpemVzIjoiMTIweDEyMCJ9LHsic3JjIjoiaHR0cHM6Ly93ZWJhc3NpZ24uY29tL3RvdWNoLWljb24taXBhZC1yZXRpbmEucG5nIiwidHlwZSI6bnVsbCwicHVycG9zZSI6ImFueSIsInNpemVzIjoiMTUyeDE1MiJ9XX0=",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://www.webassign.net/",
+                "scope": "https://www.webassign.net/",
+                "name": "WebAssign",
+                "description": "WebAssign is an online learning platform built by educators that provides affordable tools to empower conﬁdent students in a virtual learning environment.",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "browser",
+                "orientation": "any",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://www.webassign.net/wp-content/themes/webassign/images/favicon.ico",
+                        "sizes": "",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://webassign.com/touch-icon-iphone.png",
+                        "sizes": "",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://webassign.com/touch-icon-ipad.png",
+                        "sizes": "76x76",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://webassign.com/touch-icon-iphone-retina.png",
+                        "sizes": "120x120",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://webassign.com/touch-icon-ipad-retina.png",
+                        "sizes": "152x152",
                         "purpose": "any"
                     }
                 ],
