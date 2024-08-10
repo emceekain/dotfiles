@@ -285,6 +285,14 @@
             "sites": [
                 "01HKV6QJHKV7AV1BEK7M0X6WWP"
             ]
+        },
+        "01HX877ZET9V45VCDA78HHH1K1": {
+            "ulid": "01HX877ZET9V45VCDA78HHH1K1",
+            "name": "Google Messages",
+            "description": null,
+            "sites": [
+                "01HX877ZTRQGC7F2BATMHJM4SX"
+            ]
         }
     },
     "sites": {
@@ -454,18 +462,18 @@
                 "launch_on_browser": false
             },
             "manifest": {
-                "start_url": "https://gitlab.com/explore/projects",
+                "start_url": "https://gitlab.com/",
                 "scope": "https://gitlab.com/",
                 "name": "GitLab",
                 "short_name": "GitLab",
-                "description": "The complete DevOps platform. One application with endless possibilities. Organizations rely on GitLab’s source code management, CI/CD, security, and more to deliver software rapidly.",
+                "description": "La plateforme DevOps complète. Une application unique avec des possibilités infinies. Les entreprises s&#39;appuient sur la gestion du code source, la CI/CD, la sécurité et d&#39;autres fonctionnalités de GitLab pour livrer des logiciels rapidement.",
                 "categories": [],
                 "keywords": [],
                 "dir": "auto",
                 "display": "browser",
                 "orientation": "any",
                 "background_color": "#ffffff",
-                "theme_color": "#292961",
+                "theme_color": "#ececef",
                 "prefer_related_applications": false,
                 "related_applications": [],
                 "protocol_handlers": [],
@@ -1116,58 +1124,58 @@
                 "shortcuts": [],
                 "icons": [
                     {
-                        "src": "https://github.githubassets.com/apple-touch-icon-114x114.png",
+                        "src": "https://github.githubassets.com/assets/apple-touch-icon-114x114-09ce42d3ca4b.png",
                         "sizes": "114x114",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://github.githubassets.com/apple-touch-icon-120x120.png",
+                        "src": "https://github.githubassets.com/assets/apple-touch-icon-120x120-92bd46d04241.png",
                         "sizes": "120x120",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://github.githubassets.com/apple-touch-icon-144x144.png",
+                        "src": "https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png",
                         "sizes": "144x144",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://github.githubassets.com/apple-touch-icon-152x152.png",
+                        "src": "https://github.githubassets.com/assets/apple-touch-icon-152x152-5f777cdc30ae.png",
                         "sizes": "152x152",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://github.githubassets.com/apple-touch-icon-180x180.png",
+                        "src": "https://github.githubassets.com/assets/apple-touch-icon-180x180-a80b8e11abe2.png",
                         "sizes": "180x180",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://github.githubassets.com/apple-touch-icon-57x57.png",
+                        "src": "https://github.githubassets.com/assets/apple-touch-icon-57x57-22f09f5b3a64.png",
                         "sizes": "57x57",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://github.githubassets.com/apple-touch-icon-60x60.png",
+                        "src": "https://github.githubassets.com/assets/apple-touch-icon-60x60-19037ac897bf.png",
                         "sizes": "60x60",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://github.githubassets.com/apple-touch-icon-72x72.png",
+                        "src": "https://github.githubassets.com/assets/apple-touch-icon-72x72-e090c8a282d0.png",
                         "sizes": "72x72",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://github.githubassets.com/apple-touch-icon-76x76.png",
+                        "src": "https://github.githubassets.com/assets/apple-touch-icon-76x76-a4523d80afb4.png",
                         "sizes": "76x76",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://github.githubassets.com/app-icon-192.png",
+                        "src": "https://github.githubassets.com/assets/app-icon-192-bcc967ab9829.png",
                         "type": "image/png",
                         "sizes": "192x192",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://github.githubassets.com/app-icon-512.png",
+                        "src": "https://github.githubassets.com/assets/app-icon-512-7f9c4ff2e960.png",
                         "type": "image/png",
                         "sizes": "512x512",
                         "purpose": "any"
@@ -1684,12 +1692,13 @@
                 "related_applications": [
                     {
                         "platform": "play",
+                        "url": "https://aka.ms/ReferAzureAndroidAppHome",
                         "id": "com.microsoft.azure",
                         "fingerprints": []
                     },
                     {
                         "platform": "itunes",
-                        "url": "https://apps.apple.com/app/microsoft-azure/id1219013620",
+                        "url": "https://aka.ms/ReferAzureIOSPortalHome",
                         "fingerprints": []
                     }
                 ],
@@ -1791,37 +1800,37 @@
                         "url": "https://outlook.office.com/mail/deeplink/compose",
                         "icons": [
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.32.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.32.png",
                                 "type": "image/png",
                                 "sizes": "32x32",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.48.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.48.png",
                                 "type": "image/png",
                                 "sizes": "48x48",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.72.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.72.png",
                                 "type": "image/png",
                                 "sizes": "72x72",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.96.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.96.png",
                                 "type": "image/png",
                                 "sizes": "96x96",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.144.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.144.png",
                                 "type": "image/png",
                                 "sizes": "144x144",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.192.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.192.png",
                                 "type": "image/png",
                                 "sizes": "192x192",
                                 "purpose": "any"
@@ -1834,37 +1843,37 @@
                         "url": "https://outlook.office.com/calendar/deeplink/compose",
                         "icons": [
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.32.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.32.png",
                                 "type": "image/png",
                                 "sizes": "32x32",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.48.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.48.png",
                                 "type": "image/png",
                                 "sizes": "48x48",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.72.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.72.png",
                                 "type": "image/png",
                                 "sizes": "72x72",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.96.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.96.png",
                                 "type": "image/png",
                                 "sizes": "96x96",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.144.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.144.png",
                                 "type": "image/png",
                                 "sizes": "144x144",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.192.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.192.png",
                                 "type": "image/png",
                                 "sizes": "192x192",
                                 "purpose": "any"
@@ -1877,37 +1886,37 @@
                         "url": "https://outlook.office.com/calendar",
                         "icons": [
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.32.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.32.png",
                                 "type": "image/png",
                                 "sizes": "32x32",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.48.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.48.png",
                                 "type": "image/png",
                                 "sizes": "48x48",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.72.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.72.png",
                                 "type": "image/png",
                                 "sizes": "72x72",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.96.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.96.png",
                                 "type": "image/png",
                                 "sizes": "96x96",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.144.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.144.png",
                                 "type": "image/png",
                                 "sizes": "144x144",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.192.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.192.png",
                                 "type": "image/png",
                                 "sizes": "192x192",
                                 "purpose": "any"
@@ -1917,43 +1926,43 @@
                 ],
                 "icons": [
                     {
-                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.48x48x32.png",
+                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.48x48x32.png",
                         "type": "image/png",
                         "sizes": "48x48",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.64x64x32.png",
+                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.64x64x32.png",
                         "type": "image/png",
                         "sizes": "64x64",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.128x128x32.png",
+                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.128x128x32.png",
                         "type": "image/png",
                         "sizes": "128x128",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.144x144.png",
+                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.144x144.png",
                         "type": "image/png",
                         "sizes": "144x144",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.192x192.png",
+                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.192x192.png",
                         "type": "image/png",
                         "sizes": "192x192",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.256x256x32.png",
+                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.256x256x32.png",
                         "type": "image/png",
                         "sizes": "256x256",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.512x512.png",
+                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.512x512.png",
                         "type": "image/png",
                         "sizes": "512x512",
                         "purpose": "any"
@@ -2099,6 +2108,60 @@
                         "type": "image/png",
                         "sizes": "512x512",
                         "purpose": "any"
+                    },
+                    {
+                        "src": "https://mail.proton.me/assets/android-chrome-maskable-36x36.png",
+                        "type": "image/png",
+                        "sizes": "36x36",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://mail.proton.me/assets/android-chrome-maskable-48x48.png",
+                        "type": "image/png",
+                        "sizes": "48x48",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://mail.proton.me/assets/android-chrome-maskable-72x72.png",
+                        "type": "image/png",
+                        "sizes": "72x72",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://mail.proton.me/assets/android-chrome-maskable-96x96.png",
+                        "type": "image/png",
+                        "sizes": "96x96",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://mail.proton.me/assets/android-chrome-maskable-144x144.png",
+                        "type": "image/png",
+                        "sizes": "144x144",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://mail.proton.me/assets/android-chrome-maskable-192x192.png",
+                        "type": "image/png",
+                        "sizes": "192x192",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://mail.proton.me/assets/android-chrome-maskable-256x256.png",
+                        "type": "image/png",
+                        "sizes": "256x256",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://mail.proton.me/assets/android-chrome-maskable-384x384.png",
+                        "type": "image/png",
+                        "sizes": "384x384",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://mail.proton.me/assets/android-chrome-maskable-512x512.png",
+                        "type": "image/png",
+                        "sizes": "512x512",
+                        "purpose": "maskable"
                     }
                 ],
                 "screenshots": []
@@ -2194,6 +2257,60 @@
                         "type": "image/png",
                         "sizes": "512x512",
                         "purpose": "any"
+                    },
+                    {
+                        "src": "https://calendar.proton.me/assets/android-chrome-maskable-36x36.png",
+                        "type": "image/png",
+                        "sizes": "36x36",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://calendar.proton.me/assets/android-chrome-maskable-48x48.png",
+                        "type": "image/png",
+                        "sizes": "48x48",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://calendar.proton.me/assets/android-chrome-maskable-72x72.png",
+                        "type": "image/png",
+                        "sizes": "72x72",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://calendar.proton.me/assets/android-chrome-maskable-96x96.png",
+                        "type": "image/png",
+                        "sizes": "96x96",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://calendar.proton.me/assets/android-chrome-maskable-144x144.png",
+                        "type": "image/png",
+                        "sizes": "144x144",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://calendar.proton.me/assets/android-chrome-maskable-192x192.png",
+                        "type": "image/png",
+                        "sizes": "192x192",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://calendar.proton.me/assets/android-chrome-maskable-256x256.png",
+                        "type": "image/png",
+                        "sizes": "256x256",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://calendar.proton.me/assets/android-chrome-maskable-384x384.png",
+                        "type": "image/png",
+                        "sizes": "384x384",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://calendar.proton.me/assets/android-chrome-maskable-512x512.png",
+                        "type": "image/png",
+                        "sizes": "512x512",
+                        "purpose": "maskable"
                     }
                 ],
                 "screenshots": []
@@ -2243,37 +2360,37 @@
                         "url": "https://outlook.office.com/mail/deeplink/compose",
                         "icons": [
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.32.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.32.png",
                                 "type": "image/png",
                                 "sizes": "32x32",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.48.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.48.png",
                                 "type": "image/png",
                                 "sizes": "48x48",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.72.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.72.png",
                                 "type": "image/png",
                                 "sizes": "72x72",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.96.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.96.png",
                                 "type": "image/png",
                                 "sizes": "96x96",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.144.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.144.png",
                                 "type": "image/png",
                                 "sizes": "144x144",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.192.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.192.png",
                                 "type": "image/png",
                                 "sizes": "192x192",
                                 "purpose": "any"
@@ -2286,37 +2403,37 @@
                         "url": "https://outlook.office.com/calendar/deeplink/compose",
                         "icons": [
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.32.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.32.png",
                                 "type": "image/png",
                                 "sizes": "32x32",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.48.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.48.png",
                                 "type": "image/png",
                                 "sizes": "48x48",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.72.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.72.png",
                                 "type": "image/png",
                                 "sizes": "72x72",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.96.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.96.png",
                                 "type": "image/png",
                                 "sizes": "96x96",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.144.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.144.png",
                                 "type": "image/png",
                                 "sizes": "144x144",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.192.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.192.png",
                                 "type": "image/png",
                                 "sizes": "192x192",
                                 "purpose": "any"
@@ -2329,37 +2446,37 @@
                         "url": "https://outlook.office.com/calendar",
                         "icons": [
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.32.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.32.png",
                                 "type": "image/png",
                                 "sizes": "32x32",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.48.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.48.png",
                                 "type": "image/png",
                                 "sizes": "48x48",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.72.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.72.png",
                                 "type": "image/png",
                                 "sizes": "72x72",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.96.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.96.png",
                                 "type": "image/png",
                                 "sizes": "96x96",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.144.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.144.png",
                                 "type": "image/png",
                                 "sizes": "144x144",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.192.png",
+                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.192.png",
                                 "type": "image/png",
                                 "sizes": "192x192",
                                 "purpose": "any"
@@ -2369,43 +2486,43 @@
                 ],
                 "icons": [
                     {
-                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.48x48x32.png",
+                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.48x48x32.png",
                         "type": "image/png",
                         "sizes": "48x48",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.64x64x32.png",
+                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.64x64x32.png",
                         "type": "image/png",
                         "sizes": "64x64",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.128x128x32.png",
+                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.128x128x32.png",
                         "type": "image/png",
                         "sizes": "128x128",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.144x144.png",
+                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.144x144.png",
                         "type": "image/png",
                         "sizes": "144x144",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.192x192.png",
+                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.192x192.png",
                         "type": "image/png",
                         "sizes": "192x192",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.256x256x32.png",
+                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.256x256x32.png",
                         "type": "image/png",
                         "sizes": "256x256",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res-h3.public.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.512x512.png",
+                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.512x512.png",
                         "type": "image/png",
                         "sizes": "512x512",
                         "purpose": "any"
@@ -2569,6 +2686,57 @@
                         "src": "https://app.todoist.com/app/manifest_icons/icon_144x144.6b57d81dd9f2390043627e88385ef8c6.png",
                         "type": "image/png",
                         "sizes": "144x144",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01HX877ZTRQGC7F2BATMHJM4SX": {
+            "ulid": "01HX877ZTRQGC7F2BATMHJM4SX",
+            "profile": "01HX877ZET9V45VCDA78HHH1K1",
+            "config": {
+                "name": "Google Messages",
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://messages.google.com/web/conversations",
+                "manifest_url": "https://messages.google.com/web/manifest.json",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://messages.google.com/web/?pwa=1",
+                "scope": "https://messages.google.com/web/",
+                "name": "Messages",
+                "short_name": "Messages",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "standalone",
+                "orientation": "any",
+                "background_color": "#ffffff",
+                "theme_color": "#f1f3f4",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://ssl.gstatic.com/android-messages-web/images/2022.3/2x/messages_2022_round_96dp.png",
+                        "type": "image/png",
+                        "sizes": "192x192",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://ssl.gstatic.com/android-messages-web/images/2022.3/1x/messages_2022_round_512dp.png",
+                        "type": "image/png",
+                        "sizes": "512x512",
                         "purpose": "any"
                     }
                 ],
