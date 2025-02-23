@@ -124,4 +124,4 @@ else
 	_EOF_
 fi
 
-feh --bg-scale $WALLPAPER
+feh --bg-fill $WALLPAPER
