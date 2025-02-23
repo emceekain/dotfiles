@@ -222,13 +222,13 @@ assign [class="DB Browser for SQLite"] $dev1
 #assign [class="URxvt"] $dev2
 #assign [class="konsole"] $dev2
 assign [class="Gitg"] $dev2
-assign [class="KeePassXC"] $util
+assign [class="KeePassXC"] $web
 assign [class="ksysguard"] $util
 assign [class="filelight"] $util
 assign [class="Baobab"] $util
 assign [class="krusader"] $files
 assign [class="dolphin"] $files
-assign [class="doublecmd|Doublecmd"] $files
+assign [class="(doublecmd|Double Commander)"] $files
 assign [class="Thunar"] $files
 assign [class="pcmanfm"] $files
 assign [class="libreoffice|Soffice"] $docs
@@ -287,7 +287,7 @@ set $Locker i3lock --pass-media-keys --line-uses-inside -B=30 && sleep 1
 bindsym $mod+Shift+e mode "$mode_system"
 
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
-mode "$mode_system" { 
+mode "$mode_system" {
     bindsym l exec --no-startup-id $Locker, mode "default"
     bindsym e exec --no-startup-id i3-msg exit,  mode "default"
     bindsym s exec --no-startup-id $Locker && systemctl suspend, mode "default"
@@ -372,7 +372,7 @@ bindsym XF86AudioPrev exec playerctl previous
 bindsym $mod+x debuglog toggle
 
 # Applications  to autostart with i3
-#exec_always --no-startup-id feh --bg-scale $WALLPAPER 
+#exec_always --no-startup-id feh --bg-fill $WALLPAPER 
 exec_always --no-startup-id xmodmap ~/.Xmodmap
 exec --no-startup-id $HOME/.screenlayout/Primary_Right.sh
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
@@ -386,6 +386,7 @@ exec --no-startup-id telegram-desktop
 exec --no-startup-id signal-desktop
 exec --no-startup-id redshift-gtk
 exec --no-startup-id syncthing-gtk
+#exec --no-startup-id syncthingtray
 exec --no-startup-id thunderbird
 exec --no-startup-id synapse
 #exec --no-startup-id albert
