@@ -186,6 +186,7 @@ bindsym $mod+Shift+0 move container to workspace $music
 bindsym $mod+Shift+comma move workspace to output left
 bindsym $mod+Shift+period move workspace to output right
 
+#auto-assignments for certain applications
 include ~/.config/i3/assignments.conf
 
 # Default layout of new containers.
@@ -298,6 +299,7 @@ bindsym XF86AudioPrev exec playerctl previous
 # Enable/disable logging
 bindsym $mod+x debuglog toggle
 
+# Applications  to autostart with i3
 include ~/.config/i3/autostart.conf
 
 ####################
