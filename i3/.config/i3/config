@@ -248,26 +248,7 @@ workspace_layout default
 
 #default_border normal
 
-# Dark Gray Color Scheme
-#set $bg-color 	          #13191c
-#set $inactive-bg-color   #181b1c
-
-# Black Color Scheme
-set $bg-color            #181818
-set $inactive-bg-color   #000000
-
-# Constants
-set $text-color          #FFFFFF
-set $inactive-text-color #808080
-set $urgent-bg-color     #1793d1
-set $indicator-color     #ffffff
-
-# window colors
-#                       border              background         text                 indicator
-client.focused          $bg-color           $bg-color          $text-color          $indicator-color
-client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color $indicator-color
-client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color $indicator-color
-client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          $indicator-color
+include ~/.config/i3/colors.conf
 
 hide_edge_borders both
 
