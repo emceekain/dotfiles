@@ -195,7 +195,8 @@ workspace_layout default
 
 #default_border normal
 
-include ~/.config/i3/colors.conf
+#include dark-colors.conf
+include light-colors.conf
 
 hide_edge_borders both
 
