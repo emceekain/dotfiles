@@ -186,61 +186,7 @@ bindsym $mod+Shift+0 move container to workspace $music
 bindsym $mod+Shift+comma move workspace to output left
 bindsym $mod+Shift+period move workspace to output right
 
-#auto-assignments for certain applications
-for_window [class="(^FFPWA.*|firefox)" title="(@gmail.com - Gmail|Mail - Brent McKain - Outlook|^Google Calendar -)"] fullscreen disable, move container to workspace $mail
-assign [class="Chromium" instance="webmail.nationalindemnity.com"] $mail
-assign [class="Chromium" instance="messages.google.com"] $chat
-assign [class="Chromium" instance="messenger.com"] $chat
-#for_window [class="firefox" title="(Dashboard|Pearson|Cengage)"] fullscreen disable, move container to workspace $web
-for_window [class="(^FFPWA.*|firefox)" title="Jupyter"] fullscreen disable, move container to workspace $dev1
-for_window [class="(^FFPWA.*|firefox)" title="(Todoist|\| Trello |GitLab —|\| Zenkit Base —|To Do)"] fullscreen disable, move container to workspace $dev2
-for_window [class="(^FFPWA.*|firefox)" title="OneDrive"] fullscreen disable, move container to workspace $files
-assign [class="Chromium" instance="docs.google.com"] $docs
-assign [class="Chromium" instance="sheets.google.com"] $docs
-assign [class="Chromium" instance="slides.google.com"] $docs
-assign [class="Chromium" instance="forms.google.com"] $docs
-assign [class="firefox"] $web
-assign [class="Chromium"] $web
-assign [class="Falkon"] $web
-assign [class="Epiphany"] $web
-assign [class="thunderbird"] $mail
-assign [class="Evolution"] $mail
-assign [class="Geary"] $mail
-assign [class="TelegramDesktop"] $chat 
-assign [class="Signal"] $chat 
-assign [class="Pidgin"] $chat
-assign [class="zoom"] $chat
-assign [class="Microsoft Teams - Preview"] $chat
-assign [class="Slack"] $chat
-assign [class="discord"] $chat
-assign [class="Gvim"] $dev1
-assign [class="lyx"] $dev1
-assign [class="TeXstudio"] $dev1
-assign [class="Code"] $dev1
-assign [class="VSCodium"] $dev1
-assign [class="DB Browser for SQLite"] $dev1
-#assign [class="URxvt"] $dev2
-#assign [class="konsole"] $dev2
-assign [class="Gitg"] $dev2
-assign [class="KeePassXC"] $web
-assign [class="ksysguard"] $util
-assign [class="filelight"] $util
-assign [class="Baobab"] $util
-assign [class="krusader"] $files
-assign [class="dolphin"] $files
-assign [class="(doublecmd|Double Commander)"] $files
-assign [class="Thunar"] $files
-assign [class="pcmanfm"] $files
-assign [class="libreoffice|Soffice"] $docs
-assign [class="Zathura"] $files
-assign [class="okular"] $files
-assign [class="Xreader"] $files
-assign [class="Evince"] $files
-assign [class="Homebank"] $docs
-assign [class="Gmusicbrowser"] $music
-assign [class="Puddletag"] $music
-assign [class="Spotify"] $music
-assign [class="Quodlibet"] $music
+include ~/.config/i3/assignments.conf
 
 # Default layout of new containers.
 #workspace_layout tabbed
