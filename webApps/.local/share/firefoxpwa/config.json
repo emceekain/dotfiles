@@ -158,14 +158,6 @@
                 "01GP2EMY38RBFDH3G3BPX5YTMA"
             ]
         },
-        "01GPD2JHEMDWWCN9Y4EVQE074W": {
-            "ulid": "01GPD2JHEMDWWCN9Y4EVQE074W",
-            "name": "Microsoft 365",
-            "description": null,
-            "sites": [
-                "01GPD2JHGAA3HCNJK882QJSE7V"
-            ]
-        },
         "01GPD2PXYJRPXD5HHA6KHG39KC": {
             "ulid": "01GPD2PXYJRPXD5HHA6KHG39KC",
             "name": "Geogebra (Webapp)",
@@ -292,6 +284,30 @@
             "description": null,
             "sites": [
                 "01HX877ZTRQGC7F2BATMHJM4SX"
+            ]
+        },
+        "01JN9FECD6QN968MXC27QXJZFF": {
+            "ulid": "01JN9FECD6QN968MXC27QXJZFF",
+            "name": "Proton Pass",
+            "description": null,
+            "sites": [
+                "01JN9FED6507P4RCJKBVFSQXBD"
+            ]
+        },
+        "01JP0PPMYNGBKZDPWFXW8AFX8A": {
+            "ulid": "01JP0PPMYNGBKZDPWFXW8AFX8A",
+            "name": "Proton Drive",
+            "description": null,
+            "sites": [
+                "01JP0PPNEMMED8VTQ8KYNZB2N1"
+            ]
+        },
+        "01JP0PYD9KW49DTC7FXX7AQRDA": {
+            "ulid": "01JP0PYD9KW49DTC7FXX7AQRDA",
+            "name": "Microsoft 365 Copilot",
+            "description": null,
+            "sites": [
+                "01JP0PYDAX6EXHWJJQJTEE9386"
             ]
         }
     },
@@ -466,11 +482,11 @@
                 "scope": "https://gitlab.com/",
                 "name": "GitLab",
                 "short_name": "GitLab",
-                "description": "La plateforme DevOps complète. Une application unique avec des possibilités infinies. Les entreprises s&#39;appuient sur la gestion du code source, la CI/CD, la sécurité et d&#39;autres fonctionnalités de GitLab pour livrer des logiciels rapidement.",
+                "description": "The complete DevOps platform. One application with endless possibilities. Organizations rely on GitLab’s source code management, CI/CD, security, and more to deliver software rapidly.",
                 "categories": [],
                 "keywords": [],
                 "dir": "auto",
-                "display": "browser",
+                "display": "standalone",
                 "orientation": "any",
                 "background_color": "#ffffff",
                 "theme_color": "#ececef",
@@ -536,19 +552,19 @@
                 "shortcuts": [],
                 "icons": [
                     {
-                        "src": "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_16dp.png",
+                        "src": "https://www.gstatic.com/images/branding/product/1x/drive_2020q4_16dp.png",
                         "type": "image/png",
                         "sizes": "16x16",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_96dp.png",
+                        "src": "https://www.gstatic.com/images/branding/product/1x/drive_2020q4_96dp.png",
                         "type": "image/png",
                         "sizes": "96x96",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://ssl.gstatic.com/images/branding/product/2x/drive_2020q4_96dp.png",
+                        "src": "https://www.gstatic.com/images/branding/product/2x/drive_2020q4_96dp.png",
                         "type": "image/png",
                         "sizes": "192x192",
                         "purpose": "any"
@@ -797,37 +813,30 @@
                 "display": "standalone",
                 "orientation": "any",
                 "prefer_related_applications": false,
-                "related_applications": [
-                    {
-                        "platform": "play",
-                        "url": "https://play.google.com/store/apps/details?id=com.google.android.contacts",
-                        "id": "com.google.android.contacts",
-                        "fingerprints": []
-                    }
-                ],
+                "related_applications": [],
                 "protocol_handlers": [],
                 "shortcuts": [],
                 "icons": [
                     {
-                        "src": "https://ssl.gstatic.com/images/branding/product/2x/contacts_2022_96dp.png",
+                        "src": "https://www.gstatic.com/images/branding/product/2x/contacts_2022_96dp.png",
                         "type": "image/png",
                         "sizes": "192x192",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://ssl.gstatic.com/images/branding/product/2x/contacts_2022_64dp.png",
+                        "src": "https://www.gstatic.com/images/branding/product/2x/contacts_2022_64dp.png",
                         "type": "image/png",
                         "sizes": "128x128",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://ssl.gstatic.com/images/branding/product/1x/contacts_2022_96dp.png",
+                        "src": "https://www.gstatic.com/images/branding/product/1x/contacts_2022_96dp.png",
                         "type": "image/png",
                         "sizes": "96x96",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://ssl.gstatic.com/images/branding/product/1x/contacts_2022_64dp.png",
+                        "src": "https://www.gstatic.com/images/branding/product/1x/contacts_2022_64dp.png",
                         "type": "image/png",
                         "sizes": "64x64",
                         "purpose": "any"
@@ -1226,48 +1235,6 @@
                 "screenshots": []
             }
         },
-        "01GPD2JHGAA3HCNJK882QJSE7V": {
-            "ulid": "01GPD2JHGAA3HCNJK882QJSE7V",
-            "profile": "01GPD2JHEMDWWCN9Y4EVQE074W",
-            "config": {
-                "name": "Microsoft 365",
-                "description": null,
-                "start_url": null,
-                "icon_url": null,
-                "document_url": "https://www.office.com/apps?auth=2",
-                "manifest_url": "data:application/manifest+json;base64,eyJzdGFydF91cmwiOiJodHRwczovL3d3dy5vZmZpY2UuY29tL2FwcHM/YXV0aD0yIiwibmFtZSI6Ik1pY3Jvc29mdCAzNjUiLCJpY29ucyI6W3sic3JjIjoiaHR0cHM6Ly9yZXMuY2RuLm9mZmljZS5uZXQvb2ZmaWNlaHViL2ltYWdlcy9jb250ZW50L2ltYWdlcy9mYXZpY29uX20zNjUtNjczNTBhMDhlOC5pY28iLCJ0eXBlIjoiaW1hZ2UveC1pY29uIiwicHVycG9zZSI6ImFueSIsInNpemVzIjoiIn1dfQ==",
-                "categories": null,
-                "keywords": null,
-                "enabled_url_handlers": [],
-                "enabled_protocol_handlers": [],
-                "custom_protocol_handlers": [],
-                "launch_on_login": false,
-                "launch_on_browser": false
-            },
-            "manifest": {
-                "start_url": "https://www.office.com/apps?auth=2",
-                "scope": "https://www.office.com/",
-                "name": "Microsoft 365",
-                "categories": [],
-                "keywords": [],
-                "dir": "auto",
-                "display": "browser",
-                "orientation": "any",
-                "prefer_related_applications": false,
-                "related_applications": [],
-                "protocol_handlers": [],
-                "shortcuts": [],
-                "icons": [
-                    {
-                        "src": "https://res.cdn.office.net/officehub/images/content/images/favicon_m365-67350a08e8.ico",
-                        "type": "image/x-icon",
-                        "sizes": "",
-                        "purpose": "any"
-                    }
-                ],
-                "screenshots": []
-            }
-        },
         "01GPD2PY4CNRBKWCWZ19Y1EKWJ": {
             "ulid": "01GPD2PY4CNRBKWCWZ19Y1EKWJ",
             "profile": "01GPD2PXYJRPXD5HHA6KHG39KC",
@@ -1447,6 +1414,11 @@
                         "url": "https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music.pwa",
                         "id": "com.google.android.apps.youtube.music.pwa",
                         "fingerprints": []
+                    },
+                    {
+                        "platform": "webapp",
+                        "url": "https://music.youtube.com/manifest.webmanifest",
+                        "fingerprints": []
                     }
                 ],
                 "protocol_handlers": [],
@@ -1487,6 +1459,12 @@
                         "type": "image/png",
                         "sizes": "512x512",
                         "purpose": "any"
+                    },
+                    {
+                        "src": "https://www.gstatic.com/youtube/media/ytm/images/applauncher/music_icon_maskable_192x192.png",
+                        "type": "image/png",
+                        "sizes": "192x192",
+                        "purpose": "maskable"
                     },
                     {
                         "src": "https://www.gstatic.com/youtube/media/ytm/images/applauncher/music_icon_maskable_512x512.png",
@@ -1686,6 +1664,7 @@
                 "categories": [],
                 "keywords": [],
                 "dir": "auto",
+                "lang": "en-US",
                 "display": "standalone",
                 "orientation": "any",
                 "prefer_related_applications": true,
@@ -1706,9 +1685,15 @@
                 "shortcuts": [],
                 "icons": [
                     {
-                        "src": "https://portal.azure.com/Content/static/PWA/Azure-512p-maskable.png",
-                        "type": "image/png",
+                        "src": "https://portal.azure.com/Content/static/PWA/Azure-512p-maskable.svg",
+                        "type": "image/svg+xml",
                         "sizes": "512x512",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://portal.azure.com/Content/static/PWA/Azure-92p-maskable.svg",
+                        "type": "image/svg+xml",
+                        "sizes": "92x92",
                         "purpose": "any"
                     }
                 ],
@@ -1800,37 +1785,37 @@
                         "url": "https://outlook.office.com/mail/deeplink/compose",
                         "icons": [
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.32.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/NewMail.Blue.32.png",
                                 "type": "image/png",
                                 "sizes": "32x32",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.48.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/NewMail.Blue.48.png",
                                 "type": "image/png",
                                 "sizes": "48x48",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.72.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/NewMail.Blue.72.png",
                                 "type": "image/png",
                                 "sizes": "72x72",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.96.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/NewMail.Blue.96.png",
                                 "type": "image/png",
                                 "sizes": "96x96",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.144.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/NewMail.Blue.144.png",
                                 "type": "image/png",
                                 "sizes": "144x144",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.192.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/NewMail.Blue.192.png",
                                 "type": "image/png",
                                 "sizes": "192x192",
                                 "purpose": "any"
@@ -1843,37 +1828,37 @@
                         "url": "https://outlook.office.com/calendar/deeplink/compose",
                         "icons": [
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.32.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/NewEvent.Blue.32.png",
                                 "type": "image/png",
                                 "sizes": "32x32",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.48.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/NewEvent.Blue.48.png",
                                 "type": "image/png",
                                 "sizes": "48x48",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.72.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/NewEvent.Blue.72.png",
                                 "type": "image/png",
                                 "sizes": "72x72",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.96.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/NewEvent.Blue.96.png",
                                 "type": "image/png",
                                 "sizes": "96x96",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.144.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/NewEvent.Blue.144.png",
                                 "type": "image/png",
                                 "sizes": "144x144",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.192.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/NewEvent.Blue.192.png",
                                 "type": "image/png",
                                 "sizes": "192x192",
                                 "purpose": "any"
@@ -1886,37 +1871,37 @@
                         "url": "https://outlook.office.com/calendar",
                         "icons": [
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.32.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/ViewCalendar.Blue.32.png",
                                 "type": "image/png",
                                 "sizes": "32x32",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.48.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/ViewCalendar.Blue.48.png",
                                 "type": "image/png",
                                 "sizes": "48x48",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.72.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/ViewCalendar.Blue.72.png",
                                 "type": "image/png",
                                 "sizes": "72x72",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.96.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/ViewCalendar.Blue.96.png",
                                 "type": "image/png",
                                 "sizes": "96x96",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.144.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/ViewCalendar.Blue.144.png",
                                 "type": "image/png",
                                 "sizes": "144x144",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.192.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/ViewCalendar.Blue.192.png",
                                 "type": "image/png",
                                 "sizes": "192x192",
                                 "purpose": "any"
@@ -1926,43 +1911,43 @@
                 ],
                 "icons": [
                     {
-                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.48x48x32.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.48x48x32.png",
                         "type": "image/png",
                         "sizes": "48x48",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.64x64x32.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.64x64x32.png",
                         "type": "image/png",
                         "sizes": "64x64",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.128x128x32.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.128x128x32.png",
                         "type": "image/png",
                         "sizes": "128x128",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.144x144.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.144x144.png",
                         "type": "image/png",
                         "sizes": "144x144",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.192x192.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.192x192.png",
                         "type": "image/png",
                         "sizes": "192x192",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.256x256x32.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.256x256x32.png",
                         "type": "image/png",
                         "sizes": "256x256",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.512x512.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.512x512.png",
                         "type": "image/png",
                         "sizes": "512x512",
                         "purpose": "any"
@@ -2593,6 +2578,57 @@
                 "screenshots": []
             }
         },
+        "01HX877ZTRQGC7F2BATMHJM4SX": {
+            "ulid": "01HX877ZTRQGC7F2BATMHJM4SX",
+            "profile": "01HX877ZET9V45VCDA78HHH1K1",
+            "config": {
+                "name": "Google Messages",
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://messages.google.com/web/conversations",
+                "manifest_url": "https://messages.google.com/web/manifest.json",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://messages.google.com/web/?pwa=1",
+                "scope": "https://messages.google.com/web/",
+                "name": "Messages",
+                "short_name": "Messages",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "standalone",
+                "orientation": "any",
+                "background_color": "#ffffff",
+                "theme_color": "#f1f3f4",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://ssl.gstatic.com/android-messages-web/images/2022.3/2x/messages_2022_round_96dp.png",
+                        "type": "image/png",
+                        "sizes": "192x192",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://ssl.gstatic.com/android-messages-web/images/2022.3/1x/messages_2022_round_512dp.png",
+                        "type": "image/png",
+                        "sizes": "512x512",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
         "01HYG8K3NWNHPTYY5SZPMMSVGZ": {
             "ulid": "01HYG8K3NWNHPTYY5SZPMMSVGZ",
             "profile": "01GKCTTN705EC2FGZT7M5H8YKV",
@@ -2692,16 +2728,16 @@
                 "screenshots": []
             }
         },
-        "01HX877ZTRQGC7F2BATMHJM4SX": {
-            "ulid": "01HX877ZTRQGC7F2BATMHJM4SX",
-            "profile": "01HX877ZET9V45VCDA78HHH1K1",
+        "01JN9FED6507P4RCJKBVFSQXBD": {
+            "ulid": "01JN9FED6507P4RCJKBVFSQXBD",
+            "profile": "01JN9FECD6QN968MXC27QXJZFF",
             "config": {
-                "name": "Google Messages",
+                "name": "Proton Pass",
                 "description": null,
                 "start_url": null,
                 "icon_url": null,
-                "document_url": "https://messages.google.com/web/conversations",
-                "manifest_url": "https://messages.google.com/web/manifest.json",
+                "document_url": "https://pass.proton.me/u/0/share/yiMicj7E_pvyfY2euEC33gHcYbgOc4yG854X5YbcN79NGKM3DXejwtbGKeY8stN_FonlHiR_RDQkno_BGF7f4w==/item/wXxKOeWqJniaTf0Ez6KrhlL77CCdK6tmvx3KVqRCWJpBjQ8snUHt0evNLwlBZ0nrVV1NyBamQ671bXiLy42mhQ==?filters=eyJzZWFyY2giOiIiLCJzb3J0IjoicmVjZW50IiwidHlwZSI6IioiLCJzZWxlY3RlZFNoYXJlSWQiOm51bGx9",
+                "manifest_url": "https://pass.proton.me/assets/manifest.webmanifest",
                 "categories": null,
                 "keywords": null,
                 "enabled_url_handlers": [],
@@ -2711,32 +2747,321 @@
                 "launch_on_browser": false
             },
             "manifest": {
-                "start_url": "https://messages.google.com/web/?pwa=1",
-                "scope": "https://messages.google.com/web/",
-                "name": "Messages",
-                "short_name": "Messages",
+                "start_url": "https://pass.proton.me/",
+                "scope": "https://pass.proton.me/",
+                "name": "Proton Pass Web App",
+                "short_name": "Proton Pass Web App",
+                "description": "Proton Pass is an open source, end-to-end encrypted password manager app. Create and store passwords, email aliases, 2FA codes, and notes on all your devices",
                 "categories": [],
                 "keywords": [],
                 "dir": "auto",
+                "lang": "en-US",
                 "display": "standalone",
                 "orientation": "any",
                 "background_color": "#ffffff",
-                "theme_color": "#f1f3f4",
+                "theme_color": "#1b1340",
                 "prefer_related_applications": false,
                 "related_applications": [],
                 "protocol_handlers": [],
                 "shortcuts": [],
                 "icons": [
                     {
-                        "src": "https://ssl.gstatic.com/android-messages-web/images/2022.3/2x/messages_2022_round_96dp.png",
+                        "src": "https://pass.proton.me/assets/android-chrome-36x36.png",
+                        "type": "image/png",
+                        "sizes": "36x36",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://pass.proton.me/assets/android-chrome-48x48.png",
+                        "type": "image/png",
+                        "sizes": "48x48",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://pass.proton.me/assets/android-chrome-72x72.png",
+                        "type": "image/png",
+                        "sizes": "72x72",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://pass.proton.me/assets/android-chrome-96x96.png",
+                        "type": "image/png",
+                        "sizes": "96x96",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://pass.proton.me/assets/android-chrome-144x144.png",
+                        "type": "image/png",
+                        "sizes": "144x144",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://pass.proton.me/assets/android-chrome-192x192.png",
                         "type": "image/png",
                         "sizes": "192x192",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://ssl.gstatic.com/android-messages-web/images/2022.3/1x/messages_2022_round_512dp.png",
+                        "src": "https://pass.proton.me/assets/android-chrome-256x256.png",
+                        "type": "image/png",
+                        "sizes": "256x256",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://pass.proton.me/assets/android-chrome-384x384.png",
+                        "type": "image/png",
+                        "sizes": "384x384",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://pass.proton.me/assets/android-chrome-512x512.png",
                         "type": "image/png",
                         "sizes": "512x512",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://pass.proton.me/assets/android-chrome-maskable-36x36.png",
+                        "type": "image/png",
+                        "sizes": "36x36",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://pass.proton.me/assets/android-chrome-maskable-48x48.png",
+                        "type": "image/png",
+                        "sizes": "48x48",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://pass.proton.me/assets/android-chrome-maskable-72x72.png",
+                        "type": "image/png",
+                        "sizes": "72x72",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://pass.proton.me/assets/android-chrome-maskable-96x96.png",
+                        "type": "image/png",
+                        "sizes": "96x96",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://pass.proton.me/assets/android-chrome-maskable-144x144.png",
+                        "type": "image/png",
+                        "sizes": "144x144",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://pass.proton.me/assets/android-chrome-maskable-192x192.png",
+                        "type": "image/png",
+                        "sizes": "192x192",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://pass.proton.me/assets/android-chrome-maskable-256x256.png",
+                        "type": "image/png",
+                        "sizes": "256x256",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://pass.proton.me/assets/android-chrome-maskable-384x384.png",
+                        "type": "image/png",
+                        "sizes": "384x384",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://pass.proton.me/assets/android-chrome-maskable-512x512.png",
+                        "type": "image/png",
+                        "sizes": "512x512",
+                        "purpose": "maskable"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01JP0PPNEMMED8VTQ8KYNZB2N1": {
+            "ulid": "01JP0PPNEMMED8VTQ8KYNZB2N1",
+            "profile": "01JP0PPMYNGBKZDPWFXW8AFX8A",
+            "config": {
+                "name": null,
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://drive.proton.me/u/0/aAtawkpDBviajP6G0BmiipxJwaMsK08FcDKgZ05V9CQOo8Pd5lLk7H14G39Y7Th8wR35mEJDM6hJ9PewQh-r7g==/folder/zupmQ4qNcsp1F6vQrAXFApxmqdxu52oGDOGB02TGTF1Bviu-tp9egLsXPk_bfkoMX_dhabGbgplTGuMLkf89tA==",
+                "manifest_url": "https://drive.proton.me/assets/manifest.webmanifest",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://drive.proton.me/",
+                "scope": "https://drive.proton.me/",
+                "name": "Proton Drive",
+                "short_name": "Proton Drive",
+                "description": "Securely store, share, and access your important files and photos. Anytime, anywhere.",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "lang": "en-US",
+                "display": "standalone",
+                "orientation": "any",
+                "background_color": "#ffffff",
+                "theme_color": "#1b1340",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://drive.proton.me/assets/android-chrome-36x36.png",
+                        "type": "image/png",
+                        "sizes": "36x36",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://drive.proton.me/assets/android-chrome-48x48.png",
+                        "type": "image/png",
+                        "sizes": "48x48",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://drive.proton.me/assets/android-chrome-72x72.png",
+                        "type": "image/png",
+                        "sizes": "72x72",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://drive.proton.me/assets/android-chrome-96x96.png",
+                        "type": "image/png",
+                        "sizes": "96x96",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://drive.proton.me/assets/android-chrome-144x144.png",
+                        "type": "image/png",
+                        "sizes": "144x144",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://drive.proton.me/assets/android-chrome-192x192.png",
+                        "type": "image/png",
+                        "sizes": "192x192",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://drive.proton.me/assets/android-chrome-256x256.png",
+                        "type": "image/png",
+                        "sizes": "256x256",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://drive.proton.me/assets/android-chrome-384x384.png",
+                        "type": "image/png",
+                        "sizes": "384x384",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://drive.proton.me/assets/android-chrome-512x512.png",
+                        "type": "image/png",
+                        "sizes": "512x512",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://drive.proton.me/assets/android-chrome-maskable-36x36.png",
+                        "type": "image/png",
+                        "sizes": "36x36",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://drive.proton.me/assets/android-chrome-maskable-48x48.png",
+                        "type": "image/png",
+                        "sizes": "48x48",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://drive.proton.me/assets/android-chrome-maskable-72x72.png",
+                        "type": "image/png",
+                        "sizes": "72x72",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://drive.proton.me/assets/android-chrome-maskable-96x96.png",
+                        "type": "image/png",
+                        "sizes": "96x96",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://drive.proton.me/assets/android-chrome-maskable-144x144.png",
+                        "type": "image/png",
+                        "sizes": "144x144",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://drive.proton.me/assets/android-chrome-maskable-192x192.png",
+                        "type": "image/png",
+                        "sizes": "192x192",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://drive.proton.me/assets/android-chrome-maskable-256x256.png",
+                        "type": "image/png",
+                        "sizes": "256x256",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://drive.proton.me/assets/android-chrome-maskable-384x384.png",
+                        "type": "image/png",
+                        "sizes": "384x384",
+                        "purpose": "maskable"
+                    },
+                    {
+                        "src": "https://drive.proton.me/assets/android-chrome-maskable-512x512.png",
+                        "type": "image/png",
+                        "sizes": "512x512",
+                        "purpose": "maskable"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01JP0PYDAX6EXHWJJQJTEE9386": {
+            "ulid": "01JP0PYDAX6EXHWJJQJTEE9386",
+            "profile": "01JP0PYD9KW49DTC7FXX7AQRDA",
+            "config": {
+                "name": "Microsoft 365 Copilot",
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://m365.cloud.microsoft/?auth=2",
+                "manifest_url": "data:application/manifest+json;base64,eyJzdGFydF91cmwiOiJodHRwczovL20zNjUuY2xvdWQubWljcm9zb2Z0Lz9hdXRoPTIiLCJuYW1lIjoiSG9tZSB8IE1pY3Jvc29mdCAzNjUgQ29waWxvdCIsImljb25zIjpbeyJzcmMiOiJodHRwczovL3Jlcy5jZG4ub2ZmaWNlLm5ldC9vZmZpY2VodWIvaW1hZ2VzL2NvbnRlbnQvaW1hZ2VzL2Zhdmljb25fY29waWxvdC00MzcwMTcyYWE2LmljbyIsInR5cGUiOiJpbWFnZS94LWljb24iLCJwdXJwb3NlIjoiYW55Iiwic2l6ZXMiOiIifV19",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://m365.cloud.microsoft/?auth=2",
+                "scope": "https://m365.cloud.microsoft/",
+                "name": "Home | Microsoft 365 Copilot",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "browser",
+                "orientation": "any",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://res.cdn.office.net/officehub/images/content/images/favicon_copilot-4370172aa6.ico",
+                        "type": "image/x-icon",
+                        "sizes": "",
                         "purpose": "any"
                     }
                 ],
@@ -2750,6 +3075,7 @@
         "always_patch": false,
         "runtime_enable_wayland": false,
         "runtime_use_xinput2": false,
-        "runtime_use_portals": false
+        "runtime_use_portals": false,
+        "use_linked_runtime": false
     }
 }
