@@ -185,7 +185,410 @@ Tab Bar Position=top
 
 [Open-with settings]
 CompletionMode=1
-History=oku
+
+[Panel - 1]
+Left Side Is Active=false
+Name=Financial
+Vertical Mode=false
+
+[Panel - 1][Left Tabs]
+ActiveTab=1
+
+[Panel - 1][Left Tabs][Tabs][Tab0]
+PinnedUrl=file:///home/brent/Documents/Financial
+Properties=4
+Type=0
+Url=file:///home/brent/Documents/Financial
+
+[Panel - 1][Left Tabs][Tabs][Tab0][View]
+AutoResizeColumns=false
+Descending Sort Order=512
+Filter=3
+FilterApplysToDirs=false
+IconSize=32
+ShowPreviews=false
+Sort Column=4
+
+[Panel - 1][Left Tabs][Tabs][Tab1]
+PinnedUrl=file:///home/brent/Documents/Insurance
+Properties=4
+Type=0
+Url=file:///home/brent/Documents/Insurance
+
+[Panel - 1][Left Tabs][Tabs][Tab1][View]
+AutoResizeColumns=false
+Descending Sort Order=512
+Filter=3
+FilterApplysToDirs=false
+IconSize=32
+ShowPreviews=false
+Sort Column=4
+
+[Panel - 1][Right Tabs]
+ActiveTab=0
+
+[Panel - 1][Right Tabs][Tabs][Tab0]
+PinnedUrl=file:///home/brent/Downloads
+Properties=4
+Type=0
+Url=file:///home/brent/Downloads
+
+[Panel - 1][Right Tabs][Tabs][Tab0][View]
+AutoResizeColumns=false
+Descending Sort Order=512
+Filter=3
+FilterApplysToDirs=false
+IconSize=32
+ShowPreviews=false
+Sort Column=4
+
+[Panel - 2]
+Left Side Is Active=false
+Name=Music Library
+Vertical Mode=false
+
+[Panel - 2][Left Tabs]
+ActiveTab=2
+
+[Panel - 2][Left Tabs][Tabs][Tab0]
+PinnedUrl=file:///home/brent/Music/FLAC
+Properties=4
+Type=0
+Url=file:///home/brent/Music/FLAC
+
+[Panel - 2][Left Tabs][Tabs][Tab0][View]
+AutoResizeColumns=false
+Descending Sort Order=512
+Filter=3
+FilterApplysToDirs=false
+IconSize=32
+ShowPreviews=false
+Sort Column=4
+
+[Panel - 2][Left Tabs][Tabs][Tab1]
+PinnedUrl=file:///home/brent/Music/To Add
+Properties=4
+Type=0
+Url=file:///home/brent/Music/To Add
+
+[Panel - 2][Left Tabs][Tabs][Tab1][View]
+AutoResizeColumns=false
+Descending Sort Order=512
+Filter=3
+FilterApplysToDirs=false
+IconSize=32
+ShowPreviews=false
+Sort Column=4
+
+[Panel - 2][Left Tabs][Tabs][Tab2]
+PinnedUrl=file:///home/brent/Documents/Music/RYM
+Properties=4
+Type=0
+Url=file:///home/brent/Documents/Music/RYM
+
+[Panel - 2][Left Tabs][Tabs][Tab2][View]
+AutoResizeColumns=false
+Descending Sort Order=512
+Filter=3
+FilterApplysToDirs=false
+IconSize=32
+ShowPreviews=false
+Sort Column=4
+
+[Panel - 2][Left Tabs][Tabs][Tab3]
+PinnedUrl=file:///home/brent/Development/scrapy-sputnik/sputnik/sputnik
+Properties=4
+Type=0
+Url=file:///home/brent/Development/scrapy-sputnik/sputnik/sputnik
+
+[Panel - 2][Left Tabs][Tabs][Tab3][View]
+AutoResizeColumns=false
+Descending Sort Order=512
+Filter=3
+FilterApplysToDirs=false
+IconSize=32
+ShowPreviews=false
+Sort Column=4
+
+[Panel - 2][Left Tabs][Tabs][Tab4]
+PinnedUrl=file:///home/brent/Audiobooks
+Properties=4
+Type=0
+Url=file:///home/brent/Audiobooks
+
+[Panel - 2][Left Tabs][Tabs][Tab4][View]
+AutoResizeColumns=false
+Descending Sort Order=512
+Filter=3
+FilterApplysToDirs=false
+IconSize=32
+ShowPreviews=false
+Sort Column=4
+
+[Panel - 2][Left Tabs][Tabs][Tab5]
+PinnedUrl=file:///home/brent/Music/Borrowed Music
+Properties=4
+Type=0
+Url=file:///home/brent/Music/Borrowed Music
+
+[Panel - 2][Left Tabs][Tabs][Tab5][View]
+AutoResizeColumns=false
+Descending Sort Order=512
+Filter=3
+FilterApplysToDirs=false
+IconSize=32
+ShowPreviews=false
+Sort Column=4
+
+[Panel - 2][Right Tabs]
+ActiveTab=1
+
+[Panel - 2][Right Tabs][Tabs][Tab0]
+PinnedUrl=file:///home/brent/Downloads
+Properties=4
+Type=0
+Url=file:///home/brent/Downloads
+
+[Panel - 2][Right Tabs][Tabs][Tab0][View]
+AutoResizeColumns=false
+Descending Sort Order=512
+Filter=3
+FilterApplysToDirs=false
+IconSize=32
+ShowPreviews=false
+Sort Column=4
+
+[Panel - 2][Right Tabs][Tabs][Tab1]
+PinnedUrl=file:///run/media/brent/Files/Music To Delete
+Properties=4
+Type=0
+Url=file:///run/media/brent/Files/Music To Delete
+
+[Panel - 2][Right Tabs][Tabs][Tab1][View]
+AutoResizeColumns=false
+Descending Sort Order=512
+Filter=3
+FilterApplysToDirs=false
+IconSize=32
+ShowPreviews=false
+Sort Column=4
+
+[Panel - 3]
+Left Side Is Active=true
+Name=Audiobooks
+Vertical Mode=false
+
+[Panel - 3][Left Tabs]
+ActiveTab=2
+
+[Panel - 3][Left Tabs][Tabs][Tab0]
+PinnedUrl=file:///home/brent/Audiobooks
+Properties=4
+Type=0
+Url=file:///home/brent/Audiobooks/Libation
+
+[Panel - 3][Left Tabs][Tabs][Tab0][View]
+AutoResizeColumns=false
+Descending Sort Order=512
+Filter=3
+FilterApplysToDirs=false
+IconSize=32
+ShowPreviews=false
+Sort Column=4
+
+[Panel - 3][Left Tabs][Tabs][Tab1]
+PinnedUrl=file:///home/brent/Audiobooks/Libation
+Properties=4
+Type=0
+Url=file:///home/brent/Audiobooks/OpenAudible
+
+[Panel - 3][Left Tabs][Tabs][Tab1][View]
+AutoResizeColumns=false
+Descending Sort Order=512
+Filter=3
+FilterApplysToDirs=false
+IconSize=32
+ShowPreviews=false
+Sort Column=4
+
+[Panel - 3][Left Tabs][Tabs][Tab2]
+PinnedUrl=file:///home/brent/Audiobooks/OpenAudible
+Properties=4
+Type=0
+Url=file:///home/brent/Audiobooks/OpenAudible
+
+[Panel - 3][Left Tabs][Tabs][Tab2][View]
+AutoResizeColumns=false
+Descending Sort Order=512
+Filter=3
+FilterApplysToDirs=false
+IconSize=32
+ShowPreviews=false
+Sort Column=4
+
+[Panel - 3][Right Tabs]
+ActiveTab=0
+
+[Panel - 3][Right Tabs][Tabs][Tab0]
+PinnedUrl=file:///home/brent/Downloads
+Properties=4
+Type=0
+Url=file:///home/brent/Downloads
+
+[Panel - 3][Right Tabs][Tabs][Tab0][View]
+AutoResizeColumns=false
+Descending Sort Order=512
+Filter=3
+FilterApplysToDirs=false
+IconSize=32
+ShowPreviews=false
+Sort Column=4
+
+[Panel - 3][Right Tabs][Tabs][Tab1]
+PinnedUrl=file:///home/brent/Syncthing/Natronica's Music Swap
+Properties=4
+Type=0
+Url=file:///home/brent/Syncthing/Natronica's Music Swap
+
+[Panel - 3][Right Tabs][Tabs][Tab1][View]
+AutoResizeColumns=false
+Descending Sort Order=512
+Filter=3
+FilterApplysToDirs=false
+IconSize=32
+ShowPreviews=false
+Sort Column=4
+
+[Panel - 3][Right Tabs][Tabs][Tab2]
+PinnedUrl=file:///home/brent/Syncthing/Shared Audiobooks
+Properties=4
+Type=0
+Url=file:///home/brent/Syncthing/Shared Audiobooks
+
+[Panel - 3][Right Tabs][Tabs][Tab2][View]
+AutoResizeColumns=false
+Descending Sort Order=512
+Filter=3
+FilterApplysToDirs=false
+IconSize=32
+ShowPreviews=false
+Sort Column=4
+
+[Panel - 4]
+Left Side Is Active=true
+Name=Plinking
+Vertical Mode=false
+
+[Panel - 4][Left Tabs]
+ActiveTab=2
+
+[Panel - 4][Left Tabs][Tabs][Tab0]
+PinnedUrl=file:///home/brent/Development
+Properties=4
+Type=0
+Url=file:///home/brent/Development
+
+[Panel - 4][Left Tabs][Tabs][Tab0][View]
+AutoResizeColumns=false
+Descending Sort Order=512
+Filter=3
+FilterApplysToDirs=false
+IconSize=32
+ShowPreviews=false
+Sort Column=4
+
+[Panel - 4][Left Tabs][Tabs][Tab1]
+PinnedUrl=file:///home/brent/Development/Scripts
+Properties=4
+Type=0
+Url=file:///home/brent/Development/Scripts
+
+[Panel - 4][Left Tabs][Tabs][Tab1][View]
+AutoResizeColumns=false
+Descending Sort Order=512
+Filter=3
+FilterApplysToDirs=false
+IconSize=32
+ShowPreviews=false
+Sort Column=4
+
+[Panel - 4][Left Tabs][Tabs][Tab2]
+PinnedUrl=file:///home/brent/Documents/Music/RYM
+Properties=4
+Type=0
+Url=file:///home/brent/Documents/Music/RYM
+
+[Panel - 4][Left Tabs][Tabs][Tab2][View]
+AutoResizeColumns=false
+Descending Sort Order=512
+Filter=3
+FilterApplysToDirs=false
+IconSize=32
+ShowPreviews=false
+Sort Column=4
+
+[Panel - 4][Left Tabs][Tabs][Tab3]
+PinnedUrl=file:///home/brent/dotfiles
+Properties=4
+Type=0
+Url=file:///home/brent/dotfiles
+
+[Panel - 4][Left Tabs][Tabs][Tab3][View]
+AutoResizeColumns=false
+Descending Sort Order=512
+Filter=3
+FilterApplysToDirs=false
+IconSize=32
+ShowPreviews=false
+Sort Column=4
+
+[Panel - 4][Right Tabs]
+ActiveTab=2
+
+[Panel - 4][Right Tabs][Tabs][Tab0]
+PinnedUrl=file:///home/brent/Downloads
+Properties=4
+Type=0
+Url=file:///home/brent/Downloads
+
+[Panel - 4][Right Tabs][Tabs][Tab0][View]
+AutoResizeColumns=false
+Descending Sort Order=512
+Filter=3
+FilterApplysToDirs=false
+IconSize=32
+ShowPreviews=false
+Sort Column=4
+
+[Panel - 4][Right Tabs][Tabs][Tab1]
+PinnedUrl=file:///home/brent/gitRepos
+Properties=4
+Type=0
+Url=file:///home/brent/gitRepos
+
+[Panel - 4][Right Tabs][Tabs][Tab1][View]
+AutoResizeColumns=false
+Descending Sort Order=512
+Filter=3
+FilterApplysToDirs=false
+IconSize=32
+ShowPreviews=false
+Sort Column=4
+
+[Panel - 4][Right Tabs][Tabs][Tab2]
+PinnedUrl=file:///home/brent/Development/rym-to-gmbrc/sql-to-gmbrc
+Properties=4
+Type=0
+Url=file:///home/brent/Development/rym-to-gmbrc/sql-to-gmbrc
+
+[Panel - 4][Right Tabs][Tabs][Tab2][View]
+AutoResizeColumns=false
+Descending Sort Order=512
+Filter=3
+FilterApplysToDirs=false
+IconSize=32
+ShowPreviews=false
+Sort Column=4
 
 [Private]
 PopularUrls=file:///home/brent/Documents/Software/dotfiles/gtk2/,file:///home/brent/Documents/Software/dotfiles/packages/sorted/,file:///home/brent/Documents/Software/dotfiles/qt4/,file:///home/brent/Documents/Software/dotfiles/,file:///home/brent/Documents/Software/dotfiles/qt5/,file:///home/brent/Documents/Software/,file:///home/brent/Documents/Software/dotfiles/size/,file:///home/brent/Documents/Software/dotfiles/packages/,file:///home/brent/Documents/Software/dotfiles/size/all/,file:///home/brent/Documents/Software/dotfiles/size/explicit/,file:///home/brent/Documents/Software/dotfiles/packages/php/,file:///home/brent/Documents/Software/dotfiles/packages/php/explicit/,file:///home/brent/Documents/Software/dotfiles/packages/js60/,file:///home/brent/Documents/Software/dotfiles/packages/js60/all/,file:///home/brent/Documents/Software/dotfiles/packages/gtk3/,file:///home/brent/Documents/Software/dotfiles/packages/all/,file:///home/brent/Documents/Software/dotfiles/qt3/,file:///home/brent/Documents/Software/dotfiles/dotnet/,file:///home/brent/Documents/Software/dotfiles/dotnet/all/,file:///home/brent/Documents/Software/dotfiles/dotnet/explicit/,file:///home/brent/Documents/Software/dotfiles/explicit/,file:///home/brent/Documents/Software/dotfiles/qt3/explicit/,file:///home/brent/Documents/Software/dotfiles/qt3/all/,file:///home/brent/Documents/Software/dotfiles/python2/,file:///home/brent/Documents/Software/dotfiles/python2/all/,file:///home/brent/Documents/Software/dotfiles/python2/explicit/,virt:///Search results 1/,file:///home/brent/Documents/Software/dotfiles/tcl/,file:///home/brent/Documents/Software/dotfiles/tcl/explicit/,file:///home/brent/Documents/Software/dotfiles/all/,file:///home/brent/Documents/Software/dotfiles/all/by_name/
