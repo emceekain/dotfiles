@@ -1,3 +1,4 @@
+[general]
 # import = ["~/.config/alacritty/themes/Builtin Dark.toml"]
 # import = ["~/.config/alacritty/themes/Builtin Light.toml"]
 # import = ["~/.config/alacritty/themes/Builtin Solarized Dark.toml"]
