@@ -33,7 +33,12 @@ change_color() {
 	polybar-msg cmd restart
 }
 
-WALLPAPER=/usr/share/backgrounds/archlinux/wave.png
+if [[ $2 = "--dark" ]]; then
+    WALLPAPER=/usr/share/wallpapers/Mountain/contents/images_dark/5120x2880.png
+elif [[ $2 = "--mixed" ]]; then
+    WALLPAPER=/usr/share/wallpapers/Mountain/contents/images/5120x2880.png
+fi
+#WALLPAPER=/usr/share/backgrounds/archlinux/wave.png
 if [[ $1 = "--amber" ]]; then
 	MF="#1F1F1F"
 	AC="#ffb300"
@@ -41,11 +46,11 @@ if [[ $1 = "--amber" ]]; then
 elif [[ $1 = "--blue" ]]; then
 	MF="#FFFFFF"
 	AC="#1e88e5"
-	if [[ $2 = "--dark" ]]; then
-		WALLPAPER=/usr/share/backgrounds/blue_fractal_wallpaper.png
-	elif [[ $2 = "--mixed" ]]; then
-		WALLPAPER=/usr/share/wallpapers/IceCold/contents/images/5120x2880.png
-	fi
+	#if [[ $2 = "--dark" ]]; then
+		#WALLPAPER=/usr/share/backgrounds/blue_fractal_wallpaper.png
+	#elif [[ $2 = "--mixed" ]]; then
+		#WALLPAPER=/usr/share/wallpapers/IceCold/contents/images/5120x2880.png
+	#fi
 	change_color
 elif [[ $1 = "--blue-gray" ]]; then
 	MF="#FFFFFF"
@@ -70,11 +75,11 @@ elif [[ $1 = "--deep-purple" ]]; then
 elif [[ $1 = "--green" ]]; then
 	MF="#FFFFFF"
 	AC="#43a047"
-	if [[ $2 = "--dark" ]]; then
-		WALLPAPER=$HOME/Pictures/Wallpaper/OutOfControl.jpg
-	elif [[ $2 = "--mixed" ]]; then
-		WALLPAPER=/usr/share/wallpapers/Canopee/contents/images/3840x2160.png
-	fi
+	#if [[ $2 = "--dark" ]]; then
+		#WALLPAPER=$HOME/Pictures/Wallpaper/OutOfControl.jpg
+	#elif [[ $2 = "--mixed" ]]; then
+		#WALLPAPER=/usr/share/wallpapers/Canopee/contents/images/3840x2160.png
+	#fi
 	change_color
 elif [[ $1 = "--gray" ]]; then
 	MF="#FFFFFF"
@@ -111,11 +116,11 @@ elif [[ $1 = "--purple" ]]; then
 elif [[ $1 = "--red" ]]; then
 	MF="#FFFFFF"
 	AC="#e53935"
-	if [[ $2 = "--dark" ]]; then
-		WALLPAPER=$HOME/Pictures/Wallpapers/fractal.png
-	elif [[ $2 = "--mixed" ]]; then
-		WALLPAPER=$HOME/Pictures/Wallpapers/Passion.jpg
-	fi
+	#if [[ $2 = "--dark" ]]; then
+		#WALLPAPER=$HOME/Pictures/Wallpapers/fractal.png
+	#elif [[ $2 = "--mixed" ]]; then
+		#WALLPAPER=$HOME/Pictures/Wallpapers/Passion.jpg
+	#fi
 	change_color
 elif [[ $1 = "--teal" ]]; then
 	MF="#FFFFFF"
@@ -124,11 +129,11 @@ elif [[ $1 = "--teal" ]]; then
 elif [[ $1 = "--yellow" ]]; then
 	MF="#1F1F1F"
 	AC="#fdd835"
-	if [[ $2 = "--dark" ]]; then
-		WALLPAPER=$HOME/Pictures/Wallpaper/wp3800530-dark-souls-3-wallpapers.jpg
-	elif [[ $2 = "--mixed" ]]; then
-		WALLPAPER=/usr/share/wallpapers/Volna/contents/images/5120x2880.jpg
-	fi
+	#if [[ $2 = "--dark" ]]; then
+		#WALLPAPER=$HOME/Pictures/Wallpaper/wp3800530-dark-souls-3-wallpapers.jpg
+	#elif [[ $2 = "--mixed" ]]; then
+		#WALLPAPER=/usr/share/wallpapers/Volna/contents/images/5120x2880.jpg
+	#fi
 	change_color
 else
 	cat <<-_EOF_

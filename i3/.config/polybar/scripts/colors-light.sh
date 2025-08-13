@@ -33,6 +33,7 @@ change_color() {
 	polybar-msg cmd restart
 }
 
+WALLPAPER=/usr/share/wallpapers/Mountain/contents/images/5120x2880.png
 if [[ $1 = "--amber" ]]; then
 	MF="#2E2E2E"
 	AC="#ffb300"
@@ -40,7 +41,7 @@ if [[ $1 = "--amber" ]]; then
 elif [[ $1 = "--blue" ]]; then
 	MF="#2E2E2E"
 	AC="#1e88e5"
-	WALLPAPER=/usr/share/wallpapers/IceCold/contents/images/5120x2880.png
+	#WALLPAPER=/usr/share/wallpapers/IceCold/contents/images/5120x2880.png
 	change_color
 elif [[ $1 = "--blue-gray" ]]; then
 	MF="#FFFFFF"
@@ -65,7 +66,7 @@ elif [[ $1 = "--deep-purple" ]]; then
 elif [[ $1 = "--green" ]]; then
 	MF="#FFFFFF"
 	AC="#43a047"
-	WALLPAPER=/usr/share/wallpapers/Canopee/contents/images/3840x2160.png
+	#WALLPAPER=/usr/share/wallpapers/Canopee/contents/images/3840x2160.png
 	change_color
 elif [[ $1 = "--gray" ]]; then
 	MF="#FFFFFF"
@@ -102,7 +103,7 @@ elif [[ $1 = "--purple" ]]; then
 elif [[ $1 = "--red" ]]; then
 	MF="#FFFFFF"
 	AC="#e53935"
-	WALLPAPER=$HOME/Pictures/Wallpapers/Passion.jpg
+	#WALLPAPER=$HOME/Pictures/Wallpapers/Passion.jpg
 	change_color
 elif [[ $1 = "--teal" ]]; then
 	MF="#FFFFFF"
@@ -111,7 +112,7 @@ elif [[ $1 = "--teal" ]]; then
 elif [[ $1 = "--yellow" ]]; then
 	MF="#2E2E2E"
 	AC="#fdd835"
-	WALLPAPER=/usr/share/wallpapers/Volna/contents/images/5120x2880.jpg
+	#WALLPAPER=/usr/share/wallpapers/Volna/contents/images/5120x2880.jpg
 	change_color
 else
 	cat <<-_EOF_

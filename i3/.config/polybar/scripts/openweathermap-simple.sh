@@ -42,7 +42,7 @@ get_icon() {
 }
 
 KEY="a71b6c2361abf47745ec9cd4bb69d470"
-CITY=""
+CITY="Omaha"
 UNITS="imperial"
 SYMBOL="°"
 
@@ -57,6 +57,7 @@ if [ -n "$CITY" ]; then
 
     weather=$(curl -sf "$API/weather?appid=$KEY&$CITY_PARAM&units=$UNITS")
 else
+    # TODO: Mozilla retired this service circa June 2024. Find a replacement or come up with a way to toggle cities?
     location=$(curl -sf "https://location.services.mozilla.com/v1/geolocate?key=geoclue")
 
     if [ -n "$location" ]; then
