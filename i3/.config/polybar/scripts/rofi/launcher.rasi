@@ -8,10 +8,11 @@
  */
 
 configuration {
-	font:							"Noto Sans Light 18";
+	font:							"Noto Sans Nerd Font Light 18";
     show-icons:                     true;
 	icon-theme: 					"Papirus";
-    display-drun: 					"";
+    display-drun: 					" ";
+    display-window:                 " ";
     drun-display-format:            "{name}";
     disable-history:                false;
     fullscreen:                     false;
@@ -39,7 +40,7 @@ prompt {
 	padding: 						0px 5px 0px -10px;
 	background-color: 				@al;
 	text-color: 					@bar;
-	font:							"Font Awesome 6 Free Solid 20";
+	font:							"Font Awesome 7 Free Solid 20";
 }
 
 entry {
