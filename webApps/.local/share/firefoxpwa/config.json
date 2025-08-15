@@ -102,12 +102,12 @@
                 "01GKCTPZS9EYMWA3C94RREFXX1"
             ]
         },
-        "01GKCTTN705EC2FGZT7M5H8YKV": {
-            "ulid": "01GKCTTN705EC2FGZT7M5H8YKV",
+        "01K2QCJD499Z1W716T39C20WC5": {
+            "ulid": "01K2QCJD499Z1W716T39C20WC5",
             "name": "Todoist",
             "description": null,
             "sites": [
-                "01HYG8K3NWNHPTYY5SZPMMSVGZ"
+                "01K2QCJDA40VR92H2XBM0Q7TZE"
             ]
         },
         "01GKCV4YVT6PCDWVQFS6CADB3Z": {
@@ -128,7 +128,7 @@
         },
         "01GKCZ56JDWT3ZR1AEM63GJ1MK": {
             "ulid": "01GKCZ56JDWT3ZR1AEM63GJ1MK",
-            "name": "Gmail - Personal",
+            "name": "Gmail",
             "description": null,
             "sites": [
                 "01GKCZ56SK2M75E7R5WYZNMHKD"
@@ -188,14 +188,6 @@
             "description": null,
             "sites": [
                 "01GQTESF331CZ3ZAENB3WWD68S"
-            ]
-        },
-        "01GWF5DNNFB1FRNX7QHVQ6DZDE": {
-            "ulid": "01GWF5DNNFB1FRNX7QHVQ6DZDE",
-            "name": "Gmail - Professional",
-            "description": null,
-            "sites": [
-                "01GWF5DP0FM8FC6QXTN2FGA83R"
             ]
         },
         "01GY0A1D0XPPMR2G9MEF0J51CS": {
@@ -302,12 +294,20 @@
                 "01JP0PPNEMMED8VTQ8KYNZB2N1"
             ]
         },
-        "01JP0PYD9KW49DTC7FXX7AQRDA": {
-            "ulid": "01JP0PYD9KW49DTC7FXX7AQRDA",
-            "name": "Microsoft 365 Copilot",
+        "01K2QBNJ6T6T0BPC8NFN8TRAJP": {
+            "ulid": "01K2QBNJ6T6T0BPC8NFN8TRAJP",
+            "name": "Microsoft Word",
             "description": null,
             "sites": [
-                "01JP0PYDAX6EXHWJJQJTEE9386"
+                "01K2QBNJ8DJRRKX70NNHE50WN8"
+            ]
+        },
+        "01K2QBRSBX42AKYWZFSKBCHXWA": {
+            "ulid": "01K2QBRSBX42AKYWZFSKBCHXWA",
+            "name": "Microsoft Excel",
+            "description": null,
+            "sites": [
+                "01K2QBRSDJE29RSR1JZ5T9ST1J"
             ]
         }
     },
@@ -543,7 +543,7 @@
                 "categories": [],
                 "keywords": [],
                 "dir": "auto",
-                "display": "standalone",
+                "display": "minimal-ui",
                 "orientation": "any",
                 "theme_color": "#f1f3f4",
                 "prefer_related_applications": false,
@@ -991,7 +991,7 @@
             "ulid": "01GKCZ56SK2M75E7R5WYZNMHKD",
             "profile": "01GKCZ56JDWT3ZR1AEM63GJ1MK",
             "config": {
-                "name": "Gmail - Personal",
+                "name": "Gmail",
                 "description": null,
                 "start_url": null,
                 "icon_url": null,
@@ -1476,69 +1476,6 @@
                 "screenshots": []
             }
         },
-        "01GWF5DP0FM8FC6QXTN2FGA83R": {
-            "ulid": "01GWF5DP0FM8FC6QXTN2FGA83R",
-            "profile": "01GWF5DNNFB1FRNX7QHVQ6DZDE",
-            "config": {
-                "name": "Gmail - Professional",
-                "description": null,
-                "start_url": null,
-                "icon_url": null,
-                "document_url": "https://mail.google.com/mail/u/1/#inbox",
-                "manifest_url": "https://mail.google.com/mail/manifest.json",
-                "categories": null,
-                "keywords": null,
-                "enabled_url_handlers": [],
-                "enabled_protocol_handlers": [],
-                "custom_protocol_handlers": [],
-                "launch_on_login": false,
-                "launch_on_browser": false
-            },
-            "manifest": {
-                "start_url": "https://mail.google.com/mail/?usp=installed_webapp",
-                "scope": "https://mail.google.com/mail/",
-                "name": "Gmail",
-                "short_name": "Gmail",
-                "categories": [],
-                "keywords": [],
-                "dir": "auto",
-                "display": "browser",
-                "orientation": "any",
-                "background_color": "#ffffff",
-                "theme_color": "#ffffff",
-                "prefer_related_applications": false,
-                "related_applications": [],
-                "protocol_handlers": [],
-                "shortcuts": [],
-                "icons": [
-                    {
-                        "src": "https://ssl.gstatic.com/images/branding/product/2x/hh_gmail_16dp.png",
-                        "type": "image/png",
-                        "sizes": "32x32",
-                        "purpose": "any"
-                    },
-                    {
-                        "src": "https://ssl.gstatic.com/images/branding/product/1x/hh_gmail_96dp.png",
-                        "type": "image/png",
-                        "sizes": "96x96",
-                        "purpose": "any"
-                    },
-                    {
-                        "src": "https://ssl.gstatic.com/images/branding/product/2x/hh_gmail_96dp.png",
-                        "type": "image/png",
-                        "sizes": "192x192",
-                        "purpose": "any"
-                    },
-                    {
-                        "src": "https://ssl.gstatic.com/images/branding/product/1x/hh_gmail_512dp.png",
-                        "type": "image/png",
-                        "sizes": "512x512",
-                        "purpose": "any"
-                    }
-                ],
-                "screenshots": []
-            }
-        },
         "01GY0A1DC1SWP0S1497SV88KHR": {
             "ulid": "01GY0A1DC1SWP0S1497SV88KHR",
             "profile": "01GY0A1D0XPPMR2G9MEF0J51CS",
@@ -1568,7 +1505,7 @@
                 "display": "browser",
                 "orientation": "any",
                 "background_color": "#ffffff",
-                "theme_color": "#f1f3f4",
+                "theme_color": "#f8fafd",
                 "prefer_related_applications": false,
                 "related_applications": [],
                 "protocol_handlers": [],
@@ -2345,37 +2282,37 @@
                         "url": "https://outlook.office.com/mail/deeplink/compose",
                         "icons": [
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.32.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/NewMail.Blue.32.png",
                                 "type": "image/png",
                                 "sizes": "32x32",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.48.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/NewMail.Blue.48.png",
                                 "type": "image/png",
                                 "sizes": "48x48",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.72.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/NewMail.Blue.72.png",
                                 "type": "image/png",
                                 "sizes": "72x72",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.96.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/NewMail.Blue.96.png",
                                 "type": "image/png",
                                 "sizes": "96x96",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.144.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/NewMail.Blue.144.png",
                                 "type": "image/png",
                                 "sizes": "144x144",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewMail.Blue.192.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/NewMail.Blue.192.png",
                                 "type": "image/png",
                                 "sizes": "192x192",
                                 "purpose": "any"
@@ -2388,37 +2325,37 @@
                         "url": "https://outlook.office.com/calendar/deeplink/compose",
                         "icons": [
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.32.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/NewEvent.Blue.32.png",
                                 "type": "image/png",
                                 "sizes": "32x32",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.48.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/NewEvent.Blue.48.png",
                                 "type": "image/png",
                                 "sizes": "48x48",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.72.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/NewEvent.Blue.72.png",
                                 "type": "image/png",
                                 "sizes": "72x72",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.96.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/NewEvent.Blue.96.png",
                                 "type": "image/png",
                                 "sizes": "96x96",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.144.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/NewEvent.Blue.144.png",
                                 "type": "image/png",
                                 "sizes": "144x144",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/NewEvent.Blue.192.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/NewEvent.Blue.192.png",
                                 "type": "image/png",
                                 "sizes": "192x192",
                                 "purpose": "any"
@@ -2431,37 +2368,37 @@
                         "url": "https://outlook.office.com/calendar",
                         "icons": [
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.32.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/ViewCalendar.Blue.32.png",
                                 "type": "image/png",
                                 "sizes": "32x32",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.48.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/ViewCalendar.Blue.48.png",
                                 "type": "image/png",
                                 "sizes": "48x48",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.72.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/ViewCalendar.Blue.72.png",
                                 "type": "image/png",
                                 "sizes": "72x72",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.96.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/ViewCalendar.Blue.96.png",
                                 "type": "image/png",
                                 "sizes": "96x96",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.144.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/ViewCalendar.Blue.144.png",
                                 "type": "image/png",
                                 "sizes": "144x144",
                                 "purpose": "any"
                             },
                             {
-                                "src": "https://res.cdn.office.net/assets/mail/pwa/v2/png/ViewCalendar.Blue.192.png",
+                                "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v2/png/ViewCalendar.Blue.192.png",
                                 "type": "image/png",
                                 "sizes": "192x192",
                                 "purpose": "any"
@@ -2471,43 +2408,43 @@
                 ],
                 "icons": [
                     {
-                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.48x48x32.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.48x48x32.png",
                         "type": "image/png",
                         "sizes": "48x48",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.64x64x32.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.64x64x32.png",
                         "type": "image/png",
                         "sizes": "64x64",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.128x128x32.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.128x128x32.png",
                         "type": "image/png",
                         "sizes": "128x128",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.144x144.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.144x144.png",
                         "type": "image/png",
                         "sizes": "144x144",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.192x192.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.192x192.png",
                         "type": "image/png",
                         "sizes": "192x192",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.256x256x32.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.256x256x32.png",
                         "type": "image/png",
                         "sizes": "256x256",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res.cdn.office.net/assets/mail/pwa/v1/pngs/Outlook.512x512.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.512x512.png",
                         "type": "image/png",
                         "sizes": "512x512",
                         "purpose": "any"
@@ -2629,16 +2566,16 @@
                 "screenshots": []
             }
         },
-        "01HYG8K3NWNHPTYY5SZPMMSVGZ": {
-            "ulid": "01HYG8K3NWNHPTYY5SZPMMSVGZ",
-            "profile": "01GKCTTN705EC2FGZT7M5H8YKV",
+        "01K2QCJDA40VR92H2XBM0Q7TZE": {
+            "ulid": "01K2QCJDA40VR92H2XBM0Q7TZE",
+            "profile": "01K2QCJD499Z1W716T39C20WC5",
             "config": {
                 "name": null,
                 "description": null,
                 "start_url": null,
                 "icon_url": null,
-                "document_url": "https://app.todoist.com/app/today",
-                "manifest_url": "https://app.todoist.com/app/manifest.48149c9f0c601e29a9554640f7bf5b4d.json",
+                "document_url": "https://app.todoist.com/app/today#",
+                "manifest_url": "https://app.todoist.com/manifest.json",
                 "categories": null,
                 "keywords": null,
                 "enabled_url_handlers": [],
@@ -2656,7 +2593,7 @@
                 "keywords": [],
                 "dir": "auto",
                 "display": "standalone",
-                "orientation": "portrait",
+                "orientation": "any",
                 "background_color": "#eeeeee",
                 "theme_color": "#c24f3d",
                 "prefer_related_applications": false,
@@ -2665,63 +2602,21 @@
                 "shortcuts": [],
                 "icons": [
                     {
-                        "src": "https://app.todoist.com/app/manifest_icons/icon_1024x1024.098d1a14e2f871db82d8a2392d59b587.png",
+                        "src": "https://todoist.b-cdn.net/assets/icons/todoist-pwa-1024.a06ee793c1e27fc7.png",
                         "type": "image/png",
                         "sizes": "1024x1024",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://app.todoist.com/app/manifest_icons/icon_1024x1024.098d1a14e2f871db82d8a2392d59b587.png",
-                        "type": "image/png",
-                        "sizes": "1024x1024",
-                        "purpose": "any"
-                    },
-                    {
-                        "src": "https://app.todoist.com/app/manifest_icons/icon_180x180.d0c3ef3c6be29a9ca57ead5171bbebc4.png",
-                        "type": "image/png",
-                        "sizes": "180x180",
-                        "purpose": "any"
-                    },
-                    {
-                        "src": "https://app.todoist.com/app/manifest_icons/icon_167x167.3a26fccf02024d9e908aa61a168c04b6.png",
-                        "type": "image/png",
-                        "sizes": "167x167",
-                        "purpose": "any"
-                    },
-                    {
-                        "src": "https://app.todoist.com/app/manifest_icons/icon_152x152.749dc17e04c34f6e3ade0c6ec90a827c.png",
-                        "type": "image/png",
-                        "sizes": "152x152",
-                        "purpose": "any"
-                    },
-                    {
-                        "src": "https://app.todoist.com/app/manifest_icons/icon_120x120.4a19b1dbc4514d6e3e3929c28f912cc8.png",
-                        "type": "image/png",
-                        "sizes": "120x120",
-                        "purpose": "any"
-                    },
-                    {
-                        "src": "https://app.todoist.com/app/manifest_icons/icon_1024x1024.d69a88e67af2780d56e54cd3c3eb79c8.png",
-                        "type": "image/png",
-                        "sizes": "1024x1024",
-                        "purpose": "any"
-                    },
-                    {
-                        "src": "https://app.todoist.com/app/manifest_icons/icon_512x512.4d257dbb0cb55b755dc9a2b4138a374d.png",
-                        "type": "image/png",
-                        "sizes": "512x512",
-                        "purpose": "any"
-                    },
-                    {
-                        "src": "https://app.todoist.com/app/manifest_icons/icon_192x192.60f60d9894b3583ca14328401a9fdcce.png",
+                        "src": "https://todoist.b-cdn.net/assets/icons/todoist-pwa-192.45bc3b2c471fae15.png",
                         "type": "image/png",
                         "sizes": "192x192",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://app.todoist.com/app/manifest_icons/icon_144x144.6b57d81dd9f2390043627e88385ef8c6.png",
+                        "src": "https://todoist.b-cdn.net/assets/icons/todoist-pwa-512.bbbb8ffaf5844a2c.png",
                         "type": "image/png",
-                        "sizes": "144x144",
+                        "sizes": "512x512",
                         "purpose": "any"
                     }
                 ],
@@ -3026,16 +2921,16 @@
                 "screenshots": []
             }
         },
-        "01JP0PYDAX6EXHWJJQJTEE9386": {
-            "ulid": "01JP0PYDAX6EXHWJJQJTEE9386",
-            "profile": "01JP0PYD9KW49DTC7FXX7AQRDA",
+        "01K2QBNJ8DJRRKX70NNHE50WN8": {
+            "ulid": "01K2QBNJ8DJRRKX70NNHE50WN8",
+            "profile": "01K2QBNJ6T6T0BPC8NFN8TRAJP",
             "config": {
-                "name": "Microsoft 365 Copilot",
+                "name": "Microsoft Word",
                 "description": null,
                 "start_url": null,
                 "icon_url": null,
-                "document_url": "https://m365.cloud.microsoft/?auth=2",
-                "manifest_url": "data:application/manifest+json;base64,eyJzdGFydF91cmwiOiJodHRwczovL20zNjUuY2xvdWQubWljcm9zb2Z0Lz9hdXRoPTIiLCJuYW1lIjoiSG9tZSB8IE1pY3Jvc29mdCAzNjUgQ29waWxvdCIsImljb25zIjpbeyJzcmMiOiJodHRwczovL3Jlcy5jZG4ub2ZmaWNlLm5ldC9vZmZpY2VodWIvaW1hZ2VzL2NvbnRlbnQvaW1hZ2VzL2Zhdmljb25fY29waWxvdC00MzcwMTcyYWE2LmljbyIsInR5cGUiOiJpbWFnZS94LWljb24iLCJwdXJwb3NlIjoiYW55Iiwic2l6ZXMiOiIifV19",
+                "document_url": "https://word.cloud.microsoft/?wdOrigin=DOCUMENTS.SHELL%2CAPPHOME-WEB.UNAUTH%2CAPPHOME-WEB.SHELL.SIGNIN",
+                "manifest_url": "data:application/manifest+json;base64,eyJzdGFydF91cmwiOiJodHRwczovL3dvcmQuY2xvdWQubWljcm9zb2Z0Lz93ZE9yaWdpbj1ET0NVTUVOVFMuU0hFTEwlMkNBUFBIT01FLVdFQi5VTkFVVEglMkNBUFBIT01FLVdFQi5TSEVMTC5TSUdOSU4iLCJuYW1lIjoiV29yZCBmb3IgdGhlIFdlYiAtIE1pY3Jvc29mdCAzNjUiLCJkZXNjcmlwdGlvbiI6IldyaXRlLCBlZGl0LCBhbmQgY29sbGFib3JhdGUgb24gZG9jdW1lbnRzIHdpdGggTWljcm9zb2Z0IFdvcmQgb25saW5lLiBGcmVlIGFuZCBzZWFtbGVzcyBhY2Nlc3MgZnJvbSBhbnkgZGV2aWNlLiIsImljb25zIjpbeyJzcmMiOiJodHRwczovL3Jlcy5jZG4ub2ZmaWNlLm5ldC9maWxlcy9mYWJyaWMtY2RuLXByb2RfMjAyNDA2MTAuMDAxL2Fzc2V0cy9icmFuZC1pY29ucy9wcm9kdWN0L3N2Zy93b3JkXzE2eDEuc3ZnIiwidHlwZSI6ImltYWdlL3N2Zyt4bWwiLCJwdXJwb3NlIjoiYW55Iiwic2l6ZXMiOiIifSx7InNyYyI6Imh0dHBzOi8vcmVzLmNkbi5vZmZpY2UubmV0L2ZpbGVzL2ZhYnJpYy1jZG4tcHJvZF8yMDI0MDYxMC4wMDEvYXNzZXRzL2JyYW5kLWljb25zL3Byb2R1Y3QvcG5nL3dvcmRfNDh4My5wbmciLCJ0eXBlIjoiaW1hZ2UvcG5nIiwicHVycG9zZSI6ImFueSIsInNpemVzIjoiMTQ0eDE0NCJ9LHsic3JjIjoiaHR0cHM6Ly9yZXMuY2RuLm9mZmljZS5uZXQvZmlsZXMvZmFicmljLWNkbi1wcm9kXzIwMjQwNjEwLjAwMS9hc3NldHMvYnJhbmQtaWNvbnMvcHJvZHVjdC9wbmcvd29yZF80OHgyLnBuZyIsInR5cGUiOiJpbWFnZS9wbmciLCJwdXJwb3NlIjoiYW55Iiwic2l6ZXMiOiI5Nng5NiJ9LHsic3JjIjoiaHR0cHM6Ly9yZXMuY2RuLm9mZmljZS5uZXQvZmlsZXMvZmFicmljLWNkbi1wcm9kXzIwMjQwNjEwLjAwMS9hc3NldHMvYnJhbmQtaWNvbnMvcHJvZHVjdC9wbmcvd29yZF80OHgxXzUucG5nIiwidHlwZSI6ImltYWdlL3BuZyIsInB1cnBvc2UiOiJhbnkiLCJzaXplcyI6IjcyeDcyIn0seyJzcmMiOiJodHRwczovL3Jlcy5jZG4ub2ZmaWNlLm5ldC9maWxlcy9mYWJyaWMtY2RuLXByb2RfMjAyNDA2MTAuMDAxL2Fzc2V0cy9icmFuZC1pY29ucy9wcm9kdWN0L3BuZy93b3JkXzMyeDIucG5nIiwidHlwZSI6ImltYWdlL3BuZyIsInB1cnBvc2UiOiJhbnkiLCJzaXplcyI6IjY0eDY0In0seyJzcmMiOiJodHRwczovL3Jlcy5jZG4ub2ZmaWNlLm5ldC9maWxlcy9mYWJyaWMtY2RuLXByb2RfMjAyNDA2MTAuMDAxL2Fzc2V0cy9icmFuZC1pY29ucy9wcm9kdWN0L3BuZy93b3JkXzQ4eDEucG5nIiwidHlwZSI6ImltYWdlL3BuZyIsInB1cnBvc2UiOiJhbnkiLCJzaXplcyI6IjQ4eDQ4In0seyJzcmMiOiJodHRwczovL3Jlcy5jZG4ub2ZmaWNlLm5ldC9maWxlcy9mYWJyaWMtY2RuLXByb2RfMjAyNDA2MTAuMDAxL2Fzc2V0cy9icmFuZC1pY29ucy9wcm9kdWN0L3BuZy93b3JkXzMyeDEucG5nIiwidHlwZSI6ImltYWdlL3BuZyIsInB1cnBvc2UiOiJhbnkiLCJzaXplcyI6IjMyeDMyIn0seyJzcmMiOiJodHRwczovL3Jlcy5jZG4ub2ZmaWNlLm5ldC9maWxlcy9mYWJyaWMtY2RuLXByb2RfMjAyNDA2MTAuMDAxL2Fzc2V0cy9icmFuZC1pY29ucy9wcm9kdWN0L3BuZy93b3JkXzE2eDFfNS5wbmciLCJ0eXBlIjoiaW1hZ2UvcG5nIiwicHVycG9zZSI6ImFueSIsInNpemVzIjoiMjR4MjQifSx7InNyYyI6Imh0dHBzOi8vcmVzLmNkbi5vZmZpY2UubmV0L2ZpbGVzL2ZhYnJpYy1jZG4tcHJvZF8yMDI0MDYxMC4wMDEvYXNzZXRzL2JyYW5kLWljb25zL3Byb2R1Y3QvcG5nL3dvcmRfMTZ4MS5wbmciLCJ0eXBlIjoiaW1hZ2UvcG5nIiwicHVycG9zZSI6ImFueSIsInNpemVzIjoiMTZ4MTYifSx7InNyYyI6Imh0dHBzOi8vcmVzLmNkbi5vZmZpY2UubmV0L2ZpbGVzL2ZhYnJpYy1jZG4tcHJvZF8yMDI0MDYxMC4wMDEvYXNzZXRzL2JyYW5kLWljb25zL3Byb2R1Y3Qvc3ZnL3dvcmRfMTZ4MS5zdmciLCJ0eXBlIjoiaW1hZ2Uvc3ZnK3htbCIsInB1cnBvc2UiOiJhbnkiLCJzaXplcyI6IiJ9LHsic3JjIjoiaHR0cHM6Ly9yZXMuY2RuLm9mZmljZS5uZXQvZmlsZXMvZmFicmljLWNkbi1wcm9kXzIwMjQwNjEwLjAwMS9hc3NldHMvYnJhbmQtaWNvbnMvcHJvZHVjdC9wbmcvd29yZF80OHgzLnBuZyIsInR5cGUiOiJpbWFnZS9wbmciLCJwdXJwb3NlIjoiYW55Iiwic2l6ZXMiOiIxNDR4MTQ0In0seyJzcmMiOiJodHRwczovL3Jlcy5jZG4ub2ZmaWNlLm5ldC9maWxlcy9mYWJyaWMtY2RuLXByb2RfMjAyNDA2MTAuMDAxL2Fzc2V0cy9icmFuZC1pY29ucy9wcm9kdWN0L3BuZy93b3JkXzQ4eDIucG5nIiwidHlwZSI6ImltYWdlL3BuZyIsInB1cnBvc2UiOiJhbnkiLCJzaXplcyI6Ijk2eDk2In0seyJzcmMiOiJodHRwczovL3Jlcy5jZG4ub2ZmaWNlLm5ldC9maWxlcy9mYWJyaWMtY2RuLXByb2RfMjAyNDA2MTAuMDAxL2Fzc2V0cy9icmFuZC1pY29ucy9wcm9kdWN0L3BuZy93b3JkXzQ4eDFfNS5wbmciLCJ0eXBlIjoiaW1hZ2UvcG5nIiwicHVycG9zZSI6ImFueSIsInNpemVzIjoiNzJ4NzIifSx7InNyYyI6Imh0dHBzOi8vcmVzLmNkbi5vZmZpY2UubmV0L2ZpbGVzL2ZhYnJpYy1jZG4tcHJvZF8yMDI0MDYxMC4wMDEvYXNzZXRzL2JyYW5kLWljb25zL3Byb2R1Y3QvcG5nL3dvcmRfMzJ4Mi5wbmciLCJ0eXBlIjoiaW1hZ2UvcG5nIiwicHVycG9zZSI6ImFueSIsInNpemVzIjoiNjR4NjQifSx7InNyYyI6Imh0dHBzOi8vcmVzLmNkbi5vZmZpY2UubmV0L2ZpbGVzL2ZhYnJpYy1jZG4tcHJvZF8yMDI0MDYxMC4wMDEvYXNzZXRzL2JyYW5kLWljb25zL3Byb2R1Y3QvcG5nL3dvcmRfNDh4MS5wbmciLCJ0eXBlIjoiaW1hZ2UvcG5nIiwicHVycG9zZSI6ImFueSIsInNpemVzIjoiNDh4NDgifSx7InNyYyI6Imh0dHBzOi8vcmVzLmNkbi5vZmZpY2UubmV0L2ZpbGVzL2ZhYnJpYy1jZG4tcHJvZF8yMDI0MDYxMC4wMDEvYXNzZXRzL2JyYW5kLWljb25zL3Byb2R1Y3QvcG5nL3dvcmRfMzJ4MS5wbmciLCJ0eXBlIjoiaW1hZ2UvcG5nIiwicHVycG9zZSI6ImFueSIsInNpemVzIjoiMzJ4MzIifSx7InNyYyI6Imh0dHBzOi8vcmVzLmNkbi5vZmZpY2UubmV0L2ZpbGVzL2ZhYnJpYy1jZG4tcHJvZF8yMDI0MDYxMC4wMDEvYXNzZXRzL2JyYW5kLWljb25zL3Byb2R1Y3QvcG5nL3dvcmRfMTZ4MV81LnBuZyIsInR5cGUiOiJpbWFnZS9wbmciLCJwdXJwb3NlIjoiYW55Iiwic2l6ZXMiOiIyNHgyNCJ9LHsic3JjIjoiaHR0cHM6Ly9yZXMuY2RuLm9mZmljZS5uZXQvZmlsZXMvZmFicmljLWNkbi1wcm9kXzIwMjQwNjEwLjAwMS9hc3NldHMvYnJhbmQtaWNvbnMvcHJvZHVjdC9wbmcvd29yZF8xNngxLnBuZyIsInR5cGUiOiJpbWFnZS9wbmciLCJwdXJwb3NlIjoiYW55Iiwic2l6ZXMiOiIxNngxNiJ9XX0=",
                 "categories": null,
                 "keywords": null,
                 "enabled_url_handlers": [],
@@ -3045,9 +2940,10 @@
                 "launch_on_browser": false
             },
             "manifest": {
-                "start_url": "https://m365.cloud.microsoft/?auth=2",
-                "scope": "https://m365.cloud.microsoft/",
-                "name": "Home | Microsoft 365 Copilot",
+                "start_url": "https://word.cloud.microsoft/?wdOrigin=DOCUMENTS.SHELL%2CAPPHOME-WEB.UNAUTH%2CAPPHOME-WEB.SHELL.SIGNIN",
+                "scope": "https://word.cloud.microsoft/",
+                "name": "Word for the Web - Microsoft 365",
+                "description": "Write, edit, and collaborate on documents with Microsoft Word online. Free and seamless access from any device.",
                 "categories": [],
                 "keywords": [],
                 "dir": "auto",
@@ -3059,9 +2955,256 @@
                 "shortcuts": [],
                 "icons": [
                     {
-                        "src": "https://res.cdn.office.net/officehub/images/content/images/favicon_copilot-4370172aa6.ico",
-                        "type": "image/x-icon",
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/svg/word_16x1.svg",
+                        "type": "image/svg+xml",
                         "sizes": "",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/word_48x3.png",
+                        "type": "image/png",
+                        "sizes": "144x144",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/word_48x2.png",
+                        "type": "image/png",
+                        "sizes": "96x96",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/word_48x1_5.png",
+                        "type": "image/png",
+                        "sizes": "72x72",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/word_32x2.png",
+                        "type": "image/png",
+                        "sizes": "64x64",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/word_48x1.png",
+                        "type": "image/png",
+                        "sizes": "48x48",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/word_32x1.png",
+                        "type": "image/png",
+                        "sizes": "32x32",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/word_16x1_5.png",
+                        "type": "image/png",
+                        "sizes": "24x24",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/word_16x1.png",
+                        "type": "image/png",
+                        "sizes": "16x16",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/svg/word_16x1.svg",
+                        "type": "image/svg+xml",
+                        "sizes": "",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/word_48x3.png",
+                        "type": "image/png",
+                        "sizes": "144x144",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/word_48x2.png",
+                        "type": "image/png",
+                        "sizes": "96x96",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/word_48x1_5.png",
+                        "type": "image/png",
+                        "sizes": "72x72",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/word_32x2.png",
+                        "type": "image/png",
+                        "sizes": "64x64",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/word_48x1.png",
+                        "type": "image/png",
+                        "sizes": "48x48",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/word_32x1.png",
+                        "type": "image/png",
+                        "sizes": "32x32",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/word_16x1_5.png",
+                        "type": "image/png",
+                        "sizes": "24x24",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/word_16x1.png",
+                        "type": "image/png",
+                        "sizes": "16x16",
+                        "purpose": "any"
+                    }
+                ],
+                "screenshots": []
+            }
+        },
+        "01K2QBRSDJE29RSR1JZ5T9ST1J": {
+            "ulid": "01K2QBRSDJE29RSR1JZ5T9ST1J",
+            "profile": "01K2QBRSBX42AKYWZFSKBCHXWA",
+            "config": {
+                "name": "Microsoft Excel",
+                "description": null,
+                "start_url": null,
+                "icon_url": null,
+                "document_url": "https://excel.cloud.microsoft/?wdOrigin=EXCELONLINE.SHELL%2CAPPHOME-WEB.UNAUTH%2CAPPHOME-WEB.SHELL.SIGNIN",
+                "manifest_url": "data:application/manifest+json;base64,eyJzdGFydF91cmwiOiJodHRwczovL2V4Y2VsLmNsb3VkLm1pY3Jvc29mdC8/d2RPcmlnaW49RVhDRUxPTkxJTkUuU0hFTEwlMkNBUFBIT01FLVdFQi5VTkFVVEglMkNBUFBIT01FLVdFQi5TSEVMTC5TSUdOSU4iLCJuYW1lIjoiRXhjZWwgZm9yIHRoZSBXZWIgLSBNaWNyb3NvZnQgMzY1IiwiZGVzY3JpcHRpb24iOiJDcmVhdGUgYW5kIGVkaXQgc3ByZWFkc2hlZXRzIG9ubGluZSB3aXRoIE1pY3Jvc29mdCBFeGNlbCBmb3IgdGhlIHdlYi4gRWFzeSBmb3JtYXR0aW5nLCBhbmFseXNpcywgYW5kIHJlYWwtdGltZSBjb2xsYWJvcmF0aW9uIGZyb20gYW55IGRldmljZS4iLCJpY29ucyI6W3sic3JjIjoiaHR0cHM6Ly9yZXMuY2RuLm9mZmljZS5uZXQvZmlsZXMvZmFicmljLWNkbi1wcm9kXzIwMjQwNjEwLjAwMS9hc3NldHMvYnJhbmQtaWNvbnMvcHJvZHVjdC9zdmcvZXhjZWxfMTZ4MS5zdmciLCJ0eXBlIjoiaW1hZ2Uvc3ZnK3htbCIsInB1cnBvc2UiOiJhbnkiLCJzaXplcyI6IiJ9LHsic3JjIjoiaHR0cHM6Ly9yZXMuY2RuLm9mZmljZS5uZXQvZmlsZXMvZmFicmljLWNkbi1wcm9kXzIwMjQwNjEwLjAwMS9hc3NldHMvYnJhbmQtaWNvbnMvcHJvZHVjdC9wbmcvZXhjZWxfNDh4My5wbmciLCJ0eXBlIjoiaW1hZ2UvcG5nIiwicHVycG9zZSI6ImFueSIsInNpemVzIjoiMTQ0eDE0NCJ9LHsic3JjIjoiaHR0cHM6Ly9yZXMuY2RuLm9mZmljZS5uZXQvZmlsZXMvZmFicmljLWNkbi1wcm9kXzIwMjQwNjEwLjAwMS9hc3NldHMvYnJhbmQtaWNvbnMvcHJvZHVjdC9wbmcvZXhjZWxfNDh4Mi5wbmciLCJ0eXBlIjoiaW1hZ2UvcG5nIiwicHVycG9zZSI6ImFueSIsInNpemVzIjoiOTZ4OTYifSx7InNyYyI6Imh0dHBzOi8vcmVzLmNkbi5vZmZpY2UubmV0L2ZpbGVzL2ZhYnJpYy1jZG4tcHJvZF8yMDI0MDYxMC4wMDEvYXNzZXRzL2JyYW5kLWljb25zL3Byb2R1Y3QvcG5nL2V4Y2VsXzQ4eDFfNS5wbmciLCJ0eXBlIjoiaW1hZ2UvcG5nIiwicHVycG9zZSI6ImFueSIsInNpemVzIjoiNzJ4NzIifSx7InNyYyI6Imh0dHBzOi8vcmVzLmNkbi5vZmZpY2UubmV0L2ZpbGVzL2ZhYnJpYy1jZG4tcHJvZF8yMDI0MDYxMC4wMDEvYXNzZXRzL2JyYW5kLWljb25zL3Byb2R1Y3QvcG5nL2V4Y2VsXzMyeDIucG5nIiwidHlwZSI6ImltYWdlL3BuZyIsInB1cnBvc2UiOiJhbnkiLCJzaXplcyI6IjY0eDY0In0seyJzcmMiOiJodHRwczovL3Jlcy5jZG4ub2ZmaWNlLm5ldC9maWxlcy9mYWJyaWMtY2RuLXByb2RfMjAyNDA2MTAuMDAxL2Fzc2V0cy9icmFuZC1pY29ucy9wcm9kdWN0L3BuZy9leGNlbF80OHgxLnBuZyIsInR5cGUiOiJpbWFnZS9wbmciLCJwdXJwb3NlIjoiYW55Iiwic2l6ZXMiOiI0OHg0OCJ9LHsic3JjIjoiaHR0cHM6Ly9yZXMuY2RuLm9mZmljZS5uZXQvZmlsZXMvZmFicmljLWNkbi1wcm9kXzIwMjQwNjEwLjAwMS9hc3NldHMvYnJhbmQtaWNvbnMvcHJvZHVjdC9wbmcvZXhjZWxfMzJ4MS5wbmciLCJ0eXBlIjoiaW1hZ2UvcG5nIiwicHVycG9zZSI6ImFueSIsInNpemVzIjoiMzJ4MzIifSx7InNyYyI6Imh0dHBzOi8vcmVzLmNkbi5vZmZpY2UubmV0L2ZpbGVzL2ZhYnJpYy1jZG4tcHJvZF8yMDI0MDYxMC4wMDEvYXNzZXRzL2JyYW5kLWljb25zL3Byb2R1Y3QvcG5nL2V4Y2VsXzE2eDFfNS5wbmciLCJ0eXBlIjoiaW1hZ2UvcG5nIiwicHVycG9zZSI6ImFueSIsInNpemVzIjoiMjR4MjQifSx7InNyYyI6Imh0dHBzOi8vcmVzLmNkbi5vZmZpY2UubmV0L2ZpbGVzL2ZhYnJpYy1jZG4tcHJvZF8yMDI0MDYxMC4wMDEvYXNzZXRzL2JyYW5kLWljb25zL3Byb2R1Y3QvcG5nL2V4Y2VsXzE2eDEucG5nIiwidHlwZSI6ImltYWdlL3BuZyIsInB1cnBvc2UiOiJhbnkiLCJzaXplcyI6IjE2eDE2In0seyJzcmMiOiJodHRwczovL3Jlcy5jZG4ub2ZmaWNlLm5ldC9maWxlcy9mYWJyaWMtY2RuLXByb2RfMjAyNDA2MTAuMDAxL2Fzc2V0cy9icmFuZC1pY29ucy9wcm9kdWN0L3N2Zy9leGNlbF8xNngxLnN2ZyIsInR5cGUiOiJpbWFnZS9zdmcreG1sIiwicHVycG9zZSI6ImFueSIsInNpemVzIjoiIn0seyJzcmMiOiJodHRwczovL3Jlcy5jZG4ub2ZmaWNlLm5ldC9maWxlcy9mYWJyaWMtY2RuLXByb2RfMjAyNDA2MTAuMDAxL2Fzc2V0cy9icmFuZC1pY29ucy9wcm9kdWN0L3BuZy9leGNlbF80OHgzLnBuZyIsInR5cGUiOiJpbWFnZS9wbmciLCJwdXJwb3NlIjoiYW55Iiwic2l6ZXMiOiIxNDR4MTQ0In0seyJzcmMiOiJodHRwczovL3Jlcy5jZG4ub2ZmaWNlLm5ldC9maWxlcy9mYWJyaWMtY2RuLXByb2RfMjAyNDA2MTAuMDAxL2Fzc2V0cy9icmFuZC1pY29ucy9wcm9kdWN0L3BuZy9leGNlbF80OHgyLnBuZyIsInR5cGUiOiJpbWFnZS9wbmciLCJwdXJwb3NlIjoiYW55Iiwic2l6ZXMiOiI5Nng5NiJ9LHsic3JjIjoiaHR0cHM6Ly9yZXMuY2RuLm9mZmljZS5uZXQvZmlsZXMvZmFicmljLWNkbi1wcm9kXzIwMjQwNjEwLjAwMS9hc3NldHMvYnJhbmQtaWNvbnMvcHJvZHVjdC9wbmcvZXhjZWxfNDh4MV81LnBuZyIsInR5cGUiOiJpbWFnZS9wbmciLCJwdXJwb3NlIjoiYW55Iiwic2l6ZXMiOiI3Mng3MiJ9LHsic3JjIjoiaHR0cHM6Ly9yZXMuY2RuLm9mZmljZS5uZXQvZmlsZXMvZmFicmljLWNkbi1wcm9kXzIwMjQwNjEwLjAwMS9hc3NldHMvYnJhbmQtaWNvbnMvcHJvZHVjdC9wbmcvZXhjZWxfMzJ4Mi5wbmciLCJ0eXBlIjoiaW1hZ2UvcG5nIiwicHVycG9zZSI6ImFueSIsInNpemVzIjoiNjR4NjQifSx7InNyYyI6Imh0dHBzOi8vcmVzLmNkbi5vZmZpY2UubmV0L2ZpbGVzL2ZhYnJpYy1jZG4tcHJvZF8yMDI0MDYxMC4wMDEvYXNzZXRzL2JyYW5kLWljb25zL3Byb2R1Y3QvcG5nL2V4Y2VsXzQ4eDEucG5nIiwidHlwZSI6ImltYWdlL3BuZyIsInB1cnBvc2UiOiJhbnkiLCJzaXplcyI6IjQ4eDQ4In0seyJzcmMiOiJodHRwczovL3Jlcy5jZG4ub2ZmaWNlLm5ldC9maWxlcy9mYWJyaWMtY2RuLXByb2RfMjAyNDA2MTAuMDAxL2Fzc2V0cy9icmFuZC1pY29ucy9wcm9kdWN0L3BuZy9leGNlbF8zMngxLnBuZyIsInR5cGUiOiJpbWFnZS9wbmciLCJwdXJwb3NlIjoiYW55Iiwic2l6ZXMiOiIzMngzMiJ9LHsic3JjIjoiaHR0cHM6Ly9yZXMuY2RuLm9mZmljZS5uZXQvZmlsZXMvZmFicmljLWNkbi1wcm9kXzIwMjQwNjEwLjAwMS9hc3NldHMvYnJhbmQtaWNvbnMvcHJvZHVjdC9wbmcvZXhjZWxfMTZ4MV81LnBuZyIsInR5cGUiOiJpbWFnZS9wbmciLCJwdXJwb3NlIjoiYW55Iiwic2l6ZXMiOiIyNHgyNCJ9LHsic3JjIjoiaHR0cHM6Ly9yZXMuY2RuLm9mZmljZS5uZXQvZmlsZXMvZmFicmljLWNkbi1wcm9kXzIwMjQwNjEwLjAwMS9hc3NldHMvYnJhbmQtaWNvbnMvcHJvZHVjdC9wbmcvZXhjZWxfMTZ4MS5wbmciLCJ0eXBlIjoiaW1hZ2UvcG5nIiwicHVycG9zZSI6ImFueSIsInNpemVzIjoiMTZ4MTYifV19",
+                "categories": null,
+                "keywords": null,
+                "enabled_url_handlers": [],
+                "enabled_protocol_handlers": [],
+                "custom_protocol_handlers": [],
+                "launch_on_login": false,
+                "launch_on_browser": false
+            },
+            "manifest": {
+                "start_url": "https://excel.cloud.microsoft/?wdOrigin=EXCELONLINE.SHELL%2CAPPHOME-WEB.UNAUTH%2CAPPHOME-WEB.SHELL.SIGNIN",
+                "scope": "https://excel.cloud.microsoft/",
+                "name": "Excel for the Web - Microsoft 365",
+                "description": "Create and edit spreadsheets online with Microsoft Excel for the web. Easy formatting, analysis, and real-time collaboration from any device.",
+                "categories": [],
+                "keywords": [],
+                "dir": "auto",
+                "display": "browser",
+                "orientation": "any",
+                "prefer_related_applications": false,
+                "related_applications": [],
+                "protocol_handlers": [],
+                "shortcuts": [],
+                "icons": [
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/svg/excel_16x1.svg",
+                        "type": "image/svg+xml",
+                        "sizes": "",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/excel_48x3.png",
+                        "type": "image/png",
+                        "sizes": "144x144",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/excel_48x2.png",
+                        "type": "image/png",
+                        "sizes": "96x96",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/excel_48x1_5.png",
+                        "type": "image/png",
+                        "sizes": "72x72",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/excel_32x2.png",
+                        "type": "image/png",
+                        "sizes": "64x64",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/excel_48x1.png",
+                        "type": "image/png",
+                        "sizes": "48x48",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/excel_32x1.png",
+                        "type": "image/png",
+                        "sizes": "32x32",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/excel_16x1_5.png",
+                        "type": "image/png",
+                        "sizes": "24x24",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/excel_16x1.png",
+                        "type": "image/png",
+                        "sizes": "16x16",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/svg/excel_16x1.svg",
+                        "type": "image/svg+xml",
+                        "sizes": "",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/excel_48x3.png",
+                        "type": "image/png",
+                        "sizes": "144x144",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/excel_48x2.png",
+                        "type": "image/png",
+                        "sizes": "96x96",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/excel_48x1_5.png",
+                        "type": "image/png",
+                        "sizes": "72x72",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/excel_32x2.png",
+                        "type": "image/png",
+                        "sizes": "64x64",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/excel_48x1.png",
+                        "type": "image/png",
+                        "sizes": "48x48",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/excel_32x1.png",
+                        "type": "image/png",
+                        "sizes": "32x32",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/excel_16x1_5.png",
+                        "type": "image/png",
+                        "sizes": "24x24",
+                        "purpose": "any"
+                    },
+                    {
+                        "src": "https://res.cdn.office.net/files/fabric-cdn-prod_20240610.001/assets/brand-icons/product/png/excel_16x1.png",
+                        "type": "image/png",
+                        "sizes": "16x16",
                         "purpose": "any"
                     }
                 ],
