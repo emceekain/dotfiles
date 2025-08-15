@@ -8,7 +8,7 @@
  */
 
 configuration {
-	font:							"Noto Sans Nerd Font Light 18";
+	font:							"NotoSans Nerd Font Light 18";
     show-icons:                     true;
 	icon-theme: 					"Papirus";
     display-drun: 					" ";
