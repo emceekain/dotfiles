@@ -1,0 +1,355 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="false"/>
+    <property name="panel-1" type="empty">
+      <property name="background-alpha" type="uint" value="100"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="0.125"/>
+        <value type="double" value="0.125"/>
+        <value type="double" value="0.125"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="enable-struts" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="length" type="double" value="100"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="output-name" type="string" value="Primary"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="2"/>
+        <value type="int" value="3"/>
+        <value type="int" value="4"/>
+        <value type="int" value="5"/>
+        <value type="int" value="6"/>
+        <value type="int" value="7"/>
+        <value type="int" value="8"/>
+        <value type="int" value="9"/>
+        <value type="int" value="10"/>
+        <value type="int" value="17"/>
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
+        <value type="int" value="13"/>
+        <value type="int" value="14"/>
+        <value type="int" value="15"/>
+        <value type="int" value="16"/>
+      </property>
+      <property name="position" type="string" value="p=8;x=2880;y=1064"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="40"/>
+      <property name="span-monitors" type="bool" value="true"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="clipman" type="empty">
+      <property name="tweaks" type="empty">
+        <property name="never-confirm-history-clear" type="bool" value="false"/>
+      </property>
+    </property>
+    <property name="plugin-1" type="string" value="whiskermenu">
+      <property name="button-icon" type="string" value="archlinux-logo"/>
+      <property name="command-switchuser" type="string" value="gdmflexiserver"/>
+      <property name="default-category" type="int" value="1"/>
+      <property name="favorites" type="array">
+        <value type="string" value="xfce4-terminal-emulator.desktop"/>
+        <value type="string" value="xfce4-file-manager.desktop"/>
+        <value type="string" value="xfce4-mail-reader.desktop"/>
+        <value type="string" value="xfce4-web-browser.desktop"/>
+      </property>
+      <property name="favorites-in-recent" type="bool" value="true"/>
+      <property name="launcher-icon-size" type="int" value="3"/>
+      <property name="menu-height" type="int" value="612"/>
+      <property name="menu-width" type="int" value="504"/>
+      <property name="recent" type="array">
+        <value type="string" value="codium.desktop"/>
+        <value type="string" value="org.gnome.gitg.desktop"/>
+        <value type="string" value="thunar.desktop"/>
+      </property>
+      <property name="sort-categories" type="bool" value="false"/>
+      <property name="view-mode" type="int" value="2"/>
+      <property name="menu-opacity" type="int" value="0"/>
+      <property name="launcher-show-name" type="bool" value="true"/>
+    </property>
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="flat-buttons" type="bool" value="true"/>
+      <property name="grouping" type="uint" value="1"/>
+      <property name="include-all-monitors" type="bool" value="false"/>
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="show-labels" type="bool" value="false"/>
+      <property name="show-wireframes" type="bool" value="true"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-4" type="string" value="pager">
+      <property name="rows" type="uint" value="2"/>
+      <property name="miniature-view" type="bool" value="false"/>
+      <property name="numbering" type="bool" value="false"/>
+      <property name="workspace-scrolling" type="bool" value="true"/>
+    </property>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="expand" type="bool" value="false"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="hide-new-items" type="bool" value="false"/>
+      <property name="icon-size" type="int" value="22"/>
+      <property name="known-items" type="array">
+        <value type="string" value="dropbox-client-14863"/>
+        <value type="string" value="dropbox-client-10118"/>
+        <value type="string" value="Thunderbird"/>
+        <value type="string" value="net.lutris.Lutris"/>
+        <value type="string" value="Yakuake"/>
+        <value type="string" value="RSIBreak"/>
+        <value type="string" value="proton-vpn-app"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="Proton VPN Tray"/>
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="Syncthing Tray"/>
+        <value type="string" value="Proton Mail Bridge"/>
+        <value type="string" value="discord1"/>
+        <value type="string" value="ProtonMail Bridge"/>
+        <value type="string" value="TeamViewer"/>
+        <value type="string" value="albert"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="obs"/>
+        <value type="string" value="redshift"/>
+        <value type="string" value="Microsoft Teams - Preview1"/>
+        <value type="string" value="syncthing-gtk"/>
+        <value type="string" value="zoom"/>
+        <value type="string" value="TelegramDesktop"/>
+        <value type="string" value="blueman"/>
+      </property>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="ethernet network connection “wired connection 1” active"/>
+        <value type="string" value="anydesk"/>
+        <value type="string" value="psensor"/>
+        <value type="string" value="xfmpc"/>
+        <value type="string" value="deadbeef"/>
+        <value type="string" value="telegramdesktop"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="redshift-gtk"/>
+        <value type="string" value="deluge"/>
+        <value type="string" value="volumeicon"/>
+        <value type="string" value="evolution-alarm-notify"/>
+        <value type="string" value="system-config-printer"/>
+        <value type="string" value="bluetooth enabled"/>
+        <value type="string" value="dropbox"/>
+        <value type="string" value="gmusicbrowser"/>
+        <value type="string" value="syncthing"/>
+        <value type="string" value="task manager"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="syncthing-gtk"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="pamac-tray"/>
+        <value type="string" value="synapse"/>
+      </property>
+      <property name="names-ordered" type="array">
+        <value type="string" value="system-config-printer"/>
+        <value type="string" value="orage"/>
+        <value type="string" value="teams"/>
+        <value type="string" value="gmusicbrowser"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="task manager"/>
+        <value type="string" value="dropbox"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="telegramdesktop"/>
+        <value type="string" value="telegram-desktop"/>
+        <value type="string" value="albert"/>
+        <value type="string" value="blueman-tray"/>
+        <value type="string" value="redshift-gtk"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="pamac-tray"/>
+        <value type="string" value="synapse"/>
+        <value type="string" value="teamviewer"/>
+        <value type="string" value="kgpg"/>
+      </property>
+      <property name="names-visible" type="array">
+        <value type="string" value="telegramdesktop"/>
+        <value type="string" value="chromium"/>
+        <value type="string" value="albert"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="redshift-gtk"/>
+        <value type="string" value="dropbox"/>
+        <value type="string" value="teamviewer"/>
+        <value type="string" value="pamac-tray"/>
+      </property>
+      <property name="show-frame" type="bool" value="false"/>
+      <property name="single-row" type="bool" value="false"/>
+      <property name="size-max" type="uint" value="24"/>
+      <property name="square-icons" type="bool" value="true"/>
+    </property>
+    <property name="plugin-7" type="string" value="separator">
+      <property name="expand" type="bool" value="false"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-8" type="string" value="pulseaudio">
+      <property name="blacklisted-players" type="string" value="Gwenview;plasma-browser-integration;vlc"/>
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="known-players" type="string" value="audacious;brave-browser;cantata;Chromium;chromium;cmus;firefox;gmusicbrowser;heroic;kid3-qt;org.gnome.Music;org.kde.audiotube;org.kde.gwenview;org.kde.juk;pragha;tor browser;vlc"/>
+      <property name="mpris-players" type="string" value="chromium.instance10371;cmus;firefox.instance100555;firefox.instance131010;firefox.instance143092;firefox.instance1628;firefox.instance241546;firefox.instance390714;firefox.instance42609;firefox.instance48624;firefox.instance6976;firefox.instance708375;firefox.instance83491;firefox.instance95305;gmusicbrowser;Gwenview;kdeconnect.mpris_3547712152864ad883ab1ec22e2d564b;kdeconnect.mpris_38132bbf780540588b4c9346ec9f4b93;kdeconnect.mpris_3dbb0729ee0e4dfda2cd02e1f678a950;kdeconnect.mpris_88b628262bb64e52b50722ea61889867;kdeconnect.mpris_8d21dee1807b4028abe67c2a23ede3e4;kdeconnect.mpris_a4a28c3a90e146fd914419499bd82ae1;kdeconnect.mpris_d445414789824becaeb1cbf786b2c197;kdeconnect.mpris_fe5d271410864244a226c58ac185205c;plasma-browser-integration;spotify;vlc"/>
+      <property name="volume-step" type="uint" value="3"/>
+    </property>
+    <property name="plugin-9" type="string" value="genmon">
+      <property name="command" type="string" value="/home/brent/.config/polybar/scripts/updates-pacman-aurhelper.sh"/>
+      <property name="enable-single-row" type="bool" value="true"/>
+      <property name="font" type="string" value="Hack Nerd Font 13"/>
+      <property name="text" type="string" value=""/>
+      <property name="update-period" type="int" value="300000"/>
+      <property name="use-label" type="bool" value="false"/>
+    </property>
+    <property name="plugin-10" type="string" value="cpugraph">
+      <property name="background" type="array">
+        <value type="double" value="1"/>
+        <value type="double" value="1"/>
+        <value type="double" value="1"/>
+        <value type="double" value="0"/>
+      </property>
+      <property name="bars" type="int" value="1"/>
+      <property name="border" type="int" value="1"/>
+      <property name="color-mode" type="int" value="0"/>
+      <property name="command" type="string" value=""/>
+      <property name="foreground-1" type="array">
+        <value type="double" value="0"/>
+        <value type="double" value="1"/>
+        <value type="double" value="0"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-2" type="array">
+        <value type="double" value="1"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-3" type="array">
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="1"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-iowait" type="array">
+        <value type="double" value="0.20000000000000001"/>
+        <value type="double" value="0.90000000000000002"/>
+        <value type="double" value="0.40000000000000002"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-nice" type="array">
+        <value type="double" value="0.90000000000000002"/>
+        <value type="double" value="0.80000000000000004"/>
+        <value type="double" value="0.20000000000000001"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-system" type="array">
+        <value type="double" value="0.90000000000000002"/>
+        <value type="double" value="0.10000000000000001"/>
+        <value type="double" value="0.10000000000000001"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="foreground-user" type="array">
+        <value type="double" value="0.10000000000000001"/>
+        <value type="double" value="0.40000000000000002"/>
+        <value type="double" value="0.90000000000000002"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="frame" type="int" value="0"/>
+      <property name="in-terminal" type="int" value="1"/>
+      <property name="load-threshold" type="int" value="0"/>
+      <property name="mode" type="int" value="1"/>
+      <property name="per-core" type="int" value="0"/>
+      <property name="per-core-spacing" type="int" value="1"/>
+      <property name="size" type="int" value="16"/>
+      <property name="smt-issues" type="int" value="0"/>
+      <property name="smt-issues-color" type="array">
+        <value type="double" value="0.90000000000000002"/>
+        <value type="double" value="0"/>
+        <value type="double" value="0"/>
+        <value type="double" value="1"/>
+      </property>
+      <property name="smt-stats" type="int" value="0"/>
+      <property name="startup-notification" type="int" value="0"/>
+      <property name="time-scale" type="int" value="0"/>
+      <property name="tracked-core" type="int" value="0"/>
+      <property name="update-interval" type="int" value="1"/>
+    </property>
+    <property name="plugin-11" type="string" value="weather">
+      <property name="cache-max-age" type="int" value="172800"/>
+      <property name="forecast" type="empty">
+        <property name="days" type="int" value="5"/>
+        <property name="layout" type="int" value="1"/>
+      </property>
+      <property name="location" type="empty">
+        <property name="latitude" type="string" value="41.288399"/>
+        <property name="longitude" type="string" value="-95.997299"/>
+        <property name="name" type="string" value="Omaha, Nebraska"/>
+      </property>
+      <property name="msl" type="int" value="376"/>
+      <property name="offset" type="string" value="-05:00"/>
+      <property name="power-saving" type="bool" value="true"/>
+      <property name="round" type="bool" value="true"/>
+      <property name="scrollbox" type="empty">
+        <property name="animate" type="bool" value="false"/>
+        <property name="color" type="string" value="rgba(0,0,0,0)"/>
+        <property name="lines" type="int" value="1"/>
+        <property name="show" type="bool" value="true"/>
+        <property name="use-color" type="bool" value="false"/>
+      </property>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="theme-dir" type="string" value="/usr/share/xfce4/weather/icons/liquid"/>
+      <property name="timezone" type="string" value="America/Chicago"/>
+      <property name="tooltip-style" type="int" value="1"/>
+      <property name="units" type="empty">
+        <property name="altitude" type="int" value="1"/>
+        <property name="apparent-temperature" type="int" value="0"/>
+        <property name="precipitation" type="int" value="1"/>
+        <property name="pressure" type="int" value="2"/>
+        <property name="temperature" type="int" value="1"/>
+        <property name="windspeed" type="int" value="1"/>
+      </property>
+      <property name="labels" type="empty">
+        <property name="label0" type="int" value="3"/>
+      </property>
+    </property>
+    <property name="plugin-12" type="string" value="separator">
+      <property name="expand" type="bool" value="false"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-13" type="string" value="clock">
+      <property name="digital-date-font" type="string" value="Noto Sans 9"/>
+      <property name="digital-date-format" type="string" value="%Y-%m-%d"/>
+      <property name="digital-format" type="string" value="%Y-%m-%d%n%I:%M %p"/>
+      <property name="digital-layout" type="uint" value="1"/>
+      <property name="digital-time-font" type="string" value="Noto Sans 14"/>
+      <property name="digital-time-format" type="string" value="%I:%M %p"/>
+      <property name="mode" type="uint" value="2"/>
+      <property name="timezone" type="string" value="America/Chicago"/>
+    </property>
+    <property name="plugin-14" type="string" value="xfce4-timer-plugin"/>
+    <property name="plugin-15" type="string" value="actions">
+      <property name="appearance" type="uint" value="0"/>
+      <property name="button-title" type="uint" value="1"/>
+      <property name="custom-title" type="string" value=""/>
+      <property name="items" type="array">
+        <value type="string" value="-lock-screen"/>
+        <value type="string" value="-switch-user"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-suspend"/>
+        <value type="string" value="-hibernate"/>
+        <value type="string" value="-hybrid-sleep"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-shutdown"/>
+        <value type="string" value="-restart"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="+logout"/>
+        <value type="string" value="-logout-dialog"/>
+      </property>
+    </property>
+    <property name="plugin-16" type="string" value="notification-plugin"/>
+    <property name="plugin-17" type="string" value="fsguard"/>
+  </property>
+</channel>
