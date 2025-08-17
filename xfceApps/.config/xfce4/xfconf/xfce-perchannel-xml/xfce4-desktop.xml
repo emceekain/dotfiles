@@ -6,6 +6,16 @@
     <property name="window-height" type="int" value="614"/>
   </property>
   <property name="desktop-icons" type="empty">
+    <property name="file-icons" type="empty">
+      <property name="show-removable" type="bool" value="false"/>
+      <property name="show-trash" type="bool" value="false"/>
+      <property name="show-filesystem" type="bool" value="false"/>
+      <property name="show-home" type="bool" value="false"/>
+      <property name="migrated-4.19" type="array">
+        <value type="string" value="0ff4ccb901b2e2f26c4f1932ff4a43f903c71ecf"/>
+      </property>
+    </property>
     <property name="show-hidden-files" type="bool" value="false"/>
   </property>
+  <property name="last-settings-migration-version" type="uint" value="1"/>
 </channel>

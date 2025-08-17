@@ -4,5 +4,9 @@
   <property name="xfce4-power-manager" type="empty">
     <property name="general-notification" type="bool" value="true"/>
     <property name="lock-screen-suspend-hibernate" type="bool" value="false"/>
+    <property name="logind-handle-lid-switch" type="bool" value="false"/>
+    <property name="show-tray-icon" type="bool" value="false"/>
+    <property name="brightness-step-count" type="uint" value="20"/>
+    <property name="profile-on-ac" type="string" value="performance"/>
   </property>
 </channel>
