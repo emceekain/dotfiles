@@ -22,20 +22,36 @@ get_icon() {
         #*) icon="";
 
         # Icons for Font Awesome 5 Pro
-        01d) icon="";;
-        01n) icon="";;
-        02d) icon="";;
-        02n) icon="";;
-        03d) icon="";;
-        03n) icon="";;
-        04*) icon="";;
-        09*) icon="";;
-        10d) icon="";;
-        10n) icon="";;
-        11*) icon="";;
-        13*) icon="";;
-        50*) icon="";;
-        *) icon="";
+        # 01d) icon="";;
+        # 01n) icon="";;
+        # 02d) icon="";;
+        # 02n) icon="";;
+        # 03d) icon="";;
+        # 03n) icon="";;
+        # 04*) icon="";;
+        # 09*) icon="";;
+        # 10d) icon="";;
+        # 10n) icon="";;
+        # 11*) icon="";;
+        # 13*) icon="";;
+        # 50*) icon="";;
+        # *) icon="";
+
+        # Icons for Nerd Fonts
+        01d) icon=" ";;
+        01n) icon=" ";;
+        02d) icon=" ";;
+        02n) icon=" ";;
+        03d) icon=" ";;
+        03n) icon=" ";;
+        04*) icon=" ";;
+        09*) icon=" ";;
+        10d) icon=" ";;
+        10n) icon=" ";;
+        11*) icon=" ";;
+        13*) icon=" ";;
+        50*) icon=" ";;
+        *) icon=" ";
     esac
 
     echo $icon
