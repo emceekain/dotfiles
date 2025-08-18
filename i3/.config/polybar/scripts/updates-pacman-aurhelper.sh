@@ -1,7 +1,7 @@
 #!/bin/sh
-UPDATES_ICON=" "
-UP_TO_DATE_ICON=" "
-# 
+UPDATES_ICON="󰏔"
+UP_TO_DATE_ICON="󰕥"
+#    󰏔 󰻌
 
 if ! updates_arch=$(checkupdates 2> /dev/null | wc -l ); then
     updates_arch=0

@@ -91,5 +91,5 @@ if [ -n "$weather" ]; then
     wind_speed=$(echo "$weather" | jq ".wind.speed" | cut -d "." -f 1)
     weather_icon=$(echo "$weather" | jq -r ".weather[0].icon")
 
-    echo "$(get_icon "$weather_icon")" "$weather_temp$SYMBOL ($feels_like$SYMBOL)"
+    echo "$(get_icon "$weather_icon")" " $weather_temp$SYMBOL ($feels_like$SYMBOL)"
 fi
