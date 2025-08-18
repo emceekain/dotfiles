@@ -1,6 +1,19 @@
 <?xml version="1.1" encoding="UTF-8"?>
 
 <channel name="xfce4-notifyd" version="1.0">
-  <property name="log-max-size-enabled" type="bool" value="true"/>
   <property name="date-time-custom-format" type="string" value="%a %H:%M:%S"/>
+  <property name="do-fadeout" type="bool" value="true"/>
+  <property name="do-not-disturb" type="bool" value="false"/>
+  <property name="initial-opacity" type="double" value="1"/>
+  <property name="log-level" type="string" value="always"/>
+  <property name="log-level-apps" type="string" value="all"/>
+  <property name="log-max-size-enabled" type="bool" value="true"/>
+  <property name="notification-log" type="bool" value="true"/>
+  <property name="notify-location" type="string" value="top-right"/>
+  <property name="plugin" type="empty">
+    <property name="show-in-menu" type="string" value="show-unread"/>
+    <property name="hide-on-read" type="bool" value="true"/>
+  </property>
+  <property name="show-notifications-on" type="string" value="active-monitor"/>
+  <property name="show-text-with-gauge" type="bool" value="false"/>
 </channel>
