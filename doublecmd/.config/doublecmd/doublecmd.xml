@@ -436,7 +436,7 @@
   </Tools>
   <Fonts>
     <Main>
-      <Name>Noto Sans</Name>
+      <Name>default</Name>
       <Size>12</Size>
       <Style>0</Style>
       <Quality>0</Quality>
@@ -479,16 +479,28 @@
     </SearchResults>
     <PathEdit>
       <Name>default</Name>
-      <Size>10</Size>
+      <Size>12</Size>
       <Style>0</Style>
       <Quality>0</Quality>
     </PathEdit>
     <FunctionButtons>
       <Name>default</Name>
-      <Size>10</Size>
+      <Size>12</Size>
       <Style>0</Style>
       <Quality>0</Quality>
     </FunctionButtons>
+    <OptionsTree>
+      <Name>default</Name>
+      <Size>10</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </OptionsTree>
+    <OptionsMain>
+      <Name>default</Name>
+      <Size>10</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </OptionsMain>
     <TreeViewMenu>
       <Name>default</Name>
       <Size>10</Size>
@@ -497,7 +509,7 @@
     </TreeViewMenu>
     <StatusBar>
       <Name>default</Name>
-      <Size>0</Size>
+      <Size>12</Size>
       <Style>0</Style>
       <Quality>0</Quality>
     </StatusBar>
@@ -597,7 +609,7 @@
     <WipePassNumber>1</WipePassNumber>
     <DropReadOnlyFlag>False</DropReadOnlyFlag>
     <ProcessComments>False</ProcessComments>
-    <RenameSelOnlyName>False</RenameSelOnlyName>
+    <RenameSelOnlyName>True</RenameSelOnlyName>
     <ShowCopyTabSelectPanel>False</ShowCopyTabSelectPanel>
     <UseTrash>True</UseTrash>
     <SkipFileOpError>False</SkipFileOpError>
@@ -835,7 +847,7 @@
           <Width>250</Width>
           <Align>0</Align>
           <Font>
-            <Name>Noto Sans</Name>
+            <Name>default</Name>
             <Size>12</Size>
             <Style>0</Style>
             <Quality>0</Quality>
@@ -851,7 +863,7 @@
           <Width>50</Width>
           <Align>0</Align>
           <Font>
-            <Name>Noto Sans</Name>
+            <Name>default</Name>
             <Size>12</Size>
             <Style>0</Style>
             <Quality>0</Quality>
@@ -867,7 +879,7 @@
           <Width>70</Width>
           <Align>1</Align>
           <Font>
-            <Name>Noto Sans</Name>
+            <Name>default</Name>
             <Size>12</Size>
             <Style>0</Style>
             <Quality>0</Quality>
@@ -883,7 +895,7 @@
           <Width>140</Width>
           <Align>1</Align>
           <Font>
-            <Name>Noto Sans</Name>
+            <Name>default</Name>
             <Size>12</Size>
             <Style>0</Style>
             <Quality>0</Quality>
@@ -899,7 +911,7 @@
           <Width>100</Width>
           <Align>0</Align>
           <Font>
-            <Name>Noto Sans</Name>
+            <Name>default</Name>
             <Size>12</Size>
             <Style>0</Style>
             <Quality>0</Quality>
