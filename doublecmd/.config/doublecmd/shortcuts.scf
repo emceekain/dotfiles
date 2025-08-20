@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<doublecmd DCVersion="1.1.11 beta">
+<doublecmd DCVersion="1.1.28 gamma">
   <Hotkeys Version="63">
     <Form Name="Main">
       <Hotkey>
@@ -145,11 +145,11 @@
       </Hotkey>
       <Hotkey>
         <Shortcut>Ctrl+PgDn</Shortcut>
-        <Command>cm_OpenArchive</Command>
+        <Command>cm_NextTab</Command>
       </Hotkey>
       <Hotkey>
         <Shortcut>Ctrl+PgUp</Shortcut>
-        <Command>cm_ChangeDirToParent</Command>
+        <Command>cm_PrevTab</Command>
       </Hotkey>
       <Hotkey>
         <Shortcut>Ctrl+Alt+Enter</Shortcut>
