@@ -199,6 +199,9 @@ bindsym $mod+Shift+F3 move container to workspace $gen3
 bindsym $mod+Shift+F4 move container to workspace $gen4
 bindsym $mod+Shift+F5 move container to workspace $gaming
 
+# Move floating container to the center of (current) output
+bindsym $mod+c move position center
+
 # move workspace to different output
 bindsym $mod+Shift+comma move workspace to output left
 bindsym $mod+Shift+period move workspace to output right
