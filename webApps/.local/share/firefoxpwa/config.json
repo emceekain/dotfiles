@@ -1848,43 +1848,43 @@
                 ],
                 "icons": [
                     {
-                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.48x48x32.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v4/pngs/Outlook.48x48x32.png",
                         "type": "image/png",
                         "sizes": "48x48",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.64x64x32.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v4/pngs/Outlook.64x64x32.png",
                         "type": "image/png",
                         "sizes": "64x64",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.128x128x32.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v4/pngs/Outlook.128x128x32.png",
                         "type": "image/png",
                         "sizes": "128x128",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.144x144.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v4/pngs/Outlook.144x144.png",
                         "type": "image/png",
                         "sizes": "144x144",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.192x192.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v4/pngs/Outlook.192x192.png",
                         "type": "image/png",
                         "sizes": "192x192",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.256x256x32.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v4/pngs/Outlook.256x256x32.png",
                         "type": "image/png",
                         "sizes": "256x256",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.512x512.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v4/pngs/Outlook.512x512.png",
                         "type": "image/png",
                         "sizes": "512x512",
                         "purpose": "any"
@@ -2408,43 +2408,43 @@
                 ],
                 "icons": [
                     {
-                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.48x48x32.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v4/pngs/Outlook.48x48x32.png",
                         "type": "image/png",
                         "sizes": "48x48",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.64x64x32.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v4/pngs/Outlook.64x64x32.png",
                         "type": "image/png",
                         "sizes": "64x64",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.128x128x32.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v4/pngs/Outlook.128x128x32.png",
                         "type": "image/png",
                         "sizes": "128x128",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.144x144.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v4/pngs/Outlook.144x144.png",
                         "type": "image/png",
                         "sizes": "144x144",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.192x192.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v4/pngs/Outlook.192x192.png",
                         "type": "image/png",
                         "sizes": "192x192",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.256x256x32.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v4/pngs/Outlook.256x256x32.png",
                         "type": "image/png",
                         "sizes": "256x256",
                         "purpose": "any"
                     },
                     {
-                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v1/pngs/Outlook.512x512.png",
+                        "src": "https://res.public.onecdn.static.microsoft/assets/mail/pwa/v4/pngs/Outlook.512x512.png",
                         "type": "image/png",
                         "sizes": "512x512",
                         "purpose": "any"
