@@ -42,6 +42,7 @@ elif [[ $1 = "--blue" ]]; then
 	MF="#2E2E2E"
 	AC="#1e88e5"
 	#WALLPAPER=/usr/share/wallpapers/IceCold/contents/images/5120x2880.png
+	#WALLPAPER=/usr/share/wallpapers/Volna/contents/images/5120x2880.jpg
 	change_color
 elif [[ $1 = "--blue-gray" ]]; then
 	MF="#FFFFFF"
@@ -91,6 +92,7 @@ elif [[ $1 = "--lime" ]]; then
 elif [[ $1 = "--orange" ]]; then
 	MF="#2E2E2E"
 	AC="#fb8c00"
+    WALLPAPER=/usr/share/wallpapers/Honeywave/contents/images/5120x2880.jpg
 	change_color
 elif [[ $1 = "--pink" ]]; then
 	MF="#FFFFFF"

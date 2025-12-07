@@ -4,7 +4,7 @@ SDIR="$HOME/.config/polybar/scripts"
 
 MODE="$(rofi -no-config -no-lazy-grab -sep "|" -dmenu -i -p '' \
 	-theme $SDIR/rofi/styles.rasi \
-	<<<"light|dark|mixed|")"
+	<<<"light|dark|mixed|gaming|")"
 
 # Launch Rofi
 if [[ $MODE = "light" ]]; then

@@ -38,6 +38,7 @@ if [[ $2 = "--dark" ]]; then
 elif [[ $2 = "--mixed" ]]; then
     WALLPAPER=/usr/share/wallpapers/Mountain/contents/images/5120x2880.png
 fi
+
 #WALLPAPER=/usr/share/backgrounds/archlinux/wave.png
 if [[ $1 = "--amber" ]]; then
 	MF="#1F1F1F"
@@ -46,6 +47,9 @@ if [[ $1 = "--amber" ]]; then
 elif [[ $1 = "--blue" ]]; then
 	MF="#FFFFFF"
 	AC="#1e88e5"
+	if [[ $2 = "--gaming" ]]; then
+        WALLPAPER=$HOME/Pictures/Wallpapers/artorias2.jpg
+    fi
 	#if [[ $2 = "--dark" ]]; then
 		#WALLPAPER=/usr/share/backgrounds/blue_fractal_wallpaper.png
 	#elif [[ $2 = "--mixed" ]]; then
@@ -104,6 +108,10 @@ elif [[ $1 = "--lime" ]]; then
 elif [[ $1 = "--orange" ]]; then
 	MF="#1F1F1F"
 	AC="#fb8c00"
+    WALLPAPER=/usr/share/wallpapers/Honeywave/contents/images/5120x2880.jpg
+	if [[ $2 = "--gaming" ]]; then
+        WALLPAPER=$HOME/Pictures/Wallpapers/half-life1.png
+	fi
 	change_color
 elif [[ $1 = "--pink" ]]; then
 	MF="#FFFFFF"
@@ -129,6 +137,9 @@ elif [[ $1 = "--teal" ]]; then
 elif [[ $1 = "--yellow" ]]; then
 	MF="#1F1F1F"
 	AC="#fdd835"
+	if [[ $2 = "--gaming" ]]; then
+		WALLPAPER=$HOME/Pictures/Wallpapers/soul_of_cinder1.jpg
+	fi
 	#if [[ $2 = "--dark" ]]; then
 		#WALLPAPER=$HOME/Pictures/Wallpaper/wp3800530-dark-souls-3-wallpapers.jpg
 	#elif [[ $2 = "--mixed" ]]; then
