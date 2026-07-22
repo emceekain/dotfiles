@@ -94,7 +94,7 @@ hide_edge_borders both
 
 # Shutdown, reboot, and lock screen.
 #set $Locker i3lock-fancy && sleep 1
-set $Locker i3lock --pass-media-keys --line-uses-inside --blur=10 -k --time-str="%I:%M %p" && sleep 1
+set $Locker "i3lock --pass-media-keys --line-uses-inside --blur=10 -k --time-str='%I:%M %p' && sleep 1"
 # set $Locker light-locker-command -l 
 
 # Start i3bar to display a workspace bar (plus the system information i3status
