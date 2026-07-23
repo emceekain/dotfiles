@@ -42,11 +42,12 @@ local menu        = "wofi --show drun"
 -- Autostart necessary processes (like notifications daemons, status bars, etc.)
 -- Or execute your favorite apps at launch like this:
 --
--- hl.on("hyprland.start", function () 
+hl.on("hyprland.start", function () 
+    hl.exec_cmd("hypridle")
 --   hl.exec_cmd(terminal)
 --   hl.exec_cmd("nm-applet")
 --   hl.exec_cmd("waybar & hyprpaper & firefox")
--- end)
+end)
 
 
 -------------------------------
@@ -304,6 +305,7 @@ hl.bind("XF86AudioPause", hl.dsp.exec_cmd("playerctl play-pause"), { locked = tr
 hl.bind("XF86AudioPlay",  hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = true })
 
+hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("hyprlock"))
 
 --------------------------------
 ---- WINDOWS AND WORKSPACES ----
